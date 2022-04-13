@@ -12,7 +12,7 @@
     }
   ],
   "url": "http://science37.com/StructureDefinition/questionnaire-s37",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "name": "QuestionnaireS37",
   "title": "Profile : Questionnaire.item extensions",
   "status": "active",
@@ -102,6 +102,12 @@
         "path": "Questionnaire.identifier",
         "min": 1,
         "max": "1"
+      },
+      {
+        "id": "Questionnaire.version",
+        "path": "Questionnaire.version",
+        "min": 1,
+        "patternString": "1.0.0"
       },
       {
         "id": "Questionnaire.status",
