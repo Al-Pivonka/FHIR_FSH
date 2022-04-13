@@ -1,0 +1,40 @@
+﻿S37FHIRIG : Validation Results
+=========================================
+
+err = 5, warn = 13, info = 3
+IG Publisher Version: 1.1.115
+Generated Wed Apr 13 16:24:09 UTC 2022. FHIR version 4.0.1 for science27.FHIR-IG#0.1.0 (canonical = http://science37.com)
+ Build Errors : 0 / 0 / 0
+ /github/workspace/fsh-generated/resources/ImplementationGuide-science27.FHIR-IG : 0 / 4 / 1
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example : 5 / 1 / 4
+ /github/workspace/fsh-generated/resources/StructureDefinition-form-settings : 0 / 3 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-item-settings : 0 / 3 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-questionnaire-s37 : 0 / 2 / 1
+</table>
+== n/a ==
+== fsh-generated/resources/ImplementationGuide-science27.FHIR-IG.json ==
+WARNING: ImplementationGuide/science27.FHIR-IG: ImplementationGuide.definition.resource[1].name: value should not start or finish with whitespace 'Extension...Settings '
+WARNING: ImplementationGuide/science27.FHIR-IG: ImplementationGuide.definition.resource[1].description: value should not start or finish with whitespace 'Extension...Questionnaire.settings '
+WARNING: ImplementationGuide/science27.FHIR-IG: ImplementationGuide.definition.resource[2].name: value should not start or finish with whitespace 'Extension...Settings '
+WARNING: ImplementationGuide/science27.FHIR-IG: ImplementationGuide.definition.resource[2].description: value should not start or finish with whitespace 'Extension...Questionnaire.item.settings '
+== fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example.json ==
+WARNING: Questionnaire/Questionnaire-Item-Extension-Example: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example: Questionnaire.extension[0].extension[4]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example: Questionnaire.extension[0].extension[7]: ext-1: 'Must have either extensions or value[x], not both' Rule 'Must have either extensions or value[x], not both' Failed
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example: Questionnaire.item[0].extension[0].extension[24]: This element does not match any known slice defined in the profile http://science37.com/StructureDefinition/item-settings
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example: Questionnaire.item[0].extension[0].extension[25]: This element does not match any known slice defined in the profile http://science37.com/StructureDefinition/item-settings
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example: Questionnaire.item[0].extension[0].extension[26]: This element does not match any known slice defined in the profile http://science37.com/StructureDefinition/item-settings
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example: Questionnaire.item[0].extension[0]: The modifier extension http://hl7.org/fhir/StructureDefinition/maxValue is not allowed to be used at this point (allowed = e:Questionnaire.item; this element is [[Questionnaire.item.extension, BackboneElement.extension, Extension])
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example: Questionnaire.item[0].extension[0]: The modifier extension http://hl7.org/fhir/StructureDefinition/minValue is not allowed to be used at this point (allowed = e:Questionnaire.item; this element is [[Questionnaire.item.extension, BackboneElement.extension, Extension])
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example: Questionnaire.item[0].extension[0]: The modifier extension http://hl7.org/fhir/StructureDefinition/minLength is not allowed to be used at this point (allowed = e:Questionnaire.item, e:ElementDefinition; this element is [[Questionnaire.item.extension, BackboneElement.extension, Extension])
+== fsh-generated/resources/StructureDefinition-form-settings.json ==
+WARNING: StructureDefinition/form-settings: StructureDefinition.title: value should not start or finish with whitespace 'Extension...Settings '
+WARNING: StructureDefinition/form-settings: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace 'Extension...Settings '
+WARNING: StructureDefinition/form-settings: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace 'Extension...Settings '
+== fsh-generated/resources/StructureDefinition-item-settings.json ==
+WARNING: StructureDefinition/item-settings: StructureDefinition.title: value should not start or finish with whitespace 'Extension...Settings '
+WARNING: StructureDefinition/item-settings: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace 'Extension...Settings '
+WARNING: StructureDefinition/item-settings: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace 'Extension...Settings '
+== fsh-generated/resources/StructureDefinition-questionnaire-s37.json ==
+WARNING: StructureDefinition/questionnaire-s37: StructureDefinition.snapshot.element[8].short: value should not start or finish with whitespace 'Extension...Settings '
+WARNING: StructureDefinition/questionnaire-s37: StructureDefinition.snapshot.element[34].short: value should not start or finish with whitespace 'Extension...Settings '
