@@ -8,7 +8,6 @@ Usage: #example
 * status = #draft
 * title = "Example : Questionnaire.Item Extension"
 * name = "Example : Questionnaire.Item Extension"
-* version = "1.2k33"
 * subjectType = #Patient
 * identifier.value = "Form ID"
 * extension[FormSettings].extension[type].valueString = "formType"
