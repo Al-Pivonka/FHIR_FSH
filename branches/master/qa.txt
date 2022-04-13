@@ -1,12 +1,12 @@
 ﻿S37FHIRIG : Validation Results
 =========================================
 
-err = 3, warn = 13, info = 3
+err = 4, warn = 13, info = 3
 IG Publisher Version: 1.1.115
-Generated Wed Apr 13 17:26:53 UTC 2022. FHIR version 4.0.1 for science27.FHIR-IG#0.1.0 (canonical = http://science37.com)
+Generated Wed Apr 13 17:32:28 UTC 2022. FHIR version 4.0.1 for science27.FHIR-IG#0.1.0 (canonical = http://science37.com)
  Build Errors : 0 / 0 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-science27.FHIR-IG : 0 / 4 / 1
- /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example : 3 / 1 / 4
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example : 4 / 1 / 4
  /github/workspace/fsh-generated/resources/StructureDefinition-form-settings : 0 / 3 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-item-settings : 0 / 3 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-questionnaire-s37 : 0 / 2 / 1
@@ -19,6 +19,7 @@ WARNING: ImplementationGuide/science27.FHIR-IG: ImplementationGuide.definition.r
 WARNING: ImplementationGuide/science27.FHIR-IG: ImplementationGuide.definition.resource[2].description: value should not start or finish with whitespace 'Extension...Questionnaire.item.settings '
 == fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example.json ==
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example: Questionnaire.version: Value is '0.1.0' but must be '1.0.0'
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example: Questionnaire.item[0].extension[0].extension[24]: This element does not match any known slice defined in the profile http://science37.com/StructureDefinition/item-settings
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example: Questionnaire.item[0].extension[0].extension[25]: This element does not match any known slice defined in the profile http://science37.com/StructureDefinition/item-settings
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example: Questionnaire.item[0].extension[0].extension[26]: This element does not match any known slice defined in the profile http://science37.com/StructureDefinition/item-settings
