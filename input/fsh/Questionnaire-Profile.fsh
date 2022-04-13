@@ -3,8 +3,7 @@ Parent: Questionnaire
 Id: questionnaire-s37
 Title: "Profile : Questionnaire.item extensions"
 Description: "Profile : Questionnaire.item extensions"
-* version 1..1
-* version = "1.0.0"
+* ^meta.versionId = "1.0.0"
 * ^status = #active
 * ^date = "2022-04-07T10:59:49+00:00"
 * ^publisher = "S37 Platform"

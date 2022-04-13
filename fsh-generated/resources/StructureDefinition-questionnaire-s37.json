@@ -1,6 +1,9 @@
 {
   "resourceType": "StructureDefinition",
   "id": "questionnaire-s37",
+  "meta": {
+    "versionId": "1.0.0"
+  },
   "extension": [
     {
       "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
@@ -102,12 +105,6 @@
         "path": "Questionnaire.identifier",
         "min": 1,
         "max": "1"
-      },
-      {
-        "id": "Questionnaire.version",
-        "path": "Questionnaire.version",
-        "min": 1,
-        "patternString": "1.0.0"
       },
       {
         "id": "Questionnaire.status",
