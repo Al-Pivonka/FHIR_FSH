@@ -1,13 +1,30 @@
+Extension:      Settings
+Id:             settings
+Title:          "Extension : Common Settings "
+Description:     "Extension : Common settings "
+* extension contains
+    title 0..1 and
+    label 0..1 and
+    OID 0..1 and 
+    standardVariable 0..1 
+* extension[title] ^short = "title"*
+* extension[title].value[x] only string
+* extension[label] ^short = "label"
+* extension[label].value[x] only string
+* extension[OID] ^short = "OID"
+* extension[OID].value[x] only string
+* extension[standardVariable] ^short = "standardVariable"
+* extension[standardVariable].value[x] only string
+
+
 Extension:      ItemSettings
 Id:             item-settings
+Parent: Settings
 Title:          "Extension : Item Settings "
 Description:     "Extension : Questionnaire.item.settings "
 * ^context.expression = "Questionnaire.item"
 * extension contains
-    title 0..1 and
-    label 0..1 and
     variableName 0..1 and
-    standardVariable 0..1 and
     fieldCode 0..1 and
     description 0..1 and
     dateTimeOptions 0..1 and
@@ -19,32 +36,26 @@ Description:     "Extension : Questionnaire.item.settings "
     completionShouldOccur 0..1 and
     fromText 0..1 and
     toText 0..1 and
-    naOption 0..1 and 
-    naLabel	0..1 and 
-    displayValueIndicator 0..1 and 
-    valueIndicatorLabel	0..1 and 
-    minValueLabel	0..1 and 
-    medValueLabel	0..1 and 
-    maxValueLabel	0..1 and 
-    scale	0..1 and 
+    naOption 0..1 and
+    naLabel	0..1 and
+    displayValueIndicator 0..1 and
+    valueIndicatorLabel	0..1 and
+    minValueLabel	0..1 and
+    medValueLabel	0..1 and
+    maxValueLabel	0..1 and
+    scale	0..1 and
     formula	0..1  and
-    maxLength 0..1 and 
+    maxLength 0..1 and
     doNotShowNumValue	0..1 and
-    showIncrements	0..1 and 
-    majorIncrements	0..1 and 
-    minorIncrements	0..1 and 
-    interactionType	0..1 and 
-    scaleSize	0..1 and 
-    optionalPresets	0..1 and 
-    foid 0..1
-* extension[title] ^short = "title"*
-* extension[title].value[x] only string
-* extension[label] ^short = "label"
-* extension[label].value[x] only string
+    showIncrements	0..1 and
+    majorIncrements	0..1 and
+    minorIncrements	0..1 and
+    interactionType	0..1 and
+    scaleSize	0..1 and
+    optionalPresets	0..1
+
 * extension[variableName] ^short = "description"
 * extension[variableName].value[x] only string
-* extension[standardVariable] ^short = "description"
-* extension[standardVariable].value[x] only string
 * extension[fieldCode] ^short = "description"
 * extension[fieldCode].value[x] only string
 * extension[description] ^short = "description"
@@ -98,22 +109,19 @@ Description:     "Extension : Questionnaire.item.settings "
 * extension[scaleSize].value[x] only integer
 * extension[optionalPresets] ^short = "optionalPresets"
 * extension[optionalPresets].value[x] only boolean
-* extension[foid].value[x] only string
+
 
 
 Extension:      FormSettings
 Id:             form-settings
+Parent: Settings
 Title:          "Extension : Form Settings "
 Description:     "Extension : Questionnaire.settings "
 * ^context.expression = "Questionnaire"
 * extension contains
     type 1..1 and
-    unknownStatus 0..1 and
+    subStatus 0..1 and
     controlSchemaVersion 0..1 and
-    OID 1..1 and 
-    standardVariable 1..1 and
-    title 1..1 and
-    label 1..1 and
     buildLanguage 1..1 and
     excludeFromDataExport 1..1 and
     requireDataReview 1..1 and
@@ -128,18 +136,10 @@ Description:     "Extension : Questionnaire.settings "
 */
 * extension[type] ^short = "type"
 * extension[type].value[x] only string
-* extension[unknownStatus] ^short = "unknownStatus"
-* extension[unknownStatus].value[x] only string
+* extension[subStatus] ^short = "deteted"
+* extension[subStatus].value[x] only string
 * extension[controlSchemaVersion] ^short = "controlSchemaVersion"
 * extension[controlSchemaVersion].value[x] only string
-* extension[OID] ^short = "OID"
-* extension[OID].value[x] only string
-* extension[standardVariable] ^short = "standardVariable"
-* extension[standardVariable].value[x] only string
-* extension[title] ^short = "title"
-* extension[title].value[x] only string
-* extension[label] ^short = "title"
-* extension[label].value[x] only string
 * extension[buildLanguage] ^short = "buildLanguage"
 * extension[buildLanguage].value[x] only string
 * extension[excludeFromDataExport] ^short = "excludeFromDataExport"

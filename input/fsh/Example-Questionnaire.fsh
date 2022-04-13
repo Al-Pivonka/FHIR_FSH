@@ -1,19 +1,16 @@
-
-
 Instance: Questionnaire-Item-Extension-Example
 InstanceOf: QuestionnaireS37
-Title: "Example : Questionnaire.Item Extension"
-Description: "Example : Questionnaire.Item Extension"
+Title: "Example : Questionnaire.Item"
+Description: "Example : Questionnaire.Item"
 Usage: #example
 * meta.versionId = "1.0.0-S37"
-* meta.lastUpdated = "2022-04-13T08:39:24+02:00"
 * status = #draft
-* title = "Example : Questionnaire.Item Extension"
-* name = "Example : Questionnaire.Item Extension"
+* title = "Example : Questionnaire.Item"
+* name = "Example : Questionnaire.Item"
 * subjectType = #Patient
 * identifier.value = "Form ID"
 * extension[FormSettings].extension[type].valueString = "formType"
-* extension[FormSettings].extension[unknownStatus].valueString = "Unknown Status"
+* extension[FormSettings].extension[subStatus].valueString = "Unknown Status"
 * extension[FormSettings].extension[controlSchemaVersion].valueString = "2.1.9"
 * extension[FormSettings].extension[OID].valueString = "FORM OID"
 * extension[FormSettings].extension[standardVariable].valueString = "Standard Variable"
@@ -38,7 +35,7 @@ Usage: #example
 * item[=].extension[ItemSettings].extension[standardVariable].valueString = "The standardVariable"
 * item[=].extension[ItemSettings].extension[fieldCode].valueString = "The fieldCode"
 * item[=].extension[ItemSettings].extension[description].valueString = "The description"
-* item[=].extension[ItemSettings].extension[foid].valueString = "FOID field Object ID"
+* item[=].extension[ItemSettings].extension[OID].valueString = "FOID field Object ID"
 * item[=].extension[ItemSettings].extension[dateTimeOptions].valueString = "Date Time Options"
 * item[=].extension[ItemSettings].extension[captureTimeonSubmit].valueBoolean = true
 * item[=].extension[ItemSettings].extension[completionPeriodOfTime].valueBoolean = true
