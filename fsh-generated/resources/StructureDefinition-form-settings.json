@@ -1,0 +1,405 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "form-settings",
+  "url": "http://science37.com/StructureDefinition/form-settings",
+  "version": "0.1.0",
+  "name": "FormSettings",
+  "title": "Extension : Form Settings ",
+  "status": "active",
+  "description": "Extension : Questionnaire.settings ",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Questionnaire"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Extension : Form Settings ",
+        "definition": "Extension : Questionnaire.settings "
+      },
+      {
+        "id": "Extension.extension",
+        "path": "Extension.extension",
+        "min": 9
+      },
+      {
+        "id": "Extension.extension:type",
+        "path": "Extension.extension",
+        "sliceName": "type",
+        "short": "type",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:type.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:type.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "type"
+      },
+      {
+        "id": "Extension.extension:type.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:unknownStatus",
+        "path": "Extension.extension",
+        "sliceName": "unknownStatus",
+        "short": "unknownStatus",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:unknownStatus.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:unknownStatus.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "unknownStatus"
+      },
+      {
+        "id": "Extension.extension:unknownStatus.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:controlSchemaVersion",
+        "path": "Extension.extension",
+        "sliceName": "controlSchemaVersion",
+        "short": "controlSchemaVersion",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:controlSchemaVersion.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:controlSchemaVersion.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "controlSchemaVersion"
+      },
+      {
+        "id": "Extension.extension:controlSchemaVersion.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:OID",
+        "path": "Extension.extension",
+        "sliceName": "OID",
+        "short": "OID",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:OID.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:OID.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "OID"
+      },
+      {
+        "id": "Extension.extension:OID.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:standardVariable",
+        "path": "Extension.extension",
+        "sliceName": "standardVariable",
+        "short": "standardVariable",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:standardVariable.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:standardVariable.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "standardVariable"
+      },
+      {
+        "id": "Extension.extension:standardVariable.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:title",
+        "path": "Extension.extension",
+        "sliceName": "title",
+        "short": "title",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:title.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:title.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "title"
+      },
+      {
+        "id": "Extension.extension:title.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:label",
+        "path": "Extension.extension",
+        "sliceName": "label",
+        "short": "title",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:label.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:label.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "label"
+      },
+      {
+        "id": "Extension.extension:label.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:buildLanguage",
+        "path": "Extension.extension",
+        "sliceName": "buildLanguage",
+        "short": "buildLanguage",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:buildLanguage.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:buildLanguage.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "buildLanguage"
+      },
+      {
+        "id": "Extension.extension:buildLanguage.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:excludeFromDataExport",
+        "path": "Extension.extension",
+        "sliceName": "excludeFromDataExport",
+        "short": "excludeFromDataExport",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:excludeFromDataExport.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:excludeFromDataExport.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "excludeFromDataExport"
+      },
+      {
+        "id": "Extension.extension:excludeFromDataExport.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:requireDataReview",
+        "path": "Extension.extension",
+        "sliceName": "requireDataReview",
+        "short": "requireDataReview",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:requireDataReview.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:requireDataReview.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "requireDataReview"
+      },
+      {
+        "id": "Extension.extension:requireDataReview.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:requireEditReason",
+        "path": "Extension.extension",
+        "sliceName": "requireEditReason",
+        "short": "requireEditReason",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:requireEditReason.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:requireEditReason.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "requireEditReason"
+      },
+      {
+        "id": "Extension.extension:requireEditReason.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:createdAt",
+        "path": "Extension.extension",
+        "sliceName": "createdAt",
+        "short": "createdAt",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:createdAt.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:createdAt.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "createdAt"
+      },
+      {
+        "id": "Extension.extension:createdAt.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:updatedAt",
+        "path": "Extension.extension",
+        "sliceName": "updatedAt",
+        "short": "updatedAt",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:updatedAt.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:updatedAt.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "updatedAt"
+      },
+      {
+        "id": "Extension.extension:updatedAt.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://science37.com/StructureDefinition/form-settings"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "max": "0"
+      }
+    ]
+  }
+}

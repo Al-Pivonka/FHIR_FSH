@@ -1,0 +1,82 @@
+{
+  "resourceType": "ImplementationGuide",
+  "id": "science27.FHIR-IG",
+  "url": "http://science37.com/ImplementationGuide/science27.FHIR-IG",
+  "version": "0.1.0",
+  "name": "S37FHIRIG",
+  "status": "active",
+  "publisher": "Science37",
+  "contact": [
+    {
+      "name": "Science37",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "http://science37.com/publisher"
+        }
+      ]
+    }
+  ],
+  "packageId": "science27.FHIR-IG",
+  "fhirVersion": [
+    "4.0.1"
+  ],
+  "definition": {
+    "resource": [
+      {
+        "reference": {
+          "reference": "StructureDefinition/questionnaire-s37"
+        },
+        "name": "Profile : Questionnaire.item extensions",
+        "description": "Profile : Questionnaire.item extensions",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/form-settings"
+        },
+        "name": "Extension : Form Settings ",
+        "description": "Extension : Questionnaire.settings ",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/item-settings"
+        },
+        "name": "Extension : Item Settings ",
+        "description": "Extension : Questionnaire.item.settings ",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Questionnaire/Questionnaire-Item-Extension-Example"
+        },
+        "name": "Example : Questionnaire.Item Extension",
+        "description": "Example : Questionnaire.Item Extension",
+        "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
+      }
+    ],
+    "page": {
+      "nameUrl": "toc.html",
+      "title": "Table of Contents",
+      "generation": "html",
+      "page": [
+        {
+          "nameUrl": "index.html",
+          "title": "Home",
+          "generation": "markdown"
+        }
+      ]
+    },
+    "parameter": [
+      {
+        "code": "copyrightyear",
+        "value": "2022+"
+      },
+      {
+        "code": "releaselabel",
+        "value": "ci-build"
+      }
+    ]
+  }
+}

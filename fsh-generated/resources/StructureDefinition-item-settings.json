@@ -1,0 +1,909 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "item-settings",
+  "url": "http://science37.com/StructureDefinition/item-settings",
+  "version": "0.1.0",
+  "name": "ItemSettings",
+  "title": "Extension : Item Settings ",
+  "status": "active",
+  "description": "Extension : Questionnaire.item.settings ",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Questionnaire.item"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Extension : Item Settings ",
+        "definition": "Extension : Questionnaire.item.settings "
+      },
+      {
+        "id": "Extension.extension:title",
+        "path": "Extension.extension",
+        "sliceName": "title",
+        "short": "\"title\"*",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:title.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:title.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "title"
+      },
+      {
+        "id": "Extension.extension:title.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:label",
+        "path": "Extension.extension",
+        "sliceName": "label",
+        "short": "label",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:label.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:label.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "label"
+      },
+      {
+        "id": "Extension.extension:label.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:variableName",
+        "path": "Extension.extension",
+        "sliceName": "variableName",
+        "short": "description",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:variableName.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:variableName.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "variableName"
+      },
+      {
+        "id": "Extension.extension:variableName.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:standardVariable",
+        "path": "Extension.extension",
+        "sliceName": "standardVariable",
+        "short": "description",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:standardVariable.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:standardVariable.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "standardVariable"
+      },
+      {
+        "id": "Extension.extension:standardVariable.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:fieldCode",
+        "path": "Extension.extension",
+        "sliceName": "fieldCode",
+        "short": "description",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:fieldCode.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:fieldCode.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "fieldCode"
+      },
+      {
+        "id": "Extension.extension:fieldCode.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:description",
+        "path": "Extension.extension",
+        "sliceName": "description",
+        "short": "description",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:description.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:description.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "description"
+      },
+      {
+        "id": "Extension.extension:description.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:dateTimeOptions",
+        "path": "Extension.extension",
+        "sliceName": "dateTimeOptions",
+        "short": "dateTimeOptions",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:dateTimeOptions.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:dateTimeOptions.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "dateTimeOptions"
+      },
+      {
+        "id": "Extension.extension:dateTimeOptions.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:captureTimeonSubmit",
+        "path": "Extension.extension",
+        "sliceName": "captureTimeonSubmit",
+        "short": "captureTimeonSubmit",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:captureTimeonSubmit.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:captureTimeonSubmit.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "captureTimeonSubmit"
+      },
+      {
+        "id": "Extension.extension:captureTimeonSubmit.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:completionPeriodOfTime",
+        "path": "Extension.extension",
+        "sliceName": "completionPeriodOfTime",
+        "short": "completionPeriodOfTime",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:completionPeriodOfTime.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:completionPeriodOfTime.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "completionPeriodOfTime"
+      },
+      {
+        "id": "Extension.extension:completionPeriodOfTime.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:completionNoOfHours",
+        "path": "Extension.extension",
+        "sliceName": "completionNoOfHours",
+        "short": "completionNoOfHours",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:completionNoOfHours.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:completionNoOfHours.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "completionNoOfHours"
+      },
+      {
+        "id": "Extension.extension:completionNoOfHours.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "integer"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:completionNoOfDays",
+        "path": "Extension.extension",
+        "sliceName": "completionNoOfDays",
+        "short": "completionNoOfDays",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:completionNoOfDays.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:completionNoOfDays.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "completionNoOfDays"
+      },
+      {
+        "id": "Extension.extension:completionNoOfDays.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "integer"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:completionNoOfMonths",
+        "path": "Extension.extension",
+        "sliceName": "completionNoOfMonths",
+        "short": "completionNoOfMonths",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:completionNoOfMonths.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:completionNoOfMonths.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "completionNoOfMonths"
+      },
+      {
+        "id": "Extension.extension:completionNoOfMonths.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "integer"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:completionShouldOccur",
+        "path": "Extension.extension",
+        "sliceName": "completionShouldOccur",
+        "short": "completionShouldOccur",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:completionShouldOccur.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:completionShouldOccur.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "completionShouldOccur"
+      },
+      {
+        "id": "Extension.extension:completionShouldOccur.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:fromText",
+        "path": "Extension.extension",
+        "sliceName": "fromText",
+        "short": "fromText",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:fromText.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:fromText.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "fromText"
+      },
+      {
+        "id": "Extension.extension:fromText.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:toText",
+        "path": "Extension.extension",
+        "sliceName": "toText",
+        "short": "toText",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:toText.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "toText"
+      },
+      {
+        "id": "Extension.extension:naOption",
+        "path": "Extension.extension",
+        "sliceName": "naOption",
+        "short": "naOption",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:naOption.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:naOption.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "naOption"
+      },
+      {
+        "id": "Extension.extension:naOption.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:naLabel",
+        "path": "Extension.extension",
+        "sliceName": "naLabel",
+        "short": "naLabel",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:naLabel.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:naLabel.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "naLabel"
+      },
+      {
+        "id": "Extension.extension:naLabel.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:displayValueIndicator",
+        "path": "Extension.extension",
+        "sliceName": "displayValueIndicator",
+        "short": "displayValueIndicator",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:displayValueIndicator.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:displayValueIndicator.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "displayValueIndicator"
+      },
+      {
+        "id": "Extension.extension:displayValueIndicator.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:valueIndicatorLabel",
+        "path": "Extension.extension",
+        "sliceName": "valueIndicatorLabel",
+        "short": "valueIndicatorLabel",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:valueIndicatorLabel.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:valueIndicatorLabel.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "valueIndicatorLabel"
+      },
+      {
+        "id": "Extension.extension:valueIndicatorLabel.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:minValueLabel",
+        "path": "Extension.extension",
+        "sliceName": "minValueLabel",
+        "short": "minValueLabel",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:minValueLabel.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:minValueLabel.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "minValueLabel"
+      },
+      {
+        "id": "Extension.extension:minValueLabel.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:medValueLabel",
+        "path": "Extension.extension",
+        "sliceName": "medValueLabel",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:medValueLabel.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "medValueLabel"
+      },
+      {
+        "id": "Extension.extension:maxValueLabel",
+        "path": "Extension.extension",
+        "sliceName": "maxValueLabel",
+        "short": "maxValueLabel",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:maxValueLabel.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:maxValueLabel.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "maxValueLabel"
+      },
+      {
+        "id": "Extension.extension:maxValueLabel.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:scale",
+        "path": "Extension.extension",
+        "sliceName": "scale",
+        "short": "scale",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:scale.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:scale.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "scale"
+      },
+      {
+        "id": "Extension.extension:scale.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "integer"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:formula",
+        "path": "Extension.extension",
+        "sliceName": "formula",
+        "short": "formula",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:formula.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:formula.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "formula"
+      },
+      {
+        "id": "Extension.extension:formula.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:maxLength",
+        "path": "Extension.extension",
+        "sliceName": "maxLength",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:maxLength.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:maxLength.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "maxLength"
+      },
+      {
+        "id": "Extension.extension:maxLength.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "integer"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:doNotShowNumValue",
+        "path": "Extension.extension",
+        "sliceName": "doNotShowNumValue",
+        "short": "doNotShowNumValue",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:doNotShowNumValue.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:doNotShowNumValue.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "doNotShowNumValue"
+      },
+      {
+        "id": "Extension.extension:doNotShowNumValue.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:showIncrements",
+        "path": "Extension.extension",
+        "sliceName": "showIncrements",
+        "short": "showIncrements",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:showIncrements.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:showIncrements.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "showIncrements"
+      },
+      {
+        "id": "Extension.extension:showIncrements.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:majorIncrements",
+        "path": "Extension.extension",
+        "sliceName": "majorIncrements",
+        "short": "majorIncrements",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:majorIncrements.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:majorIncrements.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "majorIncrements"
+      },
+      {
+        "id": "Extension.extension:majorIncrements.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "integer"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:minorIncrements",
+        "path": "Extension.extension",
+        "sliceName": "minorIncrements",
+        "short": "minorIncrements",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:minorIncrements.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:minorIncrements.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "minorIncrements"
+      },
+      {
+        "id": "Extension.extension:minorIncrements.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "integer"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:interactionType",
+        "path": "Extension.extension",
+        "sliceName": "interactionType",
+        "short": "interactionType",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:interactionType.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:interactionType.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "interactionType"
+      },
+      {
+        "id": "Extension.extension:interactionType.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:scaleSize",
+        "path": "Extension.extension",
+        "sliceName": "scaleSize",
+        "short": "scaleSize",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:scaleSize.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:scaleSize.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "scaleSize"
+      },
+      {
+        "id": "Extension.extension:scaleSize.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "integer"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:optionalPresets",
+        "path": "Extension.extension",
+        "sliceName": "optionalPresets",
+        "short": "optionalPresets",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:optionalPresets.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:optionalPresets.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "optionalPresets"
+      },
+      {
+        "id": "Extension.extension:optionalPresets.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:foid",
+        "path": "Extension.extension",
+        "sliceName": "foid",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:foid.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:foid.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "foid"
+      },
+      {
+        "id": "Extension.extension:foid.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://science37.com/StructureDefinition/item-settings"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "max": "0"
+      }
+    ]
+  }
+}

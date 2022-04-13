@@ -1,0 +1,161 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "questionnaire-s37",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Specialized.Definitional Artifacts"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "business"
+    }
+  ],
+  "url": "http://science37.com/StructureDefinition/questionnaire-s37",
+  "version": "1.0.0",
+  "name": "QuestionnaireS37",
+  "title": "Profile : Questionnaire.item extensions",
+  "status": "active",
+  "date": "2022-04-07T10:59:49+00:00",
+  "publisher": "S37 Platform",
+  "contact": [
+    {
+      "name": "S37 Platform",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://science37.com"
+        }
+      ]
+    },
+    {
+      "name": "Message structure"
+    }
+  ],
+  "description": "Profile : Questionnaire.item extensions",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "workflow",
+      "uri": "http://hl7.org/fhir/workflow",
+      "name": "Workflow Pattern"
+    },
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "objimpl",
+      "uri": "http://hl7.org/fhir/object-implementation",
+      "name": "Object Implementation Information"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Questionnaire",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Questionnaire",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Questionnaire.extension",
+        "path": "Questionnaire.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Questionnaire.extension:settings",
+        "path": "Questionnaire.extension",
+        "sliceName": "settings",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://science37.com/StructureDefinition/form-settings"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Questionnaire.identifier",
+        "path": "Questionnaire.identifier",
+        "min": 1,
+        "max": "1"
+      },
+      {
+        "id": "Questionnaire.status",
+        "path": "Questionnaire.status",
+        "mustSupport": true
+      },
+      {
+        "id": "Questionnaire.item.extension",
+        "path": "Questionnaire.item.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Questionnaire.item.extension:Settings",
+        "path": "Questionnaire.item.extension",
+        "sliceName": "Settings",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://science37.com/StructureDefinition/item-settings"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Questionnaire.item.definition",
+        "path": "Questionnaire.item.definition",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Questionnaire.item.text",
+        "path": "Questionnaire.item.text",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Questionnaire.item.required",
+        "path": "Questionnaire.item.required",
+        "min": 1,
+        "mustSupport": true
+      }
+    ]
+  }
+}

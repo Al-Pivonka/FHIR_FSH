@@ -1,0 +1,231 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "Questionnaire-Item-Extension-Example",
+  "meta": {
+    "profile": [
+      "http://science37.com/StructureDefinition/questionnaire-s37"
+    ]
+  },
+  "extension": [
+    {
+      "extension": [
+        {
+          "url": "type",
+          "valueString": "formType"
+        },
+        {
+          "url": "OID",
+          "valueString": "FORM OID"
+        },
+        {
+          "url": "standardVariable",
+          "valueString": "Standard Variable"
+        },
+        {
+          "url": "title",
+          "valueString": "Form Title"
+        },
+        {
+          "url": "label"
+        },
+        {
+          "url": "buildLanguage",
+          "valueString": "US_English"
+        },
+        {
+          "url": "excludeFromDataExport",
+          "valueBoolean": true
+        },
+        {
+          "url": "sourceDataReview"
+        },
+        {
+          "url": "requireDataReview",
+          "valueBoolean": true
+        },
+        {
+          "url": "requireEditReason",
+          "valueBoolean": true
+        },
+        {
+          "url": "unknownStatus",
+          "valueString": "Unknown Status"
+        },
+        {
+          "url": "controlSchemaVersion",
+          "valueString": "2.1.9"
+        }
+      ],
+      "url": "http://science37.com/StructureDefinition/form-settings"
+    }
+  ],
+  "item": [
+    {
+      "extension": [
+        {
+          "extension": [
+            {
+              "url": "title",
+              "valueString": "The Title"
+            },
+            {
+              "url": "label",
+              "valueString": "The lable"
+            },
+            {
+              "url": "variableName",
+              "valueString": "The variableName"
+            },
+            {
+              "url": "standardVariable",
+              "valueString": "The standardVariable"
+            },
+            {
+              "url": "fieldCode",
+              "valueString": "The fieldCode"
+            },
+            {
+              "url": "description",
+              "valueString": "The description"
+            },
+            {
+              "url": "foid",
+              "valueString": "FOID field Object ID"
+            },
+            {
+              "url": "dateTimeOptions",
+              "valueString": "Date Time Options"
+            },
+            {
+              "url": "captureTimeonSubmit",
+              "valueBoolean": true
+            },
+            {
+              "url": "completionPeriodOfTime",
+              "valueBoolean": true
+            },
+            {
+              "url": "completionNoOfHours",
+              "valueInteger": 2
+            },
+            {
+              "url": "completionNoOfMonths",
+              "valueInteger": 1
+            },
+            {
+              "url": "completionShouldOccur",
+              "valueBoolean": false
+            },
+            {
+              "url": "fromText",
+              "valueString": "From Text"
+            },
+            {
+              "url": "toText",
+              "valueString": "To Text"
+            },
+            {
+              "url": "naOption",
+              "valueBoolean": true
+            },
+            {
+              "url": "naLabel",
+              "valueString": "To Text"
+            },
+            {
+              "url": "displayValueIndicator",
+              "valueBoolean": true
+            },
+            {
+              "url": "valueIndicatorLabel",
+              "valueString": "Value Indicator Label"
+            },
+            {
+              "url": "minValueLabel",
+              "valueString": "minValue Label"
+            },
+            {
+              "url": "medValueLabel",
+              "valueString": "medValue Label"
+            },
+            {
+              "url": "maxValueLabel",
+              "valueString": "maxValue Label"
+            },
+            {
+              "url": "scale",
+              "valueInteger": 1
+            },
+            {
+              "url": "formula",
+              "valueString": "formula"
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+              "valueInteger": 200
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/minValue",
+              "valueInteger": 2
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/minLength",
+              "valueInteger": 1
+            },
+            {
+              "url": "maxLength",
+              "valueInteger": 22
+            },
+            {
+              "url": "doNotShowNumValue",
+              "valueBoolean": true
+            },
+            {
+              "url": "showIncrements",
+              "valueBoolean": true
+            },
+            {
+              "url": "majorIncrements",
+              "valueInteger": 5
+            },
+            {
+              "url": "minorIncrements",
+              "valueInteger": 1
+            },
+            {
+              "url": "interactionType",
+              "valueString": "Iinteraction Type"
+            },
+            {
+              "url": "scaleSize",
+              "valueInteger": 3
+            },
+            {
+              "url": "optionalPresets",
+              "valueBoolean": false
+            }
+          ],
+          "url": "http://science37.com/StructureDefinition/item-settings"
+        }
+      ],
+      "type": "text",
+      "linkId": "isdfu9s0df8us8dfy",
+      "text": "Describe your current mood.",
+      "prefix": "FOID-090s88s",
+      "definition": "https://science37.com/NG/widget/id/choice2212/version/2.3",
+      "required": true
+    }
+  ],
+  "status": "draft",
+  "title": "Example : Questionnaire.Item Extension",
+  "name": "Example : Questionnaire.Item Extension",
+  "version": "1.2k33",
+  "subjectType": [
+    "Patient"
+  ],
+  "identifier": [
+    {
+      "value": "Form ID"
+    }
+  ]
+}
