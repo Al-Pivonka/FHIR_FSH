@@ -1,9 +1,37 @@
 [
   {
-    "id": "xxexample.fhir.uv.myig",
+    "id": "science27.FHIR-IG",
     "type": "ImplementationGuide",
-    "url": "http://xxsomewhere.org/fhir/myig/ImplementationGuide/xxexample.fhir.uv.myig",
-    "version": "0.1.0-test",
-    "name": "XXYourComputableMyIGNameHere"
+    "url": "http://science37.com/ImplementationGuide/science27.FHIR-IG",
+    "version": "0.1.0",
+    "name": "S37FHIRIG"
+  },
+  {
+    "id": "Questionnaire-Item-Extension-Example",
+    "type": "Questionnaire",
+    "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example",
+    "version": "0.1.0",
+    "name": "Example : Questionnaire.Item Extension"
+  },
+  {
+    "id": "form-settings",
+    "type": "StructureDefinition",
+    "url": "http://science37.com/StructureDefinition/form-settings",
+    "version": "0.1.0",
+    "name": "FormSettings"
+  },
+  {
+    "id": "item-settings",
+    "type": "StructureDefinition",
+    "url": "http://science37.com/StructureDefinition/item-settings",
+    "version": "0.1.0",
+    "name": "ItemSettings"
+  },
+  {
+    "id": "questionnaire-s37",
+    "type": "StructureDefinition",
+    "url": "http://science37.com/StructureDefinition/questionnaire-s37",
+    "version": "0.1.0",
+    "name": "QuestionnaireS37"
   }
 ]
