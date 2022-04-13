@@ -4,7 +4,7 @@
   "url": "http://science37.com/StructureDefinition/item-settings",
   "version": "0.1.0",
   "name": "ItemSettings",
-  "title": "Extension : Settings ",
+  "title": "Extension : Item Settings ",
   "status": "active",
   "description": "Extension : Questionnaire.item.settings ",
   "fhirVersion": "4.0.1",
@@ -31,7 +31,7 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "Extension : Settings ",
+        "short": "Extension : Item Settings ",
         "definition": "Extension : Questionnaire.item.settings "
       },
       {
@@ -65,7 +65,7 @@
         "id": "Extension.extension:label",
         "path": "Extension.extension",
         "sliceName": "label",
-        "short": "description",
+        "short": "label",
         "min": 0,
         "max": "1"
       },

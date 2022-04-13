@@ -43,7 +43,7 @@
         "reference": {
           "reference": "StructureDefinition/item-settings"
         },
-        "name": "Extension : Settings ",
+        "name": "Extension : Item Settings ",
         "description": "Extension : Questionnaire.item.settings ",
         "exampleBoolean": false
       },

@@ -39,7 +39,7 @@ Description:     "Extension : Questionnaire.item.settings "
     foid 0..1
 * extension[title] ^short = "title"*
 * extension[title].value[x] only string
-* extension[label] ^short = "description"
+* extension[label] ^short = "label"
 * extension[label].value[x] only string
 * extension[variableName] ^short = "description"
 * extension[variableName].value[x] only string
@@ -116,7 +116,6 @@ Description:     "Extension : Questionnaire.settings "
     label 1..1 and
     buildLanguage 1..1 and
     excludeFromDataExport 1..1 and
-    sourceDataReview 1..1 and
     requireDataReview 1..1 and
     requireEditReason 1..1 and
     createdAt 0..1 and
