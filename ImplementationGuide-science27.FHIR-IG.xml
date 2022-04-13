@@ -9,7 +9,7 @@
   <version value="1.0.0-S37"/>
   <name value="S37FHIRIG"/>
   <status value="active"/>
-  <date value="2022-04-13T18:59:18+00:00"/>
+  <date value="2022-04-13T20:17:19+00:00"/>
   <publisher value="Science37"/>
   <contact>
     <name value="Science37"/>
@@ -233,13 +233,24 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/settings"/>
+      </reference>
+      <name value="Extension : Common Settings "/>
+      <description value="Extension : Common settings "/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Questionnaire"/>
       </extension>
       <reference>
         <reference value="Questionnaire/Questionnaire-Item-Extension-Example"/>
       </reference>
-      <name value="Example : Questionnaire.Item Extension"/>
-      <description value="Example : Questionnaire.Item Extension"/>
+      <name value="Example : Questionnaire.Item"/>
+      <description value="Example : Questionnaire.Item"/>
       <exampleCanonical value="http://science37.com/StructureDefinition/questionnaire-s37"/>
     </resource>
     <page>

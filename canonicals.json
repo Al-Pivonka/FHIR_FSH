@@ -11,7 +11,7 @@
     "type": "Questionnaire",
     "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example",
     "version": "1.0.0-S37",
-    "name": "Example : Questionnaire.Item Extension"
+    "name": "Example : Questionnaire.Item"
   },
   {
     "id": "form-settings",
@@ -33,5 +33,12 @@
     "url": "http://science37.com/StructureDefinition/questionnaire-s37",
     "version": "1.0.0-S37",
     "name": "QuestionnaireS37"
+  },
+  {
+    "id": "settings",
+    "type": "StructureDefinition",
+    "url": "http://science37.com/StructureDefinition/settings",
+    "version": "1.0.0-S37",
+    "name": "Settings"
   }
 ]
