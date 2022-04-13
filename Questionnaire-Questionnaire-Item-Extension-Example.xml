@@ -3,6 +3,8 @@
 <Questionnaire xmlns="http://hl7.org/fhir">
   <id value="Questionnaire-Item-Extension-Example"/>
   <meta>
+    <versionId value="1.0.0-S37"/>
+    <lastUpdated value="2022-04-13T08:39:24+02:00"/>
     <profile value="http://science37.com/StructureDefinition/questionnaire-s37"/>
   </meta>
   <text>
@@ -60,7 +62,7 @@
   <title value="Example : Questionnaire.Item Extension"/>
   <status value="draft"/>
   <subjectType value="Patient"/>
-  <date value="2022-04-13T18:56:53+00:00"/>
+  <date value="2022-04-13T18:59:18+00:00"/>
   <publisher value="Science37"/>
   <contact>
     <name value="Science37"/>
