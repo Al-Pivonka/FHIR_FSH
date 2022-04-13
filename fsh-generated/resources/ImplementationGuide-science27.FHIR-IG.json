@@ -2,7 +2,7 @@
   "resourceType": "ImplementationGuide",
   "id": "science27.FHIR-IG",
   "url": "http://science37.com/ImplementationGuide/science27.FHIR-IG",
-  "version": "0.1.0",
+  "version": "1.0.0-S37",
   "name": "S37FHIRIG",
   "status": "active",
   "publisher": "Science37",

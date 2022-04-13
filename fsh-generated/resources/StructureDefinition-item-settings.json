@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "item-settings",
   "url": "http://science37.com/StructureDefinition/item-settings",
-  "version": "0.1.0",
+  "version": "1.0.0-S37",
   "name": "ItemSettings",
   "title": "Extension : Item Settings ",
   "status": "active",

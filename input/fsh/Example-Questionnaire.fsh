@@ -5,6 +5,8 @@ InstanceOf: QuestionnaireS37
 Title: "Example : Questionnaire.Item Extension"
 Description: "Example : Questionnaire.Item Extension"
 Usage: #example
+* meta.versionId = "1.0.0-S37"
+* meta.lastUpdated = "2022-04-13T08:39:24+02:00"
 * status = #draft
 * title = "Example : Questionnaire.Item Extension"
 * name = "Example : Questionnaire.Item Extension"

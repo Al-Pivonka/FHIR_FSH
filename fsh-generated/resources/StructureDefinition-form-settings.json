@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "form-settings",
   "url": "http://science37.com/StructureDefinition/form-settings",
-  "version": "0.1.0",
+  "version": "1.0.0-S37",
   "name": "FormSettings",
   "title": "Extension : Form Settings ",
   "status": "active",

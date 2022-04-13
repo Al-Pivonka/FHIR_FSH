@@ -12,7 +12,7 @@
     }
   ],
   "url": "http://science37.com/StructureDefinition/questionnaire-s37",
-  "version": "0.1.0",
+  "version": "1.0.0-S37",
   "name": "QuestionnaireS37",
   "title": "Profile : Questionnaire.item extensions",
   "status": "active",
@@ -68,16 +68,6 @@
   "derivation": "constraint",
   "differential": {
     "element": [
-      {
-        "id": "Questionnaire.meta.versionId",
-        "path": "Questionnaire.meta.versionId",
-        "patternId": "1.0.0"
-      },
-      {
-        "id": "Questionnaire.meta.lastUpdated",
-        "path": "Questionnaire.meta.lastUpdated",
-        "patternInstant": "2022-04-13T08:39:24+02:00"
-      },
       {
         "id": "Questionnaire.extension",
         "path": "Questionnaire.extension",

@@ -2,6 +2,8 @@
   "resourceType": "Questionnaire",
   "id": "Questionnaire-Item-Extension-Example",
   "meta": {
+    "versionId": "1.0.0-S37",
+    "lastUpdated": "2022-04-13T08:39:24+02:00",
     "profile": [
       "http://science37.com/StructureDefinition/questionnaire-s37"
     ]
