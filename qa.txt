@@ -3,7 +3,7 @@
 
 err = 3, warn = 13, info = 3
 IG Publisher Version: 1.1.115
-Generated Wed Apr 13 18:50:50 UTC 2022. FHIR version 4.0.1 for science27.FHIR-IG#1.0.0-S37 (canonical = http://science37.com)
+Generated Wed Apr 13 18:57:14 UTC 2022. FHIR version 4.0.1 for science27.FHIR-IG#1.0.0-S37 (canonical = http://science37.com)
  Build Errors : 0 / 0 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-science27.FHIR-IG : 0 / 4 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example : 3 / 1 / 4
@@ -34,5 +34,5 @@ WARNING: StructureDefinition/item-settings: StructureDefinition.title: value sho
 WARNING: StructureDefinition/item-settings: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace 'Extension...Settings '
 WARNING: StructureDefinition/item-settings: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace 'Extension...Settings '
 == fsh-generated/resources/StructureDefinition-questionnaire-s37.json ==
-WARNING: StructureDefinition/questionnaire-s37: StructureDefinition.snapshot.element[16].short: value should not start or finish with whitespace 'Extension...Settings '
-WARNING: StructureDefinition/questionnaire-s37: StructureDefinition.snapshot.element[42].short: value should not start or finish with whitespace 'Extension...Settings '
+WARNING: StructureDefinition/questionnaire-s37: StructureDefinition.snapshot.element[8].short: value should not start or finish with whitespace 'Extension...Settings '
+WARNING: StructureDefinition/questionnaire-s37: StructureDefinition.snapshot.element[34].short: value should not start or finish with whitespace 'Extension...Settings '
