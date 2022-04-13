@@ -1,6 +1,6 @@
 {
   "package": "science27.FHIR-IG",
-  "version": "0.1.0",
+  "version": "1.0.0-S37",
   "fhirVersion": "4.0.1",
   "extensions": [
     {

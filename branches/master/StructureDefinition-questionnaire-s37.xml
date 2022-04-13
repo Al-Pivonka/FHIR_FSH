@@ -26,7 +26,7 @@
     <valueCode value="business"/>
   </extension>
   <url value="http://science37.com/StructureDefinition/questionnaire-s37"/>
-  <version value="0.1.0"/>
+  <version value="1.0.0-S37"/>
   <name value="QuestionnaireS37"/>
   <title value="Profile : Questionnaire.item extensions"/>
   <status value="active"/>
