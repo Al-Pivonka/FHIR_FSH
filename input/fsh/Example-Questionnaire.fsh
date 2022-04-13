@@ -21,7 +21,7 @@ Usage: #example
 * extension[FormSettings].extension[excludeFromDataExport].valueBoolean = true
 * extension[FormSettings].extension[requireEditReason].valueBoolean = true
 * extension[FormSettings].extension[requireDataReview].valueBoolean = true
-
+/** Example of Item **/
 * item[0].type = #text
 * item[=].linkId = "isdfu9s0df8us8dfy"
 * item[=].text = "Describe your current mood."
