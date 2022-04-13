@@ -9,7 +9,7 @@
   "version": "1.0.0-S37",
   "name": "S37FHIRIG",
   "status": "active",
-  "date": "2022-04-13T18:59:18+00:00",
+  "date": "2022-04-13T20:17:19+00:00",
   "publisher": "Science37",
   "contact": [
     {
@@ -363,14 +363,28 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
+          "reference": "StructureDefinition/settings"
+        },
+        "name": "Extension : Common Settings ",
+        "description": "Extension : Common settings ",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "Questionnaire"
           }
         ],
         "reference": {
           "reference": "Questionnaire/Questionnaire-Item-Extension-Example"
         },
-        "name": "Example : Questionnaire.Item Extension",
-        "description": "Example : Questionnaire.Item Extension",
+        "name": "Example : Questionnaire.Item",
+        "description": "Example : Questionnaire.Item",
         "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
       }
     ],

@@ -1,15 +1,16 @@
 ﻿S37FHIRIG : Validation Results
 =========================================
 
-err = 3, warn = 13, info = 3
+err = 3, warn = 19, info = 3
 IG Publisher Version: 1.1.115
-Generated Wed Apr 13 18:59:42 UTC 2022. FHIR version 4.0.1 for science27.FHIR-IG#1.0.0-S37 (canonical = http://science37.com)
+Generated Wed Apr 13 20:17:43 UTC 2022. FHIR version 4.0.1 for science27.FHIR-IG#1.0.0-S37 (canonical = http://science37.com)
  Build Errors : 0 / 0 / 0
- /github/workspace/fsh-generated/resources/ImplementationGuide-science27.FHIR-IG : 0 / 4 / 1
+ /github/workspace/fsh-generated/resources/ImplementationGuide-science27.FHIR-IG : 0 / 6 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example : 3 / 1 / 4
  /github/workspace/fsh-generated/resources/StructureDefinition-form-settings : 0 / 3 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-item-settings : 0 / 3 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-questionnaire-s37 : 0 / 2 / 1
+ /github/workspace/fsh-generated/resources/StructureDefinition-settings : 0 / 4 / 1
 </table>
 == n/a ==
 == fsh-generated/resources/ImplementationGuide-science27.FHIR-IG.json ==
@@ -17,6 +18,8 @@ WARNING: ImplementationGuide/science27.FHIR-IG: ImplementationGuide.definition.r
 WARNING: ImplementationGuide/science27.FHIR-IG: ImplementationGuide.definition.resource[1].description: value should not start or finish with whitespace 'Extension...Questionnaire.settings '
 WARNING: ImplementationGuide/science27.FHIR-IG: ImplementationGuide.definition.resource[2].name: value should not start or finish with whitespace 'Extension...Settings '
 WARNING: ImplementationGuide/science27.FHIR-IG: ImplementationGuide.definition.resource[2].description: value should not start or finish with whitespace 'Extension...Questionnaire.item.settings '
+WARNING: ImplementationGuide/science27.FHIR-IG: ImplementationGuide.definition.resource[3].name: value should not start or finish with whitespace 'Extension...Settings '
+WARNING: ImplementationGuide/science27.FHIR-IG: ImplementationGuide.definition.resource[3].description: value should not start or finish with whitespace 'Extension...settings '
 == fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example.json ==
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example: Questionnaire.item[0].extension[0].extension[24]: This element does not match any known slice defined in the profile http://science37.com/StructureDefinition/item-settings
@@ -36,3 +39,8 @@ WARNING: StructureDefinition/item-settings: StructureDefinition.differential.ele
 == fsh-generated/resources/StructureDefinition-questionnaire-s37.json ==
 WARNING: StructureDefinition/questionnaire-s37: StructureDefinition.snapshot.element[8].short: value should not start or finish with whitespace 'Extension...Settings '
 WARNING: StructureDefinition/questionnaire-s37: StructureDefinition.snapshot.element[34].short: value should not start or finish with whitespace 'Extension...Settings '
+== fsh-generated/resources/StructureDefinition-settings.json ==
+WARNING: StructureDefinition/settings: StructureDefinition.title: value should not start or finish with whitespace 'Extension...Settings '
+WARNING: StructureDefinition/settings: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace 'Extension...Settings '
+WARNING: StructureDefinition/settings: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace 'Extension...Settings '
+WARNING: StructureDefinition.where(url = 'http://science37.com/StructureDefinition/settings'): The Implementation Guide contains no examples for this extension
