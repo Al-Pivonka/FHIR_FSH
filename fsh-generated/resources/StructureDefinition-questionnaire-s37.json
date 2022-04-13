@@ -1,9 +1,6 @@
 {
   "resourceType": "StructureDefinition",
   "id": "questionnaire-s37",
-  "meta": {
-    "versionId": "1.0.0"
-  },
   "extension": [
     {
       "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
@@ -71,6 +68,16 @@
   "derivation": "constraint",
   "differential": {
     "element": [
+      {
+        "id": "Questionnaire.meta.versionId",
+        "path": "Questionnaire.meta.versionId",
+        "patternId": "1.0.0"
+      },
+      {
+        "id": "Questionnaire.meta.lastUpdated",
+        "path": "Questionnaire.meta.lastUpdated",
+        "patternInstant": "2022-04-13T08:39:24+02:00"
+      },
       {
         "id": "Questionnaire.extension",
         "path": "Questionnaire.extension",
