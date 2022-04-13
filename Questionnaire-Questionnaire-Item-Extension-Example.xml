@@ -23,14 +23,15 @@
     <extension url="title">
       <valueString value="Form Title"/>
     </extension>
-    <extension url="label"/>
+    <extension url="label">
+      <valueString value="Form Label"/>
+    </extension>
     <extension url="buildLanguage">
       <valueString value="US_English"/>
     </extension>
     <extension url="excludeFromDataExport">
       <valueBoolean value="true"/>
     </extension>
-    <extension url="sourceDataReview"/>
     <extension url="requireDataReview">
       <valueBoolean value="true"/>
     </extension>
@@ -43,6 +44,12 @@
     <extension url="controlSchemaVersion">
       <valueString value="2.1.9"/>
     </extension>
+    <extension url="createdAt">
+      <valueDateTime value="2015-02-07T13:28:17Z"/>
+    </extension>
+    <extension url="updatedAt">
+      <valueDateTime value="2022-01-01T10:08:10Z"/>
+    </extension>
   </extension>
   <url value="http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example"/>
   <identifier>
@@ -53,7 +60,7 @@
   <title value="Example : Questionnaire.Item Extension"/>
   <status value="draft"/>
   <subjectType value="Patient"/>
-  <date value="2022-04-13T16:29:46+00:00"/>
+  <date value="2022-04-13T16:38:03+00:00"/>
   <publisher value="Science37"/>
   <contact>
     <name value="Science37"/>
