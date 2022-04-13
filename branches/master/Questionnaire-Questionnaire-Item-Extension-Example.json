@@ -2,6 +2,8 @@
   "resourceType": "Questionnaire",
   "id": "Questionnaire-Item-Extension-Example",
   "meta": {
+    "versionId": "1.0.0-S37",
+    "lastUpdated": "2022-04-13T08:39:24+02:00",
     "profile": [
       "http://science37.com/StructureDefinition/questionnaire-s37"
     ]
@@ -82,7 +84,7 @@
   "subjectType": [
     "Patient"
   ],
-  "date": "2022-04-13T18:56:53+00:00",
+  "date": "2022-04-13T18:59:18+00:00",
   "publisher": "Science37",
   "contact": [
     {

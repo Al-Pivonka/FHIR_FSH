@@ -9,6 +9,8 @@
   fhir:nodeRole fhir:treeRoot;
   fhir:Resource.id [ fhir:value "Questionnaire-Item-Extension-Example"];
   fhir:Resource.meta [
+     fhir:Meta.versionId [ fhir:value "1.0.0-S37" ];
+     fhir:Meta.lastUpdated [ fhir:value "2022-04-13T08:39:24+02:00"^^xsd:dateTime ];
      fhir:Meta.profile [
        fhir:value "http://science37.com/StructureDefinition/questionnaire-s37";
        fhir:index 0;
@@ -89,7 +91,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2022-04-13T18:56:53+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-04-13T18:59:18+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "Science37"];
   fhir:Questionnaire.contact [
      fhir:index 0;
