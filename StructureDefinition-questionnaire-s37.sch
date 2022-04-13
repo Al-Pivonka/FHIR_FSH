@@ -15,6 +15,7 @@
       <sch:assert test="count(f:extension[@url = 'http://science37.com/StructureDefinition/form-settings']) &lt;= 1">extension with URL = 'http://science37.com/StructureDefinition/form-settings': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:identifier) &gt;= 1">identifier: minimum cardinality of 'identifier' is 1</sch:assert>
       <sch:assert test="count(f:identifier) &lt;= 1">identifier: maximum cardinality of 'identifier' is 1</sch:assert>
+      <sch:assert test="count(f:version) &gt;= 1">version: minimum cardinality of 'version' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
