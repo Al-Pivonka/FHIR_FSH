@@ -6,10 +6,10 @@
     "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>S37FHIRIG</h2><p>The official URL for this implementation guide is: </p><pre>http://science37.com/ImplementationGuide/science27.FHIR-IG</pre></div>"
   },
   "url": "http://science37.com/ImplementationGuide/science27.FHIR-IG",
-  "version": "0.1.0",
+  "version": "1.0.0-S37",
   "name": "S37FHIRIG",
   "status": "active",
-  "date": "2022-04-13T17:46:21+00:00",
+  "date": "2022-04-13T18:50:27+00:00",
   "publisher": "Science37",
   "contact": [
     {
