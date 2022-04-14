@@ -56,6 +56,13 @@
     "name": "Example : Questionnaire.Item Number-Integer"
   },
   {
+    "id": "Questionnaire-Item-Extension-Example-RatingScale",
+    "type": "Questionnaire",
+    "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-RatingScale",
+    "version": "1.0.0-S37",
+    "name": "Example : Questionnaire.Item RatingScale"
+  },
+  {
     "id": "Questionnaire-Item-Extension-Example-RichText",
     "type": "Questionnaire",
     "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-RichText",
