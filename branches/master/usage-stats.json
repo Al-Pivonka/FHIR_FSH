@@ -471,7 +471,8 @@
       "Questionnaire"
     ],
     "http://science37.com/StructureDefinition/item-settings": [
-      "Questionnaire.item"
+      "Questionnaire.item",
+      "Questionnaire.item.item"
     ]
   }
 }
