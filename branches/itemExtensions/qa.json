@@ -1,0 +1,12 @@
+{
+  "url": "http://science37.com/ImplementationGuide/science27.FHIR-IG",
+  "name": "S37FHIRIG",
+  "package-id": "science27.FHIR-IG",
+  "ig-ver": "1.0.0-S37",
+  "date": "Thu, 14 Apr, 2022 19:25:29 +0000",
+  "errs": 3,
+  "warnings": 43,
+  "hints": 18,
+  "version": "4.0.1",
+  "tool": "5.0.0-snapshot1 (3)"
+}
