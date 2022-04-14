@@ -63,5 +63,5 @@ Usage: #example
 * item[=].extension[ItemSettings].extension[majorIncrements].valueInteger = 5
 * item[=].extension[ItemSettings].extension[minorIncrements].valueInteger = 1
 * item[=].extension[ItemSettings].extension[interactionType].valueString = "Iinteraction Type"
-* item[=].extension[ItemSettings].extension[scaleSize].valueInteger = 3
-* item[=].extension[ItemSettings].extension[optionalPresets].valueBoolean = false
+* item[=].extension[ItemSettings].extension[scaleSize].valueString = "scaleSize"
+* item[=].extension[ItemSettings].extension[optionalPresets].valueString = "vasTenPointIncrement"

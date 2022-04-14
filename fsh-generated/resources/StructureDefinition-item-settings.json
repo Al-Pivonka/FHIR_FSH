@@ -761,7 +761,7 @@
         "path": "Extension.extension.value[x]",
         "type": [
           {
-            "code": "integer"
+            "code": "string"
           }
         ]
       },
@@ -788,7 +788,7 @@
         "path": "Extension.extension.value[x]",
         "type": [
           {
-            "code": "boolean"
+            "code": "string"
           }
         ]
       },
@@ -839,6 +839,33 @@
       },
       {
         "id": "Extension.extension:subType.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:orientation",
+        "path": "Extension.extension",
+        "sliceName": "orientation",
+        "short": "orientation",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:orientation.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:orientation.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "orientation"
+      },
+      {
+        "id": "Extension.extension:orientation.value[x]",
         "path": "Extension.extension.value[x]",
         "type": [
           {

@@ -209,11 +209,11 @@
             },
             {
               "url": "scaleSize",
-              "valueInteger": 3
+              "valueString": "scaleSize"
             },
             {
               "url": "optionalPresets",
-              "valueBoolean": false
+              "valueString": "vasTenPointIncrement"
             }
           ],
           "url": "http://science37.com/StructureDefinition/item-settings"

@@ -142,6 +142,14 @@
         "name": "Example : Questionnaire.Item-All-TextArea",
         "description": "Example : Questionnaire.Item-All-TextArea",
         "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
+      },
+      {
+        "reference": {
+          "reference": "Questionnaire/Questionnaire-Item-Extension-Example-VASScale"
+        },
+        "name": "Example : Questionnaire.Item-VASScale",
+        "description": "Example : Questionnaire.Item-VASScale",
+        "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
       }
     ],
     "page": {
