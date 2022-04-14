@@ -123,7 +123,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "Questionnaire.item.linkId","","","",1,1,"","","","string {[]} {[]}
 ","Unique id for item in questionnaire","An identifier that is unique within the Questionnaire allowing linkage to the equivalent item in a QuestionnaireResponse resource.","This ''can'' be a meaningful identifier (e.g. a LOINC code) but is not intended to have any meaning.  GUIDs or sequential numbers are appropriate here.","[QuestionnaireResponse](http://hl7.org/fhir/R4/questionnaireresponse.html#) does not require omitted items to be included and may have some items that repeat, so linkage based on position alone is not sufficient.","","","","","","","",,,,,"",,,,"Questionnaire.item.linkId",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".id"
-"Questionnaire.item.definition","","","",1,1,"Y","","","uri {[]} {[]}
+"Questionnaire.item.definition","","","",0,1,"","","","uri {[]} {[]}
 ","ElementDefinition - details for the item","This element is a URI that refers to an [ElementDefinition](http://hl7.org/fhir/R4/elementdefinition.html) that provides information about this item, including information that might otherwise be included in the instance of the Questionnaire resource. A detailed description of the construction of the URI is shown in Comments, below. If this element is present then the following element values MAY be derived from the Element Definition if the corresponding elements of this Questionnaire resource instance have no value:
 
 * code (ElementDefinition.code) 
@@ -142,7 +142,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","",0,1,"","","","string {[]} {[]}
 ","E.g. ""1(a)"", ""2.5.3""","A short label for a particular group, question or set of display text within the questionnaire used for reference by the individual completing the questionnaire.","These are generally unique within a questionnaire, though this is not guaranteed. Some questionnaires may have multiple questions with the same label with logic to control which gets exposed.  Typically, these won't be used for ""display"" items, though such use is not prohibited.  Systems SHOULD NOT generate their own prefixes if prefixes are defined for any items within a Questionnaire.","Separating the label from the question text allows improved rendering.  Also, instructions will often refer to specific prefixes, so there's a need for the questionnaire design to have control over what labels are used.","","","","","","","",,,,,"",,,,"Questionnaire.item.prefix",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Not supported"
-"Questionnaire.item.text","","","",1,1,"Y","","","string {[]} {[]}
+"Questionnaire.item.text","","","",0,1,"","","","string {[]} {[]}
 ","Primary text for the item","The name of a section, the text of a question or text content for a display item.","When using this element to represent the name of a section, use group type item and also make sure to limit the text element to a short string suitable for display as a section heading.  Group item instructions should be included as a display type item within the group.","","","","","","","","",,,,,"",,,,"Questionnaire.item.text",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".text"
 "Questionnaire.item.type","","","",1,1,"","","","code {[]} {[]}
@@ -177,7 +177,7 @@ decimal {[]} {[]}integer {[]} {[]}date {[]} {[]}dateTime {[]} {[]}time {[]} {[]}
 ","all | any","Controls how multiple enableWhen values are interpreted -  whether all or any must be true.","This element must be specified if more than one enableWhen value is provided.","","","","","","","","",,"required","Controls how multiple enableWhen values are interpreted -  whether all or any must be true.","http://hl7.org/fhir/ValueSet/questionnaire-enable-behavior|4.0.1","",,,,"Questionnaire.item.enableBehavior",0,1,"que-12
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A - MIF rather than RIM level"
-"Questionnaire.item.required","","","",1,1,"Y","","","boolean {[]} {[]}
+"Questionnaire.item.required","","","",0,1,"","","","boolean {[]} {[]}
 ","Whether the item must be included in data results","An indication, if true, that the item must be present in a ""completed"" QuestionnaireResponse.  If false, the item may be skipped when answering the questionnaire.","Questionnaire.item.required only has meaning for elements that are conditionally enabled with enableWhen if the condition evaluates to true.  If an item that contains other items is marked as required, that does not automatically make the contained elements required (though required groups must contain at least one child element). The value may come from the ElementDefinition referred to by .definition.","","","Items are generally assumed not to be required unless explicitly specified. Systems SHOULD always populate this value","","","","","",,,,,"",,,,"Questionnaire.item.required",0,1,"que-6
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","N/A - MIF rather than RIM level"
