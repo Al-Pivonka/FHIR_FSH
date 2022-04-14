@@ -7,11 +7,67 @@
     "name": "S37FHIRIG"
   },
   {
-    "id": "Questionnaire-Item-Extension-Example",
+    "id": "Questionnaire-Item-Extension-Example-All-SingleItem",
     "type": "Questionnaire",
-    "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example",
+    "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-All-SingleItem",
     "version": "1.0.0-S37",
     "name": "Example : Questionnaire.Item"
+  },
+  {
+    "id": "Questionnaire-Item-Extension-Example-DateTime",
+    "type": "Questionnaire",
+    "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-DateTime",
+    "version": "1.0.0-S37",
+    "name": "Example : Questionnaire.Item Image"
+  },
+  {
+    "id": "Questionnaire-Item-Extension-Example-FileUpload",
+    "type": "Questionnaire",
+    "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-FileUpload",
+    "version": "1.0.0-S37",
+    "name": "Example : Questionnaire.Item FileUpload"
+  },
+  {
+    "id": "Questionnaire-Item-Extension-Example-Image",
+    "type": "Questionnaire",
+    "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-Image",
+    "version": "1.0.0-S37",
+    "name": "Example : Questionnaire.Item Image"
+  },
+  {
+    "id": "Questionnaire-Item-Extension-Example-Number-Decimal",
+    "type": "Questionnaire",
+    "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-Number-Decimal",
+    "version": "1.0.0-S37",
+    "name": "Example : Questionnaire.Item Number-Decimal"
+  },
+  {
+    "id": "Questionnaire-Item-Extension-Example-Number-Integer",
+    "type": "Questionnaire",
+    "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-Number-Integer",
+    "version": "1.0.0-S37",
+    "name": "Example : Questionnaire.Item Number-Integer"
+  },
+  {
+    "id": "Questionnaire-Item-Extension-Example-RichText",
+    "type": "Questionnaire",
+    "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-RichText",
+    "version": "1.0.0-S37",
+    "name": "Example : Questionnaire.Item RichText"
+  },
+  {
+    "id": "Questionnaire-Item-Extension-Example-Text",
+    "type": "Questionnaire",
+    "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-Text",
+    "version": "1.0.0-S37",
+    "name": "Example : Questionnaire.Item Text"
+  },
+  {
+    "id": "Questionnaire-Item-Extension-Example-TextArea",
+    "type": "Questionnaire",
+    "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-TextArea",
+    "version": "1.0.0-S37",
+    "name": "Example : Questionnaire.Item TextArea"
   },
   {
     "id": "form-settings",
