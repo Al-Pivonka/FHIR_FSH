@@ -61,7 +61,7 @@
   <title value="Example : Questionnaire.Item"/>
   <status value="draft"/>
   <subjectType value="Patient"/>
-  <date value="2022-04-14T17:25:25+00:00"/>
+  <date value="2022-04-14T18:16:16+00:00"/>
   <publisher value="Science37"/>
   <contact>
     <name value="Science37"/>
@@ -175,10 +175,10 @@
         <valueString value="Iinteraction Type"/>
       </extension>
       <extension url="scaleSize">
-        <valueInteger value="3"/>
+        <valueString value="scaleSize"/>
       </extension>
       <extension url="optionalPresets">
-        <valueBoolean value="false"/>
+        <valueString value="vasTenPointIncrement"/>
       </extension>
     </extension>
     <linkId value="isdfu9s0df8us8dfy"/>
