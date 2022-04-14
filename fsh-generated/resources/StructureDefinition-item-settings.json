@@ -197,7 +197,7 @@
         "path": "Extension.extension.value[x]",
         "type": [
           {
-            "code": "boolean"
+            "code": "string"
           }
         ]
       },

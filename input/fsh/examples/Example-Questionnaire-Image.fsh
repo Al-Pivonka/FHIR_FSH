@@ -1,13 +1,13 @@
-Instance: Questionnaire-Item-Extension-Example-TextArea
+Instance: Questionnaire-Item-Extension-Example-Image
 InstanceOf: QuestionnaireS37
-Title: "Example : Questionnaire.Item-All-TextArea"
-Description: "Example : Questionnaire.Item-All-TextArea"
+Title: "Example : Questionnaire.Item-Image"
+Description: "Example : Questionnaire.Item-Image"
 Usage: #example
 /* Form Level Information */
 * meta.versionId = "1.0.0-S37"
 * status = #draft
-* title = "Example : Questionnaire.Item TextArea"
-* name = "Example : Questionnaire.Item TextArea"
+* title = "Example : Questionnaire.Item Image"
+* name = "Example : Questionnaire.Item Image"
 * subjectType = #Patient
 * identifier.value = "Form ID"
 * extension[FormSettings].extension[type].valueString = "formType"
@@ -24,16 +24,18 @@ Usage: #example
 * extension[FormSettings].extension[createdAt].valueDateTime = "2015-02-07T13:28:17Z"
 * extension[FormSettings].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"
 /* Item  Level Information */
-* item[0].type = #textArea
-* item[=].linkId = "__S37-form-fields-1nhurf7a3d8"
-* item[=].text = "<p>HEADER</p>"
-* item[=].definition = "https://science37.com/NG/widget/id/richText/version/2.3"
+* item[0].type = #image
+* item[=].linkId = "isdfu9s0df8us8dfy"
+* item[=].text = "Describe your current mood."
+* item[=].definition = "https://science37.com/NG/widget/id/text/version/2.3"
 * item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"
-* item[=].extension[ItemSettings].extension[OID].valueString = "TEXT_AREA-OID"
-* item[=].extension[ItemSettings].extension[title].valueString = "TEXT_AREA_TITLE"
-* item[=].extension[ItemSettings].extension[label].valueString = "<p style=\"text-align:left;\"><strong>TEXT_AREA_LABEL</strong></p>"
-* item[=].extension[ItemSettings].extension[variableName].valueString = "NOT Assigned by DD"
-* item[=].extension[ItemSettings].extension[standardVariable].valueString = "TEXT_AREA_STD_VAR"
-* item[=].extension[ItemSettings].extension[fieldCode].valueString = "NOT Assigned by DD"
-* item[=].extension[ItemSettings].extension[description].valueString = "TEXT_AREA_DESC"
+* item[=].extension[ItemSettings].extension[OID].valueString = "OID field Object ID"
+* item[=].extension[ItemSettings].extension[title].valueString = "The Item Title"
+* item[=].extension[ItemSettings].extension[label].valueString = "The Item lable"
+* item[=].extension[ItemSettings].extension[variableName].valueString = "The Item variableName"
+* item[=].extension[ItemSettings].extension[standardVariable].valueString = "The standardVariable"
+* item[=].extension[ItemSettings].extension[fieldCode].valueString = "The fieldCode"
+* item[=].extension[ItemSettings].extension[description].valueString = "The description"
 * item[=].required = true
+* item[=].extension[ItemSettings].extension[maxLength].valueInteger = 22
+* item[=].initial.valueString = " Replacement for defaultPlaceholder"

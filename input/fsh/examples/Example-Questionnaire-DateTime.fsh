@@ -1,0 +1,48 @@
+Instance: Questionnaire-Item-Extension-Example-DateTime
+InstanceOf: QuestionnaireS37
+Title: "Example : Questionnaire.Item-Image"
+Description: "Example : Questionnaire.Item-Image"
+Usage: #example
+/* Form Level Information */
+* meta.versionId = "1.0.0-S37"
+* status = #draft
+* title = "Example : Questionnaire.Item Image"
+* name = "Example : Questionnaire.Item Image"
+* subjectType = #Patient
+* identifier.value = "Form ID"
+* extension[FormSettings].extension[type].valueString = "formType"
+* extension[FormSettings].extension[subStatus].valueString = "Deleted Status"
+* extension[FormSettings].extension[controlSchemaVersion].valueString = "2.1.9"
+* extension[FormSettings].extension[OID].valueString = "FORM OID"
+* extension[FormSettings].extension[standardVariable].valueString = "FORM Standard Variable"
+* extension[FormSettings].extension[title].valueString = "Form Title"
+* extension[FormSettings].extension[label].valueString = "Form Label"
+* extension[FormSettings].extension[buildLanguage].valueString = "US_English"
+* extension[FormSettings].extension[excludeFromDataExport].valueBoolean = true
+* extension[FormSettings].extension[requireEditReason].valueBoolean = true
+* extension[FormSettings].extension[requireDataReview].valueBoolean = true
+* extension[FormSettings].extension[createdAt].valueDateTime = "2015-02-07T13:28:17Z"
+* extension[FormSettings].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"
+/* Item  Level Information */
+* item[0].type = #dateTime
+* item[=].linkId = "__S37-form-fields-qo3cyvy8fgh"
+* item[=].text = "Describe your current mood."
+* item[=].definition = "https://science37.com/NG/widget/id/text/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"
+* item[=].extension[ItemSettings].extension[OID].valueString = "DATE_TIME_OID"
+* item[=].extension[ItemSettings].extension[title].valueString = "DATE_TIME_TITLE"
+* item[=].extension[ItemSettings].extension[label].valueString = "<p style=\"text-align:left;\"><strong>DATE_TIME_LABEL</strong></p>"
+* item[=].extension[ItemSettings].extension[variableName].valueString = "The Item variableName"
+* item[=].extension[ItemSettings].extension[standardVariable].valueString = "DATE_TIME_STD_VAR"
+* item[=].extension[ItemSettings].extension[fieldCode].valueString = "The fieldCode"
+* item[=].extension[ItemSettings].extension[description].valueString = "DATE_TIME_DESC"
+* item[=].required = true
+* item[=].extension[ItemSettings].extension[maxLength].valueInteger = 22
+* item[=].extension[maxValue].valueDateTime = "2020-11-14T16:39:40-05:00"
+* item[=].extension[minValue].valueDateTime = "2000-11-14T16:39:40-05:00"
+* item[=].initial.valueString = " Replacement for defaultPlaceholder"
+* item[=].extension[ItemSettings].extension[completionPeriodOfTime].valueString = "hr"
+* item[=].extension[ItemSettings].extension[completionNoOfHours].valueInteger = 22
+* item[=].extension[ItemSettings].extension[completionNoOfDays].valueInteger = 2
+* item[=].extension[ItemSettings].extension[completionNoOfMonths].valueInteger = 1
+* item[=].extension[ItemSettings].extension[completionShouldOccur].valueBoolean = true

@@ -39,7 +39,7 @@ Usage: #example
 * item[=].extension[ItemSettings].extension[OID].valueString = "FOID field Object ID"
 * item[=].extension[ItemSettings].extension[dateTimeOptions].valueString = "Date Time Options"
 * item[=].extension[ItemSettings].extension[captureTimeonSubmit].valueBoolean = true
-* item[=].extension[ItemSettings].extension[completionPeriodOfTime].valueBoolean = true
+* item[=].extension[ItemSettings].extension[completionPeriodOfTime].valueString = "hr"
 * item[=].extension[ItemSettings].extension[completionNoOfHours].valueInteger = 2
 * item[=].extension[ItemSettings].extension[completionNoOfMonths].valueInteger = 1
 * item[=].extension[ItemSettings].extension[completionShouldOccur].valueBoolean = false

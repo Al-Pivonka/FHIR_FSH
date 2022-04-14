@@ -65,6 +65,22 @@
       },
       {
         "reference": {
+          "reference": "Questionnaire/Questionnaire-Item-Extension-Example-DateTime"
+        },
+        "name": "Example : Questionnaire.Item-Image",
+        "description": "Example : Questionnaire.Item-Image",
+        "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
+      },
+      {
+        "reference": {
+          "reference": "Questionnaire/Questionnaire-Item-Extension-Example-Image"
+        },
+        "name": "Example : Questionnaire.Item-Image",
+        "description": "Example : Questionnaire.Item-Image",
+        "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
+      },
+      {
+        "reference": {
           "reference": "Questionnaire/Questionnaire-Item-Extension-Example-RichText"
         },
         "name": "Example : Questionnaire.Item-RichText",

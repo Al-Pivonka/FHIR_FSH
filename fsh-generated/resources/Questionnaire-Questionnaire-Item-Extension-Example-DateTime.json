@@ -1,6 +1,6 @@
 {
   "resourceType": "Questionnaire",
-  "id": "Questionnaire-Item-Extension-Example-TextArea",
+  "id": "Questionnaire-Item-Extension-Example-DateTime",
   "meta": {
     "versionId": "1.0.0-S37",
     "profile": [
@@ -77,46 +77,83 @@
             },
             {
               "url": "OID",
-              "valueString": "TEXT_AREA-OID"
+              "valueString": "DATE_TIME_OID"
             },
             {
               "url": "title",
-              "valueString": "TEXT_AREA_TITLE"
+              "valueString": "DATE_TIME_TITLE"
             },
             {
               "url": "label",
-              "valueString": "<p style=\"text-align:left;\"><strong>TEXT_AREA_LABEL</strong></p>"
+              "valueString": "<p style=\"text-align:left;\"><strong>DATE_TIME_LABEL</strong></p>"
             },
             {
               "url": "variableName",
-              "valueString": "NOT Assigned by DD"
+              "valueString": "The Item variableName"
             },
             {
               "url": "standardVariable",
-              "valueString": "TEXT_AREA_STD_VAR"
+              "valueString": "DATE_TIME_STD_VAR"
             },
             {
               "url": "fieldCode",
-              "valueString": "NOT Assigned by DD"
+              "valueString": "The fieldCode"
             },
             {
               "url": "description",
-              "valueString": "TEXT_AREA_DESC"
+              "valueString": "DATE_TIME_DESC"
+            },
+            {
+              "url": "maxLength",
+              "valueInteger": 22
+            },
+            {
+              "url": "completionPeriodOfTime",
+              "valueString": "hr"
+            },
+            {
+              "url": "completionNoOfHours",
+              "valueInteger": 22
+            },
+            {
+              "url": "completionNoOfDays",
+              "valueInteger": 2
+            },
+            {
+              "url": "completionNoOfMonths",
+              "valueInteger": 1
+            },
+            {
+              "url": "completionShouldOccur",
+              "valueBoolean": true
             }
           ],
           "url": "http://science37.com/StructureDefinition/item-settings"
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+          "valueDateTime": "2020-11-14T16:39:40-05:00"
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/minValue",
+          "valueDateTime": "2000-11-14T16:39:40-05:00"
         }
       ],
-      "type": "textArea",
-      "linkId": "__S37-form-fields-1nhurf7a3d8",
-      "text": "<p>HEADER</p>",
-      "definition": "https://science37.com/NG/widget/id/richText/version/2.3",
-      "required": true
+      "type": "dateTime",
+      "linkId": "__S37-form-fields-qo3cyvy8fgh",
+      "text": "Describe your current mood.",
+      "definition": "https://science37.com/NG/widget/id/text/version/2.3",
+      "required": true,
+      "initial": [
+        {
+          "valueString": " Replacement for defaultPlaceholder"
+        }
+      ]
     }
   ],
   "status": "draft",
-  "title": "Example : Questionnaire.Item TextArea",
-  "name": "Example : Questionnaire.Item TextArea",
+  "title": "Example : Questionnaire.Item Image",
+  "name": "Example : Questionnaire.Item Image",
   "subjectType": [
     "Patient"
   ],

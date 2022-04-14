@@ -113,7 +113,7 @@
             },
             {
               "url": "completionPeriodOfTime",
-              "valueBoolean": true
+              "valueString": "hr"
             },
             {
               "url": "completionNoOfHours",

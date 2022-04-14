@@ -66,7 +66,7 @@ Description:     "Extension : Questionnaire.item.settings "
 * extension[captureTimeonSubmit] ^short = "captureTimeonSubmit"
 * extension[captureTimeonSubmit].value[x] only boolean
 * extension[completionPeriodOfTime] ^short = "completionPeriodOfTime"
-* extension[completionPeriodOfTime].value[x] only boolean
+* extension[completionPeriodOfTime].value[x] only string
 * extension[completionNoOfHours] ^short = "completionNoOfHours"
 * extension[completionNoOfHours].value[x] only integer
 * extension[completionNoOfDays] ^short = "completionNoOfDays"
