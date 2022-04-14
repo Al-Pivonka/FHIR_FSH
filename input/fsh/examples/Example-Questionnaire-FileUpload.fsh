@@ -25,18 +25,16 @@ Usage: #example
 * extension[FormSettings].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"
 /* Item  Level Information */
 * item[0].type = #attachment
-* item[=].extension[ItemSettings].extension[subType].valueString = "Image"
-* item[=].linkId = "isdfu9s0df8us8dfy"
+* item[=].extension[ItemSettings].extension[subType].valueString = "FileUpload"
+* item[=].linkId = "__S37-form-fields-q6zbrgullmr"
 * item[=].text = "Describe your current mood."
 * item[=].definition = "https://science37.com/NG/widget/id/text/version/2.3"
 * item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"
-* item[=].extension[ItemSettings].extension[OID].valueString = "OID field Object ID"
-* item[=].extension[ItemSettings].extension[title].valueString = "The Item Title"
-* item[=].extension[ItemSettings].extension[label].valueString = "The Item lable"
-* item[=].extension[ItemSettings].extension[variableName].valueString = "The Item variableName"
-* item[=].extension[ItemSettings].extension[standardVariable].valueString = "The standardVariable"
-* item[=].extension[ItemSettings].extension[fieldCode].valueString = "The fieldCode"
-* item[=].extension[ItemSettings].extension[description].valueString = "The description"
+* item[=].extension[ItemSettings].extension[OID].valueString = "FILE_UPLOAD_OID"
+* item[=].extension[ItemSettings].extension[title].valueString = "FILE_UPLOAD_TITLE"
+* item[=].extension[ItemSettings].extension[label].valueString = "<p style=\"text-align:left;\"><strong>FILE_UPLOAD_LABEL</strong></p>"
+* item[=].extension[ItemSettings].extension[variableName].valueString = "Not Assigned by DD"
+* item[=].extension[ItemSettings].extension[standardVariable].valueString = "FILE_UPLOAD_STD_VAR"
+* item[=].extension[ItemSettings].extension[fieldCode].valueString = "Not Assigned by DD"
+* item[=].extension[ItemSettings].extension[description].valueString = "FILE_UPLOAD_DESC"
 * item[=].required = true
-* item[=].extension[ItemSettings].extension[maxLength].valueInteger = 22
-* item[=].initial.valueString = " Replacement for defaultPlaceholder"
