@@ -27,7 +27,7 @@ Usage: #example
 * item[0].type = #attachment
 * item[=].extension[ItemSettings].extension[subType].valueString = "Image"
 * item[=].linkId = "isdfu9s0df8us8dfy"
-* item[=].text = "Describe your current mood."
+* item[=].text = "Item Text Value"
 * item[=].definition = "https://science37.com/NG/widget/id/text/version/2.3"
 * item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"
 * item[=].extension[ItemSettings].extension[OID].valueString = "OID field Object ID"

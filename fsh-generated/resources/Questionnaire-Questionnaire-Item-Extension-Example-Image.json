@@ -117,7 +117,7 @@
       ],
       "type": "attachment",
       "linkId": "isdfu9s0df8us8dfy",
-      "text": "Describe your current mood.",
+      "text": "Item Text Value",
       "definition": "https://science37.com/NG/widget/id/text/version/2.3",
       "required": true,
       "initial": [

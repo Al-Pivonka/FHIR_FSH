@@ -10,7 +10,7 @@ Usage: #example
 * name = "Example : Questionnaire.Item FileUpload"
 * subjectType = #Patient
 * identifier.value = "Form ID"
-* extension[FormSettings].extension[type].valueString = "formType"
+/* extension[FormSettings].extension[type].valueString = "formType"
 * extension[FormSettings].extension[subStatus].valueString = "Deleted Status"
 * extension[FormSettings].extension[controlSchemaVersion].valueString = "2.1.9"
 * extension[FormSettings].extension[OID].valueString = "FORM OID"
@@ -22,17 +22,16 @@ Usage: #example
 * extension[FormSettings].extension[requireEditReason].valueBoolean = true
 * extension[FormSettings].extension[requireDataReview].valueBoolean = true
 * extension[FormSettings].extension[createdAt].valueDateTime = "2015-02-07T13:28:17Z"
-* extension[FormSettings].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"
+* extension[FormSettings].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z" */
 /* Item  Level Information */
 * item[0].type = #attachment
 * item[=].extension[ItemSettings].extension[subType].valueString = "FileUpload"
 * item[=].linkId = "__S37-form-fields-q6zbrgullmr"
-* item[=].text = "Describe your current mood."
+* item[=].text = "<p style=\"text-align:left;\"><strong>FILE_UPLOAD_LABEL</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/text/version/2.3"
 * item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"
 * item[=].extension[ItemSettings].extension[OID].valueString = "FILE_UPLOAD_OID"
 * item[=].extension[ItemSettings].extension[title].valueString = "FILE_UPLOAD_TITLE"
-* item[=].extension[ItemSettings].extension[label].valueString = "<p style=\"text-align:left;\"><strong>FILE_UPLOAD_LABEL</strong></p>"
 * item[=].extension[ItemSettings].extension[variableName].valueString = "Not Assigned by DD"
 * item[=].extension[ItemSettings].extension[standardVariable].valueString = "FILE_UPLOAD_STD_VAR"
 * item[=].extension[ItemSettings].extension[fieldCode].valueString = "Not Assigned by DD"

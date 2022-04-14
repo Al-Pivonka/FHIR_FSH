@@ -57,6 +57,14 @@
       },
       {
         "reference": {
+          "reference": "Questionnaire/Questionnaire-Extension-Example"
+        },
+        "name": "Example : Questionnaire",
+        "description": "Example : Questionnaire",
+        "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
+      },
+      {
+        "reference": {
           "reference": "Questionnaire/Questionnaire-Item-Extension-Example-All-SingleItem"
         },
         "name": "Example : Questionnaire.Item-All-SingleItem",

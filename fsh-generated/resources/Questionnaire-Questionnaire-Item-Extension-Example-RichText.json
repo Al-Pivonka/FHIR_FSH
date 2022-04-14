@@ -7,65 +7,6 @@
       "http://science37.com/StructureDefinition/questionnaire-s37"
     ]
   },
-  "extension": [
-    {
-      "extension": [
-        {
-          "url": "type",
-          "valueString": "formType"
-        },
-        {
-          "url": "buildLanguage",
-          "valueString": "US_English"
-        },
-        {
-          "url": "excludeFromDataExport",
-          "valueBoolean": true
-        },
-        {
-          "url": "requireDataReview",
-          "valueBoolean": true
-        },
-        {
-          "url": "requireEditReason",
-          "valueBoolean": true
-        },
-        {
-          "url": "subStatus",
-          "valueString": "Deleted Status"
-        },
-        {
-          "url": "controlSchemaVersion",
-          "valueString": "2.1.9"
-        },
-        {
-          "url": "OID",
-          "valueString": "FORM OID"
-        },
-        {
-          "url": "standardVariable",
-          "valueString": "FORM Standard Variable"
-        },
-        {
-          "url": "title",
-          "valueString": "Form Title"
-        },
-        {
-          "url": "label",
-          "valueString": "Form Label"
-        },
-        {
-          "url": "createdAt",
-          "valueDateTime": "2015-02-07T13:28:17Z"
-        },
-        {
-          "url": "updatedAt",
-          "valueDateTime": "2022-01-01T10:08:10Z"
-        }
-      ],
-      "url": "http://science37.com/StructureDefinition/form-settings"
-    }
-  ],
   "item": [
     {
       "item": [
@@ -88,10 +29,6 @@
                 {
                   "url": "title",
                   "valueString": "FOOTER_TITLE"
-                },
-                {
-                  "url": "label",
-                  "valueString": "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>"
                 },
                 {
                   "url": "variableName",
@@ -119,7 +56,7 @@
           ],
           "type": "text",
           "linkId": "__S37-form-fields-fe09fa6eto2",
-          "text": "<p>HEADER</p>",
+          "text": "<p style=\"text-align:left;\"><strong>Rich Text Area data</strong></p>",
           "definition": "https://science37.com/NG/widget/id/richText/version/2.3",
           "required": true
         }
