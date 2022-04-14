@@ -33,6 +33,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/datetime-item"
+        },
+        "name": "Extension : DateTimeItem Settings ",
+        "description": "Extension : Questionnaire.item.DateTimeItem ",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/form-settings"
         },
         "name": "Extension : Form Settings ",
@@ -57,18 +65,18 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/vasScale-item"
+        },
+        "name": "Extension : VASScaleItem Settings ",
+        "description": "Extension : Questionnaire.item.VASScaleItem ",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "Questionnaire/Questionnaire-Extension-Example"
         },
         "name": "Example : Questionnaire",
         "description": "Example : Questionnaire",
-        "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
-      },
-      {
-        "reference": {
-          "reference": "Questionnaire/Questionnaire-Item-Extension-Example-All-SingleItem"
-        },
-        "name": "Example : Questionnaire.Item-All-SingleItem",
-        "description": "Example : Questionnaire.Item-All-SingleItem",
         "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
       },
       {

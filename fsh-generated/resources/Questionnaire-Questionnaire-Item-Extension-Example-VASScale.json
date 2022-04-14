@@ -105,7 +105,7 @@
               "valueString": "vasTenPointIncrement"
             }
           ],
-          "url": "http://science37.com/StructureDefinition/item-settings"
+          "url": "http://science37.com/StructureDefinition/vasScale-item"
         },
         {
           "url": "http://hl7.org/fhir/StructureDefinition/minValue",

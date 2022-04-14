@@ -38,5 +38,5 @@ Usage: #example
 * item[=].extension[ItemSettings].extension[fieldCode].valueString = "The fieldCode"
 * item[=].extension[ItemSettings].extension[description].valueString = "The description"
 * item[=].required = true
-* item[=].extension[ItemSettings].extension[maxLength].valueInteger = 22
+* item[=].maxLength = 22
 * item[=].initial.valueString = " Replacement for defaultPlaceholder"

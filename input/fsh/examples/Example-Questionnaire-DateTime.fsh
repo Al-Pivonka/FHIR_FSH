@@ -3,7 +3,6 @@ InstanceOf: QuestionnaireS37
 Title: "Example : Questionnaire.Item-Image"
 Description: "Example : Questionnaire.Item-Image"
 Usage: #example
-/* Form Level Information */
 * meta.versionId = "1.0.0-S37"
 * status = #draft
 * title = "Example : Questionnaire.Item Image"
@@ -28,20 +27,20 @@ Usage: #example
 * item[=].linkId = "__S37-form-fields-qo3cyvy8fgh"
 * item[=].text = "<p style=\"text-align:left;\"><strong>DATE_TIME_LABEL</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/text/version/2.3"
-* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"
-* item[=].extension[ItemSettings].extension[OID].valueString = "DATE_TIME_OID"
-* item[=].extension[ItemSettings].extension[title].valueString = "DATE_TIME_TITLE"
-* item[=].extension[ItemSettings].extension[variableName].valueString = "The Item variableName"
-* item[=].extension[ItemSettings].extension[standardVariable].valueString = "DATE_TIME_STD_VAR"
-* item[=].extension[ItemSettings].extension[fieldCode].valueString = "The fieldCode"
-* item[=].extension[ItemSettings].extension[description].valueString = "DATE_TIME_DESC"
+* item[=].extension[DateTimeItem].extension[version].valueId = "1.0.1-ItemVersion"
+* item[=].extension[DateTimeItem].extension[OID].valueString = "DATE_TIME_OID"
+* item[=].extension[DateTimeItem].extension[title].valueString = "DATE_TIME_TITLE"
+* item[=].extension[DateTimeItem].extension[variableName].valueString = "The Item variableName"
+* item[=].extension[DateTimeItem].extension[standardVariable].valueString = "DATE_TIME_STD_VAR"
+* item[=].extension[DateTimeItem].extension[fieldCode].valueString = "The fieldCode"
+* item[=].extension[DateTimeItem].extension[description].valueString = "DATE_TIME_DESC"
 * item[=].required = true
-* item[=].extension[ItemSettings].extension[maxLength].valueInteger = 22
+* item[=].maxLength = 22
 * item[=].extension[maxValue].valueDateTime = "2020-11-14T16:39:40-05:00"
 * item[=].extension[minValue].valueDateTime = "2000-11-14T16:39:40-05:00"
 * item[=].initial.valueString = " Replacement for defaultPlaceholder"
-* item[=].extension[ItemSettings].extension[completionPeriodOfTime].valueString = "hr"
-* item[=].extension[ItemSettings].extension[completionNoOfHours].valueInteger = 22
-* item[=].extension[ItemSettings].extension[completionNoOfDays].valueInteger = 2
-* item[=].extension[ItemSettings].extension[completionNoOfMonths].valueInteger = 1
-* item[=].extension[ItemSettings].extension[completionShouldOccur].valueBoolean = true
+* item[=].extension[DateTimeItem].extension[completionPeriodOfTime].valueString = "hr"
+* item[=].extension[DateTimeItem].extension[completionNoOfHours].valueInteger = 22
+* item[=].extension[DateTimeItem].extension[completionNoOfDays].valueInteger = 2
+* item[=].extension[DateTimeItem].extension[completionNoOfMonths].valueInteger = 1
+* item[=].extension[DateTimeItem].extension[completionShouldOccur].valueBoolean = true

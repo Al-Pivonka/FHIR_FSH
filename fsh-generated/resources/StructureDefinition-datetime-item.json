@@ -1,0 +1,179 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "datetime-item",
+  "url": "http://science37.com/StructureDefinition/datetime-item",
+  "version": "1.0.0-S37",
+  "name": "DateTimeItem",
+  "title": "Extension : DateTimeItem Settings ",
+  "status": "active",
+  "description": "Extension : Questionnaire.item.DateTimeItem ",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Questionnaire.item"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://science37.com/StructureDefinition/item-settings",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Extension : DateTimeItem Settings ",
+        "definition": "Extension : Questionnaire.item.DateTimeItem "
+      },
+      {
+        "id": "Extension.extension:completionPeriodOfTime",
+        "path": "Extension.extension",
+        "sliceName": "completionPeriodOfTime",
+        "short": "completionPeriodOfTime",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:completionPeriodOfTime.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:completionPeriodOfTime.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "completionPeriodOfTime"
+      },
+      {
+        "id": "Extension.extension:completionPeriodOfTime.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:completionNoOfHours",
+        "path": "Extension.extension",
+        "sliceName": "completionNoOfHours",
+        "short": "completionNoOfHours",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:completionNoOfHours.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:completionNoOfHours.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "completionNoOfHours"
+      },
+      {
+        "id": "Extension.extension:completionNoOfHours.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "integer"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:completionNoOfDays",
+        "path": "Extension.extension",
+        "sliceName": "completionNoOfDays",
+        "short": "completionNoOfDays",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:completionNoOfDays.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:completionNoOfDays.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "completionNoOfDays"
+      },
+      {
+        "id": "Extension.extension:completionNoOfDays.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "integer"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:completionNoOfMonths",
+        "path": "Extension.extension",
+        "sliceName": "completionNoOfMonths",
+        "short": "completionNoOfMonths",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:completionNoOfMonths.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:completionNoOfMonths.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "completionNoOfMonths"
+      },
+      {
+        "id": "Extension.extension:completionNoOfMonths.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "integer"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:completionShouldOccur",
+        "path": "Extension.extension",
+        "sliceName": "completionShouldOccur",
+        "short": "completionShouldOccur",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:completionShouldOccur.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:completionShouldOccur.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "completionShouldOccur"
+      },
+      {
+        "id": "Extension.extension:completionShouldOccur.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://science37.com/StructureDefinition/datetime-item"
+      }
+    ]
+  }
+}

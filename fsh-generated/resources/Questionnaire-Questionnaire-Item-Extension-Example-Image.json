@@ -47,10 +47,6 @@
             {
               "url": "description",
               "valueString": "The description"
-            },
-            {
-              "url": "maxLength",
-              "valueInteger": 22
             }
           ],
           "url": "http://science37.com/StructureDefinition/item-settings"
@@ -61,6 +57,7 @@
       "text": "Item Text Value",
       "definition": "https://science37.com/NG/widget/id/text/version/2.3",
       "required": true,
+      "maxLength": 22,
       "initial": [
         {
           "valueString": " Replacement for defaultPlaceholder"

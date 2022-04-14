@@ -42,5 +42,4 @@ Usage: #example
 * item[=].extension[ItemSettings].extension[maxValueLabel].valueString = "Max Value"
 * item[=].extension[ItemSettings].extension[naOption].valueBoolean = true
 * item[=].extension[ItemSettings].extension[naLabel].valueString = "The NA Label"
-
 * item[=].required = true
