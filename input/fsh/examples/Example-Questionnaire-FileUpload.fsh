@@ -1,13 +1,13 @@
-Instance: Questionnaire-Item-Extension-Example-Image
+Instance: Questionnaire-Item-Extension-Example-FileUpload
 InstanceOf: QuestionnaireS37
-Title: "Example : Questionnaire.Item-Image"
-Description: "Example : Questionnaire.Item-Image"
+Title: "Example : Questionnaire.Item-FileUpload"
+Description: "Example : Questionnaire.Item-FileUpload"
 Usage: #example
 /* Form Level Information */
 * meta.versionId = "1.0.0-S37"
 * status = #draft
-* title = "Example : Questionnaire.Item Image"
-* name = "Example : Questionnaire.Item Image"
+* title = "Example : Questionnaire.Item FileUpload"
+* name = "Example : Questionnaire.Item FileUpload"
 * subjectType = #Patient
 * identifier.value = "Form ID"
 * extension[FormSettings].extension[type].valueString = "formType"

@@ -1,13 +1,13 @@
-Instance: Questionnaire-Item-Extension-Example-Number
+Instance: Questionnaire-Item-Extension-Example-Number-Integer
 InstanceOf: QuestionnaireS37
-Title: "Example : Questionnaire.Item-Number"
-Description: "Example : Questionnaire.Item-Number"
+Title: "Example : Questionnaire.Item-Number-Integer"
+Description: "Example : Questionnaire.Item-Number-Integer"
 Usage: #example
 /* Form Level Information */
 * meta.versionId = "1.0.0-S37"
 * status = #draft
-* title = "Example : Questionnaire.Item Number"
-* name = "Example : Questionnaire.Item Number"
+* title = "Example : Questionnaire.Item Number-Integer"
+* name = "Example : Questionnaire.Item Number-Integer"
 * subjectType = #Patient
 * identifier.value = "Form ID"
 * extension[FormSettings].extension[type].valueString = "formType"

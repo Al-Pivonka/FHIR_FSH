@@ -1,6 +1,6 @@
 {
   "resourceType": "Questionnaire",
-  "id": "Questionnaire-Item-Extension-Example-Image",
+  "id": "Questionnaire-Item-Extension-Example-FileUpload",
   "meta": {
     "versionId": "1.0.0-S37",
     "profile": [
@@ -73,7 +73,7 @@
           "extension": [
             {
               "url": "subType",
-              "valueString": "Image"
+              "valueString": "FileUpload"
             },
             {
               "url": "version",
@@ -81,55 +81,46 @@
             },
             {
               "url": "OID",
-              "valueString": "OID field Object ID"
+              "valueString": "FILE_UPLOAD_OID"
             },
             {
               "url": "title",
-              "valueString": "The Item Title"
+              "valueString": "FILE_UPLOAD_TITLE"
             },
             {
               "url": "label",
-              "valueString": "The Item lable"
+              "valueString": "<p style=\"text-align:left;\"><strong>FILE_UPLOAD_LABEL</strong></p>"
             },
             {
               "url": "variableName",
-              "valueString": "The Item variableName"
+              "valueString": "Not Assigned by DD"
             },
             {
               "url": "standardVariable",
-              "valueString": "The standardVariable"
+              "valueString": "FILE_UPLOAD_STD_VAR"
             },
             {
               "url": "fieldCode",
-              "valueString": "The fieldCode"
+              "valueString": "Not Assigned by DD"
             },
             {
               "url": "description",
-              "valueString": "The description"
-            },
-            {
-              "url": "maxLength",
-              "valueInteger": 22
+              "valueString": "FILE_UPLOAD_DESC"
             }
           ],
           "url": "http://science37.com/StructureDefinition/item-settings"
         }
       ],
       "type": "attachment",
-      "linkId": "isdfu9s0df8us8dfy",
+      "linkId": "__S37-form-fields-q6zbrgullmr",
       "text": "Describe your current mood.",
       "definition": "https://science37.com/NG/widget/id/text/version/2.3",
-      "required": true,
-      "initial": [
-        {
-          "valueString": " Replacement for defaultPlaceholder"
-        }
-      ]
+      "required": true
     }
   ],
   "status": "draft",
-  "title": "Example : Questionnaire.Item Image",
-  "name": "Example : Questionnaire.Item Image",
+  "title": "Example : Questionnaire.Item FileUpload",
+  "name": "Example : Questionnaire.Item FileUpload",
   "subjectType": [
     "Patient"
   ],

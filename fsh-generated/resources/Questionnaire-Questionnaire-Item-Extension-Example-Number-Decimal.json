@@ -1,6 +1,6 @@
 {
   "resourceType": "Questionnaire",
-  "id": "Questionnaire-Item-Extension-Example-Image",
+  "id": "Questionnaire-Item-Extension-Example-Number-Decimal",
   "meta": {
     "versionId": "1.0.0-S37",
     "profile": [
@@ -72,64 +72,72 @@
         {
           "extension": [
             {
-              "url": "subType",
-              "valueString": "Image"
-            },
-            {
               "url": "version",
               "valueId": "1.0.1-ItemVersion"
             },
             {
               "url": "OID",
-              "valueString": "OID field Object ID"
+              "valueString": "NUMBER_OID"
             },
             {
               "url": "title",
-              "valueString": "The Item Title"
+              "valueString": "NUMBER_TITLE"
             },
             {
               "url": "label",
-              "valueString": "The Item lable"
+              "valueString": "<p style=\"text-align:left;\"><strong>NUMBER_LABEL</strong></p>"
             },
             {
               "url": "variableName",
-              "valueString": "The Item variableName"
+              "valueString": "NOT Assigned by DD"
             },
             {
               "url": "standardVariable",
-              "valueString": "The standardVariable"
+              "valueString": "FOOTER_STD_VAR"
             },
             {
               "url": "fieldCode",
-              "valueString": "The fieldCode"
+              "valueString": "NOT Assigned by DD"
             },
             {
               "url": "description",
-              "valueString": "The description"
+              "valueString": "NUMBER_DESC"
             },
             {
-              "url": "maxLength",
-              "valueInteger": 22
+              "url": "subType",
+              "valueString": "Decimal"
+            },
+            {
+              "url": "scale",
+              "valueInteger": 3
             }
           ],
           "url": "http://science37.com/StructureDefinition/item-settings"
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/minValue",
+          "valueDecimal": 0.002
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+          "valueDecimal": 10.002
         }
       ],
-      "type": "attachment",
-      "linkId": "isdfu9s0df8us8dfy",
-      "text": "Describe your current mood.",
-      "definition": "https://science37.com/NG/widget/id/text/version/2.3",
-      "required": true,
+      "type": "decimal",
+      "linkId": "__S37-form-fields-jntlfakzc05",
+      "text": "<p>HEADER</p>",
+      "definition": "https://science37.com/NG/widget/id/richText/version/2.3",
       "initial": [
         {
-          "valueString": " Replacement for defaultPlaceholder"
+          "valueDecimal": 1.01
         }
-      ]
+      ],
+      "required": true
     }
   ],
   "status": "draft",
-  "title": "Example : Questionnaire.Item Image",
-  "name": "Example : Questionnaire.Item Image",
+  "title": "Example : Questionnaire.Item Number-Decimal",
+  "name": "Example : Questionnaire.Item Number-Decimal",
   "subjectType": [
     "Patient"
   ],

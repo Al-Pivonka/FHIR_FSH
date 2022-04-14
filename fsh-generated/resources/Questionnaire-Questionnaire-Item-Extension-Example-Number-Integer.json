@@ -1,6 +1,6 @@
 {
   "resourceType": "Questionnaire",
-  "id": "Questionnaire-Item-Extension-Example-Number",
+  "id": "Questionnaire-Item-Extension-Example-Number-Integer",
   "meta": {
     "versionId": "1.0.0-S37",
     "profile": [
@@ -106,38 +106,34 @@
             {
               "url": "subType",
               "valueString": "Decimal"
-            },
-            {
-              "url": "scale",
-              "valueInteger": 3
             }
           ],
           "url": "http://science37.com/StructureDefinition/item-settings"
         },
         {
           "url": "http://hl7.org/fhir/StructureDefinition/minValue",
-          "valueDecimal": 0.002
+          "valueInteger": 10
         },
         {
           "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
-          "valueDecimal": 10.002
+          "valueInteger": 500
         }
       ],
-      "type": "number",
+      "type": "integer",
       "linkId": "__S37-form-fields-jntlfakzc05",
       "text": "<p>HEADER</p>",
       "definition": "https://science37.com/NG/widget/id/richText/version/2.3",
       "initial": [
         {
-          "valueDecimal": 1.01
+          "valueInteger": 10
         }
       ],
       "required": true
     }
   ],
   "status": "draft",
-  "title": "Example : Questionnaire.Item Number",
-  "name": "Example : Questionnaire.Item Number",
+  "title": "Example : Questionnaire.Item Number-Integer",
+  "name": "Example : Questionnaire.Item Number-Integer",
   "subjectType": [
     "Patient"
   ],

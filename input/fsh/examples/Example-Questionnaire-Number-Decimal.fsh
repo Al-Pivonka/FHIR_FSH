@@ -1,13 +1,13 @@
-Instance: Questionnaire-Item-Extension-Example-Number
+Instance: Questionnaire-Item-Extension-Example-Number-Decimal
 InstanceOf: QuestionnaireS37
-Title: "Example : Questionnaire.Item-Number"
-Description: "Example : Questionnaire.Item-Number"
+Title: "Example : Questionnaire.Item-Number-Decimal"
+Description: "Example : Questionnaire.Item-Number-Decimal"
 Usage: #example
 /* Form Level Information */
 * meta.versionId = "1.0.0-S37"
 * status = #draft
-* title = "Example : Questionnaire.Item Number"
-* name = "Example : Questionnaire.Item Number"
+* title = "Example : Questionnaire.Item Number-Decimal"
+* name = "Example : Questionnaire.Item Number-Decimal"
 * subjectType = #Patient
 * identifier.value = "Form ID"
 * extension[FormSettings].extension[type].valueString = "formType"
@@ -24,7 +24,7 @@ Usage: #example
 * extension[FormSettings].extension[createdAt].valueDateTime = "2015-02-07T13:28:17Z"
 * extension[FormSettings].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"
 /* Item  Level Information */
-* item[0].type = #number
+* item[0].type = #decimal
 * item[=].linkId = "__S37-form-fields-jntlfakzc05"
 * item[=].text = "<p>HEADER</p>"
 * item[=].definition = "https://science37.com/NG/widget/id/richText/version/2.3"
