@@ -28,7 +28,7 @@ Usage: #example
 * item[=].linkId = "__S37-form-fields-h0ae575xlf8"
 * item[=].extension[VASScaleItem].extension[subType].valueString = "VASScale"
 * item[=].text =  "<p style=\"text-align:left;\"><strong>Please tap on the scale to indicate how your health is TODAY</strong></p>"
-* item[=].definition = "https://science37.com/NG/widget/id/richText/version/2.3"
+* item[=].definition = "https://science37.com/NG/widget/id/vasscale/version/2.3"
 * item[=].extension[VASScaleItem].extension[version].valueId = "1.0.1-ItemVersion"
 * item[=].extension[VASScaleItem].extension[OID].valueString = "VAS_OID"
 * item[=].extension[VASScaleItem].extension[title].valueString = "VAS_TITLE"

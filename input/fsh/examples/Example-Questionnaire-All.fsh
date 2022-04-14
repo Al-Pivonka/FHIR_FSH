@@ -166,7 +166,7 @@ Usage: #example
 /* Text Area */
 * item[8].type = #question
 * item[=].linkId = "__S37-form-fields-1nhurf723d8"
-* item[0].item[0].type = #text
+* item[=].item[0].type = #text
 * item[=].item[=].extension[ItemSettings].extension[subType].valueString = "TextArea"
 * item[=].item[=].linkId = "__S37-form-fields-1nhurf7a3d8"
 * item[=].item[=].text =  "<p style=\"text-align:left;\"><strong>TEXT_AREA_LABEL</strong></p>"

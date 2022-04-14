@@ -27,7 +27,7 @@ Usage: #example
 * item[0].type = #integer
 * item[=].linkId = "__S37-form-fields-jntlfakzc05"
 * item[=].text = "<p style=\"text-align:left;\"><strong>NUMBER_LABEL</strong></p>"
-* item[=].definition = "https://science37.com/NG/widget/id/richText/version/2.3"
+* item[=].definition = "https://science37.com/NG/widget/id/number/version/2.3"
 * item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"
 * item[=].extension[ItemSettings].extension[OID].valueString = "NUMBER_OID"
 * item[=].extension[ItemSettings].extension[title].valueString = "NUMBER_TITLE"

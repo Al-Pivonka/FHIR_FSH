@@ -26,7 +26,7 @@ Usage: #example
 * item[0].type = #dateTime
 * item[=].linkId = "__S37-form-fields-qo3cyvy8fgh"
 * item[=].text = "<p style=\"text-align:left;\"><strong>DATE_TIME_LABEL</strong></p>"
-* item[=].definition = "https://science37.com/NG/widget/id/text/version/2.3"
+* item[=].definition = "https://science37.com/NG/widget/id/datetime/version/2.3"
 * item[=].extension[DateTimeItem].extension[version].valueId = "1.0.1-ItemVersion"
 * item[=].extension[DateTimeItem].extension[OID].valueString = "DATE_TIME_OID"
 * item[=].extension[DateTimeItem].extension[title].valueString = "DATE_TIME_TITLE"

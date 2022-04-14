@@ -30,7 +30,7 @@ Usage: #example
 * item[=].item[=].extension[ItemSettings].extension[subType].valueString = "TextArea"
 * item[=].item[=].linkId = "__S37-form-fields-1nhurf7a3d8"
 * item[=].item[=].text =  "<p style=\"text-align:left;\"><strong>TEXT_AREA_LABEL</strong></p>"
-* item[=].item[=].definition = "https://science37.com/NG/widget/id/richText/version/2.3"
+* item[=].item[=].definition = "https://science37.com/NG/widget/id/textarea/version/2.3"
 * item[=].item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"
 * item[=].item[=].extension[ItemSettings].extension[OID].valueString = "TEXT_AREA-OID"
 * item[=].item[=].extension[ItemSettings].extension[title].valueString = "TEXT_AREA_TITLE"
