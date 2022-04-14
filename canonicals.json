@@ -14,6 +14,13 @@
     "name": "Example : Questionnaire"
   },
   {
+    "id": "Questionnaire-Item-Extension-Example-All-SingleItem",
+    "type": "Questionnaire",
+    "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-All-SingleItem",
+    "version": "1.0.0-S37",
+    "name": "Example : Questionnaire.Item"
+  },
+  {
     "id": "Questionnaire-Item-Extension-Example-DateTime",
     "type": "Questionnaire",
     "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-DateTime",
