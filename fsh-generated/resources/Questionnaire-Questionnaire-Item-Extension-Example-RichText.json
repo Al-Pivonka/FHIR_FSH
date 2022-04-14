@@ -68,6 +68,10 @@
   ],
   "item": [
     {
+      "type": "display",
+      "linkId": "__S37-form-fields-fe09fa6eto33"
+    },
+    {
       "extension": [
         {
           "extension": [
@@ -115,7 +119,7 @@
           "url": "http://science37.com/StructureDefinition/item-settings"
         }
       ],
-      "type": "display",
+      "type": "text",
       "linkId": "__S37-form-fields-fe09fa6eto2",
       "text": "<p>HEADER</p>",
       "definition": "https://science37.com/NG/widget/id/richText/version/2.3",

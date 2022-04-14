@@ -68,9 +68,17 @@
   ],
   "item": [
     {
+      "type": "question",
+      "linkId": "__S37-form-fields-1nhurf723d8"
+    },
+    {
       "extension": [
         {
           "extension": [
+            {
+              "url": "subType",
+              "valueString": "TextArea"
+            },
             {
               "url": "version",
               "valueId": "1.0.1-ItemVersion"
@@ -109,7 +117,7 @@
       ],
       "type": "text",
       "linkId": "__S37-form-fields-1nhurf7a3d8",
-      "text": "<p>HEADER</p>",
+      "text": "<p>This is the textArea information or DD entry data</p>",
       "definition": "https://science37.com/NG/widget/id/richText/version/2.3",
       "required": true
     }

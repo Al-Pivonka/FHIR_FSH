@@ -25,6 +25,8 @@ Usage: #example
 * extension[FormSettings].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"
 /* Item  Level Information */
 * item[0].type = #display
+* item[=].linkId = "__S37-form-fields-fe09fa6eto33"
+* item[+].type = #text
 * item[=].extension[ItemSettings].extension[subType].valueString = "RichText"
 * item[=].linkId = "__S37-form-fields-fe09fa6eto2"
 * item[=].text = "<p>HEADER</p>"

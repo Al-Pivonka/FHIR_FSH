@@ -24,12 +24,12 @@ Usage: #example
 * extension[FormSettings].extension[createdAt].valueDateTime = "2015-02-07T13:28:17Z"
 * extension[FormSettings].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"
 /* Item  Level Information */
-* item[0].type = #display
+* item[0].type = #question
 * item[=].linkId = "__S37-form-fields-1nhurf723d8"
-* item[0].type = #text
-* item[=].extension[ItemSettings].extension[subtype].valueString = "TextArea"
+* item[+].type = #text
+* item[=].extension[ItemSettings].extension[subType].valueString = "TextArea"
 * item[=].linkId = "__S37-form-fields-1nhurf7a3d8"
-* item[=].text = "<p>HEADER</p>"
+* item[=].text = "<p>This is the textArea information or DD entry data</p>"
 * item[=].definition = "https://science37.com/NG/widget/id/richText/version/2.3"
 * item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"
 * item[=].extension[ItemSettings].extension[OID].valueString = "TEXT_AREA-OID"
