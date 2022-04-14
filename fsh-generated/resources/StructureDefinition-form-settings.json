@@ -24,7 +24,7 @@
     }
   ],
   "type": "Extension",
-  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "baseDefinition": "http://science37.com/StructureDefinition/settings",
   "derivation": "constraint",
   "differential": {
     "element": [
@@ -37,7 +37,7 @@
       {
         "id": "Extension.extension",
         "path": "Extension.extension",
-        "min": 9
+        "min": 5
       },
       {
         "id": "Extension.extension:type",
@@ -67,25 +67,25 @@
         ]
       },
       {
-        "id": "Extension.extension:unknownStatus",
+        "id": "Extension.extension:subStatus",
         "path": "Extension.extension",
-        "sliceName": "unknownStatus",
-        "short": "unknownStatus",
+        "sliceName": "subStatus",
+        "short": "deteted",
         "min": 0,
         "max": "1"
       },
       {
-        "id": "Extension.extension:unknownStatus.extension",
+        "id": "Extension.extension:subStatus.extension",
         "path": "Extension.extension.extension",
         "max": "0"
       },
       {
-        "id": "Extension.extension:unknownStatus.url",
+        "id": "Extension.extension:subStatus.url",
         "path": "Extension.extension.url",
-        "fixedUri": "unknownStatus"
+        "fixedUri": "subStatus"
       },
       {
-        "id": "Extension.extension:unknownStatus.value[x]",
+        "id": "Extension.extension:subStatus.value[x]",
         "path": "Extension.extension.value[x]",
         "type": [
           {
@@ -113,114 +113,6 @@
       },
       {
         "id": "Extension.extension:controlSchemaVersion.value[x]",
-        "path": "Extension.extension.value[x]",
-        "type": [
-          {
-            "code": "string"
-          }
-        ]
-      },
-      {
-        "id": "Extension.extension:OID",
-        "path": "Extension.extension",
-        "sliceName": "OID",
-        "short": "OID",
-        "min": 1,
-        "max": "1"
-      },
-      {
-        "id": "Extension.extension:OID.extension",
-        "path": "Extension.extension.extension",
-        "max": "0"
-      },
-      {
-        "id": "Extension.extension:OID.url",
-        "path": "Extension.extension.url",
-        "fixedUri": "OID"
-      },
-      {
-        "id": "Extension.extension:OID.value[x]",
-        "path": "Extension.extension.value[x]",
-        "type": [
-          {
-            "code": "string"
-          }
-        ]
-      },
-      {
-        "id": "Extension.extension:standardVariable",
-        "path": "Extension.extension",
-        "sliceName": "standardVariable",
-        "short": "standardVariable",
-        "min": 1,
-        "max": "1"
-      },
-      {
-        "id": "Extension.extension:standardVariable.extension",
-        "path": "Extension.extension.extension",
-        "max": "0"
-      },
-      {
-        "id": "Extension.extension:standardVariable.url",
-        "path": "Extension.extension.url",
-        "fixedUri": "standardVariable"
-      },
-      {
-        "id": "Extension.extension:standardVariable.value[x]",
-        "path": "Extension.extension.value[x]",
-        "type": [
-          {
-            "code": "string"
-          }
-        ]
-      },
-      {
-        "id": "Extension.extension:title",
-        "path": "Extension.extension",
-        "sliceName": "title",
-        "short": "title",
-        "min": 1,
-        "max": "1"
-      },
-      {
-        "id": "Extension.extension:title.extension",
-        "path": "Extension.extension.extension",
-        "max": "0"
-      },
-      {
-        "id": "Extension.extension:title.url",
-        "path": "Extension.extension.url",
-        "fixedUri": "title"
-      },
-      {
-        "id": "Extension.extension:title.value[x]",
-        "path": "Extension.extension.value[x]",
-        "type": [
-          {
-            "code": "string"
-          }
-        ]
-      },
-      {
-        "id": "Extension.extension:label",
-        "path": "Extension.extension",
-        "sliceName": "label",
-        "short": "title",
-        "min": 1,
-        "max": "1"
-      },
-      {
-        "id": "Extension.extension:label.extension",
-        "path": "Extension.extension.extension",
-        "max": "0"
-      },
-      {
-        "id": "Extension.extension:label.url",
-        "path": "Extension.extension.url",
-        "fixedUri": "label"
-      },
-      {
-        "id": "Extension.extension:label.value[x]",
         "path": "Extension.extension.value[x]",
         "type": [
           {
@@ -394,11 +286,6 @@
         "id": "Extension.url",
         "path": "Extension.url",
         "fixedUri": "http://science37.com/StructureDefinition/form-settings"
-      },
-      {
-        "id": "Extension.value[x]",
-        "path": "Extension.value[x]",
-        "max": "0"
       }
     ]
   }

@@ -1,0 +1,137 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "Questionnaire-Item-Extension-Example-Text",
+  "meta": {
+    "versionId": "1.0.0-S37",
+    "profile": [
+      "http://science37.com/StructureDefinition/questionnaire-s37"
+    ]
+  },
+  "extension": [
+    {
+      "extension": [
+        {
+          "url": "type",
+          "valueString": "formType"
+        },
+        {
+          "url": "buildLanguage",
+          "valueString": "US_English"
+        },
+        {
+          "url": "excludeFromDataExport",
+          "valueBoolean": true
+        },
+        {
+          "url": "requireDataReview",
+          "valueBoolean": true
+        },
+        {
+          "url": "requireEditReason",
+          "valueBoolean": true
+        },
+        {
+          "url": "subStatus",
+          "valueString": "Deleted Status"
+        },
+        {
+          "url": "controlSchemaVersion",
+          "valueString": "2.1.9"
+        },
+        {
+          "url": "OID",
+          "valueString": "FORM OID"
+        },
+        {
+          "url": "standardVariable",
+          "valueString": "FORM Standard Variable"
+        },
+        {
+          "url": "title",
+          "valueString": "Form Title"
+        },
+        {
+          "url": "label",
+          "valueString": "Form Label"
+        },
+        {
+          "url": "createdAt",
+          "valueDateTime": "2015-02-07T13:28:17Z"
+        },
+        {
+          "url": "updatedAt",
+          "valueDateTime": "2022-01-01T10:08:10Z"
+        }
+      ],
+      "url": "http://science37.com/StructureDefinition/form-settings"
+    }
+  ],
+  "item": [
+    {
+      "extension": [
+        {
+          "extension": [
+            {
+              "url": "version",
+              "valueId": "1.0.1-ItemVersion"
+            },
+            {
+              "url": "OID",
+              "valueString": "OID field Object ID"
+            },
+            {
+              "url": "title",
+              "valueString": "The Item Title"
+            },
+            {
+              "url": "label",
+              "valueString": "The Item lable"
+            },
+            {
+              "url": "variableName",
+              "valueString": "The Item variableName"
+            },
+            {
+              "url": "standardVariable",
+              "valueString": "The standardVariable"
+            },
+            {
+              "url": "fieldCode",
+              "valueString": "The fieldCode"
+            },
+            {
+              "url": "description",
+              "valueString": "The description"
+            },
+            {
+              "url": "maxLength",
+              "valueInteger": 22
+            }
+          ],
+          "url": "http://science37.com/StructureDefinition/item-settings"
+        }
+      ],
+      "type": "text",
+      "linkId": "isdfu9s0df8us8dfy",
+      "text": "Describe your current mood.",
+      "definition": "https://science37.com/NG/widget/id/text/version/2.3",
+      "required": true,
+      "initial": [
+        {
+          "valueString": " Replacement for defaultPlaceholder"
+        }
+      ]
+    }
+  ],
+  "status": "draft",
+  "title": "Example : Questionnaire.Item Text",
+  "name": "Example : Questionnaire.Item Text",
+  "subjectType": [
+    "Patient"
+  ],
+  "identifier": [
+    {
+      "value": "Form ID"
+    }
+  ]
+}

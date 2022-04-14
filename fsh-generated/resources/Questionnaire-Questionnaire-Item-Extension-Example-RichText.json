@@ -1,0 +1,132 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "Questionnaire-Item-Extension-Example-RichText",
+  "meta": {
+    "versionId": "1.0.0-S37",
+    "profile": [
+      "http://science37.com/StructureDefinition/questionnaire-s37"
+    ]
+  },
+  "extension": [
+    {
+      "extension": [
+        {
+          "url": "type",
+          "valueString": "formType"
+        },
+        {
+          "url": "buildLanguage",
+          "valueString": "US_English"
+        },
+        {
+          "url": "excludeFromDataExport",
+          "valueBoolean": true
+        },
+        {
+          "url": "requireDataReview",
+          "valueBoolean": true
+        },
+        {
+          "url": "requireEditReason",
+          "valueBoolean": true
+        },
+        {
+          "url": "subStatus",
+          "valueString": "Deleted Status"
+        },
+        {
+          "url": "controlSchemaVersion",
+          "valueString": "2.1.9"
+        },
+        {
+          "url": "OID",
+          "valueString": "FORM OID"
+        },
+        {
+          "url": "standardVariable",
+          "valueString": "FORM Standard Variable"
+        },
+        {
+          "url": "title",
+          "valueString": "Form Title"
+        },
+        {
+          "url": "label",
+          "valueString": "Form Label"
+        },
+        {
+          "url": "createdAt",
+          "valueDateTime": "2015-02-07T13:28:17Z"
+        },
+        {
+          "url": "updatedAt",
+          "valueDateTime": "2022-01-01T10:08:10Z"
+        }
+      ],
+      "url": "http://science37.com/StructureDefinition/form-settings"
+    }
+  ],
+  "item": [
+    {
+      "extension": [
+        {
+          "extension": [
+            {
+              "url": "version",
+              "valueId": "1.0.1-ItemVersion"
+            },
+            {
+              "url": "OID",
+              "valueString": "FOOTER_OID"
+            },
+            {
+              "url": "title",
+              "valueString": "FOOTER_TITLE"
+            },
+            {
+              "url": "label",
+              "valueString": "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>"
+            },
+            {
+              "url": "variableName",
+              "valueString": "NOT Assigned by DD"
+            },
+            {
+              "url": "standardVariable",
+              "valueString": "FOOTER_STD_VAR"
+            },
+            {
+              "url": "fieldCode",
+              "valueString": "NOT Assigned by DD"
+            },
+            {
+              "url": "description",
+              "valueString": "FOOTER_DESC"
+            },
+            {
+              "url": "maxLength",
+              "valueInteger": 254
+            }
+          ],
+          "url": "http://science37.com/StructureDefinition/item-settings"
+        }
+      ],
+      "type": "richText",
+      "linkId": "__S37-form-fields-fe09fa6eto2",
+      "text": "<p>HEADER</p>",
+      "definition": "https://science37.com/NG/widget/id/richText/version/2.3",
+      "required": true
+    }
+  ],
+  "status": "draft",
+  "title": "Example : Questionnaire.Item RichText",
+  "name": "Example : Questionnaire.Item RichText",
+  "subjectType": [
+    "Patient"
+  ],
+  "identifier": [
+    {
+      "value": "Form ID"
+    }
+  ]
+}

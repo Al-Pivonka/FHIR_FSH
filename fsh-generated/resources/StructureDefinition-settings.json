@@ -1,0 +1,157 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "settings",
+  "url": "http://science37.com/StructureDefinition/settings",
+  "version": "1.0.0-S37",
+  "name": "Settings",
+  "title": "Extension : Common Settings ",
+  "status": "active",
+  "description": "Extension : Common settings ",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
+  "kind": "complex-type",
+  "abstract": false,
+  "context": [
+    {
+      "type": "element",
+      "expression": "Element"
+    }
+  ],
+  "type": "Extension",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Extension",
+        "path": "Extension",
+        "short": "Extension : Common Settings ",
+        "definition": "Extension : Common settings "
+      },
+      {
+        "id": "Extension.extension:title",
+        "path": "Extension.extension",
+        "sliceName": "title",
+        "short": "\"title\"*",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:title.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:title.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "title"
+      },
+      {
+        "id": "Extension.extension:title.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:label",
+        "path": "Extension.extension",
+        "sliceName": "label",
+        "short": "label",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:label.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:label.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "label"
+      },
+      {
+        "id": "Extension.extension:label.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:OID",
+        "path": "Extension.extension",
+        "sliceName": "OID",
+        "short": "OID",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:OID.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:OID.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "OID"
+      },
+      {
+        "id": "Extension.extension:OID.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.extension:standardVariable",
+        "path": "Extension.extension",
+        "sliceName": "standardVariable",
+        "short": "standardVariable",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:standardVariable.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:standardVariable.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "standardVariable"
+      },
+      {
+        "id": "Extension.extension:standardVariable.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
+        "id": "Extension.url",
+        "path": "Extension.url",
+        "fixedUri": "http://science37.com/StructureDefinition/settings"
+      },
+      {
+        "id": "Extension.value[x]",
+        "path": "Extension.value[x]",
+        "max": "0"
+      }
+    ]
+  }
+}

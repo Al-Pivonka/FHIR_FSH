@@ -24,7 +24,7 @@
     }
   ],
   "type": "Extension",
-  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Extension",
+  "baseDefinition": "http://science37.com/StructureDefinition/settings",
   "derivation": "constraint",
   "differential": {
     "element": [
@@ -35,58 +35,9 @@
         "definition": "Extension : Questionnaire.item.settings "
       },
       {
-        "id": "Extension.extension:title",
+        "id": "Extension.extension",
         "path": "Extension.extension",
-        "sliceName": "title",
-        "short": "\"title\"*",
-        "min": 0,
-        "max": "1"
-      },
-      {
-        "id": "Extension.extension:title.extension",
-        "path": "Extension.extension.extension",
-        "max": "0"
-      },
-      {
-        "id": "Extension.extension:title.url",
-        "path": "Extension.extension.url",
-        "fixedUri": "title"
-      },
-      {
-        "id": "Extension.extension:title.value[x]",
-        "path": "Extension.extension.value[x]",
-        "type": [
-          {
-            "code": "string"
-          }
-        ]
-      },
-      {
-        "id": "Extension.extension:label",
-        "path": "Extension.extension",
-        "sliceName": "label",
-        "short": "label",
-        "min": 0,
-        "max": "1"
-      },
-      {
-        "id": "Extension.extension:label.extension",
-        "path": "Extension.extension.extension",
-        "max": "0"
-      },
-      {
-        "id": "Extension.extension:label.url",
-        "path": "Extension.extension.url",
-        "fixedUri": "label"
-      },
-      {
-        "id": "Extension.extension:label.value[x]",
-        "path": "Extension.extension.value[x]",
-        "type": [
-          {
-            "code": "string"
-          }
-        ]
+        "min": 1
       },
       {
         "id": "Extension.extension:variableName",
@@ -108,33 +59,6 @@
       },
       {
         "id": "Extension.extension:variableName.value[x]",
-        "path": "Extension.extension.value[x]",
-        "type": [
-          {
-            "code": "string"
-          }
-        ]
-      },
-      {
-        "id": "Extension.extension:standardVariable",
-        "path": "Extension.extension",
-        "sliceName": "standardVariable",
-        "short": "description",
-        "min": 0,
-        "max": "1"
-      },
-      {
-        "id": "Extension.extension:standardVariable.extension",
-        "path": "Extension.extension.extension",
-        "max": "0"
-      },
-      {
-        "id": "Extension.extension:standardVariable.url",
-        "path": "Extension.extension.url",
-        "fixedUri": "standardVariable"
-      },
-      {
-        "id": "Extension.extension:standardVariable.value[x]",
         "path": "Extension.extension.value[x]",
         "type": [
           {
@@ -869,28 +793,29 @@
         ]
       },
       {
-        "id": "Extension.extension:foid",
+        "id": "Extension.extension:version",
         "path": "Extension.extension",
-        "sliceName": "foid",
-        "min": 0,
+        "sliceName": "version",
+        "short": "version",
+        "min": 1,
         "max": "1"
       },
       {
-        "id": "Extension.extension:foid.extension",
+        "id": "Extension.extension:version.extension",
         "path": "Extension.extension.extension",
         "max": "0"
       },
       {
-        "id": "Extension.extension:foid.url",
+        "id": "Extension.extension:version.url",
         "path": "Extension.extension.url",
-        "fixedUri": "foid"
+        "fixedUri": "version"
       },
       {
-        "id": "Extension.extension:foid.value[x]",
+        "id": "Extension.extension:version.value[x]",
         "path": "Extension.extension.value[x]",
         "type": [
           {
-            "code": "string"
+            "code": "id"
           }
         ]
       },
@@ -898,11 +823,6 @@
         "id": "Extension.url",
         "path": "Extension.url",
         "fixedUri": "http://science37.com/StructureDefinition/item-settings"
-      },
-      {
-        "id": "Extension.value[x]",
-        "path": "Extension.value[x]",
-        "max": "0"
       }
     ]
   }

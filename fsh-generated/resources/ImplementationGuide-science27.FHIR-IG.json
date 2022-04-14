@@ -49,10 +49,42 @@
       },
       {
         "reference": {
-          "reference": "Questionnaire/Questionnaire-Item-Extension-Example"
+          "reference": "StructureDefinition/settings"
         },
-        "name": "Example : Questionnaire.Item Extension",
-        "description": "Example : Questionnaire.Item Extension",
+        "name": "Extension : Common Settings ",
+        "description": "Extension : Common settings ",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Questionnaire/Questionnaire-Item-Extension-Example-All-SingleItem"
+        },
+        "name": "Example : Questionnaire.Item-All-SingleItem",
+        "description": "Example : Questionnaire.Item-All-SingleItem",
+        "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
+      },
+      {
+        "reference": {
+          "reference": "Questionnaire/Questionnaire-Item-Extension-Example-RichText"
+        },
+        "name": "Example : Questionnaire.Item-RichText",
+        "description": "Example : Questionnaire.Item-RichText",
+        "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
+      },
+      {
+        "reference": {
+          "reference": "Questionnaire/Questionnaire-Item-Extension-Example-Text"
+        },
+        "name": "Example : Questionnaire.Item-Text",
+        "description": "Example : Questionnaire.Item-Text",
+        "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
+      },
+      {
+        "reference": {
+          "reference": "Questionnaire/Questionnaire-Item-Extension-Example-TextArea"
+        },
+        "name": "Example : Questionnaire.Item-All-TextArea",
+        "description": "Example : Questionnaire.Item-All-TextArea",
         "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
       }
     ],

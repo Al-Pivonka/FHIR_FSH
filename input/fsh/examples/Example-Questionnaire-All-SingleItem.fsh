@@ -1,7 +1,7 @@
-Instance: Questionnaire-Item-Extension-Example
+Instance: Questionnaire-Item-Extension-Example-All-SingleItem
 InstanceOf: QuestionnaireS37
-Title: "Example : Questionnaire.Item"
-Description: "Example : Questionnaire.Item"
+Title: "Example : Questionnaire.Item-All-SingleItem"
+Description: "Example : Questionnaire.Item-All-SingleItem"
 Usage: #example
 * meta.versionId = "1.0.0-S37"
 * status = #draft
@@ -29,6 +29,7 @@ Usage: #example
 * item[=].prefix = "FOID-090s88s"
 * item[=].definition = "https://science37.com/NG/widget/id/choice2212/version/2.3"
 * item[=].required = true
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1"
 * item[=].extension[ItemSettings].extension[title].valueString = "The Title"
 * item[=].extension[ItemSettings].extension[label].valueString = "The lable"
 * item[=].extension[ItemSettings].extension[variableName].valueString = "The variableName"
