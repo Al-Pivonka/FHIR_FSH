@@ -9,7 +9,7 @@
   "version": "1.0.0-S37",
   "name": "S37FHIRIG",
   "status": "active",
-  "date": "2022-04-14T18:16:16+00:00",
+  "date": "2022-04-14T19:25:29+00:00",
   "publisher": "Science37",
   "contact": [
     {
@@ -339,6 +339,20 @@
           }
         ],
         "reference": {
+          "reference": "StructureDefinition/datetime-item"
+        },
+        "name": "Extension : DateTimeItem Settings ",
+        "description": "Extension : Questionnaire.item.DateTimeItem ",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
           "reference": "StructureDefinition/form-settings"
         },
         "name": "Extension : Form Settings ",
@@ -377,15 +391,15 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "Questionnaire"
+            "valueString": "StructureDefinition:extension"
           }
         ],
         "reference": {
-          "reference": "Questionnaire/Questionnaire-Extension-Example"
+          "reference": "StructureDefinition/vasScale-item"
         },
-        "name": "Example : Questionnaire",
-        "description": "Example : Questionnaire",
-        "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
+        "name": "Extension : VASScaleItem Settings ",
+        "description": "Extension : Questionnaire.item.VASScaleItem ",
+        "exampleBoolean": false
       },
       {
         "extension": [
@@ -395,10 +409,10 @@
           }
         ],
         "reference": {
-          "reference": "Questionnaire/Questionnaire-Item-Extension-Example-All-SingleItem"
+          "reference": "Questionnaire/Questionnaire-Extension-Example"
         },
-        "name": "Example : Questionnaire.Item-All-SingleItem",
-        "description": "Example : Questionnaire.Item-All-SingleItem",
+        "name": "Example : Questionnaire",
+        "description": "Example : Questionnaire",
         "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
       },
       {

@@ -20,7 +20,7 @@
   <title value="Example : Questionnaire.Item VASScale"/>
   <status value="draft"/>
   <subjectType value="Patient"/>
-  <date value="2022-04-14T18:16:16+00:00"/>
+  <date value="2022-04-14T19:25:29+00:00"/>
   <publisher value="Science37"/>
   <contact>
     <name value="Science37"/>
@@ -30,7 +30,7 @@
     </telecom>
   </contact>
   <item>
-    <extension url="http://science37.com/StructureDefinition/item-settings">
+    <extension url="http://science37.com/StructureDefinition/vasScale-item">
       <extension url="subType">
         <valueString value="VASScale"/>
       </extension>

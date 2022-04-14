@@ -14,13 +14,6 @@
     "name": "Example : Questionnaire"
   },
   {
-    "id": "Questionnaire-Item-Extension-Example-All-SingleItem",
-    "type": "Questionnaire",
-    "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-All-SingleItem",
-    "version": "1.0.0-S37",
-    "name": "Example : Questionnaire.Item"
-  },
-  {
     "id": "Questionnaire-Item-Extension-Example-DateTime",
     "type": "Questionnaire",
     "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-DateTime",
@@ -91,6 +84,13 @@
     "name": "Example : Questionnaire.Item VASScale"
   },
   {
+    "id": "datetime-item",
+    "type": "StructureDefinition",
+    "url": "http://science37.com/StructureDefinition/datetime-item",
+    "version": "1.0.0-S37",
+    "name": "DateTimeItem"
+  },
+  {
     "id": "form-settings",
     "type": "StructureDefinition",
     "url": "http://science37.com/StructureDefinition/form-settings",
@@ -117,5 +117,12 @@
     "url": "http://science37.com/StructureDefinition/settings",
     "version": "1.0.0-S37",
     "name": "Settings"
+  },
+  {
+    "id": "vasScale-item",
+    "type": "StructureDefinition",
+    "url": "http://science37.com/StructureDefinition/vasScale-item",
+    "version": "1.0.0-S37",
+    "name": "VASScaleItem"
   }
 ]

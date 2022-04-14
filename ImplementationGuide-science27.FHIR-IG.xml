@@ -9,7 +9,7 @@
   <version value="1.0.0-S37"/>
   <name value="S37FHIRIG"/>
   <status value="active"/>
-  <date value="2022-04-14T18:16:16+00:00"/>
+  <date value="2022-04-14T19:25:29+00:00"/>
   <publisher value="Science37"/>
   <contact>
     <name value="Science37"/>
@@ -214,6 +214,17 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/datetime-item"/>
+      </reference>
+      <name value="Extension : DateTimeItem Settings "/>
+      <description value="Extension : Questionnaire.item.DateTimeItem "/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/form-settings"/>
       </reference>
       <name value="Extension : Form Settings "/>
@@ -244,6 +255,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/vasScale-item"/>
+      </reference>
+      <name value="Extension : VASScaleItem Settings "/>
+      <description value="Extension : Questionnaire.item.VASScaleItem "/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Questionnaire"/>
       </extension>
       <reference>
@@ -251,17 +273,6 @@
       </reference>
       <name value="Example : Questionnaire"/>
       <description value="Example : Questionnaire"/>
-      <exampleCanonical value="http://science37.com/StructureDefinition/questionnaire-s37"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="Questionnaire"/>
-      </extension>
-      <reference>
-        <reference value="Questionnaire/Questionnaire-Item-Extension-Example-All-SingleItem"/>
-      </reference>
-      <name value="Example : Questionnaire.Item-All-SingleItem"/>
-      <description value="Example : Questionnaire.Item-All-SingleItem"/>
       <exampleCanonical value="http://science37.com/StructureDefinition/questionnaire-s37"/>
     </resource>
     <resource>
