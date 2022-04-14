@@ -9,7 +9,7 @@
   <version value="1.0.0-S37"/>
   <name value="S37FHIRIG"/>
   <status value="active"/>
-  <date value="2022-04-13T20:17:19+00:00"/>
+  <date value="2022-04-14T15:41:09+00:00"/>
   <publisher value="Science37"/>
   <contact>
     <name value="Science37"/>
@@ -247,10 +247,98 @@
         <valueString value="Questionnaire"/>
       </extension>
       <reference>
-        <reference value="Questionnaire/Questionnaire-Item-Extension-Example"/>
+        <reference value="Questionnaire/Questionnaire-Item-Extension-Example-All-SingleItem"/>
       </reference>
-      <name value="Example : Questionnaire.Item"/>
-      <description value="Example : Questionnaire.Item"/>
+      <name value="Example : Questionnaire.Item-All-SingleItem"/>
+      <description value="Example : Questionnaire.Item-All-SingleItem"/>
+      <exampleCanonical value="http://science37.com/StructureDefinition/questionnaire-s37"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/Questionnaire-Item-Extension-Example-DateTime"/>
+      </reference>
+      <name value="Example : Questionnaire.Item-Image"/>
+      <description value="Example : Questionnaire.Item-Image"/>
+      <exampleCanonical value="http://science37.com/StructureDefinition/questionnaire-s37"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/Questionnaire-Item-Extension-Example-FileUpload"/>
+      </reference>
+      <name value="Example : Questionnaire.Item-FileUpload"/>
+      <description value="Example : Questionnaire.Item-FileUpload"/>
+      <exampleCanonical value="http://science37.com/StructureDefinition/questionnaire-s37"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/Questionnaire-Item-Extension-Example-Image"/>
+      </reference>
+      <name value="Example : Questionnaire.Item-Image"/>
+      <description value="Example : Questionnaire.Item-Image"/>
+      <exampleCanonical value="http://science37.com/StructureDefinition/questionnaire-s37"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/Questionnaire-Item-Extension-Example-Number-Decimal"/>
+      </reference>
+      <name value="Example : Questionnaire.Item-Number-Decimal"/>
+      <description value="Example : Questionnaire.Item-Number-Decimal"/>
+      <exampleCanonical value="http://science37.com/StructureDefinition/questionnaire-s37"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/Questionnaire-Item-Extension-Example-Number-Integer"/>
+      </reference>
+      <name value="Example : Questionnaire.Item-Number-Integer"/>
+      <description value="Example : Questionnaire.Item-Number-Integer"/>
+      <exampleCanonical value="http://science37.com/StructureDefinition/questionnaire-s37"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/Questionnaire-Item-Extension-Example-RichText"/>
+      </reference>
+      <name value="Example : Questionnaire.Item-RichText"/>
+      <description value="Example : Questionnaire.Item-RichText"/>
+      <exampleCanonical value="http://science37.com/StructureDefinition/questionnaire-s37"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/Questionnaire-Item-Extension-Example-Text"/>
+      </reference>
+      <name value="Example : Questionnaire.Item-Text"/>
+      <description value="Example : Questionnaire.Item-Text"/>
+      <exampleCanonical value="http://science37.com/StructureDefinition/questionnaire-s37"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="Questionnaire"/>
+      </extension>
+      <reference>
+        <reference value="Questionnaire/Questionnaire-Item-Extension-Example-TextArea"/>
+      </reference>
+      <name value="Example : Questionnaire.Item-All-TextArea"/>
+      <description value="Example : Questionnaire.Item-All-TextArea"/>
       <exampleCanonical value="http://science37.com/StructureDefinition/questionnaire-s37"/>
     </resource>
     <page>

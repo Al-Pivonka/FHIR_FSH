@@ -85,7 +85,7 @@
         "string",
         "string",
         "boolean",
-        "boolean",
+        "string",
         "integer",
         "integer",
         "integer",
@@ -307,6 +307,8 @@
         "string",
         "integer",
         "boolean",
+        "id",
+        "string",
         "base64Binary",
         "boolean",
         "canonical",
@@ -443,6 +445,12 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
       "StructureDefinition.snapshot.element.binding"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/maxValue": [
+      "Questionnaire.item"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/minValue": [
+      "Questionnaire.item"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-category": [
       "StructureDefinition"
