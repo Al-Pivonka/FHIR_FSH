@@ -84,6 +84,13 @@
     "name": "Example : Questionnaire.Item TextArea"
   },
   {
+    "id": "Questionnaire-Item-Extension-Example-VASScale",
+    "type": "Questionnaire",
+    "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-VASScale",
+    "version": "1.0.0-S37",
+    "name": "Example : Questionnaire.Item VASScale"
+  },
+  {
     "id": "form-settings",
     "type": "StructureDefinition",
     "url": "http://science37.com/StructureDefinition/form-settings",

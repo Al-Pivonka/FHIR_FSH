@@ -90,7 +90,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2022-04-14T17:25:25+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-04-14T18:16:16+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "Science37"];
   fhir:Questionnaire.contact [
      fhir:index 0;
@@ -244,11 +244,11 @@
        ], [
          fhir:index 34;
          fhir:Extension.url [ fhir:value "scaleSize" ];
-         fhir:Extension.valueInteger [ fhir:value "3"^^xsd:integer ]
+         fhir:Extension.valueString [ fhir:value "scaleSize" ]
        ], [
          fhir:index 35;
          fhir:Extension.url [ fhir:value "optionalPresets" ];
-         fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+         fhir:Extension.valueString [ fhir:value "vasTenPointIncrement" ]
        ];
        fhir:Extension.url [ fhir:value "http://science37.com/StructureDefinition/item-settings" ]
      ];
