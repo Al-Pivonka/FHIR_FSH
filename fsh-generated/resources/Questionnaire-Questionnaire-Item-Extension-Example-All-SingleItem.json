@@ -229,117 +229,12 @@
             }
           ],
           "url": "http://science37.com/StructureDefinition/item-settings"
-        },
-        {
-          "extension": [
-            {
-              "url": "subType",
-              "valueString": "VASScale"
-            },
-            {
-              "url": "version",
-              "valueId": "1.0.1-ItemVersion"
-            },
-            {
-              "url": "OID",
-              "valueString": "VAS_OID"
-            },
-            {
-              "url": "title",
-              "valueString": "VAS_TITLE"
-            },
-            {
-              "url": "variableName",
-              "valueString": "NOT Assigned by DD"
-            },
-            {
-              "url": "standardVariable",
-              "valueString": "VAS_STD_VAR"
-            },
-            {
-              "url": "fieldCode",
-              "valueString": "NOT Assigned by DD"
-            },
-            {
-              "url": "description",
-              "valueString": "VAS_DESC"
-            },
-            {
-              "url": "displayValueIndicator",
-              "valueBoolean": true
-            },
-            {
-              "url": "valueIndicatorLabel",
-              "valueString": "Your Health Today"
-            },
-            {
-              "url": "minValueLabel",
-              "valueString": "The worst healthyou can imagine"
-            },
-            {
-              "url": "maxValueLabel",
-              "valueString": "Type Something "
-            },
-            {
-              "url": "medValueLabel",
-              "valueString": "Median Value Label "
-            },
-            {
-              "url": "naOption",
-              "valueBoolean": true
-            },
-            {
-              "url": "naLabel",
-              "valueString": "The NA Label"
-            },
-            {
-              "url": "orientation",
-              "valueString": "vertical"
-            },
-            {
-              "url": "doNotShowNumValue",
-              "valueBoolean": false
-            },
-            {
-              "url": "showIncrements",
-              "valueBoolean": true
-            },
-            {
-              "url": "minorIncrements",
-              "valueInteger": 1
-            },
-            {
-              "url": "majorIncrements",
-              "valueInteger": 10
-            },
-            {
-              "url": "interactionType",
-              "valueString": "Show value slider"
-            },
-            {
-              "url": "scaleSize",
-              "valueString": "consistentScale"
-            },
-            {
-              "url": "optionalPresets",
-              "valueString": "vasTenPointIncrement"
-            }
-          ],
-          "url": "http://science37.com/StructureDefinition/vasScale-item"
-        },
-        {
-          "url": "http://hl7.org/fhir/StructureDefinition/minValue",
-          "valueInteger": 11
-        },
-        {
-          "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
-          "valueInteger": 1100
         }
       ],
-      "type": "question",
-      "linkId": "__S37-form-fields-h0ae575xlf8",
-      "text": "<p style=\"text-align:left;\"><strong>Please tap on the scale to indicate how your health is TODAY</strong></p>",
-      "definition": "https://science37.com/NG/widget/id/richText/version/2.3",
+      "type": "attachment",
+      "linkId": "__S37-form-fields-q6zbrgullmr",
+      "text": "<p style=\"text-align:left;\"><strong>FILE_UPLOAD_LABEL</strong></p>",
+      "definition": "https://science37.com/NG/widget/id/text/version/2.3",
       "required": true
     },
     {
@@ -706,6 +601,120 @@
     {
       "type": "question",
       "linkId": "__S37-form-fields-1nhurf723d8"
+    },
+    {
+      "extension": [
+        {
+          "extension": [
+            {
+              "url": "subType",
+              "valueString": "VASScale"
+            },
+            {
+              "url": "version",
+              "valueId": "1.0.1-ItemVersion"
+            },
+            {
+              "url": "OID",
+              "valueString": "VAS_OID"
+            },
+            {
+              "url": "title",
+              "valueString": "VAS_TITLE"
+            },
+            {
+              "url": "variableName",
+              "valueString": "NOT Assigned by DD"
+            },
+            {
+              "url": "standardVariable",
+              "valueString": "VAS_STD_VAR"
+            },
+            {
+              "url": "fieldCode",
+              "valueString": "NOT Assigned by DD"
+            },
+            {
+              "url": "description",
+              "valueString": "VAS_DESC"
+            },
+            {
+              "url": "displayValueIndicator",
+              "valueBoolean": true
+            },
+            {
+              "url": "valueIndicatorLabel",
+              "valueString": "Your Health Today"
+            },
+            {
+              "url": "minValueLabel",
+              "valueString": "The worst healthyou can imagine"
+            },
+            {
+              "url": "maxValueLabel",
+              "valueString": "Type Something "
+            },
+            {
+              "url": "medValueLabel",
+              "valueString": "Median Value Label "
+            },
+            {
+              "url": "naOption",
+              "valueBoolean": true
+            },
+            {
+              "url": "naLabel",
+              "valueString": "The NA Label"
+            },
+            {
+              "url": "orientation",
+              "valueString": "vertical"
+            },
+            {
+              "url": "doNotShowNumValue",
+              "valueBoolean": false
+            },
+            {
+              "url": "showIncrements",
+              "valueBoolean": true
+            },
+            {
+              "url": "minorIncrements",
+              "valueInteger": 1
+            },
+            {
+              "url": "majorIncrements",
+              "valueInteger": 10
+            },
+            {
+              "url": "interactionType",
+              "valueString": "Show value slider"
+            },
+            {
+              "url": "scaleSize",
+              "valueString": "consistentScale"
+            },
+            {
+              "url": "optionalPresets",
+              "valueString": "vasTenPointIncrement"
+            }
+          ],
+          "url": "http://science37.com/StructureDefinition/vasScale-item"
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/minValue",
+          "valueInteger": 11
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+          "valueInteger": 1100
+        }
+      ],
+      "type": "question",
+      "linkId": "__S37-form-fields-h0ae575xlf8",
+      "text": "<p style=\"text-align:left;\"><strong>Please tap on the scale to indicate how your health is TODAY</strong></p>",
+      "definition": "https://science37.com/NG/widget/id/richText/version/2.3",
+      "required": true
     }
   ],
   "status": "draft",

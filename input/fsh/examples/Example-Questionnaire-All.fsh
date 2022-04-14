@@ -44,7 +44,7 @@ Usage: #example
 * item[=].extension[DateTimeItem].extension[completionNoOfMonths].valueInteger = 1
 * item[=].extension[DateTimeItem].extension[completionShouldOccur].valueBoolean = true
 /* File Upload*/
-* item[+].type = #attachment
+* item[1].type = #attachment
 * item[=].extension[ItemSettings].extension[subType].valueString = "FileUpload"
 * item[=].linkId = "__S37-form-fields-q6zbrgullmr"
 * item[=].text = "<p style=\"text-align:left;\"><strong>FILE_UPLOAD_LABEL</strong></p>"
@@ -58,7 +58,7 @@ Usage: #example
 * item[=].extension[ItemSettings].extension[description].valueString = "FILE_UPLOAD_DESC"
 * item[=].required = true
 /* Image */
-* item[+].type = #attachment
+* item[2].type = #attachment
 * item[=].extension[ItemSettings].extension[subType].valueString = "Image"
 * item[=].linkId = "isdfu9s0df8us8dfy"
 * item[=].text = "Item Text Value"
@@ -75,7 +75,7 @@ Usage: #example
 * item[=].maxLength = 22
 * item[=].initial.valueString = " Replacement for defaultPlaceholder"
 /* Number Decimal */
-* item[+].type = #decimal
+* item[3].type = #decimal
 * item[=].linkId = "__S37-form-fields-jntlfakzc05"
 * item[=].text =  "<p style=\"text-align:left;\"><strong>NUMBER_LABEL</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/richText/version/2.3"
@@ -93,7 +93,7 @@ Usage: #example
 * item[=].extension[ItemSettings].extension[scale].valueInteger = 3
 * item[=].required = true
 /* Number Integer */
-* item[+].type = #integer
+* item[4].type = #integer
 * item[=].linkId = "__S37-form-fields-jntlfakzc05"
 * item[=].text = "<p style=\"text-align:left;\"><strong>NUMBER_LABEL</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/richText/version/2.3"
@@ -110,7 +110,7 @@ Usage: #example
 * item[=].extension[maxValue].valueInteger = 500
 * item[=].required = true
 /* Rating Scale */
-* item[+].type = #question
+* item[5].type = #question
 * item[=].linkId = "__S37-form-fields-6qupvhtl05b"
 * item[=].extension[ItemSettings].extension[subType].valueString = "ratingscale"
 * item[=].text =  "<p style=\"text-align:left;\"><strong>NRS_LABEL</strong></p>"
@@ -130,7 +130,7 @@ Usage: #example
 * item[=].extension[ItemSettings].extension[naLabel].valueString = "The NA Label"
 * item[=].required = true
 /* Rich Text */
-* item[+].type = #display
+* item[6].type = #display
 * item[=].linkId = "__S37-form-fields-fe09fa6eto33"
 * item[=].item[0].type = #text
 * item[=].item[=].extension[ItemSettings].extension[subType].valueString = "RichText"
@@ -147,7 +147,7 @@ Usage: #example
 * item[=].item[=].required = true
 * item[=].item[=].extension[ItemSettings].extension[maxLength].valueInteger = 254 /*Not Assigned by DD*/
 /* Plan TEXT */
-* item[+].type = #question
+* item[7].type = #question
 * item[=].linkId = "isdfu9s0df8us8dfy"
 * item[=].item[0].type = #text
 * item[=].item[=].linkId = "isdfu9s0df8us8dfy-222"
@@ -164,7 +164,7 @@ Usage: #example
 * item[=].item[=].extension[ItemSettings].extension[maxLength].valueInteger = 22
 * item[=].item[=].initial.valueString = " Replacement for defaultPlaceholder"
 /* Text Area */
-* item[+].type = #question
+* item[8].type = #question
 * item[=].linkId = "__S37-form-fields-1nhurf723d8"
 * item[0].item[0].type = #text
 * item[=].item[=].extension[ItemSettings].extension[subType].valueString = "TextArea"
@@ -180,7 +180,7 @@ Usage: #example
 * item[=].item[=].extension[ItemSettings].extension[description].valueString = "TEXT_AREA_DESC"
 * item[=].item[=].required = true
 /* VAS Scale */
-* item[+].type = #question
+* item[9].type = #question
 * item[=].linkId = "__S37-form-fields-h0ae575xlf8"
 * item[=].extension[VASScaleItem].extension[subType].valueString = "VASScale"
 * item[=].text =  "<p style=\"text-align:left;\"><strong>Please tap on the scale to indicate how your health is TODAY</strong></p>"
