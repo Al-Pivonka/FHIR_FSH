@@ -820,6 +820,33 @@
         ]
       },
       {
+        "id": "Extension.extension:subType",
+        "path": "Extension.extension",
+        "sliceName": "subType",
+        "short": "subType",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:subType.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:subType.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "subType"
+      },
+      {
+        "id": "Extension.extension:subType.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "string"
+          }
+        ]
+      },
+      {
         "id": "Extension.url",
         "path": "Extension.url",
         "fixedUri": "http://science37.com/StructureDefinition/item-settings"

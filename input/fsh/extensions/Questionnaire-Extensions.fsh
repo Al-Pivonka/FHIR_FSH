@@ -53,7 +53,8 @@ Description:     "Extension : Questionnaire.item.settings "
     interactionType	0..1 and
     scaleSize	0..1 and
     optionalPresets	0..1 and 
-    version 1..1
+    version 1..1 and
+    subType 0..1
 
 * extension[variableName] ^short = "description"
 * extension[variableName].value[x] only string
@@ -112,6 +113,8 @@ Description:     "Extension : Questionnaire.item.settings "
 * extension[optionalPresets].value[x] only boolean
 * extension[version] ^short = "version"
 * extension[version].value[x] only id
+* extension[subType] ^short = "subType"
+* extension[subType].value[x] only string
 
 
 Extension:      FormSettings
