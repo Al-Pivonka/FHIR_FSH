@@ -72,6 +72,10 @@
         {
           "extension": [
             {
+              "url": "subType",
+              "valueString": "RichText"
+            },
+            {
               "url": "version",
               "valueId": "1.0.1-ItemVersion"
             },
@@ -111,7 +115,7 @@
           "url": "http://science37.com/StructureDefinition/item-settings"
         }
       ],
-      "type": "richText",
+      "type": "display",
       "linkId": "__S37-form-fields-fe09fa6eto2",
       "text": "<p>HEADER</p>",
       "definition": "https://science37.com/NG/widget/id/richText/version/2.3",
