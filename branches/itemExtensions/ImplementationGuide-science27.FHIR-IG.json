@@ -9,7 +9,7 @@
   "version": "1.0.0-S37",
   "name": "S37FHIRIG",
   "status": "active",
-  "date": "2022-04-14T19:25:29+00:00",
+  "date": "2022-04-14T19:48:55+00:00",
   "publisher": "Science37",
   "contact": [
     {
@@ -413,6 +413,20 @@
         },
         "name": "Example : Questionnaire",
         "description": "Example : Questionnaire",
+        "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Questionnaire"
+          }
+        ],
+        "reference": {
+          "reference": "Questionnaire/Questionnaire-Item-Extension-Example-All-SingleItem"
+        },
+        "name": "Example : Questionnaire.Item-All-SingleItem",
+        "description": "Example : Questionnaire.Item-All-SingleItem",
         "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
       },
       {
