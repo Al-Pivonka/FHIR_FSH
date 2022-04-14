@@ -68,62 +68,64 @@
   ],
   "item": [
     {
-      "type": "display",
-      "linkId": "__S37-form-fields-fe09fa6eto33"
-    },
-    {
-      "extension": [
+      "item": [
         {
           "extension": [
             {
-              "url": "subType",
-              "valueString": "RichText"
-            },
-            {
-              "url": "version",
-              "valueId": "1.0.1-ItemVersion"
-            },
-            {
-              "url": "OID",
-              "valueString": "FOOTER_OID"
-            },
-            {
-              "url": "title",
-              "valueString": "FOOTER_TITLE"
-            },
-            {
-              "url": "label",
-              "valueString": "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>"
-            },
-            {
-              "url": "variableName",
-              "valueString": "NOT Assigned by DD"
-            },
-            {
-              "url": "standardVariable",
-              "valueString": "FOOTER_STD_VAR"
-            },
-            {
-              "url": "fieldCode",
-              "valueString": "NOT Assigned by DD"
-            },
-            {
-              "url": "description",
-              "valueString": "FOOTER_DESC"
-            },
-            {
-              "url": "maxLength",
-              "valueInteger": 254
+              "extension": [
+                {
+                  "url": "subType",
+                  "valueString": "RichText"
+                },
+                {
+                  "url": "version",
+                  "valueId": "1.0.1-ItemVersion"
+                },
+                {
+                  "url": "OID",
+                  "valueString": "FOOTER_OID"
+                },
+                {
+                  "url": "title",
+                  "valueString": "FOOTER_TITLE"
+                },
+                {
+                  "url": "label",
+                  "valueString": "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>"
+                },
+                {
+                  "url": "variableName",
+                  "valueString": "NOT Assigned by DD"
+                },
+                {
+                  "url": "standardVariable",
+                  "valueString": "FOOTER_STD_VAR"
+                },
+                {
+                  "url": "fieldCode",
+                  "valueString": "NOT Assigned by DD"
+                },
+                {
+                  "url": "description",
+                  "valueString": "FOOTER_DESC"
+                },
+                {
+                  "url": "maxLength",
+                  "valueInteger": 254
+                }
+              ],
+              "url": "http://science37.com/StructureDefinition/item-settings"
             }
           ],
-          "url": "http://science37.com/StructureDefinition/item-settings"
+          "type": "text",
+          "linkId": "__S37-form-fields-fe09fa6eto2",
+          "text": "<p>HEADER</p>",
+          "definition": "https://science37.com/NG/widget/id/richText/version/2.3",
+          "required": true
         }
       ],
-      "type": "text",
-      "linkId": "__S37-form-fields-fe09fa6eto2",
-      "text": "<p>HEADER</p>",
-      "definition": "https://science37.com/NG/widget/id/richText/version/2.3",
-      "required": true
+      "type": "display",
+      "linkId": "__S37-form-fields-fe09fa6eto33"
     }
   ],
   "status": "draft",

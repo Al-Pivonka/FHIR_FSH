@@ -68,58 +68,60 @@
   ],
   "item": [
     {
-      "type": "question",
-      "linkId": "__S37-form-fields-1nhurf723d8"
-    },
-    {
-      "extension": [
+      "item": [
         {
           "extension": [
             {
-              "url": "subType",
-              "valueString": "TextArea"
-            },
-            {
-              "url": "version",
-              "valueId": "1.0.1-ItemVersion"
-            },
-            {
-              "url": "OID",
-              "valueString": "TEXT_AREA-OID"
-            },
-            {
-              "url": "title",
-              "valueString": "TEXT_AREA_TITLE"
-            },
-            {
-              "url": "label",
-              "valueString": "<p style=\"text-align:left;\"><strong>TEXT_AREA_LABEL</strong></p>"
-            },
-            {
-              "url": "variableName",
-              "valueString": "NOT Assigned by DD"
-            },
-            {
-              "url": "standardVariable",
-              "valueString": "TEXT_AREA_STD_VAR"
-            },
-            {
-              "url": "fieldCode",
-              "valueString": "NOT Assigned by DD"
-            },
-            {
-              "url": "description",
-              "valueString": "TEXT_AREA_DESC"
+              "extension": [
+                {
+                  "url": "subType",
+                  "valueString": "TextArea"
+                },
+                {
+                  "url": "version",
+                  "valueId": "1.0.1-ItemVersion"
+                },
+                {
+                  "url": "OID",
+                  "valueString": "TEXT_AREA-OID"
+                },
+                {
+                  "url": "title",
+                  "valueString": "TEXT_AREA_TITLE"
+                },
+                {
+                  "url": "label",
+                  "valueString": "<p style=\"text-align:left;\"><strong>TEXT_AREA_LABEL</strong></p>"
+                },
+                {
+                  "url": "variableName",
+                  "valueString": "NOT Assigned by DD"
+                },
+                {
+                  "url": "standardVariable",
+                  "valueString": "TEXT_AREA_STD_VAR"
+                },
+                {
+                  "url": "fieldCode",
+                  "valueString": "NOT Assigned by DD"
+                },
+                {
+                  "url": "description",
+                  "valueString": "TEXT_AREA_DESC"
+                }
+              ],
+              "url": "http://science37.com/StructureDefinition/item-settings"
             }
           ],
-          "url": "http://science37.com/StructureDefinition/item-settings"
+          "type": "text",
+          "linkId": "__S37-form-fields-1nhurf7a3d8",
+          "text": "<p>This is the textArea information or DD entry data</p>",
+          "definition": "https://science37.com/NG/widget/id/richText/version/2.3",
+          "required": true
         }
       ],
-      "type": "text",
-      "linkId": "__S37-form-fields-1nhurf7a3d8",
-      "text": "<p>This is the textArea information or DD entry data</p>",
-      "definition": "https://science37.com/NG/widget/id/richText/version/2.3",
-      "required": true
+      "type": "question",
+      "linkId": "__S37-form-fields-1nhurf723d8"
     }
   ],
   "status": "draft",

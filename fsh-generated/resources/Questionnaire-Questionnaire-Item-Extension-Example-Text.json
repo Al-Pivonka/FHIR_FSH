@@ -68,63 +68,65 @@
   ],
   "item": [
     {
-      "type": "display",
-      "linkId": "isdfu9s0df8us8dfy"
-    },
-    {
-      "extension": [
+      "item": [
         {
           "extension": [
             {
-              "url": "version",
-              "valueId": "1.0.1-ItemVersion"
-            },
-            {
-              "url": "OID",
-              "valueString": "OID field Object ID"
-            },
-            {
-              "url": "title",
-              "valueString": "The Item Title"
-            },
-            {
-              "url": "label",
-              "valueString": "The Item lable"
-            },
-            {
-              "url": "variableName",
-              "valueString": "The Item variableName"
-            },
-            {
-              "url": "standardVariable",
-              "valueString": "The standardVariable"
-            },
-            {
-              "url": "fieldCode",
-              "valueString": "The fieldCode"
-            },
-            {
-              "url": "description",
-              "valueString": "The description"
-            },
-            {
-              "url": "maxLength",
-              "valueInteger": 22
+              "extension": [
+                {
+                  "url": "version",
+                  "valueId": "1.0.1-ItemVersion"
+                },
+                {
+                  "url": "OID",
+                  "valueString": "OID field Object ID"
+                },
+                {
+                  "url": "title",
+                  "valueString": "The Item Title"
+                },
+                {
+                  "url": "label",
+                  "valueString": "The Item lable"
+                },
+                {
+                  "url": "variableName",
+                  "valueString": "The Item variableName"
+                },
+                {
+                  "url": "standardVariable",
+                  "valueString": "The standardVariable"
+                },
+                {
+                  "url": "fieldCode",
+                  "valueString": "The fieldCode"
+                },
+                {
+                  "url": "description",
+                  "valueString": "The description"
+                },
+                {
+                  "url": "maxLength",
+                  "valueInteger": 22
+                }
+              ],
+              "url": "http://science37.com/StructureDefinition/item-settings"
             }
           ],
-          "url": "http://science37.com/StructureDefinition/item-settings"
+          "type": "text",
+          "linkId": "isdfu9s0df8us8dfy-222",
+          "text": "Describe your current mood.",
+          "definition": "https://science37.com/NG/widget/id/text/version/2.3",
+          "required": true,
+          "initial": [
+            {
+              "valueString": " Replacement for defaultPlaceholder"
+            }
+          ]
         }
       ],
-      "type": "text",
-      "linkId": "isdfu9s0df8us8dfy-222",
-      "text": "Describe your current mood.",
-      "definition": "https://science37.com/NG/widget/id/text/version/2.3",
-      "required": true,
-      "initial": [
-        {
-          "valueString": " Replacement for defaultPlaceholder"
-        }
-      ]
+      "type": "question",
+      "linkId": "isdfu9s0df8us8dfy"
     }
   ],
   "status": "draft",
