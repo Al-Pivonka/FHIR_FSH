@@ -24,7 +24,8 @@ Usage: #example
 * extension[FormSettings].extension[createdAt].valueDateTime = "2015-02-07T13:28:17Z"
 * extension[FormSettings].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"
 /* Item  Level Information */
-* item[0].type = #richText
+* item[0].type = #display
+* item[=].extension[ItemSettings].extension[subType].valueString = "RichText"
 * item[=].linkId = "__S37-form-fields-fe09fa6eto2"
 * item[=].text = "<p>HEADER</p>"
 * item[=].definition = "https://science37.com/NG/widget/id/richText/version/2.3"
