@@ -60,7 +60,7 @@ Usage: #example
 /* Image */
 * item[2].type = #attachment
 * item[=].extension[ItemSettings].extension[subType].valueString = "Image"
-* item[=].linkId = "isdfu9s0df8us8dfy"
+* item[=].linkId = "isdfu9s0df8us8-sd09-s09s0"
 * item[=].text = "Item Text Value"
 * item[=].definition = "https://science37.com/NG/widget/id/text/version/2.3"
 * item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"
@@ -148,9 +148,9 @@ Usage: #example
 * item[=].item[=].extension[ItemSettings].extension[maxLength].valueInteger = 254 /*Not Assigned by DD*/
 /* Plan TEXT */
 * item[7].type = #question
-* item[=].linkId = "isdfu9s0df8us8dfy"
+* item[=].linkId = "s9oduf-9asdufa8sdfy8-222"
 * item[=].item[0].type = #text
-* item[=].item[=].linkId = "isdfu9s0df8us8dfy-222"
+* item[=].item[=].linkId = "klklklsio989-s8s8s8s"
 * item[=].item[=].text = "Describe your current mood."
 * item[=].item[=].definition = "https://science37.com/NG/widget/id/text/version/2.3"
 * item[=].item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"
