@@ -113,6 +113,14 @@
       },
       {
         "reference": {
+          "reference": "Questionnaire/Questionnaire-Item-Extension-Example-RatingScale"
+        },
+        "name": "Example : Questionnaire.Item-All-RatingScale",
+        "description": "Example : Questionnaire.Item-All-RatingScale",
+        "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
+      },
+      {
+        "reference": {
           "reference": "Questionnaire/Questionnaire-Item-Extension-Example-RichText"
         },
         "name": "Example : Questionnaire.Item-RichText",

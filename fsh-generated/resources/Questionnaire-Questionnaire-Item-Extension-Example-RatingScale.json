@@ -1,0 +1,93 @@
+{
+  "resourceType": "Questionnaire",
+  "id": "Questionnaire-Item-Extension-Example-RatingScale",
+  "meta": {
+    "versionId": "1.0.0-S37",
+    "profile": [
+      "http://science37.com/StructureDefinition/questionnaire-s37"
+    ]
+  },
+  "item": [
+    {
+      "extension": [
+        {
+          "extension": [
+            {
+              "url": "subType",
+              "valueString": "ratingscale"
+            },
+            {
+              "url": "version",
+              "valueId": "1.0.1-ItemVersion"
+            },
+            {
+              "url": "OID",
+              "valueString": "NRS_OID"
+            },
+            {
+              "url": "title",
+              "valueString": "NRS_TITLE"
+            },
+            {
+              "url": "variableName",
+              "valueString": "NOT Assigned by DD"
+            },
+            {
+              "url": "standardVariable",
+              "valueString": "NRS_STD_VAR"
+            },
+            {
+              "url": "fieldCode",
+              "valueString": "NOT Assigned by DD"
+            },
+            {
+              "url": "description",
+              "valueString": "NRS_DESC"
+            },
+            {
+              "url": "minValueLabel",
+              "valueString": "Min Value"
+            },
+            {
+              "url": "maxValueLabel",
+              "valueString": "Max Value"
+            },
+            {
+              "url": "naOption",
+              "valueBoolean": true
+            },
+            {
+              "url": "naLabel",
+              "valueString": "The NA Label"
+            }
+          ],
+          "url": "http://science37.com/StructureDefinition/item-settings"
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/minValue",
+          "valueInteger": 11
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
+          "valueInteger": 1100
+        }
+      ],
+      "type": "question",
+      "linkId": "__S37-form-fields-6qupvhtl05b",
+      "text": "<p style=\"text-align:left;\"><strong>NRS_LABEL</strong></p>",
+      "definition": "https://science37.com/NG/widget/id/richText/version/2.3",
+      "required": true
+    }
+  ],
+  "status": "draft",
+  "title": "Example : Questionnaire.Item RatingScale",
+  "name": "Example : Questionnaire.Item RatingScale",
+  "subjectType": [
+    "Patient"
+  ],
+  "identifier": [
+    {
+      "value": "Form ID"
+    }
+  ]
+}

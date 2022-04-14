@@ -10,7 +10,7 @@ Usage: #example
 * name = "Example : Questionnaire.Item Image"
 * subjectType = #Patient
 * identifier.value = "Form ID"
-* extension[FormSettings].extension[type].valueString = "formType"
+/* extension[FormSettings].extension[type].valueString = "formType"
 * extension[FormSettings].extension[subStatus].valueString = "Deleted Status"
 * extension[FormSettings].extension[controlSchemaVersion].valueString = "2.1.9"
 * extension[FormSettings].extension[OID].valueString = "FORM OID"
@@ -22,7 +22,7 @@ Usage: #example
 * extension[FormSettings].extension[requireEditReason].valueBoolean = true
 * extension[FormSettings].extension[requireDataReview].valueBoolean = true
 * extension[FormSettings].extension[createdAt].valueDateTime = "2015-02-07T13:28:17Z"
-* extension[FormSettings].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"
+* extension[FormSettings].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"*/
 /* Item  Level Information */
 * item[0].type = #attachment
 * item[=].extension[ItemSettings].extension[subType].valueString = "Image"
