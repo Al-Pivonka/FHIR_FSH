@@ -68,6 +68,10 @@
   ],
   "item": [
     {
+      "type": "display",
+      "linkId": "isdfu9s0df8us8dfy"
+    },
+    {
       "extension": [
         {
           "extension": [
@@ -112,7 +116,7 @@
         }
       ],
       "type": "text",
-      "linkId": "isdfu9s0df8us8dfy",
+      "linkId": "isdfu9s0df8us8dfy-222",
       "text": "Describe your current mood.",
       "definition": "https://science37.com/NG/widget/id/text/version/2.3",
       "required": true,

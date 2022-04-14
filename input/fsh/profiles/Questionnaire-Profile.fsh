@@ -13,7 +13,4 @@ Description: "Profile : Questionnaire.item extensions"
 *  identifier 1..1
 *  status 1..1 MS
 *  extension contains FormSettings named settings 0..1
-*  item.definition 1..1 MS
-*  item.text 1..1 MS
-*  item.required 1..1 MS
 *  item.extension contains ItemSettings named Settings 0..1 MS

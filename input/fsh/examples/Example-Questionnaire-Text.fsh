@@ -25,8 +25,9 @@ Usage: #example
 * extension[FormSettings].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"
 /* Item  Level Information */
 * item[0].type = #display
-* item[=].extension[ItemSettings].extension[subType].valueString = "Text"
 * item[=].linkId = "isdfu9s0df8us8dfy"
+* item[+].type = #text
+* item[=].linkId = "isdfu9s0df8us8dfy-222"
 * item[=].text = "Describe your current mood."
 * item[=].definition = "https://science37.com/NG/widget/id/text/version/2.3"
 * item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"

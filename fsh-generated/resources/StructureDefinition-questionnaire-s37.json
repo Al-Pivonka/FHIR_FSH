@@ -137,24 +137,6 @@
           }
         ],
         "mustSupport": true
-      },
-      {
-        "id": "Questionnaire.item.definition",
-        "path": "Questionnaire.item.definition",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "Questionnaire.item.text",
-        "path": "Questionnaire.item.text",
-        "min": 1,
-        "mustSupport": true
-      },
-      {
-        "id": "Questionnaire.item.required",
-        "path": "Questionnaire.item.required",
-        "min": 1,
-        "mustSupport": true
       }
     ]
   }

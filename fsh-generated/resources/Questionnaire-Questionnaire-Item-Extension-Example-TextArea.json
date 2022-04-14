@@ -107,7 +107,7 @@
           "url": "http://science37.com/StructureDefinition/item-settings"
         }
       ],
-      "type": "textArea",
+      "type": "text",
       "linkId": "__S37-form-fields-1nhurf7a3d8",
       "text": "<p>HEADER</p>",
       "definition": "https://science37.com/NG/widget/id/richText/version/2.3",
