@@ -7,6 +7,13 @@
     "name": "S37FHIRIG"
   },
   {
+    "id": "Questionnaire-Extension-Example",
+    "type": "Questionnaire",
+    "url": "http://science37.com/Questionnaire/Questionnaire-Extension-Example",
+    "version": "1.0.0-S37",
+    "name": "Example : Questionnaire"
+  },
+  {
     "id": "Questionnaire-Item-Extension-Example-All-SingleItem",
     "type": "Questionnaire",
     "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-All-SingleItem",

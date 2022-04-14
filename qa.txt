@@ -1,17 +1,18 @@
 ﻿S37FHIRIG : Validation Results
 =========================================
 
-err = 4, warn = 29, info = 15
+err = 4, warn = 30, info = 13
 IG Publisher Version: 1.1.115
-Generated Thu Apr 14 16:18:57 UTC 2022. FHIR version 4.0.1 for science27.FHIR-IG#1.0.0-S37 (canonical = http://science37.com)
+Generated Thu Apr 14 16:39:49 UTC 2022. FHIR version 4.0.1 for science27.FHIR-IG#1.0.0-S37 (canonical = http://science37.com)
  Build Errors : 0 / 0 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-science27.FHIR-IG : 0 / 6 / 1
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Extension-Example : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-All-SingleItem : 3 / 1 / 4
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-DateTime : 0 / 2 / 4
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-FileUpload : 0 / 1 / 2
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Image : 0 / 2 / 1
- /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Number-Decimal : 0 / 1 / 5
- /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Number-Integer : 0 / 1 / 5
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Number-Decimal : 0 / 1 / 4
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Number-Integer : 0 / 1 / 4
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-RichText : 1 / 1 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Text : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-TextArea : 0 / 1 / 1
@@ -28,6 +29,8 @@ WARNING: ImplementationGuide/science27.FHIR-IG: ImplementationGuide.definition.r
 WARNING: ImplementationGuide/science27.FHIR-IG: ImplementationGuide.definition.resource[2].description: value should not start or finish with whitespace 'Extension...Questionnaire.item.settings '
 WARNING: ImplementationGuide/science27.FHIR-IG: ImplementationGuide.definition.resource[3].name: value should not start or finish with whitespace 'Extension...Settings '
 WARNING: ImplementationGuide/science27.FHIR-IG: ImplementationGuide.definition.resource[3].description: value should not start or finish with whitespace 'Extension...settings '
+== fsh-generated/resources/Questionnaire-Questionnaire-Extension-Example.json ==
+WARNING: Questionnaire/Questionnaire-Extension-Example: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-All-SingleItem.json ==
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-All-SingleItem: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-All-SingleItem: Questionnaire.item[0].extension[0].extension[25]: This element does not match any known slice defined in the profile http://science37.com/StructureDefinition/item-settings
@@ -40,11 +43,11 @@ ERROR: Questionnaire/Questionnaire-Item-Extension-Example-All-SingleItem: Questi
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionnaire.item[0].extension[1]: This element does not match any known slice defined in the profile http://science37.com/StructureDefinition/questionnaire-s37
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionnaire.item[0].extension[2]: This element does not match any known slice defined in the profile http://science37.com/StructureDefinition/questionnaire-s37
-INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionnaire.item[0].extension[0].extension[3].value.ofType(string): The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionnaire.item[0].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionnaire.item[0].initial[0].value.ofType(string): value should not start or finish with whitespace ' Replacement...defaultPlaceholder'
 == fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-FileUpload.json ==
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-FileUpload: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
-INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-FileUpload: Questionnaire.item[0].extension[0].extension[4].value.ofType(string): The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-FileUpload: Questionnaire.item[0].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 == fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Image.json ==
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-Image: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-Image: Questionnaire.item[0].initial[0].value.ofType(string): value should not start or finish with whitespace ' Replacement...defaultPlaceholder'
@@ -52,13 +55,11 @@ WARNING: Questionnaire/Questionnaire-Item-Extension-Example-Image: Questionnaire
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-Number-Decimal: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Number-Decimal: Questionnaire.item[0].extension[1]: This element does not match any known slice defined in the profile http://science37.com/StructureDefinition/questionnaire-s37
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Number-Decimal: Questionnaire.item[0].extension[2]: This element does not match any known slice defined in the profile http://science37.com/StructureDefinition/questionnaire-s37
-INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Number-Decimal: Questionnaire.item[0].extension[0].extension[3].value.ofType(string): The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Number-Decimal: Questionnaire.item[0].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 == fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Number-Integer.json ==
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-Number-Integer: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Number-Integer: Questionnaire.item[0].extension[1]: This element does not match any known slice defined in the profile http://science37.com/StructureDefinition/questionnaire-s37
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Number-Integer: Questionnaire.item[0].extension[2]: This element does not match any known slice defined in the profile http://science37.com/StructureDefinition/questionnaire-s37
-INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Number-Integer: Questionnaire.item[0].extension[0].extension[3].value.ofType(string): The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Number-Integer: Questionnaire.item[0].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 == fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-RichText.json ==
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-RichText: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
