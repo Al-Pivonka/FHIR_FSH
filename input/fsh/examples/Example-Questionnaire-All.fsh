@@ -25,7 +25,7 @@ Usage: #example
 
 
 /* Header */
-* item[+].type = #display
+* item[0].type = #display
 * item[=].extension[questionnaire-hidden].valueBoolean = false
 * item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
 * item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
@@ -42,7 +42,7 @@ Usage: #example
 * item[=].required = true
 
 /* Date Time */
-* item[0].type = #dateTime
+* item[+].type = #dateTime
 * item[=].extension[questionnaire-hidden].valueBoolean = false
 * item[=].linkId = "__S37-form-fields-qo3cyvy8fgh"
 * item[=].text = "<p style=\"text-align:left;\"><strong>DATE_TIME_LABEL</strong></p>"
@@ -582,19 +582,17 @@ Usage: #example
 * item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#rich-text "rich-text"
 * item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#rich-text
 * item[=].linkId = "__S37-form-fields-fe09fa6eto33"
-* item[=].item[0].type = #text
-* item[=].item[=].linkId = "__S37-form-fields-fe09fa6eto2"
-* item[=].item[=].text = "<p style=\"text-align:left;\"><strong>Rich Text Area data</strong></p>"
-* item[=].item[=].definition = "https://science37.com/NG/widget/id/richText/version/2.3"
-* item[=].item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Rich-Text-Version"
-* item[=].item[=].extension[ItemSettings].extension[OID].valueString = "FOOTER_OID"
-* item[=].item[=].extension[ItemSettings].extension[title].valueString = "FOOTER_TITLE"
-* item[=].item[=].extension[ItemSettings].extension[variableName].valueString = "NOT Assigned by DD"
-* item[=].item[=].extension[ItemSettings].extension[standardVariable].valueString = "FOOTER_STD_VAR"
-* item[=].item[=].extension[ItemSettings].extension[fieldCode].valueString = "NOT Assigned by DD"
-* item[=].item[=].extension[ItemSettings].extension[description].valueString = "FOOTER_DESC"
-* item[=].item[=].required = true
-* item[=].item[=].extension[ItemSettings].extension[maxLength].valueInteger = 254 /*Not Assigned by DD*/
+* item[=].text = "<p style=\"text-align:left;\"><strong>Rich Text Area data</strong></p>"
+* item[=].definition = "https://science37.com/NG/widget/id/richText/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Rich-Text-Version"
+* item[=].extension[ItemSettings].extension[OID].valueString = "FOOTER_OID"
+* item[=].extension[ItemSettings].extension[title].valueString = "FOOTER_TITLE"
+* item[=].extension[ItemSettings].extension[variableName].valueString = "NOT Assigned by DD"
+* item[=].extension[ItemSettings].extension[standardVariable].valueString = "FOOTER_STD_VAR"
+* item[=].extension[ItemSettings].extension[fieldCode].valueString = "NOT Assigned by DD"
+* item[=].extension[ItemSettings].extension[description].valueString = "FOOTER_DESC"
+* item[=].required = true
+* item[=].extension[ItemSettings].extension[maxLength].valueInteger = 254 /*Not Assigned by DD*/
 
 /* Footer */
 * item[+].type = #display
@@ -689,6 +687,9 @@ Usage: #example
 * item[=].definition = "https://science37.com/NG/widget/id/page-break/version/2.3"
 * item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-page-break-Version"
 
+
+
+
 /* Header */
 * item[+].type = #display
 * item[=].extension[questionnaire-hidden].valueBoolean = false
@@ -706,7 +707,104 @@ Usage: #example
 * item[=].extension[ItemSettings].extension[description].valueString = "header_DESC"
 * item[=].required = true
 
-/*Item*/
+* item[+].type = #choice
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#drop-down "Drop-Down"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#drop-Down
+* item[=].linkId = "__S37-form-fields-fe09fa6eto3399s"
+* item[=].text = "<p style=\"text-align:left;\"><strong>What is you current mood?</strong></p>"
+* item[=].definition = "https://science37.com/NG/widget/id/Select/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Select-Version"
+* item[=].extension[ItemSettings].extension[OID].valueString = "SELECT_OID"
+* item[=].extension[ItemSettings].extension[title].valueString = "SELECT_TITLE"
+* item[=].extension[ItemSettings].extension[variableName].valueString = "NOT Assigned by DD"
+* item[=].extension[ItemSettings].extension[standardVariable].valueString = "SELECT_STD_VAR"
+* item[=].extension[ItemSettings].extension[fieldCode].valueString = "NOT Assigned by DD"
+* item[=].extension[ItemSettings].extension[description].valueString = "SELECT_DESC"
+* item[=].required = true
+* item[=].extension[ItemSettings].extension[maxLength].valueInteger = 254 /*Not Assigned by DD*/
+* item[=].answerOption[0].valueCoding.code = #1
+* item[=].answerOption[=].valueCoding.display = "1"
+* item[=].answerOption[+].valueCoding.code = #2
+* item[=].answerOption[=].valueCoding.display = "2"
+* item[=].answerOption[+].valueCoding.code = #3
+* item[=].answerOption[=].valueCoding.display = "3"
+* item[=].answerOption[+].valueCoding.code = #554
+* item[=].answerOption[=].valueCoding.display = "554"
+* item[=].initial.valueString = "554"
+
+/* Footer */
+* item[+].type = #display
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#footer "footer"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#footer
+* item[=].linkId = "__S37-form-fields-adhas4b1899nw"
+* item[=].text = "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>"
+* item[=].definition = "https://science37.com/NG/widget/id/footer/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Footer-Version"
+* item[=].extension[ItemSettings].extension[OID].valueString = "OID field Object ID"
+* item[=].extension[ItemSettings].extension[title].valueString = "Footer Title"
+* item[=].extension[ItemSettings].extension[variableName].valueString = "Not supplied by DD"
+* item[=].extension[ItemSettings].extension[standardVariable].valueString = "FOOTER_STD_VAR"
+* item[=].extension[ItemSettings].extension[fieldCode].valueString = "Not Supplied by DD"
+* item[=].extension[ItemSettings].extension[description].valueString = "FOOTER_DESC"
+* item[=].required = true
+
+
+/* Page Break*/
+* item[+].type = #display
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
+* item[=].linkId = "__S37-form-fields-adhas4b1899nw"
+* item[=].definition = "https://science37.com/NG/widget/id/page-break/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-page-break-Version"
+
+
+/* Header */
+* item[+].type = #display
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
+* item[=].linkId = "__S37-form-fields-adhas4b1899nw"
+* item[=].text = "<p style=\"text-align:left;\"><strong>header_TEXT</strong></p>"
+* item[=].definition = "https://science37.com/NG/widget/id/header/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-header-Version"
+* item[=].extension[ItemSettings].extension[OID].valueString = "HEADER_OID"
+* item[=].extension[ItemSettings].extension[title].valueString = "header Title"
+* item[=].extension[ItemSettings].extension[variableName].valueString = "Not supplied by DD"
+* item[=].extension[ItemSettings].extension[standardVariable].valueString = "header_STD_VAR"
+* item[=].extension[ItemSettings].extension[fieldCode].valueString = "Not Supplied by DD"
+* item[=].extension[ItemSettings].extension[description].valueString = "header_DESC"
+* item[=].required = true
+
+* item[+].type = #choice
+* item[=].repeats = true
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#check-box "Check Box"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#check-box
+* item[=].linkId = "__S37-form-fields-fe09fa6etoe32w9s"
+* item[=].text = "<p style=\"text-align:left;\"><strong>What is you current mood?</strong></p>"
+* item[=].definition = "https://science37.com/NG/widget/id/MultiSelect/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-MultiSelect-Version"
+* item[=].extension[ItemSettings].extension[OID].valueString = "MultiSelect_OID"
+* item[=].extension[ItemSettings].extension[title].valueString = "MultiSelect_TITLE"
+* item[=].extension[ItemSettings].extension[variableName].valueString = "NOT Assigned by DD"
+* item[=].extension[ItemSettings].extension[standardVariable].valueString = "MultiSelect_STD_VAR"
+* item[=].extension[ItemSettings].extension[fieldCode].valueString = "NOT Assigned by DD"
+* item[=].extension[ItemSettings].extension[description].valueString = "MultiSelect_DESC"
+* item[=].required = true
+* item[=].extension[ItemSettings].extension[maxLength].valueInteger = 254 /*Not Assigned by DD*/
+* item[=].answerOption[0].valueCoding.code = #1
+* item[=].answerOption[=].valueCoding.display = "1"
+* item[=].answerOption[+].valueCoding.code = #2
+* item[=].answerOption[=].valueCoding.display = "2"
+* item[=].answerOption[+].valueCoding.code = #3
+* item[=].answerOption[=].valueCoding.display = "3"
+* item[=].answerOption[+].valueCoding.code = #554
+* item[=].answerOption[=].valueCoding.display = "554"
+* item[=].initial.valueString = "554"
+
 
 /* Footer */
 * item[+].type = #display

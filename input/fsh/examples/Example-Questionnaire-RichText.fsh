@@ -29,16 +29,14 @@ Usage: #example
 * item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#rich-text "rich-text"
 * item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#rich-text
 * item[=].linkId = "__S37-form-fields-fe09fa6eto33"
-* item[=].item[0].type = #text
-* item[=].item[=].linkId = "__S37-form-fields-fe09fa6eto2"
-* item[=].item[=].text = "<p style=\"text-align:left;\"><strong>Rich Text Area data</strong></p>"
-* item[=].item[=].definition = "https://science37.com/NG/widget/id/richText/version/2.3"
-* item[=].item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Rich-Text-Version"
-* item[=].item[=].extension[ItemSettings].extension[OID].valueString = "FOOTER_OID"
-* item[=].item[=].extension[ItemSettings].extension[title].valueString = "FOOTER_TITLE"
-* item[=].item[=].extension[ItemSettings].extension[variableName].valueString = "NOT Assigned by DD"
-* item[=].item[=].extension[ItemSettings].extension[standardVariable].valueString = "FOOTER_STD_VAR"
-* item[=].item[=].extension[ItemSettings].extension[fieldCode].valueString = "NOT Assigned by DD"
-* item[=].item[=].extension[ItemSettings].extension[description].valueString = "FOOTER_DESC"
-* item[=].item[=].required = true
-* item[=].item[=].extension[ItemSettings].extension[maxLength].valueInteger = 254 /*Not Assigned by DD*/
+* item[=].text = "<p style=\"text-align:left;\"><strong>Rich Text Area data</strong></p>"
+* item[=].definition = "https://science37.com/NG/widget/id/richText/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Rich-Text-Version"
+* item[=].extension[ItemSettings].extension[OID].valueString = "FOOTER_OID"
+* item[=].extension[ItemSettings].extension[title].valueString = "FOOTER_TITLE"
+* item[=].extension[ItemSettings].extension[variableName].valueString = "NOT Assigned by DD"
+* item[=].extension[ItemSettings].extension[standardVariable].valueString = "FOOTER_STD_VAR"
+* item[=].extension[ItemSettings].extension[fieldCode].valueString = "NOT Assigned by DD"
+* item[=].extension[ItemSettings].extension[description].valueString = "FOOTER_DESC"
+* item[=].required = true
+* item[=].extension[ItemSettings].extension[maxLength].valueInteger = 254 /*Not Assigned by DD*/

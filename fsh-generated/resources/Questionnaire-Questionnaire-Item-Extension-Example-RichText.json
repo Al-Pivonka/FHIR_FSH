@@ -26,58 +26,50 @@
             ],
             "text": "rich-text"
           }
-        }
-      ],
-      "item": [
+        },
         {
           "extension": [
             {
-              "extension": [
-                {
-                  "url": "version",
-                  "valueId": "1.0.1-Rich-Text-Version"
-                },
-                {
-                  "url": "OID",
-                  "valueString": "FOOTER_OID"
-                },
-                {
-                  "url": "title",
-                  "valueString": "FOOTER_TITLE"
-                },
-                {
-                  "url": "variableName",
-                  "valueString": "NOT Assigned by DD"
-                },
-                {
-                  "url": "standardVariable",
-                  "valueString": "FOOTER_STD_VAR"
-                },
-                {
-                  "url": "fieldCode",
-                  "valueString": "NOT Assigned by DD"
-                },
-                {
-                  "url": "description",
-                  "valueString": "FOOTER_DESC"
-                },
-                {
-                  "url": "maxLength",
-                  "valueInteger": 254
-                }
-              ],
-              "url": "http://science37.com/StructureDefinition/item-settings"
+              "url": "version",
+              "valueId": "1.0.1-Rich-Text-Version"
+            },
+            {
+              "url": "OID",
+              "valueString": "FOOTER_OID"
+            },
+            {
+              "url": "title",
+              "valueString": "FOOTER_TITLE"
+            },
+            {
+              "url": "variableName",
+              "valueString": "NOT Assigned by DD"
+            },
+            {
+              "url": "standardVariable",
+              "valueString": "FOOTER_STD_VAR"
+            },
+            {
+              "url": "fieldCode",
+              "valueString": "NOT Assigned by DD"
+            },
+            {
+              "url": "description",
+              "valueString": "FOOTER_DESC"
+            },
+            {
+              "url": "maxLength",
+              "valueInteger": 254
             }
           ],
-          "type": "text",
-          "linkId": "__S37-form-fields-fe09fa6eto2",
-          "text": "<p style=\"text-align:left;\"><strong>Rich Text Area data</strong></p>",
-          "definition": "https://science37.com/NG/widget/id/richText/version/2.3",
-          "required": true
+          "url": "http://science37.com/StructureDefinition/item-settings"
         }
       ],
       "type": "display",
-      "linkId": "__S37-form-fields-fe09fa6eto33"
+      "linkId": "__S37-form-fields-fe09fa6eto33",
+      "text": "<p style=\"text-align:left;\"><strong>Rich Text Area data</strong></p>",
+      "definition": "https://science37.com/NG/widget/id/richText/version/2.3",
+      "required": true
     }
   ],
   "status": "draft",
