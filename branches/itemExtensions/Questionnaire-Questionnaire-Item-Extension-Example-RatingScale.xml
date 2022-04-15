@@ -20,7 +20,7 @@
   <title value="Example : Questionnaire.Item RatingScale"/>
   <status value="draft"/>
   <subjectType value="Patient"/>
-  <date value="2022-04-15T15:34:51+00:00"/>
+  <date value="2022-04-15T15:54:30+00:00"/>
   <publisher value="Science37"/>
   <contact>
     <name value="Science37"/>
@@ -48,7 +48,7 @@
         <valueString value="ratingscale"/>
       </extension>
       <extension url="version">
-        <valueId value="1.0.1-ItemVersion"/>
+        <valueId value="1.0.1-Rating-ScaleVersion"/>
       </extension>
       <extension url="OID">
         <valueString value="NRS_OID"/>
