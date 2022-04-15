@@ -20,7 +20,7 @@
   <title value="Example : Questionnaire.Item FileUpload"/>
   <status value="draft"/>
   <subjectType value="Patient"/>
-  <date value="2022-04-15T12:45:47+00:00"/>
+  <date value="2022-04-15T14:01:58+00:00"/>
   <publisher value="Science37"/>
   <contact>
     <name value="Science37"/>
@@ -30,6 +30,9 @@
     </telecom>
   </contact>
   <item>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
+      <valueBoolean value="false"/>
+    </extension>
     <extension url="http://science37.com/StructureDefinition/item-settings">
       <extension url="subType">
         <valueString value="FileUpload"/>
@@ -55,6 +58,14 @@
       <extension url="description">
         <valueString value="FILE_UPLOAD_DESC"/>
       </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <code value="questionnaire-item-control.text-box"/>
+        </coding>
+        <text value="questionnaire-item-control.text-box"/>
+      </valueCodeableConcept>
     </extension>
     <linkId value="__S37-form-fields-q6zbrgullmr"/>
     <definition value="https://science37.com/NG/widget/id/fileupload/version/2.3"/>
