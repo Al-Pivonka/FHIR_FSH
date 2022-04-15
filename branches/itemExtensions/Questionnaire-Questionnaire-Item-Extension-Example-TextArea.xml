@@ -20,7 +20,7 @@
   <title value="Example : Questionnaire.Item TextArea"/>
   <status value="draft"/>
   <subjectType value="Patient"/>
-  <date value="2022-04-15T14:45:08+00:00"/>
+  <date value="2022-04-15T14:52:59+00:00"/>
   <publisher value="Science37"/>
   <contact>
     <name value="Science37"/>
@@ -39,7 +39,6 @@
           <system value="http://hl7.org/fhir/questionnaire-item-control"/>
           <code value="text-box"/>
         </coding>
-        <text value="text-box"/>
       </valueCodeableConcept>
     </extension>
     <extension url="http://science37.com/StructureDefinition/item-settings">
