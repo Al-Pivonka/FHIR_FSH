@@ -1,1 +1,1 @@
-Alias: ITEMCONTROL = http://hl7.org/fhir/questionnaire-item-control
+Alias: $ITEMCONTROL = http://hl7.org/fhir/questionnaire-item-control

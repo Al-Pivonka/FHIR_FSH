@@ -17,7 +17,6 @@
         {
           "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
           "valueCodeableConcept": {
-            "text": "text-box",
             "coding": [
               {
                 "system": "http://hl7.org/fhir/questionnaire-item-control",
