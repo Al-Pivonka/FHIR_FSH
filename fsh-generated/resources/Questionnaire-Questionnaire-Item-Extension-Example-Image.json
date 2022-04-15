@@ -55,7 +55,7 @@
       "type": "attachment",
       "linkId": "isdfu9s0df8us8dfy",
       "text": "Item Text Value",
-      "definition": "https://science37.com/NG/widget/id/text/version/2.3",
+      "definition": "https://science37.com/NG/widget/id/image/version/2.3",
       "required": true,
       "maxLength": 22,
       "initial": [

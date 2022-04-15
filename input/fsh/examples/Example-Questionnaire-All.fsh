@@ -22,6 +22,7 @@ Usage: #example
 * extension[FormSettings].extension[requireDataReview].valueBoolean = true
 * extension[FormSettings].extension[createdAt].valueDateTime = "2015-02-07T13:28:17Z"
 * extension[FormSettings].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"
+/* Date Time */
 * item[0].type = #dateTime
 * item[=].linkId = "__S37-form-fields-qo3cyvy8fgh"
 * item[=].text = "<p style=\"text-align:left;\"><strong>DATE_TIME_LABEL</strong></p>"
@@ -129,58 +130,10 @@ Usage: #example
 * item[=].extension[ItemSettings].extension[naOption].valueBoolean = true
 * item[=].extension[ItemSettings].extension[naLabel].valueString = "The NA Label"
 * item[=].required = true
-/* Rich Text */
-* item[6].type = #display
-* item[=].linkId = "__S37-form-fields-fe09fa6eto33"
-* item[=].item[0].type = #text
-* item[=].item[=].extension[ItemSettings].extension[subType].valueString = "RichText"
-* item[=].item[=].linkId = "__S37-form-fields-fe09fa6eto2"
-* item[=].item[=].text = "<p style=\"text-align:left;\"><strong>Rich Text Area data</strong></p>"
-* item[=].item[=].definition = "https://science37.com/NG/widget/id/richText/version/2.3"
-* item[=].item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"
-* item[=].item[=].extension[ItemSettings].extension[OID].valueString = "FOOTER_OID"
-* item[=].item[=].extension[ItemSettings].extension[title].valueString = "FOOTER_TITLE"
-* item[=].item[=].extension[ItemSettings].extension[variableName].valueString = "NOT Assigned by DD"
-* item[=].item[=].extension[ItemSettings].extension[standardVariable].valueString = "FOOTER_STD_VAR"
-* item[=].item[=].extension[ItemSettings].extension[fieldCode].valueString = "NOT Assigned by DD"
-* item[=].item[=].extension[ItemSettings].extension[description].valueString = "FOOTER_DESC"
-* item[=].item[=].required = true
-* item[=].item[=].extension[ItemSettings].extension[maxLength].valueInteger = 254 /*Not Assigned by DD*/
-/* Plan TEXT */
-* item[7].type = #question
-* item[=].linkId = "s9oduf-9asdufa8sdfy8-222"
-* item[=].item[0].type = #text
-* item[=].item[=].linkId = "klklklsio989-s8s8s8s"
-* item[=].item[=].text = "Describe your current mood."
-* item[=].item[=].definition = "https://science37.com/NG/widget/id/text/version/2.3"
-* item[=].item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"
-* item[=].item[=].extension[ItemSettings].extension[OID].valueString = "OID field Object ID"
-* item[=].item[=].extension[ItemSettings].extension[title].valueString = "The Item Title"
-* item[=].item[=].extension[ItemSettings].extension[variableName].valueString = "The Item variableName"
-* item[=].item[=].extension[ItemSettings].extension[standardVariable].valueString = "The standardVariable"
-* item[=].item[=].extension[ItemSettings].extension[fieldCode].valueString = "The fieldCode"
-* item[=].item[=].extension[ItemSettings].extension[description].valueString = "The description"
-* item[=].item[=].required = true
-* item[=].item[=].extension[ItemSettings].extension[maxLength].valueInteger = 22
-* item[=].item[=].initial.valueString = " Replacement for defaultPlaceholder"
-/* Text Area */
-* item[8].type = #question
-* item[=].linkId = "__S37-form-fields-1nhurf723d8"
-* item[=].item[0].type = #text
-* item[=].item[=].extension[ItemSettings].extension[subType].valueString = "TextArea"
-* item[=].item[=].linkId = "__S37-form-fields-1nhurf7a3d8"
-* item[=].item[=].text =  "<p style=\"text-align:left;\"><strong>TEXT_AREA_LABEL</strong></p>"
-* item[=].item[=].definition = "https://science37.com/NG/widget/id/richText/version/2.3"
-* item[=].item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"
-* item[=].item[=].extension[ItemSettings].extension[OID].valueString = "TEXT_AREA-OID"
-* item[=].item[=].extension[ItemSettings].extension[title].valueString = "TEXT_AREA_TITLE"
-* item[=].item[=].extension[ItemSettings].extension[variableName].valueString = "NOT Assigned by DD"
-* item[=].item[=].extension[ItemSettings].extension[standardVariable].valueString = "TEXT_AREA_STD_VAR"
-* item[=].item[=].extension[ItemSettings].extension[fieldCode].valueString = "NOT Assigned by DD"
-* item[=].item[=].extension[ItemSettings].extension[description].valueString = "TEXT_AREA_DESC"
-* item[=].item[=].required = true
+
+
 /* VAS Scale */
-* item[9].type = #question
+* item[6].type = #question
 * item[=].linkId = "__S37-form-fields-h0ae575xlf8"
 * item[=].extension[VASScaleItem].extension[subType].valueString = "VASScale"
 * item[=].text =  "<p style=\"text-align:left;\"><strong>Please tap on the scale to indicate how your health is TODAY</strong></p>"
@@ -210,3 +163,56 @@ Usage: #example
 * item[=].extension[VASScaleItem].extension[scaleSize].valueString = "consistentScale"
 * item[=].extension[VASScaleItem].extension[optionalPresets].valueString = "vasTenPointIncrement"
 * item[=].required = true
+
+/* Text Area */
+* item[7].type = #question
+* item[=].linkId = "__S37-form-fields-1nhurf723d8"
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = #questionnaire-item-control.text-box
+/* item[=].extension[ItemSettings].extension[subType].valueString = "TextArea" */
+* item[=].linkId = "__S37-form-fields-1nhurf7a3d8"
+* item[=].text =  "<p style=\"text-align:left;\"><strong>TEXT_AREA_LABEL</strong></p>"
+* item[=].definition = "https://science37.com/NG/widget/id/richText/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"
+* item[=].extension[ItemSettings].extension[OID].valueString = "TEXT_AREA-OID"
+* item[=].extension[ItemSettings].extension[title].valueString = "TEXT_AREA_TITLE"
+* item[=].extension[ItemSettings].extension[variableName].valueString = "NOT Assigned by DD"
+* item[=].extension[ItemSettings].extension[standardVariable].valueString = "TEXT_AREA_STD_VAR"
+* item[=].extension[ItemSettings].extension[fieldCode].valueString = "NOT Assigned by DD"
+* item[=].extension[ItemSettings].extension[description].valueString = "TEXT_AREA_DESC"
+* item[=].required = true
+
+/* Rich Text */
+* item[8].type = #display
+* item[=].linkId = "__S37-form-fields-fe09fa6eto33"
+* item[=].item[0].type = #text
+* item[=].item[=].extension[ItemSettings].extension[subType].valueString = "RichText"
+* item[=].item[=].linkId = "__S37-form-fields-fe09fa6eto2"
+* item[=].item[=].text = "<p style=\"text-align:left;\"><strong>Rich Text Area data</strong></p>"
+* item[=].item[=].definition = "https://science37.com/NG/widget/id/richText/version/2.3"
+* item[=].item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"
+* item[=].item[=].extension[ItemSettings].extension[OID].valueString = "FOOTER_OID"
+* item[=].item[=].extension[ItemSettings].extension[title].valueString = "FOOTER_TITLE"
+* item[=].item[=].extension[ItemSettings].extension[variableName].valueString = "NOT Assigned by DD"
+* item[=].item[=].extension[ItemSettings].extension[standardVariable].valueString = "FOOTER_STD_VAR"
+* item[=].item[=].extension[ItemSettings].extension[fieldCode].valueString = "NOT Assigned by DD"
+* item[=].item[=].extension[ItemSettings].extension[description].valueString = "FOOTER_DESC"
+* item[=].item[=].required = true
+* item[=].item[=].extension[ItemSettings].extension[maxLength].valueInteger = 254 /*Not Assigned by DD*/
+/* Plan TEXT */
+* item[9].type = #question
+* item[=].linkId = "s9oduf-9asdufa8sdfy8-222"
+* item[=].item[0].type = #text
+* item[=].item[=].linkId = "klklklsio989-s8s8s8s"
+* item[=].item[=].text = "Describe your current mood."
+* item[=].item[=].definition = "https://science37.com/NG/widget/id/text/version/2.3"
+* item[=].item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"
+* item[=].item[=].extension[ItemSettings].extension[OID].valueString = "OID field Object ID"
+* item[=].item[=].extension[ItemSettings].extension[title].valueString = "The Item Title"
+* item[=].item[=].extension[ItemSettings].extension[variableName].valueString = "The Item variableName"
+* item[=].item[=].extension[ItemSettings].extension[standardVariable].valueString = "The standardVariable"
+* item[=].item[=].extension[ItemSettings].extension[fieldCode].valueString = "The fieldCode"
+* item[=].item[=].extension[ItemSettings].extension[description].valueString = "The description"
+* item[=].item[=].required = true
+* item[=].item[=].extension[ItemSettings].extension[maxLength].valueInteger = 22
+* item[=].item[=].initial.valueString = " Replacement for defaultPlaceholder"

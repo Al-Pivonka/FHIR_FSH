@@ -51,7 +51,7 @@
       "type": "attachment",
       "linkId": "__S37-form-fields-q6zbrgullmr",
       "text": "<p style=\"text-align:left;\"><strong>FILE_UPLOAD_LABEL</strong></p>",
-      "definition": "https://science37.com/NG/widget/id/text/version/2.3",
+      "definition": "https://science37.com/NG/widget/id/fileupload/version/2.3",
       "required": true
     }
   ],

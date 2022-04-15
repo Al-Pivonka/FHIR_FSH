@@ -131,54 +131,6 @@
           "valueDateTime": "2000-11-14T16:39:40-05:00"
         }
       ],
-      "item": [
-        {
-          "extension": [
-            {
-              "extension": [
-                {
-                  "url": "subType",
-                  "valueString": "TextArea"
-                },
-                {
-                  "url": "version",
-                  "valueId": "1.0.1-ItemVersion"
-                },
-                {
-                  "url": "OID",
-                  "valueString": "TEXT_AREA-OID"
-                },
-                {
-                  "url": "title",
-                  "valueString": "TEXT_AREA_TITLE"
-                },
-                {
-                  "url": "variableName",
-                  "valueString": "NOT Assigned by DD"
-                },
-                {
-                  "url": "standardVariable",
-                  "valueString": "TEXT_AREA_STD_VAR"
-                },
-                {
-                  "url": "fieldCode",
-                  "valueString": "NOT Assigned by DD"
-                },
-                {
-                  "url": "description",
-                  "valueString": "TEXT_AREA_DESC"
-                }
-              ],
-              "url": "http://science37.com/StructureDefinition/item-settings"
-            }
-          ],
-          "type": "text",
-          "linkId": "__S37-form-fields-1nhurf7a3d8",
-          "text": "<p style=\"text-align:left;\"><strong>TEXT_AREA_LABEL</strong></p>",
-          "definition": "https://science37.com/NG/widget/id/richText/version/2.3",
-          "required": true
-        }
-      ],
       "type": "dateTime",
       "linkId": "__S37-form-fields-qo3cyvy8fgh",
       "text": "<p style=\"text-align:left;\"><strong>DATE_TIME_LABEL</strong></p>",
@@ -282,7 +234,7 @@
         }
       ],
       "type": "attachment",
-      "linkId": "isdfu9s0df8us8dfy",
+      "linkId": "isdfu9s0df8us8-sd09-s09s0",
       "text": "Item Text Value",
       "definition": "https://science37.com/NG/widget/id/text/version/2.3",
       "required": true,
@@ -486,123 +438,6 @@
       "required": true
     },
     {
-      "item": [
-        {
-          "extension": [
-            {
-              "extension": [
-                {
-                  "url": "subType",
-                  "valueString": "RichText"
-                },
-                {
-                  "url": "version",
-                  "valueId": "1.0.1-ItemVersion"
-                },
-                {
-                  "url": "OID",
-                  "valueString": "FOOTER_OID"
-                },
-                {
-                  "url": "title",
-                  "valueString": "FOOTER_TITLE"
-                },
-                {
-                  "url": "variableName",
-                  "valueString": "NOT Assigned by DD"
-                },
-                {
-                  "url": "standardVariable",
-                  "valueString": "FOOTER_STD_VAR"
-                },
-                {
-                  "url": "fieldCode",
-                  "valueString": "NOT Assigned by DD"
-                },
-                {
-                  "url": "description",
-                  "valueString": "FOOTER_DESC"
-                },
-                {
-                  "url": "maxLength",
-                  "valueInteger": 254
-                }
-              ],
-              "url": "http://science37.com/StructureDefinition/item-settings"
-            }
-          ],
-          "type": "text",
-          "linkId": "__S37-form-fields-fe09fa6eto2",
-          "text": "<p style=\"text-align:left;\"><strong>Rich Text Area data</strong></p>",
-          "definition": "https://science37.com/NG/widget/id/richText/version/2.3",
-          "required": true
-        }
-      ],
-      "type": "display",
-      "linkId": "__S37-form-fields-fe09fa6eto33"
-    },
-    {
-      "item": [
-        {
-          "extension": [
-            {
-              "extension": [
-                {
-                  "url": "version",
-                  "valueId": "1.0.1-ItemVersion"
-                },
-                {
-                  "url": "OID",
-                  "valueString": "OID field Object ID"
-                },
-                {
-                  "url": "title",
-                  "valueString": "The Item Title"
-                },
-                {
-                  "url": "variableName",
-                  "valueString": "The Item variableName"
-                },
-                {
-                  "url": "standardVariable",
-                  "valueString": "The standardVariable"
-                },
-                {
-                  "url": "fieldCode",
-                  "valueString": "The fieldCode"
-                },
-                {
-                  "url": "description",
-                  "valueString": "The description"
-                },
-                {
-                  "url": "maxLength",
-                  "valueInteger": 22
-                }
-              ],
-              "url": "http://science37.com/StructureDefinition/item-settings"
-            }
-          ],
-          "type": "text",
-          "linkId": "isdfu9s0df8us8dfy-222",
-          "text": "Describe your current mood.",
-          "definition": "https://science37.com/NG/widget/id/text/version/2.3",
-          "required": true,
-          "initial": [
-            {
-              "valueString": " Replacement for defaultPlaceholder"
-            }
-          ]
-        }
-      ],
-      "type": "question",
-      "linkId": "isdfu9s0df8us8dfy"
-    },
-    {
-      "type": "question",
-      "linkId": "__S37-form-fields-1nhurf723d8"
-    },
-    {
       "extension": [
         {
           "extension": [
@@ -715,6 +550,179 @@
       "text": "<p style=\"text-align:left;\"><strong>Please tap on the scale to indicate how your health is TODAY</strong></p>",
       "definition": "https://science37.com/NG/widget/id/richText/version/2.3",
       "required": true
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "questionnaire-item-control.text-box"
+              }
+            ]
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "subType",
+              "valueString": "TextArea"
+            },
+            {
+              "url": "version",
+              "valueId": "1.0.1-ItemVersion"
+            },
+            {
+              "url": "OID",
+              "valueString": "TEXT_AREA-OID"
+            },
+            {
+              "url": "title",
+              "valueString": "TEXT_AREA_TITLE"
+            },
+            {
+              "url": "variableName",
+              "valueString": "NOT Assigned by DD"
+            },
+            {
+              "url": "standardVariable",
+              "valueString": "TEXT_AREA_STD_VAR"
+            },
+            {
+              "url": "fieldCode",
+              "valueString": "NOT Assigned by DD"
+            },
+            {
+              "url": "description",
+              "valueString": "TEXT_AREA_DESC"
+            }
+          ],
+          "url": "http://science37.com/StructureDefinition/item-settings"
+        }
+      ],
+      "type": "question",
+      "linkId": "__S37-form-fields-1nhurf7a3d8",
+      "text": "<p style=\"text-align:left;\"><strong>TEXT_AREA_LABEL</strong></p>",
+      "definition": "https://science37.com/NG/widget/id/richText/version/2.3",
+      "required": true
+    },
+    {
+      "item": [
+        {
+          "extension": [
+            {
+              "extension": [
+                {
+                  "url": "subType",
+                  "valueString": "RichText"
+                },
+                {
+                  "url": "version",
+                  "valueId": "1.0.1-ItemVersion"
+                },
+                {
+                  "url": "OID",
+                  "valueString": "FOOTER_OID"
+                },
+                {
+                  "url": "title",
+                  "valueString": "FOOTER_TITLE"
+                },
+                {
+                  "url": "variableName",
+                  "valueString": "NOT Assigned by DD"
+                },
+                {
+                  "url": "standardVariable",
+                  "valueString": "FOOTER_STD_VAR"
+                },
+                {
+                  "url": "fieldCode",
+                  "valueString": "NOT Assigned by DD"
+                },
+                {
+                  "url": "description",
+                  "valueString": "FOOTER_DESC"
+                },
+                {
+                  "url": "maxLength",
+                  "valueInteger": 254
+                }
+              ],
+              "url": "http://science37.com/StructureDefinition/item-settings"
+            }
+          ],
+          "type": "text",
+          "linkId": "__S37-form-fields-fe09fa6eto2",
+          "text": "<p style=\"text-align:left;\"><strong>Rich Text Area data</strong></p>",
+          "definition": "https://science37.com/NG/widget/id/richText/version/2.3",
+          "required": true
+        }
+      ],
+      "type": "display",
+      "linkId": "__S37-form-fields-fe09fa6eto33"
+    },
+    {
+      "item": [
+        {
+          "extension": [
+            {
+              "extension": [
+                {
+                  "url": "version",
+                  "valueId": "1.0.1-ItemVersion"
+                },
+                {
+                  "url": "OID",
+                  "valueString": "OID field Object ID"
+                },
+                {
+                  "url": "title",
+                  "valueString": "The Item Title"
+                },
+                {
+                  "url": "variableName",
+                  "valueString": "The Item variableName"
+                },
+                {
+                  "url": "standardVariable",
+                  "valueString": "The standardVariable"
+                },
+                {
+                  "url": "fieldCode",
+                  "valueString": "The fieldCode"
+                },
+                {
+                  "url": "description",
+                  "valueString": "The description"
+                },
+                {
+                  "url": "maxLength",
+                  "valueInteger": 22
+                }
+              ],
+              "url": "http://science37.com/StructureDefinition/item-settings"
+            }
+          ],
+          "type": "text",
+          "linkId": "klklklsio989-s8s8s8s",
+          "text": "Describe your current mood.",
+          "definition": "https://science37.com/NG/widget/id/text/version/2.3",
+          "required": true,
+          "initial": [
+            {
+              "valueString": " Replacement for defaultPlaceholder"
+            }
+          ]
+        }
+      ],
+      "type": "question",
+      "linkId": "s9oduf-9asdufa8sdfy8-222"
     }
   ],
   "status": "draft",

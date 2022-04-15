@@ -75,7 +75,7 @@
       "type": "question",
       "linkId": "__S37-form-fields-6qupvhtl05b",
       "text": "<p style=\"text-align:left;\"><strong>NRS_LABEL</strong></p>",
-      "definition": "https://science37.com/NG/widget/id/richText/version/2.3",
+      "definition": "https://science37.com/NG/widget/id/ratingscale/version/2.3",
       "required": true
     }
   ],

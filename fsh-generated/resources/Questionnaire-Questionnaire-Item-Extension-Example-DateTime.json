@@ -75,7 +75,7 @@
       "type": "dateTime",
       "linkId": "__S37-form-fields-qo3cyvy8fgh",
       "text": "<p style=\"text-align:left;\"><strong>DATE_TIME_LABEL</strong></p>",
-      "definition": "https://science37.com/NG/widget/id/text/version/2.3",
+      "definition": "https://science37.com/NG/widget/id/datetime/version/2.3",
       "required": true,
       "maxLength": 22,
       "initial": [

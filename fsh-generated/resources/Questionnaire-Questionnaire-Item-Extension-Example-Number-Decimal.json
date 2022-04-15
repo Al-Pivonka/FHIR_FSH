@@ -63,7 +63,7 @@
       "type": "decimal",
       "linkId": "__S37-form-fields-jntlfakzc05",
       "text": "<p style=\"text-align:left;\"><strong>NUMBER_LABEL</strong></p>",
-      "definition": "https://science37.com/NG/widget/id/richText/version/2.3",
+      "definition": "https://science37.com/NG/widget/id/number/version/2.3",
       "initial": [
         {
           "valueDecimal": 1.01
