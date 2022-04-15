@@ -9,7 +9,7 @@
   "version": "1.0.0-S37",
   "name": "S37FHIRIG",
   "status": "active",
-  "date": "2022-04-15T17:11:07+00:00",
+  "date": "2022-04-15T17:46:09+00:00",
   "publisher": "Science37",
   "contact": [
     {
@@ -521,6 +521,20 @@
           }
         ],
         "reference": {
+          "reference": "Questionnaire/Questionnaire-Item-Extension-Example-MultiSelect"
+        },
+        "name": "Example : Questionnaire.Item-MultiMultiSelect",
+        "description": "Example : Questionnaire.Item-MultiSelect",
+        "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Questionnaire"
+          }
+        ],
+        "reference": {
           "reference": "Questionnaire/Questionnaire-Item-Extension-Example-Number-Decimal"
         },
         "name": "Example : Questionnaire.Item-Number-Decimal",
@@ -567,6 +581,20 @@
         },
         "name": "Example : Questionnaire.Item-RichText",
         "description": "Example : Questionnaire.Item-RichText",
+        "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "Questionnaire"
+          }
+        ],
+        "reference": {
+          "reference": "Questionnaire/Questionnaire-Item-Extension-Example-Select"
+        },
+        "name": "Example : Questionnaire.Item-Select",
+        "description": "Example : Questionnaire.Item-Select",
         "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
       },
       {

@@ -915,8 +915,7 @@
       "Questionnaire"
     ],
     "http://science37.com/StructureDefinition/item-settings": [
-      "Questionnaire.item",
-      "Questionnaire.item.item"
+      "Questionnaire.item"
     ],
     "http://science37.com/StructureDefinition/vasScale-item": [
       "Questionnaire.item"

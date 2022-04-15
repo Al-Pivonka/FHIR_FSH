@@ -56,6 +56,13 @@
     "name": "Example : Questionnaire.Item Image"
   },
   {
+    "id": "Questionnaire-Item-Extension-Example-MultiSelect",
+    "type": "Questionnaire",
+    "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-MultiSelect",
+    "version": "1.0.0-S37",
+    "name": "Example : Questionnaire.Item MultiSelect"
+  },
+  {
     "id": "Questionnaire-Item-Extension-Example-Number-Decimal",
     "type": "Questionnaire",
     "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-Number-Decimal",
@@ -82,6 +89,13 @@
     "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-RichText",
     "version": "1.0.0-S37",
     "name": "Example : Questionnaire.Item RichText"
+  },
+  {
+    "id": "Questionnaire-Item-Extension-Example-Select",
+    "type": "Questionnaire",
+    "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-Select",
+    "version": "1.0.0-S37",
+    "name": "Example : Questionnaire.Item Select"
   },
   {
     "id": "Questionnaire-Item-Extension-Example-Text",
