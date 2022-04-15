@@ -74,10 +74,56 @@
           "valueBoolean": false
         },
         {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "header",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "header"
+              }
+            ],
+            "text": "header"
+          }
+        },
+        {
           "extension": [
             {
               "url": "version",
-              "valueId": "1.0.1-ItemVersion"
+              "valueId": "1.0.1-header-Version"
+            },
+            {
+              "url": "OID",
+              "valueString": "HEADER_OID"
+            },
+            {
+              "url": "title",
+              "valueString": "header Title"
+            },
+            {
+              "url": "variableName",
+              "valueString": "Not supplied by DD"
+            },
+            {
+              "url": "standardVariable",
+              "valueString": "header_STD_VAR"
+            },
+            {
+              "url": "fieldCode",
+              "valueString": "Not Supplied by DD"
+            },
+            {
+              "url": "description",
+              "valueString": "header_DESC"
+            }
+          ],
+          "url": "http://science37.com/StructureDefinition/item-settings"
+        },
+        {
+          "extension": [
+            {
+              "url": "version",
+              "valueId": "1.0.1-dateTime"
             },
             {
               "url": "OID",
@@ -138,7 +184,7 @@
       "type": "dateTime",
       "linkId": "__S37-form-fields-qo3cyvy8fgh",
       "text": "<p style=\"text-align:left;\"><strong>DATE_TIME_LABEL</strong></p>",
-      "definition": "https://science37.com/NG/widget/id/text/version/2.3",
+      "definition": "https://science37.com/NG/widget/id/datetime/version/2.3",
       "required": true,
       "maxLength": 22,
       "initial": [
@@ -154,14 +200,174 @@
           "valueBoolean": false
         },
         {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "footer",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "footer"
+              }
+            ],
+            "text": "footer"
+          }
+        },
+        {
           "extension": [
             {
-              "url": "subType",
-              "valueString": "FileUpload"
+              "url": "version",
+              "valueId": "1.0.1-Footer-Version"
             },
             {
+              "url": "OID",
+              "valueString": "OID field Object ID"
+            },
+            {
+              "url": "title",
+              "valueString": "Footer Title"
+            },
+            {
+              "url": "variableName",
+              "valueString": "Not supplied by DD"
+            },
+            {
+              "url": "standardVariable",
+              "valueString": "FOOTER_STD_VAR"
+            },
+            {
+              "url": "fieldCode",
+              "valueString": "Not Supplied by DD"
+            },
+            {
+              "url": "description",
+              "valueString": "FOOTER_DESC"
+            }
+          ],
+          "url": "http://science37.com/StructureDefinition/item-settings"
+        }
+      ],
+      "type": "display",
+      "linkId": "__S37-form-fields-adhas4b1899nw",
+      "text": "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>",
+      "definition": "https://science37.com/NG/widget/id/footer/version/2.3",
+      "required": true
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "page-break",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "page-break"
+              }
+            ],
+            "text": "page-break"
+          }
+        },
+        {
+          "extension": [
+            {
               "url": "version",
-              "valueId": "1.0.1-ItemVersion"
+              "valueId": "1.0.1-page-break-Version"
+            }
+          ],
+          "url": "http://science37.com/StructureDefinition/item-settings"
+        }
+      ],
+      "type": "display",
+      "linkId": "__S37-form-fields-adhas4b1899nw",
+      "definition": "https://science37.com/NG/widget/id/page-break/version/2.3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "header",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "header"
+              }
+            ],
+            "text": "header"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "version",
+              "valueId": "1.0.1-header-Version"
+            },
+            {
+              "url": "OID",
+              "valueString": "HEADER_OID"
+            },
+            {
+              "url": "title",
+              "valueString": "header Title"
+            },
+            {
+              "url": "variableName",
+              "valueString": "Not supplied by DD"
+            },
+            {
+              "url": "standardVariable",
+              "valueString": "header_STD_VAR"
+            },
+            {
+              "url": "fieldCode",
+              "valueString": "Not Supplied by DD"
+            },
+            {
+              "url": "description",
+              "valueString": "header_DESC"
+            }
+          ],
+          "url": "http://science37.com/StructureDefinition/item-settings"
+        }
+      ],
+      "type": "display",
+      "linkId": "__S37-form-fields-adhas4b1899nw",
+      "text": "<p style=\"text-align:left;\"><strong>header_TEXT</strong></p>",
+      "definition": "https://science37.com/NG/widget/id/header/version/2.3",
+      "required": true
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "fileupload",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "fileupload"
+              }
+            ],
+            "text": "fileupload"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "version",
+              "valueId": "1.0.1-FileUpload-Attachment-Version"
             },
             {
               "url": "OID",
@@ -194,7 +400,7 @@
       "type": "attachment",
       "linkId": "__S37-form-fields-q6zbrgullmr",
       "text": "<p style=\"text-align:left;\"><strong>FILE_UPLOAD_LABEL</strong></p>",
-      "definition": "https://science37.com/NG/widget/id/text/version/2.3",
+      "definition": "https://science37.com/NG/widget/id/fileupload/version/2.3",
       "required": true
     },
     {
@@ -204,14 +410,174 @@
           "valueBoolean": false
         },
         {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "footer",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "footer"
+              }
+            ],
+            "text": "footer"
+          }
+        },
+        {
           "extension": [
             {
-              "url": "subType",
-              "valueString": "Image"
+              "url": "version",
+              "valueId": "1.0.1-Footer-Version"
             },
             {
+              "url": "OID",
+              "valueString": "OID field Object ID"
+            },
+            {
+              "url": "title",
+              "valueString": "Footer Title"
+            },
+            {
+              "url": "variableName",
+              "valueString": "Not supplied by DD"
+            },
+            {
+              "url": "standardVariable",
+              "valueString": "FOOTER_STD_VAR"
+            },
+            {
+              "url": "fieldCode",
+              "valueString": "Not Supplied by DD"
+            },
+            {
+              "url": "description",
+              "valueString": "FOOTER_DESC"
+            }
+          ],
+          "url": "http://science37.com/StructureDefinition/item-settings"
+        }
+      ],
+      "type": "display",
+      "linkId": "__S37-form-fields-adhas4b1899nw",
+      "text": "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>",
+      "definition": "https://science37.com/NG/widget/id/footer/version/2.3",
+      "required": true
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "page-break",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "page-break"
+              }
+            ],
+            "text": "page-break"
+          }
+        },
+        {
+          "extension": [
+            {
               "url": "version",
-              "valueId": "1.0.1-ItemVersion"
+              "valueId": "1.0.1-page-break-Version"
+            }
+          ],
+          "url": "http://science37.com/StructureDefinition/item-settings"
+        }
+      ],
+      "type": "display",
+      "linkId": "__S37-form-fields-adhas4b1899nw",
+      "definition": "https://science37.com/NG/widget/id/page-break/version/2.3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "header",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "header"
+              }
+            ],
+            "text": "header"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "version",
+              "valueId": "1.0.1-header-Version"
+            },
+            {
+              "url": "OID",
+              "valueString": "HEADER_OID"
+            },
+            {
+              "url": "title",
+              "valueString": "header Title"
+            },
+            {
+              "url": "variableName",
+              "valueString": "Not supplied by DD"
+            },
+            {
+              "url": "standardVariable",
+              "valueString": "header_STD_VAR"
+            },
+            {
+              "url": "fieldCode",
+              "valueString": "Not Supplied by DD"
+            },
+            {
+              "url": "description",
+              "valueString": "header_DESC"
+            }
+          ],
+          "url": "http://science37.com/StructureDefinition/item-settings"
+        }
+      ],
+      "type": "display",
+      "linkId": "__S37-form-fields-adhas4b1899nw",
+      "text": "<p style=\"text-align:left;\"><strong>header_TEXT</strong></p>",
+      "definition": "https://science37.com/NG/widget/id/header/version/2.3",
+      "required": true
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "image",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "image"
+              }
+            ],
+            "text": "image"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "version",
+              "valueId": "1.0.1-Attachment-Image-Version"
             },
             {
               "url": "OID",
@@ -246,9 +612,9 @@
         }
       ],
       "type": "attachment",
-      "linkId": "isdfu9s0df8us8-sd09-s09s0",
+      "linkId": "isdfu9s0df8us8dfy",
       "text": "Item Text Value",
-      "definition": "https://science37.com/NG/widget/id/text/version/2.3",
+      "definition": "https://science37.com/NG/widget/id/image/version/2.3",
       "required": true,
       "maxLength": 22,
       "initial": [
@@ -264,10 +630,161 @@
           "valueBoolean": false
         },
         {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "footer",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "footer"
+              }
+            ],
+            "text": "footer"
+          }
+        },
+        {
           "extension": [
             {
               "url": "version",
-              "valueId": "1.0.1-ItemVersion"
+              "valueId": "1.0.1-Footer-Version"
+            },
+            {
+              "url": "OID",
+              "valueString": "OID field Object ID"
+            },
+            {
+              "url": "title",
+              "valueString": "Footer Title"
+            },
+            {
+              "url": "variableName",
+              "valueString": "Not supplied by DD"
+            },
+            {
+              "url": "standardVariable",
+              "valueString": "FOOTER_STD_VAR"
+            },
+            {
+              "url": "fieldCode",
+              "valueString": "Not Supplied by DD"
+            },
+            {
+              "url": "description",
+              "valueString": "FOOTER_DESC"
+            }
+          ],
+          "url": "http://science37.com/StructureDefinition/item-settings"
+        }
+      ],
+      "type": "display",
+      "linkId": "__S37-form-fields-adhas4b1899nw",
+      "text": "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>",
+      "definition": "https://science37.com/NG/widget/id/footer/version/2.3",
+      "required": true
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "page-break",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "page-break"
+              }
+            ],
+            "text": "page-break"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "version",
+              "valueId": "1.0.1-page-break-Version"
+            }
+          ],
+          "url": "http://science37.com/StructureDefinition/item-settings"
+        }
+      ],
+      "type": "display",
+      "linkId": "__S37-form-fields-adhas4b1899nw",
+      "definition": "https://science37.com/NG/widget/id/page-break/version/2.3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "header",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "header"
+              }
+            ],
+            "text": "header"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "version",
+              "valueId": "1.0.1-header-Version"
+            },
+            {
+              "url": "OID",
+              "valueString": "HEADER_OID"
+            },
+            {
+              "url": "title",
+              "valueString": "header Title"
+            },
+            {
+              "url": "variableName",
+              "valueString": "Not supplied by DD"
+            },
+            {
+              "url": "standardVariable",
+              "valueString": "header_STD_VAR"
+            },
+            {
+              "url": "fieldCode",
+              "valueString": "Not Supplied by DD"
+            },
+            {
+              "url": "description",
+              "valueString": "header_DESC"
+            }
+          ],
+          "url": "http://science37.com/StructureDefinition/item-settings"
+        }
+      ],
+      "type": "display",
+      "linkId": "__S37-form-fields-adhas4b1899nw",
+      "text": "<p style=\"text-align:left;\"><strong>header_TEXT</strong></p>",
+      "definition": "https://science37.com/NG/widget/id/header/version/2.3",
+      "required": true
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "extension": [
+            {
+              "url": "version",
+              "valueId": "1.0.1-Number-Version"
             },
             {
               "url": "OID",
@@ -316,7 +833,7 @@
       "type": "decimal",
       "linkId": "__S37-form-fields-jntlfakzc05",
       "text": "<p style=\"text-align:left;\"><strong>NUMBER_LABEL</strong></p>",
-      "definition": "https://science37.com/NG/widget/id/richText/version/2.3",
+      "definition": "https://science37.com/NG/widget/id/number/version/2.3",
       "initial": [
         {
           "valueDecimal": 1.01
@@ -331,10 +848,161 @@
           "valueBoolean": false
         },
         {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "footer",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "footer"
+              }
+            ],
+            "text": "footer"
+          }
+        },
+        {
           "extension": [
             {
               "url": "version",
-              "valueId": "1.0.1-ItemVersion"
+              "valueId": "1.0.1-Footer-Version"
+            },
+            {
+              "url": "OID",
+              "valueString": "OID field Object ID"
+            },
+            {
+              "url": "title",
+              "valueString": "Footer Title"
+            },
+            {
+              "url": "variableName",
+              "valueString": "Not supplied by DD"
+            },
+            {
+              "url": "standardVariable",
+              "valueString": "FOOTER_STD_VAR"
+            },
+            {
+              "url": "fieldCode",
+              "valueString": "Not Supplied by DD"
+            },
+            {
+              "url": "description",
+              "valueString": "FOOTER_DESC"
+            }
+          ],
+          "url": "http://science37.com/StructureDefinition/item-settings"
+        }
+      ],
+      "type": "display",
+      "linkId": "__S37-form-fields-adhas4b1899nw",
+      "text": "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>",
+      "definition": "https://science37.com/NG/widget/id/footer/version/2.3",
+      "required": true
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "page-break",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "page-break"
+              }
+            ],
+            "text": "page-break"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "version",
+              "valueId": "1.0.1-page-break-Version"
+            }
+          ],
+          "url": "http://science37.com/StructureDefinition/item-settings"
+        }
+      ],
+      "type": "display",
+      "linkId": "__S37-form-fields-adhas4b1899nw",
+      "definition": "https://science37.com/NG/widget/id/page-break/version/2.3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "header",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "header"
+              }
+            ],
+            "text": "header"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "version",
+              "valueId": "1.0.1-header-Version"
+            },
+            {
+              "url": "OID",
+              "valueString": "HEADER_OID"
+            },
+            {
+              "url": "title",
+              "valueString": "header Title"
+            },
+            {
+              "url": "variableName",
+              "valueString": "Not supplied by DD"
+            },
+            {
+              "url": "standardVariable",
+              "valueString": "header_STD_VAR"
+            },
+            {
+              "url": "fieldCode",
+              "valueString": "Not Supplied by DD"
+            },
+            {
+              "url": "description",
+              "valueString": "header_DESC"
+            }
+          ],
+          "url": "http://science37.com/StructureDefinition/item-settings"
+        }
+      ],
+      "type": "display",
+      "linkId": "__S37-form-fields-adhas4b1899nw",
+      "text": "<p style=\"text-align:left;\"><strong>header_TEXT</strong></p>",
+      "definition": "https://science37.com/NG/widget/id/header/version/2.3",
+      "required": true
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "extension": [
+            {
+              "url": "version",
+              "valueId": "1.0.1-Number-Version"
             },
             {
               "url": "OID",
@@ -379,7 +1047,7 @@
       "type": "integer",
       "linkId": "__S37-form-fields-jntlfakzc05",
       "text": "<p style=\"text-align:left;\"><strong>NUMBER_LABEL</strong></p>",
-      "definition": "https://science37.com/NG/widget/id/richText/version/2.3",
+      "definition": "https://science37.com/NG/widget/id/number/version/2.3",
       "initial": [
         {
           "valueInteger": 10
@@ -394,6 +1062,170 @@
           "valueBoolean": false
         },
         {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "footer",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "footer"
+              }
+            ],
+            "text": "footer"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "version",
+              "valueId": "1.0.1-Footer-Version"
+            },
+            {
+              "url": "OID",
+              "valueString": "OID field Object ID"
+            },
+            {
+              "url": "title",
+              "valueString": "Footer Title"
+            },
+            {
+              "url": "variableName",
+              "valueString": "Not supplied by DD"
+            },
+            {
+              "url": "standardVariable",
+              "valueString": "FOOTER_STD_VAR"
+            },
+            {
+              "url": "fieldCode",
+              "valueString": "Not Supplied by DD"
+            },
+            {
+              "url": "description",
+              "valueString": "FOOTER_DESC"
+            }
+          ],
+          "url": "http://science37.com/StructureDefinition/item-settings"
+        }
+      ],
+      "type": "display",
+      "linkId": "__S37-form-fields-adhas4b1899nw",
+      "text": "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>",
+      "definition": "https://science37.com/NG/widget/id/footer/version/2.3",
+      "required": true
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "page-break",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "page-break"
+              }
+            ],
+            "text": "page-break"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "version",
+              "valueId": "1.0.1-page-break-Version"
+            }
+          ],
+          "url": "http://science37.com/StructureDefinition/item-settings"
+        }
+      ],
+      "type": "display",
+      "linkId": "__S37-form-fields-adhas4b1899nw",
+      "definition": "https://science37.com/NG/widget/id/page-break/version/2.3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "header",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "header"
+              }
+            ],
+            "text": "header"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "version",
+              "valueId": "1.0.1-header-Version"
+            },
+            {
+              "url": "OID",
+              "valueString": "HEADER_OID"
+            },
+            {
+              "url": "title",
+              "valueString": "header Title"
+            },
+            {
+              "url": "variableName",
+              "valueString": "Not supplied by DD"
+            },
+            {
+              "url": "standardVariable",
+              "valueString": "header_STD_VAR"
+            },
+            {
+              "url": "fieldCode",
+              "valueString": "Not Supplied by DD"
+            },
+            {
+              "url": "description",
+              "valueString": "header_DESC"
+            }
+          ],
+          "url": "http://science37.com/StructureDefinition/item-settings"
+        }
+      ],
+      "type": "display",
+      "linkId": "__S37-form-fields-adhas4b1899nw",
+      "text": "<p style=\"text-align:left;\"><strong>header_TEXT</strong></p>",
+      "definition": "https://science37.com/NG/widget/id/header/version/2.3",
+      "required": true
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "rating-scale",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "rating-scale"
+              }
+            ],
+            "text": "rating-scale"
+          }
+        },
+        {
           "extension": [
             {
               "url": "subType",
@@ -401,7 +1233,7 @@
             },
             {
               "url": "version",
-              "valueId": "1.0.1-ItemVersion"
+              "valueId": "1.0.1-Rating-ScaleVersion"
             },
             {
               "url": "OID",
@@ -458,7 +1290,7 @@
       "type": "question",
       "linkId": "__S37-form-fields-6qupvhtl05b",
       "text": "<p style=\"text-align:left;\"><strong>NRS_LABEL</strong></p>",
-      "definition": "https://science37.com/NG/widget/id/richText/version/2.3",
+      "definition": "https://science37.com/NG/widget/id/ratingscale/version/2.3",
       "required": true
     },
     {
@@ -468,14 +1300,174 @@
           "valueBoolean": false
         },
         {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "footer",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "footer"
+              }
+            ],
+            "text": "footer"
+          }
+        },
+        {
           "extension": [
             {
-              "url": "subType",
-              "valueString": "VASScale"
+              "url": "version",
+              "valueId": "1.0.1-Footer-Version"
             },
             {
+              "url": "OID",
+              "valueString": "OID field Object ID"
+            },
+            {
+              "url": "title",
+              "valueString": "Footer Title"
+            },
+            {
+              "url": "variableName",
+              "valueString": "Not supplied by DD"
+            },
+            {
+              "url": "standardVariable",
+              "valueString": "FOOTER_STD_VAR"
+            },
+            {
+              "url": "fieldCode",
+              "valueString": "Not Supplied by DD"
+            },
+            {
+              "url": "description",
+              "valueString": "FOOTER_DESC"
+            }
+          ],
+          "url": "http://science37.com/StructureDefinition/item-settings"
+        }
+      ],
+      "type": "display",
+      "linkId": "__S37-form-fields-adhas4b1899nw",
+      "text": "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>",
+      "definition": "https://science37.com/NG/widget/id/footer/version/2.3",
+      "required": true
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "page-break",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "page-break"
+              }
+            ],
+            "text": "page-break"
+          }
+        },
+        {
+          "extension": [
+            {
               "url": "version",
-              "valueId": "1.0.1-ItemVersion"
+              "valueId": "1.0.1-page-break-Version"
+            }
+          ],
+          "url": "http://science37.com/StructureDefinition/item-settings"
+        }
+      ],
+      "type": "display",
+      "linkId": "__S37-form-fields-adhas4b1899nw",
+      "definition": "https://science37.com/NG/widget/id/page-break/version/2.3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "header",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "header"
+              }
+            ],
+            "text": "header"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "version",
+              "valueId": "1.0.1-header-Version"
+            },
+            {
+              "url": "OID",
+              "valueString": "HEADER_OID"
+            },
+            {
+              "url": "title",
+              "valueString": "header Title"
+            },
+            {
+              "url": "variableName",
+              "valueString": "Not supplied by DD"
+            },
+            {
+              "url": "standardVariable",
+              "valueString": "header_STD_VAR"
+            },
+            {
+              "url": "fieldCode",
+              "valueString": "Not Supplied by DD"
+            },
+            {
+              "url": "description",
+              "valueString": "header_DESC"
+            }
+          ],
+          "url": "http://science37.com/StructureDefinition/item-settings"
+        }
+      ],
+      "type": "display",
+      "linkId": "__S37-form-fields-adhas4b1899nw",
+      "text": "<p style=\"text-align:left;\"><strong>header_TEXT</strong></p>",
+      "definition": "https://science37.com/NG/widget/id/header/version/2.3",
+      "required": true
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "vas-scale",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "vas-scale"
+              }
+            ],
+            "text": "vas-scale"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "version",
+              "valueId": "1.0.1-VAS-Scale-Version"
             },
             {
               "url": "OID",
@@ -576,7 +1568,7 @@
       "type": "question",
       "linkId": "__S37-form-fields-h0ae575xlf8",
       "text": "<p style=\"text-align:left;\"><strong>Please tap on the scale to indicate how your health is TODAY</strong></p>",
-      "definition": "https://science37.com/NG/widget/id/richText/version/2.3",
+      "definition": "https://science37.com/NG/widget/id/vasscale/version/2.3",
       "required": true
     },
     {
@@ -590,17 +1582,170 @@
           "valueCodeableConcept": {
             "coding": [
               {
-                "code": "questionnaire-item-control.text-box"
+                "code": "footer",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "footer"
               }
             ],
-            "text": "questionnaire-item-control.text-box"
+            "text": "footer"
           }
         },
         {
           "extension": [
             {
               "url": "version",
-              "valueId": "1.0.1-text-boxVersion"
+              "valueId": "1.0.1-Footer-Version"
+            },
+            {
+              "url": "OID",
+              "valueString": "OID field Object ID"
+            },
+            {
+              "url": "title",
+              "valueString": "Footer Title"
+            },
+            {
+              "url": "variableName",
+              "valueString": "Not supplied by DD"
+            },
+            {
+              "url": "standardVariable",
+              "valueString": "FOOTER_STD_VAR"
+            },
+            {
+              "url": "fieldCode",
+              "valueString": "Not Supplied by DD"
+            },
+            {
+              "url": "description",
+              "valueString": "FOOTER_DESC"
+            }
+          ],
+          "url": "http://science37.com/StructureDefinition/item-settings"
+        }
+      ],
+      "type": "display",
+      "linkId": "__S37-form-fields-adhas4b1899nw",
+      "text": "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>",
+      "definition": "https://science37.com/NG/widget/id/footer/version/2.3",
+      "required": true
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "page-break",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "page-break"
+              }
+            ],
+            "text": "page-break"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "version",
+              "valueId": "1.0.1-page-break-Version"
+            }
+          ],
+          "url": "http://science37.com/StructureDefinition/item-settings"
+        }
+      ],
+      "type": "display",
+      "linkId": "__S37-form-fields-adhas4b1899nw",
+      "definition": "https://science37.com/NG/widget/id/page-break/version/2.3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "header",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "header"
+              }
+            ],
+            "text": "header"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "version",
+              "valueId": "1.0.1-header-Version"
+            },
+            {
+              "url": "OID",
+              "valueString": "HEADER_OID"
+            },
+            {
+              "url": "title",
+              "valueString": "header Title"
+            },
+            {
+              "url": "variableName",
+              "valueString": "Not supplied by DD"
+            },
+            {
+              "url": "standardVariable",
+              "valueString": "header_STD_VAR"
+            },
+            {
+              "url": "fieldCode",
+              "valueString": "Not Supplied by DD"
+            },
+            {
+              "url": "description",
+              "valueString": "header_DESC"
+            }
+          ],
+          "url": "http://science37.com/StructureDefinition/item-settings"
+        }
+      ],
+      "type": "display",
+      "linkId": "__S37-form-fields-adhas4b1899nw",
+      "text": "<p style=\"text-align:left;\"><strong>header_TEXT</strong></p>",
+      "definition": "https://science37.com/NG/widget/id/header/version/2.3",
+      "required": true
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "text-box",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "textbox"
+              }
+            ],
+            "text": "text-box"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "version",
+              "valueId": "1.0.1-Text-Area-Version"
             },
             {
               "url": "OID",
@@ -633,7 +1778,7 @@
       "type": "question",
       "linkId": "__S37-form-fields-1nhurf723d8",
       "text": "<p style=\"text-align:left;\"><strong>TEXT_AREA_LABEL</strong></p>",
-      "definition": "https://science37.com/NG/widget/id/richText/version/2.3",
+      "definition": "https://science37.com/NG/widget/id/textarea/version/2.3",
       "required": true
     },
     {
@@ -643,26 +1788,35 @@
           "valueBoolean": false
         },
         {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "footer",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "footer"
+              }
+            ],
+            "text": "footer"
+          }
+        },
+        {
           "extension": [
             {
-              "url": "subType",
-              "valueString": "RichText"
-            },
-            {
               "url": "version",
-              "valueId": "1.0.1-ItemVersion"
+              "valueId": "1.0.1-Footer-Version"
             },
             {
               "url": "OID",
-              "valueString": "FOOTER_OID"
+              "valueString": "OID field Object ID"
             },
             {
               "url": "title",
-              "valueString": "FOOTER_TITLE"
+              "valueString": "Footer Title"
             },
             {
               "url": "variableName",
-              "valueString": "NOT Assigned by DD"
+              "valueString": "Not supplied by DD"
             },
             {
               "url": "standardVariable",
@@ -670,24 +1824,20 @@
             },
             {
               "url": "fieldCode",
-              "valueString": "NOT Assigned by DD"
+              "valueString": "Not Supplied by DD"
             },
             {
               "url": "description",
               "valueString": "FOOTER_DESC"
-            },
-            {
-              "url": "maxLength",
-              "valueInteger": 254
             }
           ],
           "url": "http://science37.com/StructureDefinition/item-settings"
         }
       ],
-      "type": "text",
-      "linkId": "__S37-form-fields-fe09fa6eto2",
-      "text": "<p style=\"text-align:left;\"><strong>Rich Text Area data</strong></p>",
-      "definition": "https://science37.com/NG/widget/id/richText/version/2.3",
+      "type": "display",
+      "linkId": "__S37-form-fields-adhas4b1899nw",
+      "text": "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>",
+      "definition": "https://science37.com/NG/widget/id/footer/version/2.3",
       "required": true
     },
     {
@@ -695,6 +1845,111 @@
         {
           "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
           "valueBoolean": false
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "page-break",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "page-break"
+              }
+            ],
+            "text": "page-break"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "version",
+              "valueId": "1.0.1-page-break-Version"
+            }
+          ],
+          "url": "http://science37.com/StructureDefinition/item-settings"
+        }
+      ],
+      "type": "display",
+      "linkId": "__S37-form-fields-adhas4b1899nw",
+      "definition": "https://science37.com/NG/widget/id/page-break/version/2.3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "header",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "header"
+              }
+            ],
+            "text": "header"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "version",
+              "valueId": "1.0.1-header-Version"
+            },
+            {
+              "url": "OID",
+              "valueString": "HEADER_OID"
+            },
+            {
+              "url": "title",
+              "valueString": "header Title"
+            },
+            {
+              "url": "variableName",
+              "valueString": "Not supplied by DD"
+            },
+            {
+              "url": "standardVariable",
+              "valueString": "header_STD_VAR"
+            },
+            {
+              "url": "fieldCode",
+              "valueString": "Not Supplied by DD"
+            },
+            {
+              "url": "description",
+              "valueString": "header_DESC"
+            }
+          ],
+          "url": "http://science37.com/StructureDefinition/item-settings"
+        }
+      ],
+      "type": "display",
+      "linkId": "__S37-form-fields-adhas4b1899nw",
+      "text": "<p style=\"text-align:left;\"><strong>header_TEXT</strong></p>",
+      "definition": "https://science37.com/NG/widget/id/header/version/2.3",
+      "required": true
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "rich-text",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "rich-text"
+              }
+            ],
+            "text": "rich-text"
+          }
         }
       ],
       "item": [
@@ -704,54 +1959,511 @@
               "extension": [
                 {
                   "url": "version",
-                  "valueId": "1.0.1-ItemVersion"
+                  "valueId": "1.0.1-Rich-Text-Version"
                 },
                 {
                   "url": "OID",
-                  "valueString": "OID field Object ID"
+                  "valueString": "FOOTER_OID"
                 },
                 {
                   "url": "title",
-                  "valueString": "The Item Title"
+                  "valueString": "FOOTER_TITLE"
                 },
                 {
                   "url": "variableName",
-                  "valueString": "The Item variableName"
+                  "valueString": "NOT Assigned by DD"
                 },
                 {
                   "url": "standardVariable",
-                  "valueString": "The standardVariable"
+                  "valueString": "FOOTER_STD_VAR"
                 },
                 {
                   "url": "fieldCode",
-                  "valueString": "The fieldCode"
+                  "valueString": "NOT Assigned by DD"
                 },
                 {
                   "url": "description",
-                  "valueString": "The description"
+                  "valueString": "FOOTER_DESC"
                 },
                 {
                   "url": "maxLength",
-                  "valueInteger": 22
+                  "valueInteger": 254
                 }
               ],
               "url": "http://science37.com/StructureDefinition/item-settings"
             }
           ],
           "type": "text",
-          "linkId": "klklklsio989-s8s8s8s",
-          "text": "Describe your current mood.",
-          "definition": "https://science37.com/NG/widget/id/text/version/2.3",
-          "required": true,
-          "initial": [
+          "linkId": "__S37-form-fields-fe09fa6eto2",
+          "text": "<p style=\"text-align:left;\"><strong>Rich Text Area data</strong></p>",
+          "definition": "https://science37.com/NG/widget/id/richText/version/2.3",
+          "required": true
+        }
+      ],
+      "type": "display",
+      "linkId": "__S37-form-fields-fe09fa6eto33"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "footer",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "footer"
+              }
+            ],
+            "text": "footer"
+          }
+        },
+        {
+          "extension": [
             {
-              "valueString": " Replacement for defaultPlaceholder"
+              "url": "version",
+              "valueId": "1.0.1-Footer-Version"
+            },
+            {
+              "url": "OID",
+              "valueString": "OID field Object ID"
+            },
+            {
+              "url": "title",
+              "valueString": "Footer Title"
+            },
+            {
+              "url": "variableName",
+              "valueString": "Not supplied by DD"
+            },
+            {
+              "url": "standardVariable",
+              "valueString": "FOOTER_STD_VAR"
+            },
+            {
+              "url": "fieldCode",
+              "valueString": "Not Supplied by DD"
+            },
+            {
+              "url": "description",
+              "valueString": "FOOTER_DESC"
             }
-          ]
+          ],
+          "url": "http://science37.com/StructureDefinition/item-settings"
+        }
+      ],
+      "type": "display",
+      "linkId": "__S37-form-fields-adhas4b1899nw",
+      "text": "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>",
+      "definition": "https://science37.com/NG/widget/id/footer/version/2.3",
+      "required": true
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "page-break",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "page-break"
+              }
+            ],
+            "text": "page-break"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "version",
+              "valueId": "1.0.1-page-break-Version"
+            }
+          ],
+          "url": "http://science37.com/StructureDefinition/item-settings"
+        }
+      ],
+      "type": "display",
+      "linkId": "__S37-form-fields-adhas4b1899nw",
+      "definition": "https://science37.com/NG/widget/id/page-break/version/2.3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "header",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "header"
+              }
+            ],
+            "text": "header"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "version",
+              "valueId": "1.0.1-header-Version"
+            },
+            {
+              "url": "OID",
+              "valueString": "HEADER_OID"
+            },
+            {
+              "url": "title",
+              "valueString": "header Title"
+            },
+            {
+              "url": "variableName",
+              "valueString": "Not supplied by DD"
+            },
+            {
+              "url": "standardVariable",
+              "valueString": "header_STD_VAR"
+            },
+            {
+              "url": "fieldCode",
+              "valueString": "Not Supplied by DD"
+            },
+            {
+              "url": "description",
+              "valueString": "header_DESC"
+            }
+          ],
+          "url": "http://science37.com/StructureDefinition/item-settings"
+        }
+      ],
+      "type": "display",
+      "linkId": "__S37-form-fields-adhas4b1899nw",
+      "text": "<p style=\"text-align:left;\"><strong>header_TEXT</strong></p>",
+      "definition": "https://science37.com/NG/widget/id/header/version/2.3",
+      "required": true
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "text",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "text"
+              }
+            ],
+            "text": "text"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "version",
+              "valueId": "1.0.1-Text-Version"
+            },
+            {
+              "url": "OID",
+              "valueString": "OID field Object ID"
+            },
+            {
+              "url": "title",
+              "valueString": "The Item Title"
+            },
+            {
+              "url": "variableName",
+              "valueString": "The Item variableName"
+            },
+            {
+              "url": "standardVariable",
+              "valueString": "The standardVariable"
+            },
+            {
+              "url": "fieldCode",
+              "valueString": "The fieldCode"
+            },
+            {
+              "url": "description",
+              "valueString": "The description"
+            },
+            {
+              "url": "maxLength",
+              "valueInteger": 22
+            }
+          ],
+          "url": "http://science37.com/StructureDefinition/item-settings"
         }
       ],
       "type": "question",
-      "linkId": "s9oduf-9asdufa8sdfy8-222"
+      "linkId": "isdfu9s0df8us8dfy",
+      "text": "<B>Describe your current mood.<B>",
+      "definition": "https://science37.com/NG/widget/id/text/version/2.3",
+      "required": true,
+      "initial": [
+        {
+          "valueString": " Replacement for defaultPlaceholder"
+        }
+      ]
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "footer",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "footer"
+              }
+            ],
+            "text": "footer"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "version",
+              "valueId": "1.0.1-Footer-Version"
+            },
+            {
+              "url": "OID",
+              "valueString": "OID field Object ID"
+            },
+            {
+              "url": "title",
+              "valueString": "Footer Title"
+            },
+            {
+              "url": "variableName",
+              "valueString": "Not supplied by DD"
+            },
+            {
+              "url": "standardVariable",
+              "valueString": "FOOTER_STD_VAR"
+            },
+            {
+              "url": "fieldCode",
+              "valueString": "Not Supplied by DD"
+            },
+            {
+              "url": "description",
+              "valueString": "FOOTER_DESC"
+            }
+          ],
+          "url": "http://science37.com/StructureDefinition/item-settings"
+        }
+      ],
+      "type": "display",
+      "linkId": "__S37-form-fields-adhas4b1899nw",
+      "text": "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>",
+      "definition": "https://science37.com/NG/widget/id/footer/version/2.3",
+      "required": true
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "page-break",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "page-break"
+              }
+            ],
+            "text": "page-break"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "version",
+              "valueId": "1.0.1-page-break-Version"
+            }
+          ],
+          "url": "http://science37.com/StructureDefinition/item-settings"
+        }
+      ],
+      "type": "display",
+      "linkId": "__S37-form-fields-adhas4b1899nw",
+      "definition": "https://science37.com/NG/widget/id/page-break/version/2.3"
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "header",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "header"
+              }
+            ],
+            "text": "header"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "version",
+              "valueId": "1.0.1-header-Version"
+            },
+            {
+              "url": "OID",
+              "valueString": "HEADER_OID"
+            },
+            {
+              "url": "title",
+              "valueString": "header Title"
+            },
+            {
+              "url": "variableName",
+              "valueString": "Not supplied by DD"
+            },
+            {
+              "url": "standardVariable",
+              "valueString": "header_STD_VAR"
+            },
+            {
+              "url": "fieldCode",
+              "valueString": "Not Supplied by DD"
+            },
+            {
+              "url": "description",
+              "valueString": "header_DESC"
+            }
+          ],
+          "url": "http://science37.com/StructureDefinition/item-settings"
+        }
+      ],
+      "type": "display",
+      "linkId": "__S37-form-fields-adhas4b1899nw",
+      "text": "<p style=\"text-align:left;\"><strong>header_TEXT</strong></p>",
+      "definition": "https://science37.com/NG/widget/id/header/version/2.3",
+      "required": true
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "footer",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "footer"
+              }
+            ],
+            "text": "footer"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "version",
+              "valueId": "1.0.1-Footer-Version"
+            },
+            {
+              "url": "OID",
+              "valueString": "OID field Object ID"
+            },
+            {
+              "url": "title",
+              "valueString": "Footer Title"
+            },
+            {
+              "url": "variableName",
+              "valueString": "Not supplied by DD"
+            },
+            {
+              "url": "standardVariable",
+              "valueString": "FOOTER_STD_VAR"
+            },
+            {
+              "url": "fieldCode",
+              "valueString": "Not Supplied by DD"
+            },
+            {
+              "url": "description",
+              "valueString": "FOOTER_DESC"
+            }
+          ],
+          "url": "http://science37.com/StructureDefinition/item-settings"
+        }
+      ],
+      "type": "display",
+      "linkId": "__S37-form-fields-adhas4b1899nw",
+      "text": "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>",
+      "definition": "https://science37.com/NG/widget/id/footer/version/2.3",
+      "required": true
+    },
+    {
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "page-break",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "page-break"
+              }
+            ],
+            "text": "page-break"
+          }
+        },
+        {
+          "extension": [
+            {
+              "url": "version",
+              "valueId": "1.0.1-page-break-Version"
+            }
+          ],
+          "url": "http://science37.com/StructureDefinition/item-settings"
+        }
+      ],
+      "type": "display",
+      "linkId": "__S37-form-fields-adhas4b1899nw",
+      "definition": "https://science37.com/NG/widget/id/page-break/version/2.3"
     }
   ],
   "status": "draft",

@@ -41,6 +41,14 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/derived-item"
+        },
+        "name": "Extension : DerivedItem Settings ",
+        "description": "Extension : Questionnaire.item.DerivedItem ",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/form-settings"
         },
         "name": "Extension : Form Settings ",
@@ -105,6 +113,22 @@
       },
       {
         "reference": {
+          "reference": "Questionnaire/Questionnaire-Item-Extension-Example-Footer"
+        },
+        "name": "Example : Questionnaire.Item-Footer",
+        "description": "Example : Questionnaire.Item-Footer",
+        "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
+      },
+      {
+        "reference": {
+          "reference": "Questionnaire/Questionnaire-Item-Extension-Example-Header"
+        },
+        "name": "Example : Questionnaire.Item-Header",
+        "description": "Example : Questionnaire.Item-Header",
+        "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
+      },
+      {
+        "reference": {
           "reference": "Questionnaire/Questionnaire-Item-Extension-Example-Image"
         },
         "name": "Example : Questionnaire.Item-Image",
@@ -165,6 +189,22 @@
         },
         "name": "Example : Questionnaire.Item-VASScale",
         "description": "Example : Questionnaire.Item-VASScale",
+        "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
+      },
+      {
+        "reference": {
+          "reference": "Questionnaire/Questionnaire-Item-Extension-Example-derived"
+        },
+        "name": "Example : Questionnaire.Item-derived",
+        "description": "Example : Questionnaire.Item-derived",
+        "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
+      },
+      {
+        "reference": {
+          "reference": "Questionnaire/Questionnaire-Item-Extension-Example-page-break"
+        },
+        "name": "Example : Questionnaire.Item-page-break",
+        "description": "Example : Questionnaire.Item-page-break",
         "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
       }
     ],

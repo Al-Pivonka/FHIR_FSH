@@ -1,13 +1,13 @@
-Instance: Questionnaire-Item-Extension-Example-Text
+Instance: Questionnaire-Item-Extension-Example-Footer
 InstanceOf: QuestionnaireS37
-Title: "Example : Questionnaire.Item-Text"
-Description: "Example : Questionnaire.Item-Text"
+Title: "Example : Questionnaire.Item-Footer"
+Description: "Example : Questionnaire.Item-Footer"
 Usage: #example
 /* Form Level Information */
 * meta.versionId = "1.0.0-S37"
 * status = #draft
-* title = "Example : Questionnaire.Item Text"
-* name = "Example : Questionnaire.Item Text"
+* title = "Example : Questionnaire.Item Footer"
+* name = "Example : Questionnaire.Item Footer"
 * subjectType = #Patient
 * identifier.value = "Form ID"
 /* extension[FormSettings].extension[type].valueString = "formType"
@@ -25,20 +25,18 @@ Usage: #example
 * extension[FormSettings].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"*/
 /* Item  Level Information */
 
-* item[0].type = #question
+* item[0].type = #display
 * item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#text "text"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#text
-* item[=].linkId = "isdfu9s0df8us8dfy"
-* item[=].text = "<B>Describe your current mood.<B>"
-* item[=].definition = "https://science37.com/NG/widget/id/text/version/2.3"
-* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Text-Version"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#footer "footer"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#footer
+* item[=].linkId = "__S37-form-fields-adhas4b1899nw"
+* item[=].text = "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>"
+* item[=].definition = "https://science37.com/NG/widget/id/footer/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Footer-Version"
 * item[=].extension[ItemSettings].extension[OID].valueString = "OID field Object ID"
-* item[=].extension[ItemSettings].extension[title].valueString = "The Item Title"
-* item[=].extension[ItemSettings].extension[variableName].valueString = "The Item variableName"
-* item[=].extension[ItemSettings].extension[standardVariable].valueString = "The standardVariable"
-* item[=].extension[ItemSettings].extension[fieldCode].valueString = "The fieldCode"
-* item[=].extension[ItemSettings].extension[description].valueString = "The description"
+* item[=].extension[ItemSettings].extension[title].valueString = "Footer Title"
+* item[=].extension[ItemSettings].extension[variableName].valueString = "Not supplied by DD"
+* item[=].extension[ItemSettings].extension[standardVariable].valueString = "FOOTER_STD_VAR"
+* item[=].extension[ItemSettings].extension[fieldCode].valueString = "Not Supplied by DD"
+* item[=].extension[ItemSettings].extension[description].valueString = "FOOTER_DESC"
 * item[=].required = true
-* item[=].extension[ItemSettings].extension[maxLength].valueInteger = 22
-* item[=].initial.valueString = " Replacement for defaultPlaceholder"

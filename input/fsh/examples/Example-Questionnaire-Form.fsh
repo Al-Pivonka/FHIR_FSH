@@ -9,7 +9,7 @@ Usage: #example
 * title = "Example : Questionnaire"
 * name = "Example : Questionnaire"
 * subjectType = #Patient
-* identifier.value = "Form ID"
+* identifier.value = "Form ID-odfu9sdfyisyd78y877"
 * extension[FormSettings].extension[type].valueString = "formType"
 * extension[FormSettings].extension[subStatus].valueString = "Deleted Status"
 * extension[FormSettings].extension[controlSchemaVersion].valueString = "2.1.9"

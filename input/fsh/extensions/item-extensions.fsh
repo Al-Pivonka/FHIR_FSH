@@ -16,13 +16,12 @@ Description:     "Extension : Questionnaire.item.settings "
     valueIndicatorLabel	0..1 and
     minValueLabel	0..1 and
     maxValueLabel	0..1 and
-    scale	0..1 and
-    formula	0..1  and
     maxLength 0..1 and
     subType 0..1 and 
     variableName 0..1 and 
     fieldCode 0..1 and 
-    description 0..1
+    description 0..1 and
+    scale	0..1
 
 * extension[dateTimeOptions] ^short = "dateTimeOptions"
 * extension[dateTimeOptions].value[x] only string
@@ -44,10 +43,6 @@ Description:     "Extension : Questionnaire.item.settings "
 * extension[minValueLabel].value[x] only string
 * extension[maxValueLabel] ^short = "maxValueLabel"
 * extension[maxValueLabel].value[x] only string
-* extension[scale] ^short = "scale"
-* extension[scale].value[x] only integer
-* extension[formula] ^short = "formula"
-* extension[formula].value[x] only string
 * extension[maxLength].value[x] only integer
 * extension[subType] ^short = "subType"
 * extension[subType].value[x] only string
@@ -57,6 +52,8 @@ Description:     "Extension : Questionnaire.item.settings "
 * extension[fieldCode].value[x] only string
 * extension[description] ^short = "description"
 * extension[description].value[x] only string
+* extension[scale] ^short = "scale"
+* extension[scale].value[x] only integer
 
 
 
@@ -119,3 +116,15 @@ Description:     "Extension : Questionnaire.item.VASScaleItem "
 * extension[scaleSize].value[x] only string
 * extension[optionalPresets] ^short = "optionalPresets"
 * extension[optionalPresets].value[x] only string
+
+
+Extension: DerivedItem
+Id:  derived-item
+Parent: ItemSettings
+Title:          "Extension : DerivedItem Settings "
+Description:     "Extension : Questionnaire.item.DerivedItem "
+* ^context.expression = "Questionnaire.item"
+* extension contains
+    formula	0..1
+* extension[formula] ^short = "formula"
+* extension[formula].value[x] only string

@@ -65,9 +65,9 @@
           "url": "http://science37.com/StructureDefinition/item-settings"
         }
       ],
-      "type": "display",
+      "type": "question",
       "linkId": "isdfu9s0df8us8dfy",
-      "text": "Describe your current mood.",
+      "text": "<B>Describe your current mood.<B>",
       "definition": "https://science37.com/NG/widget/id/text/version/2.3",
       "required": true,
       "initial": [

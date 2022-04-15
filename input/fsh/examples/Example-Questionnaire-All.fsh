@@ -22,13 +22,32 @@ Usage: #example
 * extension[FormSettings].extension[requireDataReview].valueBoolean = true
 * extension[FormSettings].extension[createdAt].valueDateTime = "2015-02-07T13:28:17Z"
 * extension[FormSettings].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"
+
+
+/* Header */
+* item[+].type = #display
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
+* item[=].linkId = "__S37-form-fields-adhas4b1899nw"
+* item[=].text = "<p style=\"text-align:left;\"><strong>header_TEXT</strong></p>"
+* item[=].definition = "https://science37.com/NG/widget/id/header/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-header-Version"
+* item[=].extension[ItemSettings].extension[OID].valueString = "HEADER_OID"
+* item[=].extension[ItemSettings].extension[title].valueString = "header Title"
+* item[=].extension[ItemSettings].extension[variableName].valueString = "Not supplied by DD"
+* item[=].extension[ItemSettings].extension[standardVariable].valueString = "header_STD_VAR"
+* item[=].extension[ItemSettings].extension[fieldCode].valueString = "Not Supplied by DD"
+* item[=].extension[ItemSettings].extension[description].valueString = "header_DESC"
+* item[=].required = true
+
 /* Date Time */
 * item[0].type = #dateTime
 * item[=].extension[questionnaire-hidden].valueBoolean = false
 * item[=].linkId = "__S37-form-fields-qo3cyvy8fgh"
 * item[=].text = "<p style=\"text-align:left;\"><strong>DATE_TIME_LABEL</strong></p>"
-* item[=].definition = "https://science37.com/NG/widget/id/text/version/2.3"
-* item[=].extension[DateTimeItem].extension[version].valueId = "1.0.1-ItemVersion"
+* item[=].definition = "https://science37.com/NG/widget/id/datetime/version/2.3"
+* item[=].extension[DateTimeItem].extension[version].valueId = "1.0.1-dateTime"
 * item[=].extension[DateTimeItem].extension[OID].valueString = "DATE_TIME_OID"
 * item[=].extension[DateTimeItem].extension[title].valueString = "DATE_TIME_TITLE"
 * item[=].extension[DateTimeItem].extension[variableName].valueString = "The Item variableName"
@@ -45,14 +64,61 @@ Usage: #example
 * item[=].extension[DateTimeItem].extension[completionNoOfDays].valueInteger = 2
 * item[=].extension[DateTimeItem].extension[completionNoOfMonths].valueInteger = 1
 * item[=].extension[DateTimeItem].extension[completionShouldOccur].valueBoolean = true
-/* File Upload*/
-* item[1].type = #attachment
+
+/* Footer */
+* item[+].type = #display
 * item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[ItemSettings].extension[subType].valueString = "FileUpload"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#footer "footer"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#footer
+* item[=].linkId = "__S37-form-fields-adhas4b1899nw"
+* item[=].text = "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>"
+* item[=].definition = "https://science37.com/NG/widget/id/footer/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Footer-Version"
+* item[=].extension[ItemSettings].extension[OID].valueString = "OID field Object ID"
+* item[=].extension[ItemSettings].extension[title].valueString = "Footer Title"
+* item[=].extension[ItemSettings].extension[variableName].valueString = "Not supplied by DD"
+* item[=].extension[ItemSettings].extension[standardVariable].valueString = "FOOTER_STD_VAR"
+* item[=].extension[ItemSettings].extension[fieldCode].valueString = "Not Supplied by DD"
+* item[=].extension[ItemSettings].extension[description].valueString = "FOOTER_DESC"
+* item[=].required = true
+
+
+/* Page Break*/
+* item[+].type = #display
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
+* item[=].linkId = "__S37-form-fields-adhas4b1899nw"
+* item[=].definition = "https://science37.com/NG/widget/id/page-break/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-page-break-Version"
+
+/* Header */
+* item[+].type = #display
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
+* item[=].linkId = "__S37-form-fields-adhas4b1899nw"
+* item[=].text = "<p style=\"text-align:left;\"><strong>header_TEXT</strong></p>"
+* item[=].definition = "https://science37.com/NG/widget/id/header/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-header-Version"
+* item[=].extension[ItemSettings].extension[OID].valueString = "HEADER_OID"
+* item[=].extension[ItemSettings].extension[title].valueString = "header Title"
+* item[=].extension[ItemSettings].extension[variableName].valueString = "Not supplied by DD"
+* item[=].extension[ItemSettings].extension[standardVariable].valueString = "header_STD_VAR"
+* item[=].extension[ItemSettings].extension[fieldCode].valueString = "Not Supplied by DD"
+* item[=].extension[ItemSettings].extension[description].valueString = "header_DESC"
+* item[=].required = true
+
+
+/* File Upload*/
+* item[+].type = #attachment
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#fileupload "fileupload"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#fileupload
 * item[=].linkId = "__S37-form-fields-q6zbrgullmr"
 * item[=].text = "<p style=\"text-align:left;\"><strong>FILE_UPLOAD_LABEL</strong></p>"
-* item[=].definition = "https://science37.com/NG/widget/id/text/version/2.3"
-* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"
+* item[=].definition = "https://science37.com/NG/widget/id/fileupload/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-FileUpload-Attachment-Version"
 * item[=].extension[ItemSettings].extension[OID].valueString = "FILE_UPLOAD_OID"
 * item[=].extension[ItemSettings].extension[title].valueString = "FILE_UPLOAD_TITLE"
 * item[=].extension[ItemSettings].extension[variableName].valueString = "Not Assigned by DD"
@@ -60,14 +126,61 @@ Usage: #example
 * item[=].extension[ItemSettings].extension[fieldCode].valueString = "Not Assigned by DD"
 * item[=].extension[ItemSettings].extension[description].valueString = "FILE_UPLOAD_DESC"
 * item[=].required = true
-/* Image */
-* item[2].type = #attachment
+
+/* Footer */
+* item[+].type = #display
 * item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[ItemSettings].extension[subType].valueString = "Image"
-* item[=].linkId = "isdfu9s0df8us8-sd09-s09s0"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#footer "footer"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#footer
+* item[=].linkId = "__S37-form-fields-adhas4b1899nw"
+* item[=].text = "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>"
+* item[=].definition = "https://science37.com/NG/widget/id/footer/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Footer-Version"
+* item[=].extension[ItemSettings].extension[OID].valueString = "OID field Object ID"
+* item[=].extension[ItemSettings].extension[title].valueString = "Footer Title"
+* item[=].extension[ItemSettings].extension[variableName].valueString = "Not supplied by DD"
+* item[=].extension[ItemSettings].extension[standardVariable].valueString = "FOOTER_STD_VAR"
+* item[=].extension[ItemSettings].extension[fieldCode].valueString = "Not Supplied by DD"
+* item[=].extension[ItemSettings].extension[description].valueString = "FOOTER_DESC"
+* item[=].required = true
+
+
+/* Page Break*/
+* item[+].type = #display
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
+* item[=].linkId = "__S37-form-fields-adhas4b1899nw"
+* item[=].definition = "https://science37.com/NG/widget/id/page-break/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-page-break-Version"
+
+
+/* Header */
+* item[+].type = #display
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
+* item[=].linkId = "__S37-form-fields-adhas4b1899nw"
+* item[=].text = "<p style=\"text-align:left;\"><strong>header_TEXT</strong></p>"
+* item[=].definition = "https://science37.com/NG/widget/id/header/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-header-Version"
+* item[=].extension[ItemSettings].extension[OID].valueString = "HEADER_OID"
+* item[=].extension[ItemSettings].extension[title].valueString = "header Title"
+* item[=].extension[ItemSettings].extension[variableName].valueString = "Not supplied by DD"
+* item[=].extension[ItemSettings].extension[standardVariable].valueString = "header_STD_VAR"
+* item[=].extension[ItemSettings].extension[fieldCode].valueString = "Not Supplied by DD"
+* item[=].extension[ItemSettings].extension[description].valueString = "header_DESC"
+* item[=].required = true
+
+/* Image */
+* item[+].type = #attachment
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#image "image"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#image
+* item[=].linkId = "isdfu9s0df8us8dfy"
 * item[=].text = "Item Text Value"
-* item[=].definition = "https://science37.com/NG/widget/id/text/version/2.3"
-* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"
+* item[=].definition = "https://science37.com/NG/widget/id/image/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Attachment-Image-Version"
 * item[=].extension[ItemSettings].extension[OID].valueString = "OID field Object ID"
 * item[=].extension[ItemSettings].extension[title].valueString = "The Item Title"
 * item[=].extension[ItemSettings].extension[label].valueString = "The Item lable"
@@ -78,13 +191,58 @@ Usage: #example
 * item[=].required = true
 * item[=].maxLength = 22
 * item[=].initial.valueString = " Replacement for defaultPlaceholder"
+
+/* Footer */
+* item[+].type = #display
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#footer "footer"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#footer
+* item[=].linkId = "__S37-form-fields-adhas4b1899nw"
+* item[=].text = "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>"
+* item[=].definition = "https://science37.com/NG/widget/id/footer/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Footer-Version"
+* item[=].extension[ItemSettings].extension[OID].valueString = "OID field Object ID"
+* item[=].extension[ItemSettings].extension[title].valueString = "Footer Title"
+* item[=].extension[ItemSettings].extension[variableName].valueString = "Not supplied by DD"
+* item[=].extension[ItemSettings].extension[standardVariable].valueString = "FOOTER_STD_VAR"
+* item[=].extension[ItemSettings].extension[fieldCode].valueString = "Not Supplied by DD"
+* item[=].extension[ItemSettings].extension[description].valueString = "FOOTER_DESC"
+* item[=].required = true
+
+
+/* Page Break*/
+* item[+].type = #display
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
+* item[=].linkId = "__S37-form-fields-adhas4b1899nw"
+* item[=].definition = "https://science37.com/NG/widget/id/page-break/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-page-break-Version"
+
+
+/* Header */
+* item[+].type = #display
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
+* item[=].linkId = "__S37-form-fields-adhas4b1899nw"
+* item[=].text = "<p style=\"text-align:left;\"><strong>header_TEXT</strong></p>"
+* item[=].definition = "https://science37.com/NG/widget/id/header/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-header-Version"
+* item[=].extension[ItemSettings].extension[OID].valueString = "HEADER_OID"
+* item[=].extension[ItemSettings].extension[title].valueString = "header Title"
+* item[=].extension[ItemSettings].extension[variableName].valueString = "Not supplied by DD"
+* item[=].extension[ItemSettings].extension[standardVariable].valueString = "header_STD_VAR"
+* item[=].extension[ItemSettings].extension[fieldCode].valueString = "Not Supplied by DD"
+* item[=].extension[ItemSettings].extension[description].valueString = "header_DESC"
+* item[=].required = true
 /* Number Decimal */
-* item[3].type = #decimal
+* item[+].type = #decimal
 * item[=].extension[questionnaire-hidden].valueBoolean = false
 * item[=].linkId = "__S37-form-fields-jntlfakzc05"
 * item[=].text =  "<p style=\"text-align:left;\"><strong>NUMBER_LABEL</strong></p>"
-* item[=].definition = "https://science37.com/NG/widget/id/richText/version/2.3"
-* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"
+* item[=].definition = "https://science37.com/NG/widget/id/number/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Number-Version"
 * item[=].extension[ItemSettings].extension[OID].valueString = "NUMBER_OID"
 * item[=].extension[ItemSettings].extension[title].valueString = "NUMBER_TITLE"
 * item[=].extension[ItemSettings].extension[variableName].valueString = "NOT Assigned by DD"
@@ -97,13 +255,60 @@ Usage: #example
 * item[=].extension[maxValue].valueDecimal = 10.002
 * item[=].extension[ItemSettings].extension[scale].valueInteger = 3
 * item[=].required = true
+
+
+/* Footer */
+* item[+].type = #display
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#footer "footer"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#footer
+* item[=].linkId = "__S37-form-fields-adhas4b1899nw"
+* item[=].text = "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>"
+* item[=].definition = "https://science37.com/NG/widget/id/footer/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Footer-Version"
+* item[=].extension[ItemSettings].extension[OID].valueString = "OID field Object ID"
+* item[=].extension[ItemSettings].extension[title].valueString = "Footer Title"
+* item[=].extension[ItemSettings].extension[variableName].valueString = "Not supplied by DD"
+* item[=].extension[ItemSettings].extension[standardVariable].valueString = "FOOTER_STD_VAR"
+* item[=].extension[ItemSettings].extension[fieldCode].valueString = "Not Supplied by DD"
+* item[=].extension[ItemSettings].extension[description].valueString = "FOOTER_DESC"
+* item[=].required = true
+
+
+/* Page Break*/
+* item[+].type = #display
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
+* item[=].linkId = "__S37-form-fields-adhas4b1899nw"
+* item[=].definition = "https://science37.com/NG/widget/id/page-break/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-page-break-Version"
+
+
+/* Header */
+* item[+].type = #display
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
+* item[=].linkId = "__S37-form-fields-adhas4b1899nw"
+* item[=].text = "<p style=\"text-align:left;\"><strong>header_TEXT</strong></p>"
+* item[=].definition = "https://science37.com/NG/widget/id/header/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-header-Version"
+* item[=].extension[ItemSettings].extension[OID].valueString = "HEADER_OID"
+* item[=].extension[ItemSettings].extension[title].valueString = "header Title"
+* item[=].extension[ItemSettings].extension[variableName].valueString = "Not supplied by DD"
+* item[=].extension[ItemSettings].extension[standardVariable].valueString = "header_STD_VAR"
+* item[=].extension[ItemSettings].extension[fieldCode].valueString = "Not Supplied by DD"
+* item[=].extension[ItemSettings].extension[description].valueString = "header_DESC"
+* item[=].required = true
+
 /* Number Integer */
-* item[4].type = #integer
+* item[+].type = #integer
 * item[=].extension[questionnaire-hidden].valueBoolean = false
 * item[=].linkId = "__S37-form-fields-jntlfakzc05"
 * item[=].text = "<p style=\"text-align:left;\"><strong>NUMBER_LABEL</strong></p>"
-* item[=].definition = "https://science37.com/NG/widget/id/richText/version/2.3"
-* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"
+* item[=].definition = "https://science37.com/NG/widget/id/number/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Number-Version"
 * item[=].extension[ItemSettings].extension[OID].valueString = "NUMBER_OID"
 * item[=].extension[ItemSettings].extension[title].valueString = "NUMBER_TITLE"
 * item[=].extension[ItemSettings].extension[variableName].valueString = "NOT Assigned by DD"
@@ -115,14 +320,62 @@ Usage: #example
 * item[=].extension[minValue].valueInteger = 10
 * item[=].extension[maxValue].valueInteger = 500
 * item[=].required = true
-/* Rating Scale */
-* item[5].type = #question
+
+/* Footer */
+* item[+].type = #display
 * item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#footer "footer"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#footer
+* item[=].linkId = "__S37-form-fields-adhas4b1899nw"
+* item[=].text = "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>"
+* item[=].definition = "https://science37.com/NG/widget/id/footer/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Footer-Version"
+* item[=].extension[ItemSettings].extension[OID].valueString = "OID field Object ID"
+* item[=].extension[ItemSettings].extension[title].valueString = "Footer Title"
+* item[=].extension[ItemSettings].extension[variableName].valueString = "Not supplied by DD"
+* item[=].extension[ItemSettings].extension[standardVariable].valueString = "FOOTER_STD_VAR"
+* item[=].extension[ItemSettings].extension[fieldCode].valueString = "Not Supplied by DD"
+* item[=].extension[ItemSettings].extension[description].valueString = "FOOTER_DESC"
+* item[=].required = true
+
+
+/* Page Break*/
+* item[+].type = #display
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
+* item[=].linkId = "__S37-form-fields-adhas4b1899nw"
+* item[=].definition = "https://science37.com/NG/widget/id/page-break/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-page-break-Version"
+
+
+/* Header */
+* item[+].type = #display
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
+* item[=].linkId = "__S37-form-fields-adhas4b1899nw"
+* item[=].text = "<p style=\"text-align:left;\"><strong>header_TEXT</strong></p>"
+* item[=].definition = "https://science37.com/NG/widget/id/header/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-header-Version"
+* item[=].extension[ItemSettings].extension[OID].valueString = "HEADER_OID"
+* item[=].extension[ItemSettings].extension[title].valueString = "header Title"
+* item[=].extension[ItemSettings].extension[variableName].valueString = "Not supplied by DD"
+* item[=].extension[ItemSettings].extension[standardVariable].valueString = "header_STD_VAR"
+* item[=].extension[ItemSettings].extension[fieldCode].valueString = "Not Supplied by DD"
+* item[=].extension[ItemSettings].extension[description].valueString = "header_DESC"
+* item[=].required = true
+
+/* Rating Scale */
+* item[+].type = #question
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#rating-scale "rating-scale"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#rating-scale
 * item[=].linkId = "__S37-form-fields-6qupvhtl05b"
 * item[=].extension[ItemSettings].extension[subType].valueString = "ratingscale"
 * item[=].text =  "<p style=\"text-align:left;\"><strong>NRS_LABEL</strong></p>"
-* item[=].definition = "https://science37.com/NG/widget/id/richText/version/2.3"
-* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"
+* item[=].definition = "https://science37.com/NG/widget/id/ratingscale/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Rating-ScaleVersion"
 * item[=].extension[ItemSettings].extension[OID].valueString = "NRS_OID"
 * item[=].extension[ItemSettings].extension[title].valueString = "NRS_TITLE"
 * item[=].extension[ItemSettings].extension[variableName].valueString = "NOT Assigned by DD"
@@ -137,15 +390,60 @@ Usage: #example
 * item[=].extension[ItemSettings].extension[naLabel].valueString = "The NA Label"
 * item[=].required = true
 
+/* Footer */
+* item[+].type = #display
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#footer "footer"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#footer
+* item[=].linkId = "__S37-form-fields-adhas4b1899nw"
+* item[=].text = "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>"
+* item[=].definition = "https://science37.com/NG/widget/id/footer/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Footer-Version"
+* item[=].extension[ItemSettings].extension[OID].valueString = "OID field Object ID"
+* item[=].extension[ItemSettings].extension[title].valueString = "Footer Title"
+* item[=].extension[ItemSettings].extension[variableName].valueString = "Not supplied by DD"
+* item[=].extension[ItemSettings].extension[standardVariable].valueString = "FOOTER_STD_VAR"
+* item[=].extension[ItemSettings].extension[fieldCode].valueString = "Not Supplied by DD"
+* item[=].extension[ItemSettings].extension[description].valueString = "FOOTER_DESC"
+* item[=].required = true
+
+
+/* Page Break*/
+* item[+].type = #display
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
+* item[=].linkId = "__S37-form-fields-adhas4b1899nw"
+* item[=].definition = "https://science37.com/NG/widget/id/page-break/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-page-break-Version"
+
+
+/* Header */
+* item[+].type = #display
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
+* item[=].linkId = "__S37-form-fields-adhas4b1899nw"
+* item[=].text = "<p style=\"text-align:left;\"><strong>header_TEXT</strong></p>"
+* item[=].definition = "https://science37.com/NG/widget/id/header/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-header-Version"
+* item[=].extension[ItemSettings].extension[OID].valueString = "HEADER_OID"
+* item[=].extension[ItemSettings].extension[title].valueString = "header Title"
+* item[=].extension[ItemSettings].extension[variableName].valueString = "Not supplied by DD"
+* item[=].extension[ItemSettings].extension[standardVariable].valueString = "header_STD_VAR"
+* item[=].extension[ItemSettings].extension[fieldCode].valueString = "Not Supplied by DD"
+* item[=].extension[ItemSettings].extension[description].valueString = "header_DESC"
+* item[=].required = true
 
 /* VAS Scale */
-* item[6].type = #question
+* item[+].type = #question
 * item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#vas-scale "vas-scale"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#vas-scale
 * item[=].linkId = "__S37-form-fields-h0ae575xlf8"
-* item[=].extension[VASScaleItem].extension[subType].valueString = "VASScale"
 * item[=].text =  "<p style=\"text-align:left;\"><strong>Please tap on the scale to indicate how your health is TODAY</strong></p>"
-* item[=].definition = "https://science37.com/NG/widget/id/richText/version/2.3"
-* item[=].extension[VASScaleItem].extension[version].valueId = "1.0.1-ItemVersion"
+* item[=].definition = "https://science37.com/NG/widget/id/vasscale/version/2.3"
+* item[=].extension[VASScaleItem].extension[version].valueId = "1.0.1-VAS-Scale-Version"
 * item[=].extension[VASScaleItem].extension[OID].valueString = "VAS_OID"
 * item[=].extension[VASScaleItem].extension[title].valueString = "VAS_TITLE"
 * item[=].extension[VASScaleItem].extension[variableName].valueString = "NOT Assigned by DD"
@@ -171,16 +469,60 @@ Usage: #example
 * item[=].extension[VASScaleItem].extension[optionalPresets].valueString = "vasTenPointIncrement"
 * item[=].required = true
 
-/* Text Area */
-* item[7].type = #question
-* item[=].linkId = "__S37-form-fields-1nhurf723d8"
+/* Footer */
+* item[+].type = #display
 * item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = #questionnaire-item-control.text-box
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = #questionnaire-item-control.text-box
-/* item[=].extension[ItemSettings].extension[subType].valueString = "TextArea" */
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#footer "footer"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#footer
+* item[=].linkId = "__S37-form-fields-adhas4b1899nw"
+* item[=].text = "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>"
+* item[=].definition = "https://science37.com/NG/widget/id/footer/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Footer-Version"
+* item[=].extension[ItemSettings].extension[OID].valueString = "OID field Object ID"
+* item[=].extension[ItemSettings].extension[title].valueString = "Footer Title"
+* item[=].extension[ItemSettings].extension[variableName].valueString = "Not supplied by DD"
+* item[=].extension[ItemSettings].extension[standardVariable].valueString = "FOOTER_STD_VAR"
+* item[=].extension[ItemSettings].extension[fieldCode].valueString = "Not Supplied by DD"
+* item[=].extension[ItemSettings].extension[description].valueString = "FOOTER_DESC"
+* item[=].required = true
+
+
+/* Page Break*/
+* item[+].type = #display
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
+* item[=].linkId = "__S37-form-fields-adhas4b1899nw"
+* item[=].definition = "https://science37.com/NG/widget/id/page-break/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-page-break-Version"
+
+
+/* Header */
+* item[+].type = #display
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
+* item[=].linkId = "__S37-form-fields-adhas4b1899nw"
+* item[=].text = "<p style=\"text-align:left;\"><strong>header_TEXT</strong></p>"
+* item[=].definition = "https://science37.com/NG/widget/id/header/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-header-Version"
+* item[=].extension[ItemSettings].extension[OID].valueString = "HEADER_OID"
+* item[=].extension[ItemSettings].extension[title].valueString = "header Title"
+* item[=].extension[ItemSettings].extension[variableName].valueString = "Not supplied by DD"
+* item[=].extension[ItemSettings].extension[standardVariable].valueString = "header_STD_VAR"
+* item[=].extension[ItemSettings].extension[fieldCode].valueString = "Not Supplied by DD"
+* item[=].extension[ItemSettings].extension[description].valueString = "header_DESC"
+* item[=].required = true
+
+/* Text Area */
+* item[+].type = #question
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#text-box "textbox"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#text-box
+* item[=].linkId = "__S37-form-fields-1nhurf723d8"
 * item[=].text =  "<p style=\"text-align:left;\"><strong>TEXT_AREA_LABEL</strong></p>"
-* item[=].definition = "https://science37.com/NG/widget/id/richText/version/2.3"
-* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-text-boxVersion"
+* item[=].definition = "https://science37.com/NG/widget/id/textarea/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Text-Area-Version"
 * item[=].extension[ItemSettings].extension[OID].valueString = "TEXT_AREA-OID"
 * item[=].extension[ItemSettings].extension[title].valueString = "TEXT_AREA_TITLE"
 * item[=].extension[ItemSettings].extension[variableName].valueString = "NOT Assigned by DD"
@@ -189,38 +531,206 @@ Usage: #example
 * item[=].extension[ItemSettings].extension[description].valueString = "TEXT_AREA_DESC"
 * item[=].required = true
 
-/* Rich Text */
-* item[8].type = #text
+/* Footer */
+* item[+].type = #display
 * item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].linkId = "__S37-form-fields-fe09fa6eto33"
-* item[=].extension[ItemSettings].extension[subType].valueString = "RichText"
-* item[=].linkId = "__S37-form-fields-fe09fa6eto2"
-* item[=].text = "<p style=\"text-align:left;\"><strong>Rich Text Area data</strong></p>"
-* item[=].definition = "https://science37.com/NG/widget/id/richText/version/2.3"
-* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"
-* item[=].extension[ItemSettings].extension[OID].valueString = "FOOTER_OID"
-* item[=].extension[ItemSettings].extension[title].valueString = "FOOTER_TITLE"
-* item[=].extension[ItemSettings].extension[variableName].valueString = "NOT Assigned by DD"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#footer "footer"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#footer
+* item[=].linkId = "__S37-form-fields-adhas4b1899nw"
+* item[=].text = "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>"
+* item[=].definition = "https://science37.com/NG/widget/id/footer/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Footer-Version"
+* item[=].extension[ItemSettings].extension[OID].valueString = "OID field Object ID"
+* item[=].extension[ItemSettings].extension[title].valueString = "Footer Title"
+* item[=].extension[ItemSettings].extension[variableName].valueString = "Not supplied by DD"
 * item[=].extension[ItemSettings].extension[standardVariable].valueString = "FOOTER_STD_VAR"
-* item[=].extension[ItemSettings].extension[fieldCode].valueString = "NOT Assigned by DD"
+* item[=].extension[ItemSettings].extension[fieldCode].valueString = "Not Supplied by DD"
 * item[=].extension[ItemSettings].extension[description].valueString = "FOOTER_DESC"
 * item[=].required = true
-* item[=].extension[ItemSettings].extension[maxLength].valueInteger = 254 /*Not Assigned by DD*/
-/* Plan TEXT */
-* item[9].type = #question
+
+
+/* Page Break*/
+* item[+].type = #display
 * item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].linkId = "s9oduf-9asdufa8sdfy8-222"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
+* item[=].linkId = "__S37-form-fields-adhas4b1899nw"
+* item[=].definition = "https://science37.com/NG/widget/id/page-break/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-page-break-Version"
+
+
+/* Header */
+* item[+].type = #display
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
+* item[=].linkId = "__S37-form-fields-adhas4b1899nw"
+* item[=].text = "<p style=\"text-align:left;\"><strong>header_TEXT</strong></p>"
+* item[=].definition = "https://science37.com/NG/widget/id/header/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-header-Version"
+* item[=].extension[ItemSettings].extension[OID].valueString = "HEADER_OID"
+* item[=].extension[ItemSettings].extension[title].valueString = "header Title"
+* item[=].extension[ItemSettings].extension[variableName].valueString = "Not supplied by DD"
+* item[=].extension[ItemSettings].extension[standardVariable].valueString = "header_STD_VAR"
+* item[=].extension[ItemSettings].extension[fieldCode].valueString = "Not Supplied by DD"
+* item[=].extension[ItemSettings].extension[description].valueString = "header_DESC"
+* item[=].required = true
+
+/* Rich Text */
+* item[+].type = #display
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#rich-text "rich-text"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#rich-text
+* item[=].linkId = "__S37-form-fields-fe09fa6eto33"
 * item[=].item[0].type = #text
-* item[=].item[=].linkId = "klklklsio989-s8s8s8s"
-* item[=].item[=].text = "Describe your current mood."
-* item[=].item[=].definition = "https://science37.com/NG/widget/id/text/version/2.3"
-* item[=].item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"
-* item[=].item[=].extension[ItemSettings].extension[OID].valueString = "OID field Object ID"
-* item[=].item[=].extension[ItemSettings].extension[title].valueString = "The Item Title"
-* item[=].item[=].extension[ItemSettings].extension[variableName].valueString = "The Item variableName"
-* item[=].item[=].extension[ItemSettings].extension[standardVariable].valueString = "The standardVariable"
-* item[=].item[=].extension[ItemSettings].extension[fieldCode].valueString = "The fieldCode"
-* item[=].item[=].extension[ItemSettings].extension[description].valueString = "The description"
+* item[=].item[=].linkId = "__S37-form-fields-fe09fa6eto2"
+* item[=].item[=].text = "<p style=\"text-align:left;\"><strong>Rich Text Area data</strong></p>"
+* item[=].item[=].definition = "https://science37.com/NG/widget/id/richText/version/2.3"
+* item[=].item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Rich-Text-Version"
+* item[=].item[=].extension[ItemSettings].extension[OID].valueString = "FOOTER_OID"
+* item[=].item[=].extension[ItemSettings].extension[title].valueString = "FOOTER_TITLE"
+* item[=].item[=].extension[ItemSettings].extension[variableName].valueString = "NOT Assigned by DD"
+* item[=].item[=].extension[ItemSettings].extension[standardVariable].valueString = "FOOTER_STD_VAR"
+* item[=].item[=].extension[ItemSettings].extension[fieldCode].valueString = "NOT Assigned by DD"
+* item[=].item[=].extension[ItemSettings].extension[description].valueString = "FOOTER_DESC"
 * item[=].item[=].required = true
-* item[=].item[=].extension[ItemSettings].extension[maxLength].valueInteger = 22
-* item[=].item[=].initial.valueString = " Replacement for defaultPlaceholder"
+* item[=].item[=].extension[ItemSettings].extension[maxLength].valueInteger = 254 /*Not Assigned by DD*/
+
+/* Footer */
+* item[+].type = #display
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#footer "footer"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#footer
+* item[=].linkId = "__S37-form-fields-adhas4b1899nw"
+* item[=].text = "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>"
+* item[=].definition = "https://science37.com/NG/widget/id/footer/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Footer-Version"
+* item[=].extension[ItemSettings].extension[OID].valueString = "OID field Object ID"
+* item[=].extension[ItemSettings].extension[title].valueString = "Footer Title"
+* item[=].extension[ItemSettings].extension[variableName].valueString = "Not supplied by DD"
+* item[=].extension[ItemSettings].extension[standardVariable].valueString = "FOOTER_STD_VAR"
+* item[=].extension[ItemSettings].extension[fieldCode].valueString = "Not Supplied by DD"
+* item[=].extension[ItemSettings].extension[description].valueString = "FOOTER_DESC"
+* item[=].required = true
+
+
+/* Page Break*/
+* item[+].type = #display
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
+* item[=].linkId = "__S37-form-fields-adhas4b1899nw"
+* item[=].definition = "https://science37.com/NG/widget/id/page-break/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-page-break-Version"
+
+
+
+/* Header */
+* item[+].type = #display
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
+* item[=].linkId = "__S37-form-fields-adhas4b1899nw"
+* item[=].text = "<p style=\"text-align:left;\"><strong>header_TEXT</strong></p>"
+* item[=].definition = "https://science37.com/NG/widget/id/header/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-header-Version"
+* item[=].extension[ItemSettings].extension[OID].valueString = "HEADER_OID"
+* item[=].extension[ItemSettings].extension[title].valueString = "header Title"
+* item[=].extension[ItemSettings].extension[variableName].valueString = "Not supplied by DD"
+* item[=].extension[ItemSettings].extension[standardVariable].valueString = "header_STD_VAR"
+* item[=].extension[ItemSettings].extension[fieldCode].valueString = "Not Supplied by DD"
+* item[=].extension[ItemSettings].extension[description].valueString = "header_DESC"
+* item[=].required = true
+
+/* Plan TEXT */
+* item[+].type = #question
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#text "text"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#text
+* item[=].linkId = "isdfu9s0df8us8dfy"
+* item[=].text = "<B>Describe your current mood.<B>"
+* item[=].definition = "https://science37.com/NG/widget/id/text/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Text-Version"
+* item[=].extension[ItemSettings].extension[OID].valueString = "OID field Object ID"
+* item[=].extension[ItemSettings].extension[title].valueString = "The Item Title"
+* item[=].extension[ItemSettings].extension[variableName].valueString = "The Item variableName"
+* item[=].extension[ItemSettings].extension[standardVariable].valueString = "The standardVariable"
+* item[=].extension[ItemSettings].extension[fieldCode].valueString = "The fieldCode"
+* item[=].extension[ItemSettings].extension[description].valueString = "The description"
+* item[=].required = true
+* item[=].extension[ItemSettings].extension[maxLength].valueInteger = 22
+* item[=].initial.valueString = " Replacement for defaultPlaceholder"
+
+
+/* Footer */
+* item[+].type = #display
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#footer "footer"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#footer
+* item[=].linkId = "__S37-form-fields-adhas4b1899nw"
+* item[=].text = "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>"
+* item[=].definition = "https://science37.com/NG/widget/id/footer/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Footer-Version"
+* item[=].extension[ItemSettings].extension[OID].valueString = "OID field Object ID"
+* item[=].extension[ItemSettings].extension[title].valueString = "Footer Title"
+* item[=].extension[ItemSettings].extension[variableName].valueString = "Not supplied by DD"
+* item[=].extension[ItemSettings].extension[standardVariable].valueString = "FOOTER_STD_VAR"
+* item[=].extension[ItemSettings].extension[fieldCode].valueString = "Not Supplied by DD"
+* item[=].extension[ItemSettings].extension[description].valueString = "FOOTER_DESC"
+* item[=].required = true
+
+
+/* Page Break*/
+* item[+].type = #display
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
+* item[=].linkId = "__S37-form-fields-adhas4b1899nw"
+* item[=].definition = "https://science37.com/NG/widget/id/page-break/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-page-break-Version"
+
+/* Header */
+* item[+].type = #display
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
+* item[=].linkId = "__S37-form-fields-adhas4b1899nw"
+* item[=].text = "<p style=\"text-align:left;\"><strong>header_TEXT</strong></p>"
+* item[=].definition = "https://science37.com/NG/widget/id/header/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-header-Version"
+* item[=].extension[ItemSettings].extension[OID].valueString = "HEADER_OID"
+* item[=].extension[ItemSettings].extension[title].valueString = "header Title"
+* item[=].extension[ItemSettings].extension[variableName].valueString = "Not supplied by DD"
+* item[=].extension[ItemSettings].extension[standardVariable].valueString = "header_STD_VAR"
+* item[=].extension[ItemSettings].extension[fieldCode].valueString = "Not Supplied by DD"
+* item[=].extension[ItemSettings].extension[description].valueString = "header_DESC"
+* item[=].required = true
+
+/*Item*/
+
+/* Footer */
+* item[+].type = #display
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#footer "footer"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#footer
+* item[=].linkId = "__S37-form-fields-adhas4b1899nw"
+* item[=].text = "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>"
+* item[=].definition = "https://science37.com/NG/widget/id/footer/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Footer-Version"
+* item[=].extension[ItemSettings].extension[OID].valueString = "OID field Object ID"
+* item[=].extension[ItemSettings].extension[title].valueString = "Footer Title"
+* item[=].extension[ItemSettings].extension[variableName].valueString = "Not supplied by DD"
+* item[=].extension[ItemSettings].extension[standardVariable].valueString = "FOOTER_STD_VAR"
+* item[=].extension[ItemSettings].extension[fieldCode].valueString = "Not Supplied by DD"
+* item[=].extension[ItemSettings].extension[description].valueString = "FOOTER_DESC"
+* item[=].required = true
+
+
+/* Page Break*/
+* item[+].type = #display
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
+* item[=].linkId = "__S37-form-fields-adhas4b1899nw"
+* item[=].definition = "https://science37.com/NG/widget/id/page-break/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-page-break-Version"
