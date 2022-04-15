@@ -8,17 +8,49 @@
   </meta>
   <text>
     <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><table border="1" cellpadding="0" cellspacing="0" style="border: 1px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top;"><tr style="border: 2px #F0F0F0 solid; font-size: 11px; font-family: verdana; vertical-align: top"><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="The linkId for the item">LinkId</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Text for the item">Text</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Minimum and Maximum # of times the the itemcan appear in the instance">Cardinality</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="The type of the item">Type</a></th><th style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Additional information about the item">Description &amp; Constraints</a><span style="float: right"><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/></a></span></th></tr><tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck1.png)" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon_q_root.gif" alt="." style="background-color: white; background-color: inherit" title="QuestionnaireRoot" class="hierarchy"/> Example : Questionnaire.Item</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Questionnaire</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-All-SingleItem#1.0.0-S37</td></tr>
-<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-qo3cyvy8fgh" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-datetime.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Date Time" class="hierarchy"/> __S37-form-fields-qo3cyvy8fgh</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;DATE_TIME_LABEL&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-dateTime">dateTime</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Max Length: 22<br/>Definition: https://science37.com/NG/widget/id/text/version/2.3<br/>Initial Value: string =  Replacement for defaultPlaceholder</td></tr>
-<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-q6zbrgullmr" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-attachment.png" alt="." style="background-color: white; background-color: inherit" title="Attachment" class="hierarchy"/> __S37-form-fields-q6zbrgullmr</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;FILE_UPLOAD_LABEL&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-attachment">attachment</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/text/version/2.3</td></tr>
-<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.isdfu9s0df8us8-sd09-s09s0" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-attachment.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Attachment" class="hierarchy"/> isdfu9s0df8us8-sd09-s09s0</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Item Text Value</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-attachment">attachment</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Max Length: 22<br/>Definition: https://science37.com/NG/widget/id/text/version/2.3<br/>Initial Value: string =  Replacement for defaultPlaceholder</td></tr>
-<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-jntlfakzc05" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-decimal.png" alt="." style="background-color: white; background-color: inherit" title="Decimal" class="hierarchy"/> __S37-form-fields-jntlfakzc05</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;NUMBER_LABEL&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-decimal">decimal</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/richText/version/2.3<br/>Initial Value: decimal = 1.01</td></tr>
-<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-jntlfakzc05" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-integer.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Integer" class="hierarchy"/> __S37-form-fields-jntlfakzc05</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;NUMBER_LABEL&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-integer">integer</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/richText/version/2.3<br/>Initial Value: integer = 10</td></tr>
-<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-6qupvhtl05b" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-group.png" alt="." style="background-color: white; background-color: inherit" title="Group" class="hierarchy"/> __S37-form-fields-6qupvhtl05b</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;NRS_LABEL&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-question">question</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/richText/version/2.3</td></tr>
-<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-h0ae575xlf8" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-group.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Group" class="hierarchy"/> __S37-form-fields-h0ae575xlf8</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;Please tap on the scale to indicate how your health is TODAY&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-question">question</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/richText/version/2.3</td></tr>
-<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-1nhurf723d8" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-group.png" alt="." style="background-color: white; background-color: inherit" title="Group" class="hierarchy"/> __S37-form-fields-1nhurf723d8</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;TEXT_AREA_LABEL&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-question">question</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/richText/version/2.3</td></tr>
-<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-fe09fa6eto2" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-text.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Text" class="hierarchy"/> __S37-form-fields-fe09fa6eto2</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;Rich Text Area data&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-text">text</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/richText/version/2.3</td></tr>
-<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck01.png)" id="item.s9oduf-9asdufa8sdfy8-222" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-group.png" alt="." style="background-color: white; background-color: inherit" title="Group" class="hierarchy"/> s9oduf-9asdufa8sdfy8-222</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">null</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-question">question</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
-<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck000.png)" id="item.klklklsio989-s8s8s8s" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_blank.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-text.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Text" class="hierarchy"/> klklklsio989-s8s8s8s</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Describe your current mood.</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-text">text</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/text/version/2.3<br/>Initial Value: string =  Replacement for defaultPlaceholder</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-qo3cyvy8fgh" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-datetime.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Date Time" class="hierarchy"/> __S37-form-fields-qo3cyvy8fgh</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;DATE_TIME_LABEL&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-dateTime">dateTime</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Max Length: 22<br/>Definition: https://science37.com/NG/widget/id/datetime/version/2.3<br/>Initial Value: string =  Replacement for defaultPlaceholder</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-adhas4b1899nw" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-display.png" alt="." style="background-color: white; background-color: inherit" title="Display" class="hierarchy"/> __S37-form-fields-adhas4b1899nw</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;FOOTER_TEXT&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-display">display</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/footer/version/2.3</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-adhas4b1899nw" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-display.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Display" class="hierarchy"/> __S37-form-fields-adhas4b1899nw</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">null</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-display">display</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/page-break/version/2.3</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-adhas4b1899nw" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-display.png" alt="." style="background-color: white; background-color: inherit" title="Display" class="hierarchy"/> __S37-form-fields-adhas4b1899nw</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;header_TEXT&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-display">display</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/header/version/2.3</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-q6zbrgullmr" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-attachment.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Attachment" class="hierarchy"/> __S37-form-fields-q6zbrgullmr</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;FILE_UPLOAD_LABEL&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-attachment">attachment</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/fileupload/version/2.3</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-adhas4b1899nw" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-display.png" alt="." style="background-color: white; background-color: inherit" title="Display" class="hierarchy"/> __S37-form-fields-adhas4b1899nw</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;FOOTER_TEXT&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-display">display</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/footer/version/2.3</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-adhas4b1899nw" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-display.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Display" class="hierarchy"/> __S37-form-fields-adhas4b1899nw</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">null</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-display">display</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/page-break/version/2.3</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-adhas4b1899nw" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-display.png" alt="." style="background-color: white; background-color: inherit" title="Display" class="hierarchy"/> __S37-form-fields-adhas4b1899nw</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;header_TEXT&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-display">display</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/header/version/2.3</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.isdfu9s0df8us8dfy" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-attachment.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Attachment" class="hierarchy"/> isdfu9s0df8us8dfy</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Item Text Value</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-attachment">attachment</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Max Length: 22<br/>Definition: https://science37.com/NG/widget/id/image/version/2.3<br/>Initial Value: string =  Replacement for defaultPlaceholder</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-adhas4b1899nw" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-display.png" alt="." style="background-color: white; background-color: inherit" title="Display" class="hierarchy"/> __S37-form-fields-adhas4b1899nw</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;FOOTER_TEXT&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-display">display</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/footer/version/2.3</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-adhas4b1899nw" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-display.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Display" class="hierarchy"/> __S37-form-fields-adhas4b1899nw</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">null</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-display">display</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/page-break/version/2.3</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-adhas4b1899nw" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-display.png" alt="." style="background-color: white; background-color: inherit" title="Display" class="hierarchy"/> __S37-form-fields-adhas4b1899nw</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;header_TEXT&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-display">display</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/header/version/2.3</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-jntlfakzc05" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-decimal.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Decimal" class="hierarchy"/> __S37-form-fields-jntlfakzc05</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;NUMBER_LABEL&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-decimal">decimal</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/number/version/2.3<br/>Initial Value: decimal = 1.01</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-adhas4b1899nw" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-display.png" alt="." style="background-color: white; background-color: inherit" title="Display" class="hierarchy"/> __S37-form-fields-adhas4b1899nw</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;FOOTER_TEXT&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-display">display</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/footer/version/2.3</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-adhas4b1899nw" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-display.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Display" class="hierarchy"/> __S37-form-fields-adhas4b1899nw</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">null</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-display">display</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/page-break/version/2.3</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-adhas4b1899nw" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-display.png" alt="." style="background-color: white; background-color: inherit" title="Display" class="hierarchy"/> __S37-form-fields-adhas4b1899nw</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;header_TEXT&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-display">display</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/header/version/2.3</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-jntlfakzc05" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-integer.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Integer" class="hierarchy"/> __S37-form-fields-jntlfakzc05</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;NUMBER_LABEL&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-integer">integer</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/number/version/2.3<br/>Initial Value: integer = 10</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-adhas4b1899nw" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-display.png" alt="." style="background-color: white; background-color: inherit" title="Display" class="hierarchy"/> __S37-form-fields-adhas4b1899nw</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;FOOTER_TEXT&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-display">display</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/footer/version/2.3</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-adhas4b1899nw" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-display.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Display" class="hierarchy"/> __S37-form-fields-adhas4b1899nw</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">null</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-display">display</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/page-break/version/2.3</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-adhas4b1899nw" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-display.png" alt="." style="background-color: white; background-color: inherit" title="Display" class="hierarchy"/> __S37-form-fields-adhas4b1899nw</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;header_TEXT&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-display">display</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/header/version/2.3</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-6qupvhtl05b" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-group.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Group" class="hierarchy"/> __S37-form-fields-6qupvhtl05b</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;NRS_LABEL&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-question">question</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/ratingscale/version/2.3</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-adhas4b1899nw" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-display.png" alt="." style="background-color: white; background-color: inherit" title="Display" class="hierarchy"/> __S37-form-fields-adhas4b1899nw</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;FOOTER_TEXT&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-display">display</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/footer/version/2.3</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-adhas4b1899nw" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-display.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Display" class="hierarchy"/> __S37-form-fields-adhas4b1899nw</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">null</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-display">display</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/page-break/version/2.3</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-adhas4b1899nw" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-display.png" alt="." style="background-color: white; background-color: inherit" title="Display" class="hierarchy"/> __S37-form-fields-adhas4b1899nw</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;header_TEXT&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-display">display</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/header/version/2.3</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-h0ae575xlf8" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-group.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Group" class="hierarchy"/> __S37-form-fields-h0ae575xlf8</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;Please tap on the scale to indicate how your health is TODAY&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-question">question</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/vasscale/version/2.3</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-adhas4b1899nw" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-display.png" alt="." style="background-color: white; background-color: inherit" title="Display" class="hierarchy"/> __S37-form-fields-adhas4b1899nw</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;FOOTER_TEXT&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-display">display</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/footer/version/2.3</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-adhas4b1899nw" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-display.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Display" class="hierarchy"/> __S37-form-fields-adhas4b1899nw</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">null</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-display">display</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/page-break/version/2.3</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-adhas4b1899nw" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-display.png" alt="." style="background-color: white; background-color: inherit" title="Display" class="hierarchy"/> __S37-form-fields-adhas4b1899nw</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;header_TEXT&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-display">display</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/header/version/2.3</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-1nhurf723d8" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-group.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Group" class="hierarchy"/> __S37-form-fields-1nhurf723d8</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;TEXT_AREA_LABEL&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-question">question</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/textarea/version/2.3</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-adhas4b1899nw" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-display.png" alt="." style="background-color: white; background-color: inherit" title="Display" class="hierarchy"/> __S37-form-fields-adhas4b1899nw</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;FOOTER_TEXT&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-display">display</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/footer/version/2.3</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-adhas4b1899nw" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-display.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Display" class="hierarchy"/> __S37-form-fields-adhas4b1899nw</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">null</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-display">display</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/page-break/version/2.3</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-adhas4b1899nw" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-display.png" alt="." style="background-color: white; background-color: inherit" title="Display" class="hierarchy"/> __S37-form-fields-adhas4b1899nw</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;header_TEXT&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-display">display</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/header/version/2.3</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck11.png)" id="item.__S37-form-fields-fe09fa6eto33" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-display.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Display" class="hierarchy"/> __S37-form-fields-fe09fa6eto33</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">null</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-display">display</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"/></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck100.png)" id="item.__S37-form-fields-fe09fa6eto2" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vline.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-text.png" alt="." style="background-color: white; background-color: inherit" title="Text" class="hierarchy"/> __S37-form-fields-fe09fa6eto2</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;Rich Text Area data&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-text">text</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/richText/version/2.3</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-adhas4b1899nw" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-display.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Display" class="hierarchy"/> __S37-form-fields-adhas4b1899nw</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;FOOTER_TEXT&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-display">display</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/footer/version/2.3</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-adhas4b1899nw" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-display.png" alt="." style="background-color: white; background-color: inherit" title="Display" class="hierarchy"/> __S37-form-fields-adhas4b1899nw</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">null</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-display">display</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/page-break/version/2.3</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-adhas4b1899nw" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-display.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Display" class="hierarchy"/> __S37-form-fields-adhas4b1899nw</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;header_TEXT&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-display">display</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/header/version/2.3</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.isdfu9s0df8us8dfy" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-group.png" alt="." style="background-color: white; background-color: inherit" title="Group" class="hierarchy"/> isdfu9s0df8us8dfy</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;B&gt;Describe your current mood.&lt;B&gt;</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-question">question</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/text/version/2.3<br/>Initial Value: string =  Replacement for defaultPlaceholder</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-adhas4b1899nw" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-display.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Display" class="hierarchy"/> __S37-form-fields-adhas4b1899nw</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;FOOTER_TEXT&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-display">display</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/footer/version/2.3</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-adhas4b1899nw" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-display.png" alt="." style="background-color: white; background-color: inherit" title="Display" class="hierarchy"/> __S37-form-fields-adhas4b1899nw</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">null</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-display">display</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/page-break/version/2.3</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-adhas4b1899nw" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-display.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Display" class="hierarchy"/> __S37-form-fields-adhas4b1899nw</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;header_TEXT&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-display">display</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/header/version/2.3</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: white"><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck10.png)" id="item.__S37-form-fields-adhas4b1899nw" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-display.png" alt="." style="background-color: white; background-color: inherit" title="Display" class="hierarchy"/> __S37-form-fields-adhas4b1899nw</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;FOOTER_TEXT&lt;/strong&gt;&lt;/p&gt;</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">1..1</td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-display">display</a></td><td style="vertical-align: top; text-align : left; background-color: white; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/footer/version/2.3</td></tr>
+<tr style="border: 1px #F0F0F0 solid; padding:0px; vertical-align: top; background-color: #F7F7F7"><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px; white-space: nowrap; background-image: url(tbl_bck00.png)" id="item.__S37-form-fields-adhas4b1899nw" class="hierarchy"><img src="tbl_spacer.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="tbl_vjoin_end.png" alt="." style="background-color: inherit" class="hierarchy"/><img src="icon-q-display.png" alt="." style="background-color: #F7F7F7; background-color: inherit" title="Display" class="hierarchy"/> __S37-form-fields-adhas4b1899nw</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">null</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">0..1</td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy"><a href="http://hl7.org/fhir/R4/codesystem-item-type.html#item-type-display">display</a></td><td style="vertical-align: top; text-align : left; background-color: #F7F7F7; border: 1px #F0F0F0 solid; padding:0px 4px 0px 4px" class="hierarchy">Definition: https://science37.com/NG/widget/id/page-break/version/2.3</td></tr>
 <tr><td colspan="5" class="hierarchy"><br/><a href="http://hl7.org/fhir/R4/formats.html#table" title="Legend for this format"><img src="http://hl7.org/fhir/R4/help16.png" alt="doco" style="background-color: inherit"/> Documentation for this format</a></td></tr></table></div>
   </text>
   <extension url="http://science37.com/StructureDefinition/form-settings">
@@ -71,7 +103,7 @@
   <title value="Example : Questionnaire.Item"/>
   <status value="draft"/>
   <subjectType value="Patient"/>
-  <date value="2022-04-15T15:54:30+00:00"/>
+  <date value="2022-04-15T17:11:07+00:00"/>
   <publisher value="Science37"/>
   <contact>
     <name value="Science37"/>
@@ -84,9 +116,42 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="header"/>
+          <display value="header"/>
+        </coding>
+        <text value="header"/>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="http://science37.com/StructureDefinition/item-settings">
+      <extension url="version">
+        <valueId value="1.0.1-header-Version"/>
+      </extension>
+      <extension url="OID">
+        <valueString value="HEADER_OID"/>
+      </extension>
+      <extension url="title">
+        <valueString value="header Title"/>
+      </extension>
+      <extension url="variableName">
+        <valueString value="Not supplied by DD"/>
+      </extension>
+      <extension url="standardVariable">
+        <valueString value="header_STD_VAR"/>
+      </extension>
+      <extension url="fieldCode">
+        <valueString value="Not Supplied by DD"/>
+      </extension>
+      <extension url="description">
+        <valueString value="header_DESC"/>
+      </extension>
+    </extension>
     <extension url="http://science37.com/StructureDefinition/datetime-item">
       <extension url="version">
-        <valueId value="1.0.1-ItemVersion"/>
+        <valueId value="1.0.1-dateTime"/>
       </extension>
       <extension url="OID">
         <valueString value="DATE_TIME_OID"/>
@@ -129,7 +194,7 @@
       <valueDateTime value="2000-11-14T16:39:40-05:00"/>
     </extension>
     <linkId value="__S37-form-fields-qo3cyvy8fgh"/>
-    <definition value="https://science37.com/NG/widget/id/text/version/2.3"/>
+    <definition value="https://science37.com/NG/widget/id/datetime/version/2.3"/>
     <text value="&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;DATE_TIME_LABEL&lt;/strong&gt;&lt;/p&gt;"/>
     <type value="dateTime"/>
     <required value="true"/>
@@ -142,12 +207,128 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="footer"/>
+          <display value="footer"/>
+        </coding>
+        <text value="footer"/>
+      </valueCodeableConcept>
+    </extension>
     <extension url="http://science37.com/StructureDefinition/item-settings">
-      <extension url="subType">
-        <valueString value="FileUpload"/>
-      </extension>
       <extension url="version">
-        <valueId value="1.0.1-ItemVersion"/>
+        <valueId value="1.0.1-Footer-Version"/>
+      </extension>
+      <extension url="OID">
+        <valueString value="OID field Object ID"/>
+      </extension>
+      <extension url="title">
+        <valueString value="Footer Title"/>
+      </extension>
+      <extension url="variableName">
+        <valueString value="Not supplied by DD"/>
+      </extension>
+      <extension url="standardVariable">
+        <valueString value="FOOTER_STD_VAR"/>
+      </extension>
+      <extension url="fieldCode">
+        <valueString value="Not Supplied by DD"/>
+      </extension>
+      <extension url="description">
+        <valueString value="FOOTER_DESC"/>
+      </extension>
+    </extension>
+    <linkId value="__S37-form-fields-adhas4b1899nw"/>
+    <definition value="https://science37.com/NG/widget/id/footer/version/2.3"/>
+    <text value="&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;FOOTER_TEXT&lt;/strong&gt;&lt;/p&gt;"/>
+    <type value="display"/>
+    <required value="true"/>
+  </item>
+  <item>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="page-break"/>
+          <display value="page-break"/>
+        </coding>
+        <text value="page-break"/>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="http://science37.com/StructureDefinition/item-settings">
+      <extension url="version">
+        <valueId value="1.0.1-page-break-Version"/>
+      </extension>
+    </extension>
+    <linkId value="__S37-form-fields-adhas4b1899nw"/>
+    <definition value="https://science37.com/NG/widget/id/page-break/version/2.3"/>
+    <type value="display"/>
+  </item>
+  <item>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="header"/>
+          <display value="header"/>
+        </coding>
+        <text value="header"/>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="http://science37.com/StructureDefinition/item-settings">
+      <extension url="version">
+        <valueId value="1.0.1-header-Version"/>
+      </extension>
+      <extension url="OID">
+        <valueString value="HEADER_OID"/>
+      </extension>
+      <extension url="title">
+        <valueString value="header Title"/>
+      </extension>
+      <extension url="variableName">
+        <valueString value="Not supplied by DD"/>
+      </extension>
+      <extension url="standardVariable">
+        <valueString value="header_STD_VAR"/>
+      </extension>
+      <extension url="fieldCode">
+        <valueString value="Not Supplied by DD"/>
+      </extension>
+      <extension url="description">
+        <valueString value="header_DESC"/>
+      </extension>
+    </extension>
+    <linkId value="__S37-form-fields-adhas4b1899nw"/>
+    <definition value="https://science37.com/NG/widget/id/header/version/2.3"/>
+    <text value="&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;header_TEXT&lt;/strong&gt;&lt;/p&gt;"/>
+    <type value="display"/>
+    <required value="true"/>
+  </item>
+  <item>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="fileupload"/>
+          <display value="fileupload"/>
+        </coding>
+        <text value="fileupload"/>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="http://science37.com/StructureDefinition/item-settings">
+      <extension url="version">
+        <valueId value="1.0.1-FileUpload-Attachment-Version"/>
       </extension>
       <extension url="OID">
         <valueString value="FILE_UPLOAD_OID"/>
@@ -169,7 +350,7 @@
       </extension>
     </extension>
     <linkId value="__S37-form-fields-q6zbrgullmr"/>
-    <definition value="https://science37.com/NG/widget/id/text/version/2.3"/>
+    <definition value="https://science37.com/NG/widget/id/fileupload/version/2.3"/>
     <text value="&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;FILE_UPLOAD_LABEL&lt;/strong&gt;&lt;/p&gt;"/>
     <type value="attachment"/>
     <required value="true"/>
@@ -178,12 +359,128 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="footer"/>
+          <display value="footer"/>
+        </coding>
+        <text value="footer"/>
+      </valueCodeableConcept>
+    </extension>
     <extension url="http://science37.com/StructureDefinition/item-settings">
-      <extension url="subType">
-        <valueString value="Image"/>
-      </extension>
       <extension url="version">
-        <valueId value="1.0.1-ItemVersion"/>
+        <valueId value="1.0.1-Footer-Version"/>
+      </extension>
+      <extension url="OID">
+        <valueString value="OID field Object ID"/>
+      </extension>
+      <extension url="title">
+        <valueString value="Footer Title"/>
+      </extension>
+      <extension url="variableName">
+        <valueString value="Not supplied by DD"/>
+      </extension>
+      <extension url="standardVariable">
+        <valueString value="FOOTER_STD_VAR"/>
+      </extension>
+      <extension url="fieldCode">
+        <valueString value="Not Supplied by DD"/>
+      </extension>
+      <extension url="description">
+        <valueString value="FOOTER_DESC"/>
+      </extension>
+    </extension>
+    <linkId value="__S37-form-fields-adhas4b1899nw"/>
+    <definition value="https://science37.com/NG/widget/id/footer/version/2.3"/>
+    <text value="&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;FOOTER_TEXT&lt;/strong&gt;&lt;/p&gt;"/>
+    <type value="display"/>
+    <required value="true"/>
+  </item>
+  <item>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="page-break"/>
+          <display value="page-break"/>
+        </coding>
+        <text value="page-break"/>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="http://science37.com/StructureDefinition/item-settings">
+      <extension url="version">
+        <valueId value="1.0.1-page-break-Version"/>
+      </extension>
+    </extension>
+    <linkId value="__S37-form-fields-adhas4b1899nw"/>
+    <definition value="https://science37.com/NG/widget/id/page-break/version/2.3"/>
+    <type value="display"/>
+  </item>
+  <item>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="header"/>
+          <display value="header"/>
+        </coding>
+        <text value="header"/>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="http://science37.com/StructureDefinition/item-settings">
+      <extension url="version">
+        <valueId value="1.0.1-header-Version"/>
+      </extension>
+      <extension url="OID">
+        <valueString value="HEADER_OID"/>
+      </extension>
+      <extension url="title">
+        <valueString value="header Title"/>
+      </extension>
+      <extension url="variableName">
+        <valueString value="Not supplied by DD"/>
+      </extension>
+      <extension url="standardVariable">
+        <valueString value="header_STD_VAR"/>
+      </extension>
+      <extension url="fieldCode">
+        <valueString value="Not Supplied by DD"/>
+      </extension>
+      <extension url="description">
+        <valueString value="header_DESC"/>
+      </extension>
+    </extension>
+    <linkId value="__S37-form-fields-adhas4b1899nw"/>
+    <definition value="https://science37.com/NG/widget/id/header/version/2.3"/>
+    <text value="&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;header_TEXT&lt;/strong&gt;&lt;/p&gt;"/>
+    <type value="display"/>
+    <required value="true"/>
+  </item>
+  <item>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="image"/>
+          <display value="image"/>
+        </coding>
+        <text value="image"/>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="http://science37.com/StructureDefinition/item-settings">
+      <extension url="version">
+        <valueId value="1.0.1-Attachment-Image-Version"/>
       </extension>
       <extension url="OID">
         <valueString value="OID field Object ID"/>
@@ -207,8 +504,8 @@
         <valueString value="The description"/>
       </extension>
     </extension>
-    <linkId value="isdfu9s0df8us8-sd09-s09s0"/>
-    <definition value="https://science37.com/NG/widget/id/text/version/2.3"/>
+    <linkId value="isdfu9s0df8us8dfy"/>
+    <definition value="https://science37.com/NG/widget/id/image/version/2.3"/>
     <text value="Item Text Value"/>
     <type value="attachment"/>
     <required value="true"/>
@@ -221,9 +518,118 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="footer"/>
+          <display value="footer"/>
+        </coding>
+        <text value="footer"/>
+      </valueCodeableConcept>
+    </extension>
     <extension url="http://science37.com/StructureDefinition/item-settings">
       <extension url="version">
-        <valueId value="1.0.1-ItemVersion"/>
+        <valueId value="1.0.1-Footer-Version"/>
+      </extension>
+      <extension url="OID">
+        <valueString value="OID field Object ID"/>
+      </extension>
+      <extension url="title">
+        <valueString value="Footer Title"/>
+      </extension>
+      <extension url="variableName">
+        <valueString value="Not supplied by DD"/>
+      </extension>
+      <extension url="standardVariable">
+        <valueString value="FOOTER_STD_VAR"/>
+      </extension>
+      <extension url="fieldCode">
+        <valueString value="Not Supplied by DD"/>
+      </extension>
+      <extension url="description">
+        <valueString value="FOOTER_DESC"/>
+      </extension>
+    </extension>
+    <linkId value="__S37-form-fields-adhas4b1899nw"/>
+    <definition value="https://science37.com/NG/widget/id/footer/version/2.3"/>
+    <text value="&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;FOOTER_TEXT&lt;/strong&gt;&lt;/p&gt;"/>
+    <type value="display"/>
+    <required value="true"/>
+  </item>
+  <item>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="page-break"/>
+          <display value="page-break"/>
+        </coding>
+        <text value="page-break"/>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="http://science37.com/StructureDefinition/item-settings">
+      <extension url="version">
+        <valueId value="1.0.1-page-break-Version"/>
+      </extension>
+    </extension>
+    <linkId value="__S37-form-fields-adhas4b1899nw"/>
+    <definition value="https://science37.com/NG/widget/id/page-break/version/2.3"/>
+    <type value="display"/>
+  </item>
+  <item>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="header"/>
+          <display value="header"/>
+        </coding>
+        <text value="header"/>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="http://science37.com/StructureDefinition/item-settings">
+      <extension url="version">
+        <valueId value="1.0.1-header-Version"/>
+      </extension>
+      <extension url="OID">
+        <valueString value="HEADER_OID"/>
+      </extension>
+      <extension url="title">
+        <valueString value="header Title"/>
+      </extension>
+      <extension url="variableName">
+        <valueString value="Not supplied by DD"/>
+      </extension>
+      <extension url="standardVariable">
+        <valueString value="header_STD_VAR"/>
+      </extension>
+      <extension url="fieldCode">
+        <valueString value="Not Supplied by DD"/>
+      </extension>
+      <extension url="description">
+        <valueString value="header_DESC"/>
+      </extension>
+    </extension>
+    <linkId value="__S37-form-fields-adhas4b1899nw"/>
+    <definition value="https://science37.com/NG/widget/id/header/version/2.3"/>
+    <text value="&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;header_TEXT&lt;/strong&gt;&lt;/p&gt;"/>
+    <type value="display"/>
+    <required value="true"/>
+  </item>
+  <item>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="http://science37.com/StructureDefinition/item-settings">
+      <extension url="version">
+        <valueId value="1.0.1-Number-Version"/>
       </extension>
       <extension url="OID">
         <valueString value="NUMBER_OID"/>
@@ -257,7 +663,7 @@
       <valueDecimal value="10.002"/>
     </extension>
     <linkId value="__S37-form-fields-jntlfakzc05"/>
-    <definition value="https://science37.com/NG/widget/id/richText/version/2.3"/>
+    <definition value="https://science37.com/NG/widget/id/number/version/2.3"/>
     <text value="&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;NUMBER_LABEL&lt;/strong&gt;&lt;/p&gt;"/>
     <type value="decimal"/>
     <required value="true"/>
@@ -269,9 +675,118 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="footer"/>
+          <display value="footer"/>
+        </coding>
+        <text value="footer"/>
+      </valueCodeableConcept>
+    </extension>
     <extension url="http://science37.com/StructureDefinition/item-settings">
       <extension url="version">
-        <valueId value="1.0.1-ItemVersion"/>
+        <valueId value="1.0.1-Footer-Version"/>
+      </extension>
+      <extension url="OID">
+        <valueString value="OID field Object ID"/>
+      </extension>
+      <extension url="title">
+        <valueString value="Footer Title"/>
+      </extension>
+      <extension url="variableName">
+        <valueString value="Not supplied by DD"/>
+      </extension>
+      <extension url="standardVariable">
+        <valueString value="FOOTER_STD_VAR"/>
+      </extension>
+      <extension url="fieldCode">
+        <valueString value="Not Supplied by DD"/>
+      </extension>
+      <extension url="description">
+        <valueString value="FOOTER_DESC"/>
+      </extension>
+    </extension>
+    <linkId value="__S37-form-fields-adhas4b1899nw"/>
+    <definition value="https://science37.com/NG/widget/id/footer/version/2.3"/>
+    <text value="&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;FOOTER_TEXT&lt;/strong&gt;&lt;/p&gt;"/>
+    <type value="display"/>
+    <required value="true"/>
+  </item>
+  <item>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="page-break"/>
+          <display value="page-break"/>
+        </coding>
+        <text value="page-break"/>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="http://science37.com/StructureDefinition/item-settings">
+      <extension url="version">
+        <valueId value="1.0.1-page-break-Version"/>
+      </extension>
+    </extension>
+    <linkId value="__S37-form-fields-adhas4b1899nw"/>
+    <definition value="https://science37.com/NG/widget/id/page-break/version/2.3"/>
+    <type value="display"/>
+  </item>
+  <item>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="header"/>
+          <display value="header"/>
+        </coding>
+        <text value="header"/>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="http://science37.com/StructureDefinition/item-settings">
+      <extension url="version">
+        <valueId value="1.0.1-header-Version"/>
+      </extension>
+      <extension url="OID">
+        <valueString value="HEADER_OID"/>
+      </extension>
+      <extension url="title">
+        <valueString value="header Title"/>
+      </extension>
+      <extension url="variableName">
+        <valueString value="Not supplied by DD"/>
+      </extension>
+      <extension url="standardVariable">
+        <valueString value="header_STD_VAR"/>
+      </extension>
+      <extension url="fieldCode">
+        <valueString value="Not Supplied by DD"/>
+      </extension>
+      <extension url="description">
+        <valueString value="header_DESC"/>
+      </extension>
+    </extension>
+    <linkId value="__S37-form-fields-adhas4b1899nw"/>
+    <definition value="https://science37.com/NG/widget/id/header/version/2.3"/>
+    <text value="&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;header_TEXT&lt;/strong&gt;&lt;/p&gt;"/>
+    <type value="display"/>
+    <required value="true"/>
+  </item>
+  <item>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="http://science37.com/StructureDefinition/item-settings">
+      <extension url="version">
+        <valueId value="1.0.1-Number-Version"/>
       </extension>
       <extension url="OID">
         <valueString value="NUMBER_OID"/>
@@ -302,7 +817,7 @@
       <valueInteger value="500"/>
     </extension>
     <linkId value="__S37-form-fields-jntlfakzc05"/>
-    <definition value="https://science37.com/NG/widget/id/richText/version/2.3"/>
+    <definition value="https://science37.com/NG/widget/id/number/version/2.3"/>
     <text value="&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;NUMBER_LABEL&lt;/strong&gt;&lt;/p&gt;"/>
     <type value="integer"/>
     <required value="true"/>
@@ -314,12 +829,131 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="footer"/>
+          <display value="footer"/>
+        </coding>
+        <text value="footer"/>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="http://science37.com/StructureDefinition/item-settings">
+      <extension url="version">
+        <valueId value="1.0.1-Footer-Version"/>
+      </extension>
+      <extension url="OID">
+        <valueString value="OID field Object ID"/>
+      </extension>
+      <extension url="title">
+        <valueString value="Footer Title"/>
+      </extension>
+      <extension url="variableName">
+        <valueString value="Not supplied by DD"/>
+      </extension>
+      <extension url="standardVariable">
+        <valueString value="FOOTER_STD_VAR"/>
+      </extension>
+      <extension url="fieldCode">
+        <valueString value="Not Supplied by DD"/>
+      </extension>
+      <extension url="description">
+        <valueString value="FOOTER_DESC"/>
+      </extension>
+    </extension>
+    <linkId value="__S37-form-fields-adhas4b1899nw"/>
+    <definition value="https://science37.com/NG/widget/id/footer/version/2.3"/>
+    <text value="&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;FOOTER_TEXT&lt;/strong&gt;&lt;/p&gt;"/>
+    <type value="display"/>
+    <required value="true"/>
+  </item>
+  <item>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="page-break"/>
+          <display value="page-break"/>
+        </coding>
+        <text value="page-break"/>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="http://science37.com/StructureDefinition/item-settings">
+      <extension url="version">
+        <valueId value="1.0.1-page-break-Version"/>
+      </extension>
+    </extension>
+    <linkId value="__S37-form-fields-adhas4b1899nw"/>
+    <definition value="https://science37.com/NG/widget/id/page-break/version/2.3"/>
+    <type value="display"/>
+  </item>
+  <item>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="header"/>
+          <display value="header"/>
+        </coding>
+        <text value="header"/>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="http://science37.com/StructureDefinition/item-settings">
+      <extension url="version">
+        <valueId value="1.0.1-header-Version"/>
+      </extension>
+      <extension url="OID">
+        <valueString value="HEADER_OID"/>
+      </extension>
+      <extension url="title">
+        <valueString value="header Title"/>
+      </extension>
+      <extension url="variableName">
+        <valueString value="Not supplied by DD"/>
+      </extension>
+      <extension url="standardVariable">
+        <valueString value="header_STD_VAR"/>
+      </extension>
+      <extension url="fieldCode">
+        <valueString value="Not Supplied by DD"/>
+      </extension>
+      <extension url="description">
+        <valueString value="header_DESC"/>
+      </extension>
+    </extension>
+    <linkId value="__S37-form-fields-adhas4b1899nw"/>
+    <definition value="https://science37.com/NG/widget/id/header/version/2.3"/>
+    <text value="&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;header_TEXT&lt;/strong&gt;&lt;/p&gt;"/>
+    <type value="display"/>
+    <required value="true"/>
+  </item>
+  <item>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="rating-scale"/>
+          <display value="rating-scale"/>
+        </coding>
+        <text value="rating-scale"/>
+      </valueCodeableConcept>
+    </extension>
     <extension url="http://science37.com/StructureDefinition/item-settings">
       <extension url="subType">
         <valueString value="ratingscale"/>
       </extension>
       <extension url="version">
-        <valueId value="1.0.1-ItemVersion"/>
+        <valueId value="1.0.1-Rating-ScaleVersion"/>
       </extension>
       <extension url="OID">
         <valueString value="NRS_OID"/>
@@ -359,7 +993,7 @@
       <valueInteger value="1100"/>
     </extension>
     <linkId value="__S37-form-fields-6qupvhtl05b"/>
-    <definition value="https://science37.com/NG/widget/id/richText/version/2.3"/>
+    <definition value="https://science37.com/NG/widget/id/ratingscale/version/2.3"/>
     <text value="&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;NRS_LABEL&lt;/strong&gt;&lt;/p&gt;"/>
     <type value="question"/>
     <required value="true"/>
@@ -368,12 +1002,128 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
-    <extension url="http://science37.com/StructureDefinition/vasScale-item">
-      <extension url="subType">
-        <valueString value="VASScale"/>
-      </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="footer"/>
+          <display value="footer"/>
+        </coding>
+        <text value="footer"/>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="http://science37.com/StructureDefinition/item-settings">
       <extension url="version">
-        <valueId value="1.0.1-ItemVersion"/>
+        <valueId value="1.0.1-Footer-Version"/>
+      </extension>
+      <extension url="OID">
+        <valueString value="OID field Object ID"/>
+      </extension>
+      <extension url="title">
+        <valueString value="Footer Title"/>
+      </extension>
+      <extension url="variableName">
+        <valueString value="Not supplied by DD"/>
+      </extension>
+      <extension url="standardVariable">
+        <valueString value="FOOTER_STD_VAR"/>
+      </extension>
+      <extension url="fieldCode">
+        <valueString value="Not Supplied by DD"/>
+      </extension>
+      <extension url="description">
+        <valueString value="FOOTER_DESC"/>
+      </extension>
+    </extension>
+    <linkId value="__S37-form-fields-adhas4b1899nw"/>
+    <definition value="https://science37.com/NG/widget/id/footer/version/2.3"/>
+    <text value="&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;FOOTER_TEXT&lt;/strong&gt;&lt;/p&gt;"/>
+    <type value="display"/>
+    <required value="true"/>
+  </item>
+  <item>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="page-break"/>
+          <display value="page-break"/>
+        </coding>
+        <text value="page-break"/>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="http://science37.com/StructureDefinition/item-settings">
+      <extension url="version">
+        <valueId value="1.0.1-page-break-Version"/>
+      </extension>
+    </extension>
+    <linkId value="__S37-form-fields-adhas4b1899nw"/>
+    <definition value="https://science37.com/NG/widget/id/page-break/version/2.3"/>
+    <type value="display"/>
+  </item>
+  <item>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="header"/>
+          <display value="header"/>
+        </coding>
+        <text value="header"/>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="http://science37.com/StructureDefinition/item-settings">
+      <extension url="version">
+        <valueId value="1.0.1-header-Version"/>
+      </extension>
+      <extension url="OID">
+        <valueString value="HEADER_OID"/>
+      </extension>
+      <extension url="title">
+        <valueString value="header Title"/>
+      </extension>
+      <extension url="variableName">
+        <valueString value="Not supplied by DD"/>
+      </extension>
+      <extension url="standardVariable">
+        <valueString value="header_STD_VAR"/>
+      </extension>
+      <extension url="fieldCode">
+        <valueString value="Not Supplied by DD"/>
+      </extension>
+      <extension url="description">
+        <valueString value="header_DESC"/>
+      </extension>
+    </extension>
+    <linkId value="__S37-form-fields-adhas4b1899nw"/>
+    <definition value="https://science37.com/NG/widget/id/header/version/2.3"/>
+    <text value="&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;header_TEXT&lt;/strong&gt;&lt;/p&gt;"/>
+    <type value="display"/>
+    <required value="true"/>
+  </item>
+  <item>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="vas-scale"/>
+          <display value="vas-scale"/>
+        </coding>
+        <text value="vas-scale"/>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="http://science37.com/StructureDefinition/vasScale-item">
+      <extension url="version">
+        <valueId value="1.0.1-VAS-Scale-Version"/>
       </extension>
       <extension url="OID">
         <valueString value="VAS_OID"/>
@@ -446,7 +1196,7 @@
       <valueInteger value="1100"/>
     </extension>
     <linkId value="__S37-form-fields-h0ae575xlf8"/>
-    <definition value="https://science37.com/NG/widget/id/richText/version/2.3"/>
+    <definition value="https://science37.com/NG/widget/id/vasscale/version/2.3"/>
     <text value="&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;Please tap on the scale to indicate how your health is TODAY&lt;/strong&gt;&lt;/p&gt;"/>
     <type value="question"/>
     <required value="true"/>
@@ -458,14 +1208,125 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
       <valueCodeableConcept>
         <coding>
-          <code value="questionnaire-item-control.text-box"/>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="footer"/>
+          <display value="footer"/>
         </coding>
-        <text value="questionnaire-item-control.text-box"/>
+        <text value="footer"/>
       </valueCodeableConcept>
     </extension>
     <extension url="http://science37.com/StructureDefinition/item-settings">
       <extension url="version">
-        <valueId value="1.0.1-text-boxVersion"/>
+        <valueId value="1.0.1-Footer-Version"/>
+      </extension>
+      <extension url="OID">
+        <valueString value="OID field Object ID"/>
+      </extension>
+      <extension url="title">
+        <valueString value="Footer Title"/>
+      </extension>
+      <extension url="variableName">
+        <valueString value="Not supplied by DD"/>
+      </extension>
+      <extension url="standardVariable">
+        <valueString value="FOOTER_STD_VAR"/>
+      </extension>
+      <extension url="fieldCode">
+        <valueString value="Not Supplied by DD"/>
+      </extension>
+      <extension url="description">
+        <valueString value="FOOTER_DESC"/>
+      </extension>
+    </extension>
+    <linkId value="__S37-form-fields-adhas4b1899nw"/>
+    <definition value="https://science37.com/NG/widget/id/footer/version/2.3"/>
+    <text value="&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;FOOTER_TEXT&lt;/strong&gt;&lt;/p&gt;"/>
+    <type value="display"/>
+    <required value="true"/>
+  </item>
+  <item>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="page-break"/>
+          <display value="page-break"/>
+        </coding>
+        <text value="page-break"/>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="http://science37.com/StructureDefinition/item-settings">
+      <extension url="version">
+        <valueId value="1.0.1-page-break-Version"/>
+      </extension>
+    </extension>
+    <linkId value="__S37-form-fields-adhas4b1899nw"/>
+    <definition value="https://science37.com/NG/widget/id/page-break/version/2.3"/>
+    <type value="display"/>
+  </item>
+  <item>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="header"/>
+          <display value="header"/>
+        </coding>
+        <text value="header"/>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="http://science37.com/StructureDefinition/item-settings">
+      <extension url="version">
+        <valueId value="1.0.1-header-Version"/>
+      </extension>
+      <extension url="OID">
+        <valueString value="HEADER_OID"/>
+      </extension>
+      <extension url="title">
+        <valueString value="header Title"/>
+      </extension>
+      <extension url="variableName">
+        <valueString value="Not supplied by DD"/>
+      </extension>
+      <extension url="standardVariable">
+        <valueString value="header_STD_VAR"/>
+      </extension>
+      <extension url="fieldCode">
+        <valueString value="Not Supplied by DD"/>
+      </extension>
+      <extension url="description">
+        <valueString value="header_DESC"/>
+      </extension>
+    </extension>
+    <linkId value="__S37-form-fields-adhas4b1899nw"/>
+    <definition value="https://science37.com/NG/widget/id/header/version/2.3"/>
+    <text value="&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;header_TEXT&lt;/strong&gt;&lt;/p&gt;"/>
+    <type value="display"/>
+    <required value="true"/>
+  </item>
+  <item>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="text-box"/>
+          <display value="textbox"/>
+        </coding>
+        <text value="text-box"/>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="http://science37.com/StructureDefinition/item-settings">
+      <extension url="version">
+        <valueId value="1.0.1-Text-Area-Version"/>
       </extension>
       <extension url="OID">
         <valueString value="TEXT_AREA-OID"/>
@@ -487,7 +1348,7 @@
       </extension>
     </extension>
     <linkId value="__S37-form-fields-1nhurf723d8"/>
-    <definition value="https://science37.com/NG/widget/id/richText/version/2.3"/>
+    <definition value="https://science37.com/NG/widget/id/textarea/version/2.3"/>
     <text value="&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;TEXT_AREA_LABEL&lt;/strong&gt;&lt;/p&gt;"/>
     <type value="question"/>
     <required value="true"/>
@@ -496,82 +1357,492 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="footer"/>
+          <display value="footer"/>
+        </coding>
+        <text value="footer"/>
+      </valueCodeableConcept>
+    </extension>
     <extension url="http://science37.com/StructureDefinition/item-settings">
-      <extension url="subType">
-        <valueString value="RichText"/>
-      </extension>
       <extension url="version">
-        <valueId value="1.0.1-ItemVersion"/>
+        <valueId value="1.0.1-Footer-Version"/>
       </extension>
       <extension url="OID">
-        <valueString value="FOOTER_OID"/>
+        <valueString value="OID field Object ID"/>
       </extension>
       <extension url="title">
-        <valueString value="FOOTER_TITLE"/>
+        <valueString value="Footer Title"/>
       </extension>
       <extension url="variableName">
-        <valueString value="NOT Assigned by DD"/>
+        <valueString value="Not supplied by DD"/>
       </extension>
       <extension url="standardVariable">
         <valueString value="FOOTER_STD_VAR"/>
       </extension>
       <extension url="fieldCode">
-        <valueString value="NOT Assigned by DD"/>
+        <valueString value="Not Supplied by DD"/>
       </extension>
       <extension url="description">
         <valueString value="FOOTER_DESC"/>
       </extension>
-      <extension url="maxLength">
-        <valueInteger value="254"/>
-      </extension>
     </extension>
-    <linkId value="__S37-form-fields-fe09fa6eto2"/>
-    <definition value="https://science37.com/NG/widget/id/richText/version/2.3"/>
-    <text value="&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;Rich Text Area data&lt;/strong&gt;&lt;/p&gt;"/>
-    <type value="text"/>
+    <linkId value="__S37-form-fields-adhas4b1899nw"/>
+    <definition value="https://science37.com/NG/widget/id/footer/version/2.3"/>
+    <text value="&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;FOOTER_TEXT&lt;/strong&gt;&lt;/p&gt;"/>
+    <type value="display"/>
     <required value="true"/>
   </item>
   <item>
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
       <valueBoolean value="false"/>
     </extension>
-    <linkId value="s9oduf-9asdufa8sdfy8-222"/>
-    <type value="question"/>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="page-break"/>
+          <display value="page-break"/>
+        </coding>
+        <text value="page-break"/>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="http://science37.com/StructureDefinition/item-settings">
+      <extension url="version">
+        <valueId value="1.0.1-page-break-Version"/>
+      </extension>
+    </extension>
+    <linkId value="__S37-form-fields-adhas4b1899nw"/>
+    <definition value="https://science37.com/NG/widget/id/page-break/version/2.3"/>
+    <type value="display"/>
+  </item>
+  <item>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="header"/>
+          <display value="header"/>
+        </coding>
+        <text value="header"/>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="http://science37.com/StructureDefinition/item-settings">
+      <extension url="version">
+        <valueId value="1.0.1-header-Version"/>
+      </extension>
+      <extension url="OID">
+        <valueString value="HEADER_OID"/>
+      </extension>
+      <extension url="title">
+        <valueString value="header Title"/>
+      </extension>
+      <extension url="variableName">
+        <valueString value="Not supplied by DD"/>
+      </extension>
+      <extension url="standardVariable">
+        <valueString value="header_STD_VAR"/>
+      </extension>
+      <extension url="fieldCode">
+        <valueString value="Not Supplied by DD"/>
+      </extension>
+      <extension url="description">
+        <valueString value="header_DESC"/>
+      </extension>
+    </extension>
+    <linkId value="__S37-form-fields-adhas4b1899nw"/>
+    <definition value="https://science37.com/NG/widget/id/header/version/2.3"/>
+    <text value="&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;header_TEXT&lt;/strong&gt;&lt;/p&gt;"/>
+    <type value="display"/>
+    <required value="true"/>
+  </item>
+  <item>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="rich-text"/>
+          <display value="rich-text"/>
+        </coding>
+        <text value="rich-text"/>
+      </valueCodeableConcept>
+    </extension>
+    <linkId value="__S37-form-fields-fe09fa6eto33"/>
+    <type value="display"/>
     <item>
       <extension url="http://science37.com/StructureDefinition/item-settings">
         <extension url="version">
-          <valueId value="1.0.1-ItemVersion"/>
+          <valueId value="1.0.1-Rich-Text-Version"/>
         </extension>
         <extension url="OID">
-          <valueString value="OID field Object ID"/>
+          <valueString value="FOOTER_OID"/>
         </extension>
         <extension url="title">
-          <valueString value="The Item Title"/>
+          <valueString value="FOOTER_TITLE"/>
         </extension>
         <extension url="variableName">
-          <valueString value="The Item variableName"/>
+          <valueString value="NOT Assigned by DD"/>
         </extension>
         <extension url="standardVariable">
-          <valueString value="The standardVariable"/>
+          <valueString value="FOOTER_STD_VAR"/>
         </extension>
         <extension url="fieldCode">
-          <valueString value="The fieldCode"/>
+          <valueString value="NOT Assigned by DD"/>
         </extension>
         <extension url="description">
-          <valueString value="The description"/>
+          <valueString value="FOOTER_DESC"/>
         </extension>
         <extension url="maxLength">
-          <valueInteger value="22"/>
+          <valueInteger value="254"/>
         </extension>
       </extension>
-      <linkId value="klklklsio989-s8s8s8s"/>
-      <definition value="https://science37.com/NG/widget/id/text/version/2.3"/>
-      <text value="Describe your current mood."/>
+      <linkId value="__S37-form-fields-fe09fa6eto2"/>
+      <definition value="https://science37.com/NG/widget/id/richText/version/2.3"/>
+      <text value="&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;Rich Text Area data&lt;/strong&gt;&lt;/p&gt;"/>
       <type value="text"/>
       <required value="true"/>
-      <initial>
-        <valueString value=" Replacement for defaultPlaceholder"/>
-      </initial>
     </item>
+  </item>
+  <item>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="footer"/>
+          <display value="footer"/>
+        </coding>
+        <text value="footer"/>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="http://science37.com/StructureDefinition/item-settings">
+      <extension url="version">
+        <valueId value="1.0.1-Footer-Version"/>
+      </extension>
+      <extension url="OID">
+        <valueString value="OID field Object ID"/>
+      </extension>
+      <extension url="title">
+        <valueString value="Footer Title"/>
+      </extension>
+      <extension url="variableName">
+        <valueString value="Not supplied by DD"/>
+      </extension>
+      <extension url="standardVariable">
+        <valueString value="FOOTER_STD_VAR"/>
+      </extension>
+      <extension url="fieldCode">
+        <valueString value="Not Supplied by DD"/>
+      </extension>
+      <extension url="description">
+        <valueString value="FOOTER_DESC"/>
+      </extension>
+    </extension>
+    <linkId value="__S37-form-fields-adhas4b1899nw"/>
+    <definition value="https://science37.com/NG/widget/id/footer/version/2.3"/>
+    <text value="&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;FOOTER_TEXT&lt;/strong&gt;&lt;/p&gt;"/>
+    <type value="display"/>
+    <required value="true"/>
+  </item>
+  <item>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="page-break"/>
+          <display value="page-break"/>
+        </coding>
+        <text value="page-break"/>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="http://science37.com/StructureDefinition/item-settings">
+      <extension url="version">
+        <valueId value="1.0.1-page-break-Version"/>
+      </extension>
+    </extension>
+    <linkId value="__S37-form-fields-adhas4b1899nw"/>
+    <definition value="https://science37.com/NG/widget/id/page-break/version/2.3"/>
+    <type value="display"/>
+  </item>
+  <item>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="header"/>
+          <display value="header"/>
+        </coding>
+        <text value="header"/>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="http://science37.com/StructureDefinition/item-settings">
+      <extension url="version">
+        <valueId value="1.0.1-header-Version"/>
+      </extension>
+      <extension url="OID">
+        <valueString value="HEADER_OID"/>
+      </extension>
+      <extension url="title">
+        <valueString value="header Title"/>
+      </extension>
+      <extension url="variableName">
+        <valueString value="Not supplied by DD"/>
+      </extension>
+      <extension url="standardVariable">
+        <valueString value="header_STD_VAR"/>
+      </extension>
+      <extension url="fieldCode">
+        <valueString value="Not Supplied by DD"/>
+      </extension>
+      <extension url="description">
+        <valueString value="header_DESC"/>
+      </extension>
+    </extension>
+    <linkId value="__S37-form-fields-adhas4b1899nw"/>
+    <definition value="https://science37.com/NG/widget/id/header/version/2.3"/>
+    <text value="&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;header_TEXT&lt;/strong&gt;&lt;/p&gt;"/>
+    <type value="display"/>
+    <required value="true"/>
+  </item>
+  <item>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="text"/>
+          <display value="text"/>
+        </coding>
+        <text value="text"/>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="http://science37.com/StructureDefinition/item-settings">
+      <extension url="version">
+        <valueId value="1.0.1-Text-Version"/>
+      </extension>
+      <extension url="OID">
+        <valueString value="OID field Object ID"/>
+      </extension>
+      <extension url="title">
+        <valueString value="The Item Title"/>
+      </extension>
+      <extension url="variableName">
+        <valueString value="The Item variableName"/>
+      </extension>
+      <extension url="standardVariable">
+        <valueString value="The standardVariable"/>
+      </extension>
+      <extension url="fieldCode">
+        <valueString value="The fieldCode"/>
+      </extension>
+      <extension url="description">
+        <valueString value="The description"/>
+      </extension>
+      <extension url="maxLength">
+        <valueInteger value="22"/>
+      </extension>
+    </extension>
+    <linkId value="isdfu9s0df8us8dfy"/>
+    <definition value="https://science37.com/NG/widget/id/text/version/2.3"/>
+    <text value="&lt;B&gt;Describe your current mood.&lt;B&gt;"/>
+    <type value="question"/>
+    <required value="true"/>
+    <initial>
+      <valueString value=" Replacement for defaultPlaceholder"/>
+    </initial>
+  </item>
+  <item>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="footer"/>
+          <display value="footer"/>
+        </coding>
+        <text value="footer"/>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="http://science37.com/StructureDefinition/item-settings">
+      <extension url="version">
+        <valueId value="1.0.1-Footer-Version"/>
+      </extension>
+      <extension url="OID">
+        <valueString value="OID field Object ID"/>
+      </extension>
+      <extension url="title">
+        <valueString value="Footer Title"/>
+      </extension>
+      <extension url="variableName">
+        <valueString value="Not supplied by DD"/>
+      </extension>
+      <extension url="standardVariable">
+        <valueString value="FOOTER_STD_VAR"/>
+      </extension>
+      <extension url="fieldCode">
+        <valueString value="Not Supplied by DD"/>
+      </extension>
+      <extension url="description">
+        <valueString value="FOOTER_DESC"/>
+      </extension>
+    </extension>
+    <linkId value="__S37-form-fields-adhas4b1899nw"/>
+    <definition value="https://science37.com/NG/widget/id/footer/version/2.3"/>
+    <text value="&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;FOOTER_TEXT&lt;/strong&gt;&lt;/p&gt;"/>
+    <type value="display"/>
+    <required value="true"/>
+  </item>
+  <item>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="page-break"/>
+          <display value="page-break"/>
+        </coding>
+        <text value="page-break"/>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="http://science37.com/StructureDefinition/item-settings">
+      <extension url="version">
+        <valueId value="1.0.1-page-break-Version"/>
+      </extension>
+    </extension>
+    <linkId value="__S37-form-fields-adhas4b1899nw"/>
+    <definition value="https://science37.com/NG/widget/id/page-break/version/2.3"/>
+    <type value="display"/>
+  </item>
+  <item>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="header"/>
+          <display value="header"/>
+        </coding>
+        <text value="header"/>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="http://science37.com/StructureDefinition/item-settings">
+      <extension url="version">
+        <valueId value="1.0.1-header-Version"/>
+      </extension>
+      <extension url="OID">
+        <valueString value="HEADER_OID"/>
+      </extension>
+      <extension url="title">
+        <valueString value="header Title"/>
+      </extension>
+      <extension url="variableName">
+        <valueString value="Not supplied by DD"/>
+      </extension>
+      <extension url="standardVariable">
+        <valueString value="header_STD_VAR"/>
+      </extension>
+      <extension url="fieldCode">
+        <valueString value="Not Supplied by DD"/>
+      </extension>
+      <extension url="description">
+        <valueString value="header_DESC"/>
+      </extension>
+    </extension>
+    <linkId value="__S37-form-fields-adhas4b1899nw"/>
+    <definition value="https://science37.com/NG/widget/id/header/version/2.3"/>
+    <text value="&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;header_TEXT&lt;/strong&gt;&lt;/p&gt;"/>
+    <type value="display"/>
+    <required value="true"/>
+  </item>
+  <item>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="footer"/>
+          <display value="footer"/>
+        </coding>
+        <text value="footer"/>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="http://science37.com/StructureDefinition/item-settings">
+      <extension url="version">
+        <valueId value="1.0.1-Footer-Version"/>
+      </extension>
+      <extension url="OID">
+        <valueString value="OID field Object ID"/>
+      </extension>
+      <extension url="title">
+        <valueString value="Footer Title"/>
+      </extension>
+      <extension url="variableName">
+        <valueString value="Not supplied by DD"/>
+      </extension>
+      <extension url="standardVariable">
+        <valueString value="FOOTER_STD_VAR"/>
+      </extension>
+      <extension url="fieldCode">
+        <valueString value="Not Supplied by DD"/>
+      </extension>
+      <extension url="description">
+        <valueString value="FOOTER_DESC"/>
+      </extension>
+    </extension>
+    <linkId value="__S37-form-fields-adhas4b1899nw"/>
+    <definition value="https://science37.com/NG/widget/id/footer/version/2.3"/>
+    <text value="&lt;p style=&quot;text-align:left;&quot;&gt;&lt;strong&gt;FOOTER_TEXT&lt;/strong&gt;&lt;/p&gt;"/>
+    <type value="display"/>
+    <required value="true"/>
+  </item>
+  <item>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
+      <valueBoolean value="false"/>
+    </extension>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="page-break"/>
+          <display value="page-break"/>
+        </coding>
+        <text value="page-break"/>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="http://science37.com/StructureDefinition/item-settings">
+      <extension url="version">
+        <valueId value="1.0.1-page-break-Version"/>
+      </extension>
+    </extension>
+    <linkId value="__S37-form-fields-adhas4b1899nw"/>
+    <definition value="https://science37.com/NG/widget/id/page-break/version/2.3"/>
+    <type value="display"/>
   </item>
 </Questionnaire>

@@ -35,6 +35,20 @@
     "name": "Example : Questionnaire.Item FileUpload"
   },
   {
+    "id": "Questionnaire-Item-Extension-Example-Footer",
+    "type": "Questionnaire",
+    "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-Footer",
+    "version": "1.0.0-S37",
+    "name": "Example : Questionnaire.Item Footer"
+  },
+  {
+    "id": "Questionnaire-Item-Extension-Example-Header",
+    "type": "Questionnaire",
+    "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-Header",
+    "version": "1.0.0-S37",
+    "name": "Example : Questionnaire.Item Header"
+  },
+  {
     "id": "Questionnaire-Item-Extension-Example-Image",
     "type": "Questionnaire",
     "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-Image",
@@ -91,11 +105,32 @@
     "name": "Example : Questionnaire.Item VASScale"
   },
   {
+    "id": "Questionnaire-Item-Extension-Example-derived",
+    "type": "Questionnaire",
+    "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-derived",
+    "version": "1.0.0-S37",
+    "name": "Example : Questionnaire.Item derived"
+  },
+  {
+    "id": "Questionnaire-Item-Extension-Example-page-break",
+    "type": "Questionnaire",
+    "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-page-break",
+    "version": "1.0.0-S37",
+    "name": "Example : Questionnaire.Item page-break"
+  },
+  {
     "id": "datetime-item",
     "type": "StructureDefinition",
     "url": "http://science37.com/StructureDefinition/datetime-item",
     "version": "1.0.0-S37",
     "name": "DateTimeItem"
+  },
+  {
+    "id": "derived-item",
+    "type": "StructureDefinition",
+    "url": "http://science37.com/StructureDefinition/derived-item",
+    "version": "1.0.0-S37",
+    "name": "DerivedItem"
   },
   {
     "id": "form-settings",
