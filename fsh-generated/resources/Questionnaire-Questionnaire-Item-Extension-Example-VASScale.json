@@ -19,21 +19,19 @@
           "valueCodeableConcept": {
             "coding": [
               {
-                "code": "questionnaire-item-control.text-box"
+                "code": "vas-scale",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "vas-scale"
               }
             ],
-            "text": "questionnaire-item-control.text-box"
+            "text": "vas-scale"
           }
         },
         {
           "extension": [
             {
-              "url": "subType",
-              "valueString": "VASScale"
-            },
-            {
               "url": "version",
-              "valueId": "1.0.1-ItemVersion"
+              "valueId": "1.0.1-VAS-Scale-Version"
             },
             {
               "url": "OID",

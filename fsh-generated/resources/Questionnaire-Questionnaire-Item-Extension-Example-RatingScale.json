@@ -19,10 +19,12 @@
           "valueCodeableConcept": {
             "coding": [
               {
-                "code": "questionnaire-item-control.text-box"
+                "code": "rating-scale",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "rating-scale"
               }
             ],
-            "text": "questionnaire-item-control.text-box"
+            "text": "rating-scale"
           }
         },
         {
@@ -33,7 +35,7 @@
             },
             {
               "url": "version",
-              "valueId": "1.0.1-ItemVersion"
+              "valueId": "1.0.1-Rating-ScaleVersion"
             },
             {
               "url": "OID",

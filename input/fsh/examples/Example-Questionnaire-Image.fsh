@@ -31,7 +31,7 @@ Usage: #example
 * item[=].linkId = "isdfu9s0df8us8dfy"
 * item[=].text = "Item Text Value"
 * item[=].definition = "https://science37.com/NG/widget/id/image/version/2.3"
-* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Attachment-Image-Version"
 * item[=].extension[ItemSettings].extension[OID].valueString = "OID field Object ID"
 * item[=].extension[ItemSettings].extension[title].valueString = "The Item Title"
 * item[=].extension[ItemSettings].extension[label].valueString = "The Item lable"

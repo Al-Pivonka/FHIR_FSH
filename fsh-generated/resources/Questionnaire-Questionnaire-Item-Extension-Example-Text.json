@@ -15,10 +15,23 @@
           "valueBoolean": false
         },
         {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "text",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "text"
+              }
+            ],
+            "text": "text"
+          }
+        },
+        {
           "extension": [
             {
               "url": "version",
-              "valueId": "1.0.1-TextVersion"
+              "valueId": "1.0.1-Text-Version"
             },
             {
               "url": "OID",
@@ -52,7 +65,7 @@
           "url": "http://science37.com/StructureDefinition/item-settings"
         }
       ],
-      "type": "text",
+      "type": "display",
       "linkId": "isdfu9s0df8us8dfy",
       "text": "Describe your current mood.",
       "definition": "https://science37.com/NG/widget/id/text/version/2.3",

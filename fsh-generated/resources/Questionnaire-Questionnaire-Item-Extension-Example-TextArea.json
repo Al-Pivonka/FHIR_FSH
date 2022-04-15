@@ -19,21 +19,19 @@
           "valueCodeableConcept": {
             "coding": [
               {
+                "code": "text-box",
                 "system": "http://hl7.org/fhir/questionnaire-item-control",
-                "code": "text-box"
+                "display": "textbox"
               }
-            ]
+            ],
+            "text": "text-box"
           }
         },
         {
           "extension": [
             {
-              "url": "subType",
-              "valueString": "TextArea"
-            },
-            {
               "url": "version",
-              "valueId": "1.0.1-ItemVersion"
+              "valueId": "1.0.1-Text-Area-Version"
             },
             {
               "url": "OID",

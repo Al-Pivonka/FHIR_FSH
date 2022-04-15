@@ -31,7 +31,7 @@ Usage: #example
 * item[=].linkId = "__S37-form-fields-1nhurf723d8"
 * item[=].text =  "<p style=\"text-align:left;\"><strong>TEXT_AREA_LABEL</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/textarea/version/2.3"
-* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Text-Area-Version"
 * item[=].extension[ItemSettings].extension[OID].valueString = "TEXT_AREA-OID"
 * item[=].extension[ItemSettings].extension[title].valueString = "TEXT_AREA_TITLE"
 * item[=].extension[ItemSettings].extension[variableName].valueString = "NOT Assigned by DD"

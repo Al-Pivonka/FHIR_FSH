@@ -15,14 +15,23 @@
           "valueBoolean": false
         },
         {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "image",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "image"
+              }
+            ],
+            "text": "image"
+          }
+        },
+        {
           "extension": [
             {
-              "url": "subType",
-              "valueString": "Image"
-            },
-            {
               "url": "version",
-              "valueId": "1.0.1-ItemVersion"
+              "valueId": "1.0.1-Attachment-Image-Version"
             },
             {
               "url": "OID",
@@ -54,17 +63,6 @@
             }
           ],
           "url": "http://science37.com/StructureDefinition/item-settings"
-        },
-        {
-          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
-          "valueCodeableConcept": {
-            "coding": [
-              {
-                "code": "questionnaire-item-control.text-box"
-              }
-            ],
-            "text": "questionnaire-item-control.text-box"
-          }
         }
       ],
       "type": "attachment",

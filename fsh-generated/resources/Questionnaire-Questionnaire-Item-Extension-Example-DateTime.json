@@ -18,7 +18,7 @@
           "extension": [
             {
               "url": "version",
-              "valueId": "1.0.1-ItemVersion"
+              "valueId": "1.0.1-dateTime"
             },
             {
               "url": "OID",

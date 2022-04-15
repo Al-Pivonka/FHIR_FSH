@@ -19,10 +19,12 @@
           "valueCodeableConcept": {
             "coding": [
               {
-                "code": "questionnaire-item-control.text-box"
+                "code": "rich-text",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "rich-text"
               }
             ],
-            "text": "questionnaire-item-control.text-box"
+            "text": "rich-text"
           }
         }
       ],
@@ -32,12 +34,8 @@
             {
               "extension": [
                 {
-                  "url": "subType",
-                  "valueString": "RichText"
-                },
-                {
                   "url": "version",
-                  "valueId": "1.0.1-ItemVersion"
+                  "valueId": "1.0.1-Rich-Text-Version"
                 },
                 {
                   "url": "OID",
@@ -78,7 +76,7 @@
           "required": true
         }
       ],
-      "type": "question",
+      "type": "display",
       "linkId": "__S37-form-fields-fe09fa6eto33"
     }
   ],

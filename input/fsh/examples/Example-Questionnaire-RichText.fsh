@@ -33,7 +33,7 @@ Usage: #example
 * item[=].item[=].linkId = "__S37-form-fields-fe09fa6eto2"
 * item[=].item[=].text = "<p style=\"text-align:left;\"><strong>Rich Text Area data</strong></p>"
 * item[=].item[=].definition = "https://science37.com/NG/widget/id/richText/version/2.3"
-* item[=].item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"
+* item[=].item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Rich-Text-Version"
 * item[=].item[=].extension[ItemSettings].extension[OID].valueString = "FOOTER_OID"
 * item[=].item[=].extension[ItemSettings].extension[title].valueString = "FOOTER_TITLE"
 * item[=].item[=].extension[ItemSettings].extension[variableName].valueString = "NOT Assigned by DD"

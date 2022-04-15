@@ -30,9 +30,9 @@ Usage: #example
 * item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#text "text"
 * item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#text
 * item[=].linkId = "isdfu9s0df8us8dfy"
-* item[=].text = "Describe your current mood."
+* item[=].text = "<B>Describe your current mood.<B>"
 * item[=].definition = "https://science37.com/NG/widget/id/text/version/2.3"
-* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-TextVersion"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Text-Version"
 * item[=].extension[ItemSettings].extension[OID].valueString = "OID field Object ID"
 * item[=].extension[ItemSettings].extension[title].valueString = "The Item Title"
 * item[=].extension[ItemSettings].extension[variableName].valueString = "The Item variableName"

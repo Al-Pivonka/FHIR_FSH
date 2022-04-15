@@ -31,7 +31,7 @@ Usage: #example
 * item[=].linkId = "__S37-form-fields-q6zbrgullmr"
 * item[=].text = "<p style=\"text-align:left;\"><strong>FILE_UPLOAD_LABEL</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/fileupload/version/2.3"
-* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-FileUpload-Attachment-Version"
 * item[=].extension[ItemSettings].extension[OID].valueString = "FILE_UPLOAD_OID"
 * item[=].extension[ItemSettings].extension[title].valueString = "FILE_UPLOAD_TITLE"
 * item[=].extension[ItemSettings].extension[variableName].valueString = "Not Assigned by DD"
