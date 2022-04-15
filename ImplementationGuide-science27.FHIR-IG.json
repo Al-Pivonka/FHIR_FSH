@@ -9,7 +9,7 @@
   "version": "1.0.0-S37",
   "name": "S37FHIRIG",
   "status": "active",
-  "date": "2022-04-15T17:46:09+00:00",
+  "date": "2022-04-15T19:11:05+00:00",
   "publisher": "Science37",
   "contact": [
     {
@@ -395,6 +395,19 @@
           }
         ],
         "reference": {
+          "reference": "StructureDefinition/observation-Extract"
+        },
+        "name": "observationExtract",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:extension"
+          }
+        ],
+        "reference": {
           "reference": "StructureDefinition/settings"
         },
         "name": "Extension : Common Settings ",
@@ -423,10 +436,10 @@
           }
         ],
         "reference": {
-          "reference": "Questionnaire/Questionnaire-Extension-Example"
+          "reference": "Questionnaire/Item-Extension-Example-All-SingleItem"
         },
-        "name": "Example : Questionnaire",
-        "description": "Example : Questionnaire",
+        "name": "Example : Questionnaire.Item-All-SingleItem",
+        "description": "Example : Questionnaire.Item-All-SingleItem",
         "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
       },
       {
@@ -437,10 +450,10 @@
           }
         ],
         "reference": {
-          "reference": "Questionnaire/Questionnaire-Item-Extension-Example-All-SingleItem"
+          "reference": "Questionnaire/Questionnaire-Extension-Example"
         },
-        "name": "Example : Questionnaire.Item-All-SingleItem",
-        "description": "Example : Questionnaire.Item-All-SingleItem",
+        "name": "Example : Questionnaire",
+        "description": "Example : Questionnaire",
         "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
       },
       {
