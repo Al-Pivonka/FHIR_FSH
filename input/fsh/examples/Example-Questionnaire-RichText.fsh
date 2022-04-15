@@ -24,7 +24,10 @@ Usage: #example
 * extension[FormSettings].extension[createdAt].valueDateTime = "2015-02-07T13:28:17Z"
 * extension[FormSettings].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"*/
 /* Item  Level Information */
-* item[0].type = #display
+* item[0].type = #question
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = #questionnaire-item-control.text-box  /* need to extend to add rich-text*/
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = #questionnaire-item-control.text-box /* need to extend to add rich-text*/
 * item[=].linkId = "__S37-form-fields-fe09fa6eto33"
 * item[=].item[0].type = #text
 * item[=].item[=].extension[ItemSettings].extension[subType].valueString = "RichText"

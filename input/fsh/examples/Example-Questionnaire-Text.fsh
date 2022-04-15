@@ -24,19 +24,19 @@ Usage: #example
 * extension[FormSettings].extension[createdAt].valueDateTime = "2015-02-07T13:28:17Z"
 * extension[FormSettings].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"*/
 /* Item  Level Information */
-* item[0].type = #question
+
+* item[0].type = #text
+* item[=].extension[questionnaire-hidden].valueBoolean = false
 * item[=].linkId = "isdfu9s0df8us8dfy"
-* item[=].item[0].type = #text
-* item[=].item[=].linkId = "isdfu9s0df8us8dfy-222"
-* item[=].item[=].text = "Describe your current mood."
-* item[=].item[=].definition = "https://science37.com/NG/widget/id/text/version/2.3"
-* item[=].item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"
-* item[=].item[=].extension[ItemSettings].extension[OID].valueString = "OID field Object ID"
-* item[=].item[=].extension[ItemSettings].extension[title].valueString = "The Item Title"
-* item[=].item[=].extension[ItemSettings].extension[variableName].valueString = "The Item variableName"
-* item[=].item[=].extension[ItemSettings].extension[standardVariable].valueString = "The standardVariable"
-* item[=].item[=].extension[ItemSettings].extension[fieldCode].valueString = "The fieldCode"
-* item[=].item[=].extension[ItemSettings].extension[description].valueString = "The description"
-* item[=].item[=].required = true
-* item[=].item[=].extension[ItemSettings].extension[maxLength].valueInteger = 22
-* item[=].item[=].initial.valueString = " Replacement for defaultPlaceholder"
+* item[=].text = "Describe your current mood."
+* item[=].definition = "https://science37.com/NG/widget/id/text/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-TextVersion"
+* item[=].extension[ItemSettings].extension[OID].valueString = "OID field Object ID"
+* item[=].extension[ItemSettings].extension[title].valueString = "The Item Title"
+* item[=].extension[ItemSettings].extension[variableName].valueString = "The Item variableName"
+* item[=].extension[ItemSettings].extension[standardVariable].valueString = "The standardVariable"
+* item[=].extension[ItemSettings].extension[fieldCode].valueString = "The fieldCode"
+* item[=].extension[ItemSettings].extension[description].valueString = "The description"
+* item[=].required = true
+* item[=].extension[ItemSettings].extension[maxLength].valueInteger = 22
+* item[=].initial.valueString = " Replacement for defaultPlaceholder"

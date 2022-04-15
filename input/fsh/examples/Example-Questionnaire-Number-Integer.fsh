@@ -25,6 +25,7 @@ Usage: #example
 * extension[FormSettings].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"*/
 /* Item  Level Information */
 * item[0].type = #integer
+* item[=].extension[questionnaire-hidden].valueBoolean = false
 * item[=].linkId = "__S37-form-fields-jntlfakzc05"
 * item[=].text = "<p style=\"text-align:left;\"><strong>NUMBER_LABEL</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/number/version/2.3"

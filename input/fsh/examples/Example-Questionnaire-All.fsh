@@ -24,6 +24,7 @@ Usage: #example
 * extension[FormSettings].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"
 /* Date Time */
 * item[0].type = #dateTime
+* item[=].extension[questionnaire-hidden].valueBoolean = false
 * item[=].linkId = "__S37-form-fields-qo3cyvy8fgh"
 * item[=].text = "<p style=\"text-align:left;\"><strong>DATE_TIME_LABEL</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/text/version/2.3"
@@ -46,6 +47,7 @@ Usage: #example
 * item[=].extension[DateTimeItem].extension[completionShouldOccur].valueBoolean = true
 /* File Upload*/
 * item[1].type = #attachment
+* item[=].extension[questionnaire-hidden].valueBoolean = false
 * item[=].extension[ItemSettings].extension[subType].valueString = "FileUpload"
 * item[=].linkId = "__S37-form-fields-q6zbrgullmr"
 * item[=].text = "<p style=\"text-align:left;\"><strong>FILE_UPLOAD_LABEL</strong></p>"
@@ -60,6 +62,7 @@ Usage: #example
 * item[=].required = true
 /* Image */
 * item[2].type = #attachment
+* item[=].extension[questionnaire-hidden].valueBoolean = false
 * item[=].extension[ItemSettings].extension[subType].valueString = "Image"
 * item[=].linkId = "isdfu9s0df8us8-sd09-s09s0"
 * item[=].text = "Item Text Value"
@@ -77,6 +80,7 @@ Usage: #example
 * item[=].initial.valueString = " Replacement for defaultPlaceholder"
 /* Number Decimal */
 * item[3].type = #decimal
+* item[=].extension[questionnaire-hidden].valueBoolean = false
 * item[=].linkId = "__S37-form-fields-jntlfakzc05"
 * item[=].text =  "<p style=\"text-align:left;\"><strong>NUMBER_LABEL</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/richText/version/2.3"
@@ -95,6 +99,7 @@ Usage: #example
 * item[=].required = true
 /* Number Integer */
 * item[4].type = #integer
+* item[=].extension[questionnaire-hidden].valueBoolean = false
 * item[=].linkId = "__S37-form-fields-jntlfakzc05"
 * item[=].text = "<p style=\"text-align:left;\"><strong>NUMBER_LABEL</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/richText/version/2.3"
@@ -112,6 +117,7 @@ Usage: #example
 * item[=].required = true
 /* Rating Scale */
 * item[5].type = #question
+* item[=].extension[questionnaire-hidden].valueBoolean = false
 * item[=].linkId = "__S37-form-fields-6qupvhtl05b"
 * item[=].extension[ItemSettings].extension[subType].valueString = "ratingscale"
 * item[=].text =  "<p style=\"text-align:left;\"><strong>NRS_LABEL</strong></p>"
@@ -134,6 +140,7 @@ Usage: #example
 
 /* VAS Scale */
 * item[6].type = #question
+* item[=].extension[questionnaire-hidden].valueBoolean = false
 * item[=].linkId = "__S37-form-fields-h0ae575xlf8"
 * item[=].extension[VASScaleItem].extension[subType].valueString = "VASScale"
 * item[=].text =  "<p style=\"text-align:left;\"><strong>Please tap on the scale to indicate how your health is TODAY</strong></p>"
@@ -169,11 +176,11 @@ Usage: #example
 * item[=].linkId = "__S37-form-fields-1nhurf723d8"
 * item[=].extension[questionnaire-hidden].valueBoolean = false
 * item[=].extension[questionnaire-itemControl].valueCodeableConcept = #questionnaire-item-control.text-box
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = #questionnaire-item-control.text-box
 /* item[=].extension[ItemSettings].extension[subType].valueString = "TextArea" */
-* item[=].linkId = "__S37-form-fields-1nhurf7a3d8"
 * item[=].text =  "<p style=\"text-align:left;\"><strong>TEXT_AREA_LABEL</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/richText/version/2.3"
-* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-text-boxVersion"
 * item[=].extension[ItemSettings].extension[OID].valueString = "TEXT_AREA-OID"
 * item[=].extension[ItemSettings].extension[title].valueString = "TEXT_AREA_TITLE"
 * item[=].extension[ItemSettings].extension[variableName].valueString = "NOT Assigned by DD"
@@ -183,24 +190,25 @@ Usage: #example
 * item[=].required = true
 
 /* Rich Text */
-* item[8].type = #display
+* item[8].type = #text
+* item[=].extension[questionnaire-hidden].valueBoolean = false
 * item[=].linkId = "__S37-form-fields-fe09fa6eto33"
-* item[=].item[0].type = #text
-* item[=].item[=].extension[ItemSettings].extension[subType].valueString = "RichText"
-* item[=].item[=].linkId = "__S37-form-fields-fe09fa6eto2"
-* item[=].item[=].text = "<p style=\"text-align:left;\"><strong>Rich Text Area data</strong></p>"
-* item[=].item[=].definition = "https://science37.com/NG/widget/id/richText/version/2.3"
-* item[=].item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"
-* item[=].item[=].extension[ItemSettings].extension[OID].valueString = "FOOTER_OID"
-* item[=].item[=].extension[ItemSettings].extension[title].valueString = "FOOTER_TITLE"
-* item[=].item[=].extension[ItemSettings].extension[variableName].valueString = "NOT Assigned by DD"
-* item[=].item[=].extension[ItemSettings].extension[standardVariable].valueString = "FOOTER_STD_VAR"
-* item[=].item[=].extension[ItemSettings].extension[fieldCode].valueString = "NOT Assigned by DD"
-* item[=].item[=].extension[ItemSettings].extension[description].valueString = "FOOTER_DESC"
-* item[=].item[=].required = true
-* item[=].item[=].extension[ItemSettings].extension[maxLength].valueInteger = 254 /*Not Assigned by DD*/
+* item[=].extension[ItemSettings].extension[subType].valueString = "RichText"
+* item[=].linkId = "__S37-form-fields-fe09fa6eto2"
+* item[=].text = "<p style=\"text-align:left;\"><strong>Rich Text Area data</strong></p>"
+* item[=].definition = "https://science37.com/NG/widget/id/richText/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"
+* item[=].extension[ItemSettings].extension[OID].valueString = "FOOTER_OID"
+* item[=].extension[ItemSettings].extension[title].valueString = "FOOTER_TITLE"
+* item[=].extension[ItemSettings].extension[variableName].valueString = "NOT Assigned by DD"
+* item[=].extension[ItemSettings].extension[standardVariable].valueString = "FOOTER_STD_VAR"
+* item[=].extension[ItemSettings].extension[fieldCode].valueString = "NOT Assigned by DD"
+* item[=].extension[ItemSettings].extension[description].valueString = "FOOTER_DESC"
+* item[=].required = true
+* item[=].extension[ItemSettings].extension[maxLength].valueInteger = 254 /*Not Assigned by DD*/
 /* Plan TEXT */
 * item[9].type = #question
+* item[=].extension[questionnaire-hidden].valueBoolean = false
 * item[=].linkId = "s9oduf-9asdufa8sdfy8-222"
 * item[=].item[0].type = #text
 * item[=].item[=].linkId = "klklklsio989-s8s8s8s"

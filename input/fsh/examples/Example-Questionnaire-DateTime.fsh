@@ -24,6 +24,7 @@ Usage: #example
 * extension[FormSettings].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"*/
 /* Item  Level Information */
 * item[0].type = #dateTime
+* item[=].extension[questionnaire-hidden].valueBoolean = false
 * item[=].linkId = "__S37-form-fields-qo3cyvy8fgh"
 * item[=].text = "<p style=\"text-align:left;\"><strong>DATE_TIME_LABEL</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/datetime/version/2.3"

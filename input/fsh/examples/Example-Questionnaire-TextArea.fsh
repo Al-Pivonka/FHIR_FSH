@@ -25,17 +25,18 @@ Usage: #example
 * extension[FormSettings].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"*/
 /* Item  Level Information */
 * item[0].type = #question
+* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = #questionnaire-item-control.text-box
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = #questionnaire-item-control.text-box
 * item[=].linkId = "__S37-form-fields-1nhurf723d8"
-* item[0].item[0].type = #text
-* item[=].item[=].extension[ItemSettings].extension[subType].valueString = "TextArea"
-* item[=].item[=].linkId = "__S37-form-fields-1nhurf7a3d8"
-* item[=].item[=].text =  "<p style=\"text-align:left;\"><strong>TEXT_AREA_LABEL</strong></p>"
-* item[=].item[=].definition = "https://science37.com/NG/widget/id/textarea/version/2.3"
-* item[=].item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"
-* item[=].item[=].extension[ItemSettings].extension[OID].valueString = "TEXT_AREA-OID"
-* item[=].item[=].extension[ItemSettings].extension[title].valueString = "TEXT_AREA_TITLE"
-* item[=].item[=].extension[ItemSettings].extension[variableName].valueString = "NOT Assigned by DD"
-* item[=].item[=].extension[ItemSettings].extension[standardVariable].valueString = "TEXT_AREA_STD_VAR"
-* item[=].item[=].extension[ItemSettings].extension[fieldCode].valueString = "NOT Assigned by DD"
-* item[=].item[=].extension[ItemSettings].extension[description].valueString = "TEXT_AREA_DESC"
-* item[=].item[=].required = true
+* item[=].extension[ItemSettings].extension[subType].valueString = "TextArea"
+* item[=].text =  "<p style=\"text-align:left;\"><strong>TEXT_AREA_LABEL</strong></p>"
+* item[=].definition = "https://science37.com/NG/widget/id/textarea/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"
+* item[=].extension[ItemSettings].extension[OID].valueString = "TEXT_AREA-OID"
+* item[=].extension[ItemSettings].extension[title].valueString = "TEXT_AREA_TITLE"
+* item[=].extension[ItemSettings].extension[variableName].valueString = "NOT Assigned by DD"
+* item[=].extension[ItemSettings].extension[standardVariable].valueString = "TEXT_AREA_STD_VAR"
+* item[=].extension[ItemSettings].extension[fieldCode].valueString = "NOT Assigned by DD"
+* item[=].extension[ItemSettings].extension[description].valueString = "TEXT_AREA_DESC"
+* item[=].required = true

@@ -9,61 +9,59 @@
   },
   "item": [
     {
-      "item": [
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
         {
           "extension": [
             {
-              "extension": [
-                {
-                  "url": "version",
-                  "valueId": "1.0.1-ItemVersion"
-                },
-                {
-                  "url": "OID",
-                  "valueString": "OID field Object ID"
-                },
-                {
-                  "url": "title",
-                  "valueString": "The Item Title"
-                },
-                {
-                  "url": "variableName",
-                  "valueString": "The Item variableName"
-                },
-                {
-                  "url": "standardVariable",
-                  "valueString": "The standardVariable"
-                },
-                {
-                  "url": "fieldCode",
-                  "valueString": "The fieldCode"
-                },
-                {
-                  "url": "description",
-                  "valueString": "The description"
-                },
-                {
-                  "url": "maxLength",
-                  "valueInteger": 22
-                }
-              ],
-              "url": "http://science37.com/StructureDefinition/item-settings"
+              "url": "version",
+              "valueId": "1.0.1-TextVersion"
+            },
+            {
+              "url": "OID",
+              "valueString": "OID field Object ID"
+            },
+            {
+              "url": "title",
+              "valueString": "The Item Title"
+            },
+            {
+              "url": "variableName",
+              "valueString": "The Item variableName"
+            },
+            {
+              "url": "standardVariable",
+              "valueString": "The standardVariable"
+            },
+            {
+              "url": "fieldCode",
+              "valueString": "The fieldCode"
+            },
+            {
+              "url": "description",
+              "valueString": "The description"
+            },
+            {
+              "url": "maxLength",
+              "valueInteger": 22
             }
           ],
-          "type": "text",
-          "linkId": "isdfu9s0df8us8dfy-222",
-          "text": "Describe your current mood.",
-          "definition": "https://science37.com/NG/widget/id/text/version/2.3",
-          "required": true,
-          "initial": [
-            {
-              "valueString": " Replacement for defaultPlaceholder"
-            }
-          ]
+          "url": "http://science37.com/StructureDefinition/item-settings"
         }
       ],
-      "type": "question",
-      "linkId": "isdfu9s0df8us8dfy"
+      "type": "text",
+      "linkId": "isdfu9s0df8us8dfy",
+      "text": "Describe your current mood.",
+      "definition": "https://science37.com/NG/widget/id/text/version/2.3",
+      "required": true,
+      "initial": [
+        {
+          "valueString": " Replacement for defaultPlaceholder"
+        }
+      ]
     }
   ],
   "status": "draft",
