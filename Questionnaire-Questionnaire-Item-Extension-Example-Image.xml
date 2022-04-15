@@ -20,7 +20,7 @@
   <title value="Example : Questionnaire.Item Image"/>
   <status value="draft"/>
   <subjectType value="Patient"/>
-  <date value="2022-04-15T15:34:51+00:00"/>
+  <date value="2022-04-15T15:54:30+00:00"/>
   <publisher value="Science37"/>
   <contact>
     <name value="Science37"/>
@@ -45,7 +45,7 @@
     </extension>
     <extension url="http://science37.com/StructureDefinition/item-settings">
       <extension url="version">
-        <valueId value="1.0.1-ItemVersion"/>
+        <valueId value="1.0.1-Attachment-Image-Version"/>
       </extension>
       <extension url="OID">
         <valueString value="OID field Object ID"/>

@@ -24,7 +24,7 @@
   "subjectType": [
     "Patient"
   ],
-  "date": "2022-04-15T15:34:51+00:00",
+  "date": "2022-04-15T15:54:30+00:00",
   "publisher": "Science37",
   "contact": [
     {
@@ -48,7 +48,7 @@
           "extension": [
             {
               "url": "version",
-              "valueId": "1.0.1-ItemVersion"
+              "valueId": "1.0.1-Number-Version"
             },
             {
               "url": "OID",
