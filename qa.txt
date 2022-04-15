@@ -1,9 +1,9 @@
 ﻿S37FHIRIG : Validation Results
 =========================================
 
-err = 61, warn = 94, info = 74
+err = 61, warn = 94, info = 75
 IG Publisher Version: 1.1.115
-Generated Fri Apr 15 19:11:37 UTC 2022. FHIR version 4.0.1 for science27.FHIR-IG#1.0.0-S37 (canonical = http://science37.com)
+Generated Fri Apr 15 19:27:38 UTC 2022. FHIR version 4.0.1 for science27.FHIR-IG#1.0.0-S37 (canonical = http://science37.com)
  Build Errors : 0 / 1 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-science27.FHIR-IG : 0 / 12 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-Item-Extension-Example-All-SingleItem : 47 / 22 / 48
@@ -12,7 +12,7 @@ Generated Fri Apr 15 19:11:37 UTC 2022. FHIR version 4.0.1 for science27.FHIR-IG
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-FileUpload : 1 / 1 / 2
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Footer : 1 / 1 / 2
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Header : 1 / 1 / 2
- /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Image : 2 / 2 / 1
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Image : 2 / 2 / 2
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-MultiSelect : 1 / 7 / 2
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Number-Decimal : 0 / 1 / 4
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Number-Integer : 0 / 1 / 4
@@ -191,6 +191,7 @@ INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Header: Question
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-Image: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 ERROR: Questionnaire/Questionnaire-Item-Extension-Example-Image: Questionnaire.item[0]: que-10: 'Maximum length can only be declared for simple question types' Rule 'Maximum length can only be declared for simple question types' Failed
 ERROR: Questionnaire/Questionnaire-Item-Extension-Example-Image: Questionnaire.item[0].extension[2].value.ofType(CodeableConcept).coding[0]: Unknown Code http://hl7.org/fhir/questionnaire-item-control#image in http://hl7.org/fhir/questionnaire-item-control for 'http://hl7.org/fhir/questionnaire-item-control#image'
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Image: Questionnaire.item[0].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-Image: Questionnaire.item[0].initial[0].value.ofType(string): value should not start or finish with whitespace ' Replacement...defaultPlaceholder'
 == fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-MultiSelect.json ==
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-MultiSelect: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
