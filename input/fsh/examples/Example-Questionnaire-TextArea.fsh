@@ -26,8 +26,8 @@ Usage: #example
 /* Item  Level Information */
 * item[0].type = #question
 * item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = #questionnaire-item-control.text-box
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = #questionnaire-item-control.text-box
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.coding = #questionnaire-item-control.text-box
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = "text-box"
 * item[=].linkId = "__S37-form-fields-1nhurf723d8"
 * item[=].extension[ItemSettings].extension[subType].valueString = "TextArea"
 * item[=].text =  "<p style=\"text-align:left;\"><strong>TEXT_AREA_LABEL</strong></p>"
