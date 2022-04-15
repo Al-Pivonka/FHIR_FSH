@@ -26,9 +26,8 @@ Usage: #example
 /* Item  Level Information */
 * item[0].type = #attachment
 * item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[ItemSettings].extension[subType].valueString = "Image"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = #questionnaire-item-control.text-box  /*  add to value set image*/
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = #questionnaire-item-control.text-box /*  add to value set image*/
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#image "image"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#image
 * item[=].linkId = "isdfu9s0df8us8dfy"
 * item[=].text = "Item Text Value"
 * item[=].definition = "https://science37.com/NG/widget/id/image/version/2.3"

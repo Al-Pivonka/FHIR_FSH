@@ -26,9 +26,8 @@ Usage: #example
 /* Item  Level Information */
 * item[0].type = #attachment
 * item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[ItemSettings].extension[subType].valueString = "FileUpload"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = #questionnaire-item-control.text-box  /*  add to value set file-upload*/
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = #questionnaire-item-control.text-box /*  add to value setfile-upload*/
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#fileupload "fileupload"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#fileupload
 * item[=].linkId = "__S37-form-fields-q6zbrgullmr"
 * item[=].text = "<p style=\"text-align:left;\"><strong>FILE_UPLOAD_LABEL</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/fileupload/version/2.3"

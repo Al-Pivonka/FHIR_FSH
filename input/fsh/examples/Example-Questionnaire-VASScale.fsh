@@ -26,10 +26,9 @@ Usage: #example
 /* Item  Level Information */
 * item[0].type = #question
 * item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = #questionnaire-item-control.text-box  /* add to value set vas-scale*/
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = #questionnaire-item-control.text-box  /* add to value set vas-scale*/
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#vas-scale "vas-scale"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#vas-scale
 * item[=].linkId = "__S37-form-fields-h0ae575xlf8"
-* item[=].extension[VASScaleItem].extension[subType].valueString = "VASScale"
 * item[=].text =  "<p style=\"text-align:left;\"><strong>Please tap on the scale to indicate how your health is TODAY</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/vasscale/version/2.3"
 * item[=].extension[VASScaleItem].extension[version].valueId = "1.0.1-ItemVersion"

@@ -26,11 +26,9 @@ Usage: #example
 /* Item  Level Information */
 * item[0].type = #question
 * item[=].extension[questionnaire-hidden].valueBoolean = false
-/* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = "text-box"*/
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.coding[0].system = $ITEMCONTROL
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.coding[0].code = $ITEMCONTROL#text-box "text-box"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#text-box "textbox"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#text-box
 * item[=].linkId = "__S37-form-fields-1nhurf723d8"
-* item[=].extension[ItemSettings].extension[subType].valueString = "TextArea"
 * item[=].text =  "<p style=\"text-align:left;\"><strong>TEXT_AREA_LABEL</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/textarea/version/2.3"
 * item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"

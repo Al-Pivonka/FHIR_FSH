@@ -26,8 +26,8 @@ Usage: #example
 /* Item  Level Information */
 * item[0].type = #question
 * item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = #questionnaire-item-control.text-box  /*  add to value set ratingscale*/
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = #questionnaire-item-control.text-box /*  add to value set ratingscale*/
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#rating-scale "rating-scale"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#rating-scale
 * item[=].linkId = "__S37-form-fields-6qupvhtl05b"
 * item[=].extension[ItemSettings].extension[subType].valueString = "ratingscale"
 * item[=].text =  "<p style=\"text-align:left;\"><strong>NRS_LABEL</strong></p>"

@@ -25,8 +25,10 @@ Usage: #example
 * extension[FormSettings].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"*/
 /* Item  Level Information */
 
-* item[0].type = #text
+* item[0].type = #display
 * item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#text "text"
+* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#text
 * item[=].linkId = "isdfu9s0df8us8dfy"
 * item[=].text = "Describe your current mood."
 * item[=].definition = "https://science37.com/NG/widget/id/text/version/2.3"
