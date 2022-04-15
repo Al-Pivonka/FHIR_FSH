@@ -20,7 +20,7 @@
   <title value="Example : Questionnaire.Item Number-Integer"/>
   <status value="draft"/>
   <subjectType value="Patient"/>
-  <date value="2022-04-15T12:45:47+00:00"/>
+  <date value="2022-04-15T14:01:58+00:00"/>
   <publisher value="Science37"/>
   <contact>
     <name value="Science37"/>
@@ -30,6 +30,9 @@
     </telecom>
   </contact>
   <item>
+    <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-hidden">
+      <valueBoolean value="false"/>
+    </extension>
     <extension url="http://science37.com/StructureDefinition/item-settings">
       <extension url="version">
         <valueId value="1.0.1-ItemVersion"/>
