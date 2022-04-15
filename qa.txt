@@ -1,9 +1,9 @@
 ﻿S37FHIRIG : Validation Results
 =========================================
 
-err = 5, warn = 56, info = 66
+err = 5, warn = 55, info = 66
 IG Publisher Version: 1.1.115
-Generated Fri Apr 15 14:28:05 UTC 2022. FHIR version 4.0.1 for science27.FHIR-IG#1.0.0-S37 (canonical = http://science37.com)
+Generated Fri Apr 15 14:45:37 UTC 2022. FHIR version 4.0.1 for science27.FHIR-IG#1.0.0-S37 (canonical = http://science37.com)
  Build Errors : 0 / 0 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-science27.FHIR-IG : 0 / 10 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Extension-Example : 0 / 1 / 1
@@ -16,7 +16,7 @@ Generated Fri Apr 15 14:28:05 UTC 2022. FHIR version 4.0.1 for science27.FHIR-IG
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-RatingScale : 0 / 2 / 6
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-RichText : 0 / 2 / 3
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Text : 0 / 2 / 2
- /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-TextArea : 0 / 2 / 4
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-TextArea : 0 / 1 / 4
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-VASScale : 0 / 4 / 7
  /github/workspace/fsh-generated/resources/StructureDefinition-datetime-item : 0 / 3 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-form-settings : 0 / 3 / 1
@@ -135,7 +135,6 @@ WARNING: Questionnaire/Questionnaire-Item-Extension-Example-Text: Questionnaire.
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-TextArea: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-TextArea: Questionnaire.item[0].extension[0]: This element does not match any known slice defined in the profile http://science37.com/StructureDefinition/questionnaire-s37
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-TextArea: Questionnaire.item[0].extension[1]: This element does not match any known slice defined in the profile http://science37.com/StructureDefinition/questionnaire-s37
-WARNING: Questionnaire/Questionnaire-Item-Extension-Example-TextArea: Questionnaire.item[0].extension[1].value.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning. A system should be provided
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-TextArea: Questionnaire.item[0].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 == fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-VASScale.json ==
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-VASScale: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
