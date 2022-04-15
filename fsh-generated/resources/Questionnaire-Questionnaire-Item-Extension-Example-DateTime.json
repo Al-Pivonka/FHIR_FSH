@@ -15,6 +15,10 @@
           "valueBoolean": false
         },
         {
+          "url": "http://science37.com/StructureDefinition/observation-Extract",
+          "valueBoolean": true
+        },
+        {
           "extension": [
             {
               "url": "version",

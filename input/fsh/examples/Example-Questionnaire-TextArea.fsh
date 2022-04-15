@@ -25,9 +25,10 @@ Usage: #example
 * extension[FormSettings].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"*/
 /* Item  Level Information */
 * item[0].type = #question
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#text-box "textbox"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#text-box
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[observationExtract].valueBoolean = true
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#text-box "textbox"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#text-box
 * item[=].linkId = "__S37-form-fields-1nhurf723d8"
 * item[=].text =  "<p style=\"text-align:left;\"><strong>TEXT_AREA_LABEL</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/textarea/version/2.3"

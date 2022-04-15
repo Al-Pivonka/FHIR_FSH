@@ -25,9 +25,10 @@ Usage: #example
 * extension[FormSettings].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"*/
 /* Item  Level Information */
 * item[0].type = #choice
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#drop-down "Drop-Down"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#drop-Down
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[observationExtract].valueBoolean = true
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#drop-down "Drop-Down"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#drop-Down
 * item[=].linkId = "__S37-form-fields-fe09fa6eto3399s"
 * item[=].text = "<p style=\"text-align:left;\"><strong>What is you current mood?</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/Select/version/2.3"

@@ -26,9 +26,10 @@ Usage: #example
 /* Item  Level Information */
 
 * item[0].type = #question
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#derived "derived"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#derived
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[observationExtract].valueBoolean = true
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#derived "derived"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#derived
 * item[=].linkId = "__S37-form-fields-2zpvlwq3a1c"
 * item[=].text = "<p style=\"text-align:left;\"><strong>DERIVED_FIELD_LABLE</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/derived/version/2.3"

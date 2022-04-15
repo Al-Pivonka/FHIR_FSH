@@ -22,7 +22,6 @@ Description:     "Extension : Questionnaire.item.settings "
     fieldCode 0..1 and 
     description 0..1 and
     scale	0..1
-
 * extension[dateTimeOptions] ^short = "dateTimeOptions"
 * extension[dateTimeOptions].value[x] only string
 * extension[captureTimeonSubmit] ^short = "captureTimeonSubmit"
@@ -128,3 +127,10 @@ Description:     "Extension : Questionnaire.item.DerivedItem "
     formula	0..1
 * extension[formula] ^short = "formula"
 * extension[formula].value[x] only string
+
+Extension: ObservationExtract
+Id: observation-Extract
+Title: "observationExtract"
+Description: ""
+* ^context.expression = "Questionnaire.item"
+* extension.value[x] only boolean

@@ -25,9 +25,10 @@ Usage: #example
 * extension[FormSettings].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"*/
 /* Item  Level Information */
 * item[0].type = #question
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#rating-scale "rating-scale"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#rating-scale
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[observationExtract].valueBoolean = true
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#rating-scale "rating-scale"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#rating-scale
 * item[=].linkId = "__S37-form-fields-6qupvhtl05b"
 * item[=].extension[ItemSettings].extension[subType].valueString = "ratingscale"
 * item[=].text =  "<p style=\"text-align:left;\"><strong>NRS_LABEL</strong></p>"

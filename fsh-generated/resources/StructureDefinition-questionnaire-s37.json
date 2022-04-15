@@ -137,6 +137,51 @@
           }
         ],
         "mustSupport": true
+      },
+      {
+        "id": "Questionnaire.item.extension:hidden",
+        "path": "Questionnaire.item.extension",
+        "sliceName": "hidden",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Questionnaire.item.extension:itemControl",
+        "path": "Questionnaire.item.extension",
+        "sliceName": "itemControl",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Questionnaire.item.extension:observationExtract",
+        "path": "Questionnaire.item.extension",
+        "sliceName": "observationExtract",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://science37.com/StructureDefinition/observation-Extract"
+            ]
+          }
+        ]
       }
     ]
   }

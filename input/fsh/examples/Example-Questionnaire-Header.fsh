@@ -26,9 +26,9 @@ Usage: #example
 /* Item  Level Information */
 
 * item[0].type = #display
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].text = "<p style=\"text-align:left;\"><strong>header_TEXT</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/header/version/2.3"

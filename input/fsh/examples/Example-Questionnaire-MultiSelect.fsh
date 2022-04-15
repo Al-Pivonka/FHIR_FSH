@@ -26,9 +26,10 @@ Usage: #example
 /* Item  Level Information */
 * item[0].type = #choice
 * item[=].repeats = true
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#check-box "Check Box"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#check-box
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[observationExtract].valueBoolean = true
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#check-box "Check Box"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#check-box
 * item[=].linkId = "__S37-form-fields-fe09fa6etoe32w9s"
 * item[=].text = "<p style=\"text-align:left;\"><strong>What is you current mood?</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/MultiSelect/version/2.3"

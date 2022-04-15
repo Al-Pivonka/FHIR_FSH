@@ -65,6 +65,13 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/observation-Extract"
+        },
+        "name": "observationExtract",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/settings"
         },
         "name": "Extension : Common Settings ",
@@ -81,18 +88,18 @@
       },
       {
         "reference": {
-          "reference": "Questionnaire/Questionnaire-Extension-Example"
+          "reference": "Questionnaire/Item-Extension-Example-All-SingleItem"
         },
-        "name": "Example : Questionnaire",
-        "description": "Example : Questionnaire",
+        "name": "Example : Questionnaire.Item-All-SingleItem",
+        "description": "Example : Questionnaire.Item-All-SingleItem",
         "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
       },
       {
         "reference": {
-          "reference": "Questionnaire/Questionnaire-Item-Extension-Example-All-SingleItem"
+          "reference": "Questionnaire/Questionnaire-Extension-Example"
         },
-        "name": "Example : Questionnaire.Item-All-SingleItem",
-        "description": "Example : Questionnaire.Item-All-SingleItem",
+        "name": "Example : Questionnaire",
+        "description": "Example : Questionnaire",
         "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
       },
       {

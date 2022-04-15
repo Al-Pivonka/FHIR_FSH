@@ -25,9 +25,10 @@ Usage: #example
 * extension[FormSettings].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z" */
 /* Item  Level Information */
 * item[0].type = #attachment
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#fileupload "fileupload"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#fileupload
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[observationExtract].valueBoolean = true
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#fileupload "fileupload"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#fileupload
 * item[=].linkId = "__S37-form-fields-q6zbrgullmr"
 * item[=].text = "<p style=\"text-align:left;\"><strong>FILE_UPLOAD_LABEL</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/fileupload/version/2.3"

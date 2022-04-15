@@ -14,3 +14,6 @@ Description: "Profile : Questionnaire.item extensions"
 *  status 1..1 MS
 *  extension contains FormSettings named settings 0..1
 *  item.extension contains ItemSettings named Settings 0..1 MS
+*  item.extension contains questionnaire-hidden named hidden 0..1
+*  item.extension contains questionnaire-itemControl named itemControl 0..1
+*  item.extension contains ObservationExtract named observationExtract 0..1

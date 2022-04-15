@@ -15,6 +15,10 @@
           "valueBoolean": false
         },
         {
+          "url": "http://science37.com/StructureDefinition/observation-Extract",
+          "valueBoolean": true
+        },
+        {
           "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
           "valueCodeableConcept": {
             "coding": [

@@ -1,4 +1,4 @@
-Instance: Questionnaire-Item-Extension-Example-All-SingleItem
+Instance: Item-Extension-Example-All-SingleItem
 InstanceOf: QuestionnaireS37
 Title: "Example : Questionnaire.Item-All-SingleItem"
 Description: "Example : Questionnaire.Item-All-SingleItem"
@@ -26,9 +26,9 @@ Usage: #example
 
 /* Header */
 * item[0].type = #display
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].text = "<p style=\"text-align:left;\"><strong>header_TEXT</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/header/version/2.3"
@@ -43,7 +43,8 @@ Usage: #example
 
 /* Date Time */
 * item[+].type = #dateTime
-* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[observationExtract].valueBoolean = true
 * item[=].linkId = "__S37-form-fields-qo3cyvy8fgh"
 * item[=].text = "<p style=\"text-align:left;\"><strong>DATE_TIME_LABEL</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/datetime/version/2.3"
@@ -67,9 +68,9 @@ Usage: #example
 
 /* Footer */
 * item[+].type = #display
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#footer "footer"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#footer
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#footer "footer"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#footer
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].text = "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/footer/version/2.3"
@@ -85,18 +86,18 @@ Usage: #example
 
 /* Page Break*/
 * item[+].type = #display
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].definition = "https://science37.com/NG/widget/id/page-break/version/2.3"
 * item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-page-break-Version"
 
 /* Header */
 * item[+].type = #display
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].text = "<p style=\"text-align:left;\"><strong>header_TEXT</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/header/version/2.3"
@@ -112,9 +113,10 @@ Usage: #example
 
 /* File Upload*/
 * item[+].type = #attachment
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#fileupload "fileupload"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#fileupload
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#fileupload "fileupload"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#fileupload
+* item[=].extension[observationExtract].valueBoolean = true
 * item[=].linkId = "__S37-form-fields-q6zbrgullmr"
 * item[=].text = "<p style=\"text-align:left;\"><strong>FILE_UPLOAD_LABEL</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/fileupload/version/2.3"
@@ -129,9 +131,9 @@ Usage: #example
 
 /* Footer */
 * item[+].type = #display
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#footer "footer"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#footer
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#footer "footer"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#footer
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].text = "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/footer/version/2.3"
@@ -147,9 +149,9 @@ Usage: #example
 
 /* Page Break*/
 * item[+].type = #display
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].definition = "https://science37.com/NG/widget/id/page-break/version/2.3"
 * item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-page-break-Version"
@@ -157,9 +159,9 @@ Usage: #example
 
 /* Header */
 * item[+].type = #display
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].text = "<p style=\"text-align:left;\"><strong>header_TEXT</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/header/version/2.3"
@@ -174,9 +176,10 @@ Usage: #example
 
 /* Image */
 * item[+].type = #attachment
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#image "image"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#image
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[observationExtract].valueBoolean = true
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#image "image"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#image
 * item[=].linkId = "isdfu9s0df8us8dfy"
 * item[=].text = "Item Text Value"
 * item[=].definition = "https://science37.com/NG/widget/id/image/version/2.3"
@@ -194,9 +197,10 @@ Usage: #example
 
 /* Footer */
 * item[+].type = #display
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#footer "footer"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#footer
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[observationExtract].valueBoolean = true
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#footer "footer"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#footer
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].text = "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/footer/version/2.3"
@@ -212,9 +216,9 @@ Usage: #example
 
 /* Page Break*/
 * item[+].type = #display
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].definition = "https://science37.com/NG/widget/id/page-break/version/2.3"
 * item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-page-break-Version"
@@ -222,9 +226,9 @@ Usage: #example
 
 /* Header */
 * item[+].type = #display
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].text = "<p style=\"text-align:left;\"><strong>header_TEXT</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/header/version/2.3"
@@ -238,7 +242,8 @@ Usage: #example
 * item[=].required = true
 /* Number Decimal */
 * item[+].type = #decimal
-* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[observationExtract].valueBoolean = true
 * item[=].linkId = "__S37-form-fields-jntlfakzc05"
 * item[=].text =  "<p style=\"text-align:left;\"><strong>NUMBER_LABEL</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/number/version/2.3"
@@ -259,9 +264,9 @@ Usage: #example
 
 /* Footer */
 * item[+].type = #display
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#footer "footer"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#footer
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#footer "footer"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#footer
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].text = "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/footer/version/2.3"
@@ -277,9 +282,9 @@ Usage: #example
 
 /* Page Break*/
 * item[+].type = #display
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].definition = "https://science37.com/NG/widget/id/page-break/version/2.3"
 * item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-page-break-Version"
@@ -287,9 +292,9 @@ Usage: #example
 
 /* Header */
 * item[+].type = #display
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].text = "<p style=\"text-align:left;\"><strong>header_TEXT</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/header/version/2.3"
@@ -304,7 +309,8 @@ Usage: #example
 
 /* Number Integer */
 * item[+].type = #integer
-* item[=].extension[questionnaire-hidden].valueBoolean = false
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[observationExtract].valueBoolean = true
 * item[=].linkId = "__S37-form-fields-jntlfakzc05"
 * item[=].text = "<p style=\"text-align:left;\"><strong>NUMBER_LABEL</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/number/version/2.3"
@@ -323,9 +329,9 @@ Usage: #example
 
 /* Footer */
 * item[+].type = #display
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#footer "footer"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#footer
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#footer "footer"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#footer
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].text = "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/footer/version/2.3"
@@ -341,9 +347,9 @@ Usage: #example
 
 /* Page Break*/
 * item[+].type = #display
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].definition = "https://science37.com/NG/widget/id/page-break/version/2.3"
 * item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-page-break-Version"
@@ -351,9 +357,9 @@ Usage: #example
 
 /* Header */
 * item[+].type = #display
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].text = "<p style=\"text-align:left;\"><strong>header_TEXT</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/header/version/2.3"
@@ -368,9 +374,10 @@ Usage: #example
 
 /* Rating Scale */
 * item[+].type = #question
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#rating-scale "rating-scale"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#rating-scale
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[observationExtract].valueBoolean = true
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#rating-scale "rating-scale"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#rating-scale
 * item[=].linkId = "__S37-form-fields-6qupvhtl05b"
 * item[=].extension[ItemSettings].extension[subType].valueString = "ratingscale"
 * item[=].text =  "<p style=\"text-align:left;\"><strong>NRS_LABEL</strong></p>"
@@ -392,9 +399,9 @@ Usage: #example
 
 /* Footer */
 * item[+].type = #display
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#footer "footer"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#footer
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#footer "footer"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#footer
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].text = "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/footer/version/2.3"
@@ -410,9 +417,9 @@ Usage: #example
 
 /* Page Break*/
 * item[+].type = #display
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].definition = "https://science37.com/NG/widget/id/page-break/version/2.3"
 * item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-page-break-Version"
@@ -420,9 +427,9 @@ Usage: #example
 
 /* Header */
 * item[+].type = #display
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].text = "<p style=\"text-align:left;\"><strong>header_TEXT</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/header/version/2.3"
@@ -437,9 +444,10 @@ Usage: #example
 
 /* VAS Scale */
 * item[+].type = #question
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#vas-scale "vas-scale"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#vas-scale
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[observationExtract].valueBoolean = true
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#vas-scale "vas-scale"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#vas-scale
 * item[=].linkId = "__S37-form-fields-h0ae575xlf8"
 * item[=].text =  "<p style=\"text-align:left;\"><strong>Please tap on the scale to indicate how your health is TODAY</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/vasscale/version/2.3"
@@ -471,9 +479,9 @@ Usage: #example
 
 /* Footer */
 * item[+].type = #display
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#footer "footer"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#footer
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#footer "footer"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#footer
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].text = "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/footer/version/2.3"
@@ -489,9 +497,9 @@ Usage: #example
 
 /* Page Break*/
 * item[+].type = #display
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].definition = "https://science37.com/NG/widget/id/page-break/version/2.3"
 * item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-page-break-Version"
@@ -499,9 +507,9 @@ Usage: #example
 
 /* Header */
 * item[+].type = #display
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].text = "<p style=\"text-align:left;\"><strong>header_TEXT</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/header/version/2.3"
@@ -516,9 +524,10 @@ Usage: #example
 
 /* Text Area */
 * item[+].type = #question
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#text-box "textbox"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#text-box
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[observationExtract].valueBoolean = true
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#text-box "textbox"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#text-box
 * item[=].linkId = "__S37-form-fields-1nhurf723d8"
 * item[=].text =  "<p style=\"text-align:left;\"><strong>TEXT_AREA_LABEL</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/textarea/version/2.3"
@@ -533,9 +542,9 @@ Usage: #example
 
 /* Footer */
 * item[+].type = #display
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#footer "footer"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#footer
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#footer "footer"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#footer
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].text = "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/footer/version/2.3"
@@ -551,9 +560,9 @@ Usage: #example
 
 /* Page Break*/
 * item[+].type = #display
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].definition = "https://science37.com/NG/widget/id/page-break/version/2.3"
 * item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-page-break-Version"
@@ -561,9 +570,9 @@ Usage: #example
 
 /* Header */
 * item[+].type = #display
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].text = "<p style=\"text-align:left;\"><strong>header_TEXT</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/header/version/2.3"
@@ -578,9 +587,10 @@ Usage: #example
 
 /* Rich Text */
 * item[+].type = #display
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#rich-text "rich-text"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#rich-text
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[observationExtract].valueBoolean = true
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#rich-text "rich-text"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#rich-text
 * item[=].linkId = "__S37-form-fields-fe09fa6eto33"
 * item[=].text = "<p style=\"text-align:left;\"><strong>Rich Text Area data</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/richText/version/2.3"
@@ -596,9 +606,9 @@ Usage: #example
 
 /* Footer */
 * item[+].type = #display
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#footer "footer"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#footer
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#footer "footer"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#footer
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].text = "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/footer/version/2.3"
@@ -614,9 +624,9 @@ Usage: #example
 
 /* Page Break*/
 * item[+].type = #display
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].definition = "https://science37.com/NG/widget/id/page-break/version/2.3"
 * item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-page-break-Version"
@@ -625,9 +635,9 @@ Usage: #example
 
 /* Header */
 * item[+].type = #display
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].text = "<p style=\"text-align:left;\"><strong>header_TEXT</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/header/version/2.3"
@@ -642,9 +652,10 @@ Usage: #example
 
 /* Plan TEXT */
 * item[+].type = #question
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#text "text"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#text
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[observationExtract].valueBoolean = true
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#text "text"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#text
 * item[=].linkId = "isdfu9s0df8us8dfy"
 * item[=].text = "<B>Describe your current mood.<B>"
 * item[=].definition = "https://science37.com/NG/widget/id/text/version/2.3"
@@ -662,9 +673,9 @@ Usage: #example
 
 /* Footer */
 * item[+].type = #display
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#footer "footer"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#footer
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#footer "footer"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#footer
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].text = "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/footer/version/2.3"
@@ -680,9 +691,9 @@ Usage: #example
 
 /* Page Break*/
 * item[+].type = #display
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].definition = "https://science37.com/NG/widget/id/page-break/version/2.3"
 * item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-page-break-Version"
@@ -692,9 +703,9 @@ Usage: #example
 
 /* Header */
 * item[+].type = #display
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].text = "<p style=\"text-align:left;\"><strong>header_TEXT</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/header/version/2.3"
@@ -708,9 +719,10 @@ Usage: #example
 * item[=].required = true
 
 * item[+].type = #choice
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#drop-down "Drop-Down"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#drop-Down
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[observationExtract].valueBoolean = true
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#drop-down "Drop-Down"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#drop-Down
 * item[=].linkId = "__S37-form-fields-fe09fa6eto3399s"
 * item[=].text = "<p style=\"text-align:left;\"><strong>What is you current mood?</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/Select/version/2.3"
@@ -735,9 +747,9 @@ Usage: #example
 
 /* Footer */
 * item[+].type = #display
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#footer "footer"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#footer
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#footer "footer"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#footer
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].text = "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/footer/version/2.3"
@@ -753,9 +765,9 @@ Usage: #example
 
 /* Page Break*/
 * item[+].type = #display
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].definition = "https://science37.com/NG/widget/id/page-break/version/2.3"
 * item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-page-break-Version"
@@ -763,9 +775,9 @@ Usage: #example
 
 /* Header */
 * item[+].type = #display
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#header "header"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#header
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].text = "<p style=\"text-align:left;\"><strong>header_TEXT</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/header/version/2.3"
@@ -780,9 +792,10 @@ Usage: #example
 
 * item[+].type = #choice
 * item[=].repeats = true
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#check-box "Check Box"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#check-box
+* item[=].extension[observationExtract].valueBoolean = true
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#check-box "Check Box"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#check-box
 * item[=].linkId = "__S37-form-fields-fe09fa6etoe32w9s"
 * item[=].text = "<p style=\"text-align:left;\"><strong>What is you current mood?</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/MultiSelect/version/2.3"
@@ -808,9 +821,9 @@ Usage: #example
 
 /* Footer */
 * item[+].type = #display
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#footer "footer"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#footer
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#footer "footer"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#footer
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].text = "<p style=\"text-align:left;\"><strong>FOOTER_TEXT</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/footer/version/2.3"
@@ -826,9 +839,9 @@ Usage: #example
 
 /* Page Break*/
 * item[+].type = #display
-* item[=].extension[questionnaire-hidden].valueBoolean = false
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
-* item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
 * item[=].linkId = "__S37-form-fields-adhas4b1899nw"
 * item[=].definition = "https://science37.com/NG/widget/id/page-break/version/2.3"
 * item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-page-break-Version"
