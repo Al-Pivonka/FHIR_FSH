@@ -86,6 +86,7 @@ Usage: #example
 
 /* Page Break*/
 * item[+].type = #display
+* item[=].text = "PAGE BREAK"
 * item[=].extension[hidden].valueBoolean = false
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
@@ -149,6 +150,7 @@ Usage: #example
 
 /* Page Break*/
 * item[+].type = #display
+* item[=].text = "PAGE BREAK"
 * item[=].extension[hidden].valueBoolean = false
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
@@ -216,6 +218,7 @@ Usage: #example
 
 /* Page Break*/
 * item[+].type = #display
+* item[=].text = "PAGE BREAK"
 * item[=].extension[hidden].valueBoolean = false
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
@@ -282,6 +285,7 @@ Usage: #example
 
 /* Page Break*/
 * item[+].type = #display
+* item[=].text = "PAGE BREAK"
 * item[=].extension[hidden].valueBoolean = false
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
@@ -347,6 +351,7 @@ Usage: #example
 
 /* Page Break*/
 * item[+].type = #display
+* item[=].text = "PAGE BREAK"
 * item[=].extension[hidden].valueBoolean = false
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
@@ -417,6 +422,7 @@ Usage: #example
 
 /* Page Break*/
 * item[+].type = #display
+* item[=].text = "PAGE BREAK"
 * item[=].extension[hidden].valueBoolean = false
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
@@ -497,6 +503,7 @@ Usage: #example
 
 /* Page Break*/
 * item[+].type = #display
+* item[=].text = "PAGE BREAK"
 * item[=].extension[hidden].valueBoolean = false
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
@@ -560,6 +567,7 @@ Usage: #example
 
 /* Page Break*/
 * item[+].type = #display
+* item[=].text = "PAGE BREAK"
 * item[=].extension[hidden].valueBoolean = false
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
@@ -624,6 +632,7 @@ Usage: #example
 
 /* Page Break*/
 * item[+].type = #display
+* item[=].text = "PAGE BREAK"
 * item[=].extension[hidden].valueBoolean = false
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
@@ -691,6 +700,7 @@ Usage: #example
 
 /* Page Break*/
 * item[+].type = #display
+* item[=].text = "PAGE BREAK"
 * item[=].extension[hidden].valueBoolean = false
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
@@ -765,6 +775,7 @@ Usage: #example
 
 /* Page Break*/
 * item[+].type = #display
+* item[=].text = "PAGE BREAK"
 * item[=].extension[hidden].valueBoolean = false
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
@@ -839,6 +850,7 @@ Usage: #example
 
 /* Page Break*/
 * item[+].type = #display
+* item[=].text = "PAGE BREAK"
 * item[=].extension[hidden].valueBoolean = false
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break

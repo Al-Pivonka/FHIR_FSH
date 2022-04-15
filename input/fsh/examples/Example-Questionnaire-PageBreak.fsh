@@ -26,6 +26,7 @@ Usage: #example
 /* Item  Level Information */
 
 * item[0].type = #display
+* item[=].text = "PAGE BREAK"
 * item[=].extension[questionnaire-hidden].valueBoolean = false
 * item[=].extension[questionnaire-itemControl].valueCodeableConcept = $ITEMCONTROL#page-break "page-break"
 * item[=].extension[questionnaire-itemControl].valueCodeableConcept.text = $ITEMCONTROL#page-break
