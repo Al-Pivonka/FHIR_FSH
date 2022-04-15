@@ -33,7 +33,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2022-04-15T14:52:59+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-04-15T15:34:51+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "Science37"];
   fhir:Questionnaire.contact [
      fhir:index 0;
@@ -52,54 +52,52 @@
        fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 1;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "subType" ];
-         fhir:Extension.valueString [ fhir:value "Image" ]
-       ], [
-         fhir:index 1;
-         fhir:Extension.url [ fhir:value "version" ];
-         fhir:Extension.valueId [ fhir:value "1.0.1-ItemVersion" ]
-       ], [
-         fhir:index 2;
-         fhir:Extension.url [ fhir:value "OID" ];
-         fhir:Extension.valueString [ fhir:value "OID field Object ID" ]
-       ], [
-         fhir:index 3;
-         fhir:Extension.url [ fhir:value "title" ];
-         fhir:Extension.valueString [ fhir:value "The Item Title" ]
-       ], [
-         fhir:index 4;
-         fhir:Extension.url [ fhir:value "label" ];
-         fhir:Extension.valueString [ fhir:value "The Item lable" ]
-       ], [
-         fhir:index 5;
-         fhir:Extension.url [ fhir:value "variableName" ];
-         fhir:Extension.valueString [ fhir:value "The Item variableName" ]
-       ], [
-         fhir:index 6;
-         fhir:Extension.url [ fhir:value "standardVariable" ];
-         fhir:Extension.valueString [ fhir:value "The standardVariable" ]
-       ], [
-         fhir:index 7;
-         fhir:Extension.url [ fhir:value "fieldCode" ];
-         fhir:Extension.valueString [ fhir:value "The fieldCode" ]
-       ], [
-         fhir:index 8;
-         fhir:Extension.url [ fhir:value "description" ];
-         fhir:Extension.valueString [ fhir:value "The description" ]
-       ];
-       fhir:Extension.url [ fhir:value "http://science37.com/StructureDefinition/item-settings" ]
-     ], [
-       fhir:index 2;
        fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl" ];
        fhir:Extension.valueCodeableConcept [
          fhir:CodeableConcept.coding [
            fhir:index 0;
-           fhir:Coding.code [ fhir:value "questionnaire-item-control.text-box" ]
+           fhir:Coding.system [ fhir:value "http://hl7.org/fhir/questionnaire-item-control" ];
+           fhir:Coding.code [ fhir:value "image" ];
+           fhir:Coding.display [ fhir:value "image" ]
          ];
-         fhir:CodeableConcept.text [ fhir:value "questionnaire-item-control.text-box" ]
+         fhir:CodeableConcept.text [ fhir:value "image" ]
        ]
+     ], [
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "version" ];
+         fhir:Extension.valueId [ fhir:value "1.0.1-ItemVersion" ]
+       ], [
+         fhir:index 1;
+         fhir:Extension.url [ fhir:value "OID" ];
+         fhir:Extension.valueString [ fhir:value "OID field Object ID" ]
+       ], [
+         fhir:index 2;
+         fhir:Extension.url [ fhir:value "title" ];
+         fhir:Extension.valueString [ fhir:value "The Item Title" ]
+       ], [
+         fhir:index 3;
+         fhir:Extension.url [ fhir:value "label" ];
+         fhir:Extension.valueString [ fhir:value "The Item lable" ]
+       ], [
+         fhir:index 4;
+         fhir:Extension.url [ fhir:value "variableName" ];
+         fhir:Extension.valueString [ fhir:value "The Item variableName" ]
+       ], [
+         fhir:index 5;
+         fhir:Extension.url [ fhir:value "standardVariable" ];
+         fhir:Extension.valueString [ fhir:value "The standardVariable" ]
+       ], [
+         fhir:index 6;
+         fhir:Extension.url [ fhir:value "fieldCode" ];
+         fhir:Extension.valueString [ fhir:value "The fieldCode" ]
+       ], [
+         fhir:index 7;
+         fhir:Extension.url [ fhir:value "description" ];
+         fhir:Extension.valueString [ fhir:value "The description" ]
+       ];
+       fhir:Extension.url [ fhir:value "http://science37.com/StructureDefinition/item-settings" ]
      ];
      fhir:Questionnaire.item.linkId [ fhir:value "isdfu9s0df8us8dfy" ];
      fhir:Questionnaire.item.definition [ fhir:value "https://science37.com/NG/widget/id/image/version/2.3" ];

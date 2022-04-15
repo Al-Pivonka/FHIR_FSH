@@ -24,7 +24,7 @@
   "subjectType": [
     "Patient"
   ],
-  "date": "2022-04-15T14:52:59+00:00",
+  "date": "2022-04-15T15:34:51+00:00",
   "publisher": "Science37",
   "contact": [
     {
@@ -49,10 +49,12 @@
           "valueCodeableConcept": {
             "coding": [
               {
-                "code": "questionnaire-item-control.text-box"
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "code": "rating-scale",
+                "display": "rating-scale"
               }
             ],
-            "text": "questionnaire-item-control.text-box"
+            "text": "rating-scale"
           }
         },
         {

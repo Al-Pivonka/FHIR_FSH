@@ -20,7 +20,7 @@
   <title value="Example : Questionnaire.Item VASScale"/>
   <status value="draft"/>
   <subjectType value="Patient"/>
-  <date value="2022-04-15T14:52:59+00:00"/>
+  <date value="2022-04-15T15:34:51+00:00"/>
   <publisher value="Science37"/>
   <contact>
     <name value="Science37"/>
@@ -36,15 +36,14 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
       <valueCodeableConcept>
         <coding>
-          <code value="questionnaire-item-control.text-box"/>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="vas-scale"/>
+          <display value="vas-scale"/>
         </coding>
-        <text value="questionnaire-item-control.text-box"/>
+        <text value="vas-scale"/>
       </valueCodeableConcept>
     </extension>
     <extension url="http://science37.com/StructureDefinition/vasScale-item">
-      <extension url="subType">
-        <valueString value="VASScale"/>
-      </extension>
       <extension url="version">
         <valueId value="1.0.1-ItemVersion"/>
       </extension>

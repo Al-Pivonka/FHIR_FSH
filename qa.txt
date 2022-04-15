@@ -1,23 +1,23 @@
 ﻿S37FHIRIG : Validation Results
 =========================================
 
-err = 5, warn = 55, info = 66
+err = 13, warn = 54, info = 67
 IG Publisher Version: 1.1.115
-Generated Fri Apr 15 14:53:28 UTC 2022. FHIR version 4.0.1 for science27.FHIR-IG#1.0.0-S37 (canonical = http://science37.com)
+Generated Fri Apr 15 15:35:19 UTC 2022. FHIR version 4.0.1 for science27.FHIR-IG#1.0.0-S37 (canonical = http://science37.com)
  Build Errors : 0 / 0 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-science27.FHIR-IG : 0 / 10 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Extension-Example : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-All-SingleItem : 3 / 6 / 32
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-DateTime : 1 / 2 / 6
- /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-FileUpload : 0 / 2 / 4
- /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Image : 1 / 3 / 3
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-FileUpload : 1 / 1 / 4
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Image : 2 / 2 / 3
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Number-Decimal : 0 / 1 / 5
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Number-Integer : 0 / 1 / 5
- /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-RatingScale : 0 / 2 / 6
- /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-RichText : 0 / 2 / 3
- /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Text : 0 / 2 / 2
- /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-TextArea : 0 / 1 / 4
- /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-VASScale : 0 / 4 / 7
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-RatingScale : 1 / 1 / 6
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-RichText : 2 / 1 / 3
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Text : 2 / 4 / 3
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-TextArea : 0 / 3 / 4
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-VASScale : 1 / 3 / 7
  /github/workspace/fsh-generated/resources/StructureDefinition-datetime-item : 0 / 3 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-form-settings : 0 / 3 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-item-settings : 0 / 3 / 1
@@ -92,15 +92,15 @@ WARNING: Questionnaire/Questionnaire-Item-Extension-Example-DateTime: Questionna
 == fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-FileUpload.json ==
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-FileUpload: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-FileUpload: Questionnaire.item[0].extension[0]: This element does not match any known slice defined in the profile http://science37.com/StructureDefinition/questionnaire-s37
-INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-FileUpload: Questionnaire.item[0].extension[2]: This element does not match any known slice defined in the profile http://science37.com/StructureDefinition/questionnaire-s37
-WARNING: Questionnaire/Questionnaire-Item-Extension-Example-FileUpload: Questionnaire.item[0].extension[2].value.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning. A system should be provided
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-FileUpload: Questionnaire.item[0].extension[1]: This element does not match any known slice defined in the profile http://science37.com/StructureDefinition/questionnaire-s37
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example-FileUpload: Questionnaire.item[0].extension[1].value.ofType(CodeableConcept).coding[0]: Unknown Code http://hl7.org/fhir/questionnaire-item-control#fileupload in http://hl7.org/fhir/questionnaire-item-control for 'http://hl7.org/fhir/questionnaire-item-control#fileupload'
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-FileUpload: Questionnaire.item[0].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 == fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Image.json ==
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-Image: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 ERROR: Questionnaire/Questionnaire-Item-Extension-Example-Image: Questionnaire.item[0]: que-10: 'Maximum length can only be declared for simple question types' Rule 'Maximum length can only be declared for simple question types' Failed
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Image: Questionnaire.item[0].extension[0]: This element does not match any known slice defined in the profile http://science37.com/StructureDefinition/questionnaire-s37
-INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Image: Questionnaire.item[0].extension[2]: This element does not match any known slice defined in the profile http://science37.com/StructureDefinition/questionnaire-s37
-WARNING: Questionnaire/Questionnaire-Item-Extension-Example-Image: Questionnaire.item[0].extension[2].value.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning. A system should be provided
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Image: Questionnaire.item[0].extension[1]: This element does not match any known slice defined in the profile http://science37.com/StructureDefinition/questionnaire-s37
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example-Image: Questionnaire.item[0].extension[1].value.ofType(CodeableConcept).coding[0]: Unknown Code http://hl7.org/fhir/questionnaire-item-control#image in http://hl7.org/fhir/questionnaire-item-control for 'http://hl7.org/fhir/questionnaire-item-control#image'
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-Image: Questionnaire.item[0].initial[0].value.ofType(string): value should not start or finish with whitespace ' Replacement...defaultPlaceholder'
 == fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Number-Decimal.json ==
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-Number-Decimal: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
@@ -120,21 +120,29 @@ INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-RatingScale: Que
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-RatingScale: Questionnaire.item[0].extension[1]: This element does not match any known slice defined in the profile http://science37.com/StructureDefinition/questionnaire-s37
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-RatingScale: Questionnaire.item[0].extension[3]: This element does not match any known slice defined in the profile http://science37.com/StructureDefinition/questionnaire-s37
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-RatingScale: Questionnaire.item[0].extension[4]: This element does not match any known slice defined in the profile http://science37.com/StructureDefinition/questionnaire-s37
-WARNING: Questionnaire/Questionnaire-Item-Extension-Example-RatingScale: Questionnaire.item[0].extension[1].value.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning. A system should be provided
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example-RatingScale: Questionnaire.item[0].extension[1].value.ofType(CodeableConcept).coding[0]: Unknown Code http://hl7.org/fhir/questionnaire-item-control#rating-scale in http://hl7.org/fhir/questionnaire-item-control for 'http://hl7.org/fhir/questionnaire-item-control#rating-scale'
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-RatingScale: Questionnaire.item[0].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 == fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-RichText.json ==
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-RichText: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example-RichText: Questionnaire.item[0]: que-1: 'Group items must have nested items, display items cannot have nested items' 'Group items must have nested items, display items cannot have nested items' ( (type: display; item: item=BackboneElement[6 children]))
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-RichText: Questionnaire.item[0].extension[0]: This element does not match any known slice defined in the profile http://science37.com/StructureDefinition/questionnaire-s37
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-RichText: Questionnaire.item[0].extension[1]: This element does not match any known slice defined in the profile http://science37.com/StructureDefinition/questionnaire-s37
-WARNING: Questionnaire/Questionnaire-Item-Extension-Example-RichText: Questionnaire.item[0].extension[1].value.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning. A system should be provided
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example-RichText: Questionnaire.item[0].extension[1].value.ofType(CodeableConcept).coding[0]: Unknown Code http://hl7.org/fhir/questionnaire-item-control#rich-text in http://hl7.org/fhir/questionnaire-item-control for 'http://hl7.org/fhir/questionnaire-item-control#rich-text'
 == fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Text.json ==
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-Text: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example-Text: Questionnaire.item[0]: que-6: 'Required and repeat aren't permitted for display items' Rule 'Required and repeat aren't permitted for display items' Failed
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example-Text: Questionnaire.item[0]: que-8: 'Initial values can't be specified for groups or display items' Rule 'Initial values can't be specified for groups or display items' Failed
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Text: Questionnaire.item[0].extension[0]: This element does not match any known slice defined in the profile http://science37.com/StructureDefinition/questionnaire-s37
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Text: Questionnaire.item[0].extension[1]: This element does not match any known slice defined in the profile http://science37.com/StructureDefinition/questionnaire-s37
+WARNING: Questionnaire/Questionnaire-Item-Extension-Example-Text: Questionnaire.item[0].extension[1].value.ofType(CodeableConcept): Display Name for http://hl7.org/fhir/questionnaire-item-control#text should be one of '' instead of 'text'
+WARNING: Questionnaire/Questionnaire-Item-Extension-Example-Text: Questionnaire.item[0].extension[1].value.ofType(CodeableConcept).coding[0]: Display Name for http://hl7.org/fhir/questionnaire-item-control#text should be one of '' instead of 'text' for 'http://hl7.org/fhir/questionnaire-item-control#text'
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-Text: Questionnaire.item[0].initial[0].value.ofType(string): value should not start or finish with whitespace ' Replacement...defaultPlaceholder'
 == fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-TextArea.json ==
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-TextArea: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-TextArea: Questionnaire.item[0].extension[0]: This element does not match any known slice defined in the profile http://science37.com/StructureDefinition/questionnaire-s37
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-TextArea: Questionnaire.item[0].extension[1]: This element does not match any known slice defined in the profile http://science37.com/StructureDefinition/questionnaire-s37
+WARNING: Questionnaire/Questionnaire-Item-Extension-Example-TextArea: Questionnaire.item[0].extension[1].value.ofType(CodeableConcept): Display Name for http://hl7.org/fhir/questionnaire-item-control#text-box should be one of 'Text Box' instead of 'textbox'
+WARNING: Questionnaire/Questionnaire-Item-Extension-Example-TextArea: Questionnaire.item[0].extension[1].value.ofType(CodeableConcept).coding[0]: Display Name for http://hl7.org/fhir/questionnaire-item-control#text-box should be one of 'Text Box' instead of 'textbox' for 'http://hl7.org/fhir/questionnaire-item-control#text-box'
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-TextArea: Questionnaire.item[0].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 == fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-VASScale.json ==
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-VASScale: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
@@ -143,9 +151,9 @@ INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-VASScale: Questi
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-VASScale: Questionnaire.item[0].extension[2]: This element does not match any known slice defined in the profile http://science37.com/StructureDefinition/questionnaire-s37
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-VASScale: Questionnaire.item[0].extension[3]: This element does not match any known slice defined in the profile http://science37.com/StructureDefinition/questionnaire-s37
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-VASScale: Questionnaire.item[0].extension[4]: This element does not match any known slice defined in the profile http://science37.com/StructureDefinition/questionnaire-s37
-WARNING: Questionnaire/Questionnaire-Item-Extension-Example-VASScale: Questionnaire.item[0].extension[1].value.ofType(CodeableConcept).coding[0]: A code with no system has no defined meaning. A system should be provided
-WARNING: Questionnaire/Questionnaire-Item-Extension-Example-VASScale: Questionnaire.item[0].extension[2].extension[11].value.ofType(string): value should not start or finish with whitespace 'Type...Something '
-WARNING: Questionnaire/Questionnaire-Item-Extension-Example-VASScale: Questionnaire.item[0].extension[2].extension[12].value.ofType(string): value should not start or finish with whitespace 'Median...Label '
+ERROR: Questionnaire/Questionnaire-Item-Extension-Example-VASScale: Questionnaire.item[0].extension[1].value.ofType(CodeableConcept).coding[0]: Unknown Code http://hl7.org/fhir/questionnaire-item-control#vas-scale in http://hl7.org/fhir/questionnaire-item-control for 'http://hl7.org/fhir/questionnaire-item-control#vas-scale'
+WARNING: Questionnaire/Questionnaire-Item-Extension-Example-VASScale: Questionnaire.item[0].extension[2].extension[10].value.ofType(string): value should not start or finish with whitespace 'Type...Something '
+WARNING: Questionnaire/Questionnaire-Item-Extension-Example-VASScale: Questionnaire.item[0].extension[2].extension[11].value.ofType(string): value should not start or finish with whitespace 'Median...Label '
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-VASScale: Questionnaire.item[0].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
 == fsh-generated/resources/StructureDefinition-datetime-item.json ==
 WARNING: StructureDefinition/datetime-item: StructureDefinition.title: value should not start or finish with whitespace 'Extension...Settings '
