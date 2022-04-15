@@ -7,18 +7,18 @@
     "name": "S37FHIRIG"
   },
   {
+    "id": "Item-Extension-Example-All-SingleItem",
+    "type": "Questionnaire",
+    "url": "http://science37.com/Questionnaire/Item-Extension-Example-All-SingleItem",
+    "version": "1.0.0-S37",
+    "name": "Example : Questionnaire.Item"
+  },
+  {
     "id": "Questionnaire-Extension-Example",
     "type": "Questionnaire",
     "url": "http://science37.com/Questionnaire/Questionnaire-Extension-Example",
     "version": "1.0.0-S37",
     "name": "Example : Questionnaire"
-  },
-  {
-    "id": "Questionnaire-Item-Extension-Example-All-SingleItem",
-    "type": "Questionnaire",
-    "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-All-SingleItem",
-    "version": "1.0.0-S37",
-    "name": "Example : Questionnaire.Item"
   },
   {
     "id": "Questionnaire-Item-Extension-Example-DateTime",
@@ -159,6 +159,13 @@
     "url": "http://science37.com/StructureDefinition/item-settings",
     "version": "1.0.0-S37",
     "name": "ItemSettings"
+  },
+  {
+    "id": "observation-Extract",
+    "type": "StructureDefinition",
+    "url": "http://science37.com/StructureDefinition/observation-Extract",
+    "version": "1.0.0-S37",
+    "name": "ObservationExtract"
   },
   {
     "id": "questionnaire-s37",
