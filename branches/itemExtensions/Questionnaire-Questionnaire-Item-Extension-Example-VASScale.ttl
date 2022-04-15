@@ -33,7 +33,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2022-04-15T14:52:59+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-04-15T15:34:51+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "Science37"];
   fhir:Questionnaire.contact [
      fhir:index 0;
@@ -56,102 +56,100 @@
        fhir:Extension.valueCodeableConcept [
          fhir:CodeableConcept.coding [
            fhir:index 0;
-           fhir:Coding.code [ fhir:value "questionnaire-item-control.text-box" ]
+           fhir:Coding.system [ fhir:value "http://hl7.org/fhir/questionnaire-item-control" ];
+           fhir:Coding.code [ fhir:value "vas-scale" ];
+           fhir:Coding.display [ fhir:value "vas-scale" ]
          ];
-         fhir:CodeableConcept.text [ fhir:value "questionnaire-item-control.text-box" ]
+         fhir:CodeableConcept.text [ fhir:value "vas-scale" ]
        ]
      ], [
        fhir:index 2;
        fhir:Element.extension [
          fhir:index 0;
-         fhir:Extension.url [ fhir:value "subType" ];
-         fhir:Extension.valueString [ fhir:value "VASScale" ]
-       ], [
-         fhir:index 1;
          fhir:Extension.url [ fhir:value "version" ];
          fhir:Extension.valueId [ fhir:value "1.0.1-ItemVersion" ]
        ], [
-         fhir:index 2;
+         fhir:index 1;
          fhir:Extension.url [ fhir:value "OID" ];
          fhir:Extension.valueString [ fhir:value "VAS_OID" ]
        ], [
-         fhir:index 3;
+         fhir:index 2;
          fhir:Extension.url [ fhir:value "title" ];
          fhir:Extension.valueString [ fhir:value "VAS_TITLE" ]
        ], [
-         fhir:index 4;
+         fhir:index 3;
          fhir:Extension.url [ fhir:value "variableName" ];
          fhir:Extension.valueString [ fhir:value "NOT Assigned by DD" ]
        ], [
-         fhir:index 5;
+         fhir:index 4;
          fhir:Extension.url [ fhir:value "standardVariable" ];
          fhir:Extension.valueString [ fhir:value "VAS_STD_VAR" ]
        ], [
-         fhir:index 6;
+         fhir:index 5;
          fhir:Extension.url [ fhir:value "fieldCode" ];
          fhir:Extension.valueString [ fhir:value "NOT Assigned by DD" ]
        ], [
-         fhir:index 7;
+         fhir:index 6;
          fhir:Extension.url [ fhir:value "description" ];
          fhir:Extension.valueString [ fhir:value "VAS_DESC" ]
        ], [
-         fhir:index 8;
+         fhir:index 7;
          fhir:Extension.url [ fhir:value "displayValueIndicator" ];
          fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
        ], [
-         fhir:index 9;
+         fhir:index 8;
          fhir:Extension.url [ fhir:value "valueIndicatorLabel" ];
          fhir:Extension.valueString [ fhir:value "Your Health Today" ]
        ], [
-         fhir:index 10;
+         fhir:index 9;
          fhir:Extension.url [ fhir:value "minValueLabel" ];
          fhir:Extension.valueString [ fhir:value "The worst healthyou can imagine" ]
        ], [
-         fhir:index 11;
+         fhir:index 10;
          fhir:Extension.url [ fhir:value "maxValueLabel" ];
          fhir:Extension.valueString [ fhir:value "Type Something " ]
        ], [
-         fhir:index 12;
+         fhir:index 11;
          fhir:Extension.url [ fhir:value "medValueLabel" ];
          fhir:Extension.valueString [ fhir:value "Median Value Label " ]
        ], [
-         fhir:index 13;
+         fhir:index 12;
          fhir:Extension.url [ fhir:value "naOption" ];
          fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
        ], [
-         fhir:index 14;
+         fhir:index 13;
          fhir:Extension.url [ fhir:value "naLabel" ];
          fhir:Extension.valueString [ fhir:value "The NA Label" ]
        ], [
-         fhir:index 15;
+         fhir:index 14;
          fhir:Extension.url [ fhir:value "orientation" ];
          fhir:Extension.valueString [ fhir:value "vertical" ]
        ], [
-         fhir:index 16;
+         fhir:index 15;
          fhir:Extension.url [ fhir:value "doNotShowNumValue" ];
          fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
        ], [
-         fhir:index 17;
+         fhir:index 16;
          fhir:Extension.url [ fhir:value "showIncrements" ];
          fhir:Extension.valueBoolean [ fhir:value "true"^^xsd:boolean ]
        ], [
-         fhir:index 18;
+         fhir:index 17;
          fhir:Extension.url [ fhir:value "minorIncrements" ];
          fhir:Extension.valueInteger [ fhir:value "1"^^xsd:integer ]
        ], [
-         fhir:index 19;
+         fhir:index 18;
          fhir:Extension.url [ fhir:value "majorIncrements" ];
          fhir:Extension.valueInteger [ fhir:value "10"^^xsd:integer ]
        ], [
-         fhir:index 20;
+         fhir:index 19;
          fhir:Extension.url [ fhir:value "interactionType" ];
          fhir:Extension.valueString [ fhir:value "Show value slider" ]
        ], [
-         fhir:index 21;
+         fhir:index 20;
          fhir:Extension.url [ fhir:value "scaleSize" ];
          fhir:Extension.valueString [ fhir:value "consistentScale" ]
        ], [
-         fhir:index 22;
+         fhir:index 21;
          fhir:Extension.url [ fhir:value "optionalPresets" ];
          fhir:Extension.valueString [ fhir:value "vasTenPointIncrement" ]
        ];

@@ -20,7 +20,7 @@
   <title value="Example : Questionnaire.Item RatingScale"/>
   <status value="draft"/>
   <subjectType value="Patient"/>
-  <date value="2022-04-15T14:52:59+00:00"/>
+  <date value="2022-04-15T15:34:51+00:00"/>
   <publisher value="Science37"/>
   <contact>
     <name value="Science37"/>
@@ -36,9 +36,11 @@
     <extension url="http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl">
       <valueCodeableConcept>
         <coding>
-          <code value="questionnaire-item-control.text-box"/>
+          <system value="http://hl7.org/fhir/questionnaire-item-control"/>
+          <code value="rating-scale"/>
+          <display value="rating-scale"/>
         </coding>
-        <text value="questionnaire-item-control.text-box"/>
+        <text value="rating-scale"/>
       </valueCodeableConcept>
     </extension>
     <extension url="http://science37.com/StructureDefinition/item-settings">

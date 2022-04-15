@@ -33,7 +33,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2022-04-15T14:52:59+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-04-15T15:34:51+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "Science37"];
   fhir:Questionnaire.contact [
      fhir:index 0;
@@ -56,9 +56,11 @@
        fhir:Extension.valueCodeableConcept [
          fhir:CodeableConcept.coding [
            fhir:index 0;
-           fhir:Coding.code [ fhir:value "questionnaire-item-control.text-box" ]
+           fhir:Coding.system [ fhir:value "http://hl7.org/fhir/questionnaire-item-control" ];
+           fhir:Coding.code [ fhir:value "rating-scale" ];
+           fhir:Coding.display [ fhir:value "rating-scale" ]
          ];
-         fhir:CodeableConcept.text [ fhir:value "questionnaire-item-control.text-box" ]
+         fhir:CodeableConcept.text [ fhir:value "rating-scale" ]
        ]
      ], [
        fhir:index 2;
