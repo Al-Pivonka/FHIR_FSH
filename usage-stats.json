@@ -710,6 +710,12 @@
     "http://hl7.org/fhir/StructureDefinition/minValue": [
       "Questionnaire.item"
     ],
+    "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden": [
+      "Questionnaire.item"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl": [
+      "Questionnaire.item"
+    ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-category": [
       "StructureDefinition"
     ],
