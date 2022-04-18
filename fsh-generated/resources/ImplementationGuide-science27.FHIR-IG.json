@@ -106,8 +106,8 @@
         "reference": {
           "reference": "Questionnaire/Questionnaire-Item-Extension-Example-DateTime"
         },
-        "name": "Example : Questionnaire.Item-Image",
-        "description": "Example : Questionnaire.Item-Image",
+        "name": "Example : Questionnaire.Item-DateTime",
+        "description": "Example : Questionnaire.Item-DateTime",
         "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
       },
       {

@@ -2,7 +2,6 @@
   "resourceType": "Questionnaire",
   "id": "Questionnaire-Item-Extension-Example-DateTime",
   "meta": {
-    "versionId": "1.0.0-S37",
     "profile": [
       "http://science37.com/StructureDefinition/questionnaire-s37"
     ]
@@ -94,14 +93,14 @@
     }
   ],
   "status": "draft",
-  "title": "Example : Questionnaire.Item Image",
-  "name": "Example : Questionnaire.Item Image",
+  "title": "Example : Questionnaire.Item DateTime",
+  "name": "Example : Questionnaire.Item DateTime",
   "subjectType": [
     "Patient"
   ],
   "identifier": [
     {
-      "value": "Form ID"
+      "value": "Form ID1234"
     }
   ]
 }

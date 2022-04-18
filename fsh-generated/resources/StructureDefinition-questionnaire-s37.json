@@ -109,6 +109,11 @@
         "max": "1"
       },
       {
+        "id": "Questionnaire.version",
+        "path": "Questionnaire.version",
+        "patternString": "1.0.0-S37-Questionnaire-version"
+      },
+      {
         "id": "Questionnaire.status",
         "path": "Questionnaire.status",
         "mustSupport": true
