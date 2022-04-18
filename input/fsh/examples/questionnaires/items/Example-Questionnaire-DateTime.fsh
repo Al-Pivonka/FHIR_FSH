@@ -1,13 +1,13 @@
 Instance: Questionnaire-Item-Extension-Example-DateTime
 InstanceOf: QuestionnaireS37
-Title: "Example : Questionnaire.Item-Image"
-Description: "Example : Questionnaire.Item-Image"
+Title: "Example : Questionnaire.Item-DateTime"
+Description: "Example : Questionnaire.Item-DateTime"
 Usage: #example
 * status = #draft
-* title = "Example : Questionnaire.Item Image"
-* name = "Example : Questionnaire.Item Image"
+* title = "Example : Questionnaire.Item DateTime"
+* name = "Example : Questionnaire.Item DateTime"
 * subjectType = #Patient
-* identifier.value = "Form ID"
+* identifier.value = "Form ID1234"
 /* extension[FormSettings].extension[type].valueString = "formType"
 * extension[FormSettings].extension[subStatus].valueString = "Deleted Status"
 * extension[FormSettings].extension[controlSchemaVersion].valueString = "2.1.9"
