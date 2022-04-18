@@ -3,7 +3,6 @@
 <Questionnaire xmlns="http://hl7.org/fhir">
   <id value="Questionnaire-Item-Extension-Example-MultiSelect"/>
   <meta>
-    <versionId value="1.0.0-S37"/>
     <profile value="http://science37.com/StructureDefinition/questionnaire-s37"/>
   </meta>
   <text>
@@ -20,7 +19,7 @@
   <title value="Example : Questionnaire.Item MultiSelect"/>
   <status value="draft"/>
   <subjectType value="Patient"/>
-  <date value="2022-04-18T13:55:40+00:00"/>
+  <date value="2022-04-18T14:09:42+00:00"/>
   <publisher value="Science37"/>
   <contact>
     <name value="Science37"/>

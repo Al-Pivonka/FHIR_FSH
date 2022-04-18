@@ -2,7 +2,6 @@
   "resourceType": "Questionnaire",
   "id": "Questionnaire-Item-Extension-Example-Number-Decimal",
   "meta": {
-    "versionId": "1.0.0-S37",
     "profile": [
       "http://science37.com/StructureDefinition/questionnaire-s37"
     ]
@@ -24,7 +23,7 @@
   "subjectType": [
     "Patient"
   ],
-  "date": "2022-04-18T13:55:40+00:00",
+  "date": "2022-04-18T14:09:42+00:00",
   "publisher": "Science37",
   "contact": [
     {
