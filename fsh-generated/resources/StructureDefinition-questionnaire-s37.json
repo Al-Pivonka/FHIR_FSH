@@ -69,9 +69,9 @@
   "differential": {
     "element": [
       {
-        "id": "Questionnaire.meta.versionId",
-        "path": "Questionnaire.meta.versionId",
-        "patternId": "1.0.0a-S37"
+        "id": "Questionnaire.meta.versionId.value",
+        "path": "Questionnaire.meta.versionId.value",
+        "patternString": "1.0.0a-S37"
       },
       {
         "id": "Questionnaire.extension",
