@@ -1,7 +1,7 @@
-Instance: Item-Extension-Example-All-SingleItem
+Instance: Item-Extension-Example-All-48
 InstanceOf: QuestionnaireS37
-Title: "Example : Questionnaire.Item-All-SingleItem"
-Description: "Example : Questionnaire.Item-All-SingleItem"
+Title: "Example : Questionnaire.Item-All-48"
+Description: "Example : Questionnaire.Item-All-48"
 Usage: #example
 * status = #draft
 * title = "Example : Questionnaire.Item"
