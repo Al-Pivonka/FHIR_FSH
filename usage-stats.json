@@ -609,7 +609,7 @@
     },
     {
       "url": "http://science37.com/StructureDefinition/observation-Extract",
-      "title": "observationExtract",
+      "title": "Extension : observationExtract",
       "types": [
         "boolean",
         "base64Binary",
