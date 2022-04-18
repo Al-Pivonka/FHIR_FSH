@@ -2,7 +2,6 @@
   "resourceType": "Questionnaire",
   "id": "Questionnaire-Item-Extension-Example-Number-Integer",
   "meta": {
-    "versionId": "1.0.0-S37",
     "profile": [
       "http://science37.com/StructureDefinition/questionnaire-s37"
     ]

@@ -67,7 +67,7 @@
         "reference": {
           "reference": "StructureDefinition/observation-Extract"
         },
-        "name": "observationExtract",
+        "name": "Extension : observationExtract",
         "exampleBoolean": false
       },
       {
