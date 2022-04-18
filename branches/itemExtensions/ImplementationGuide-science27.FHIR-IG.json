@@ -9,7 +9,7 @@
   "version": "1.0.0-S37",
   "name": "S37FHIRIG",
   "status": "active",
-  "date": "2022-04-18T13:39:40+00:00",
+  "date": "2022-04-18T13:50:56+00:00",
   "publisher": "Science37",
   "contact": [
     {
@@ -466,8 +466,8 @@
         "reference": {
           "reference": "Questionnaire/Questionnaire-Item-Extension-Example-DateTime"
         },
-        "name": "Example : Questionnaire.Item-Image",
-        "description": "Example : Questionnaire.Item-Image",
+        "name": "Example : Questionnaire.Item-DateTime",
+        "description": "Example : Questionnaire.Item-DateTime",
         "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
       },
       {

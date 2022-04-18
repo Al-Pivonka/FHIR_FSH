@@ -25,7 +25,7 @@
     "type": "Questionnaire",
     "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-DateTime",
     "version": "1.0.0-S37",
-    "name": "Example : Questionnaire.Item Image"
+    "name": "Example : Questionnaire.Item DateTime"
   },
   {
     "id": "Questionnaire-Item-Extension-Example-FileUpload",
