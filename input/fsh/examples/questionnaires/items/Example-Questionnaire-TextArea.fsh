@@ -4,7 +4,6 @@ Title: "Example : Questionnaire.Item-All-TextArea"
 Description: "Example : Questionnaire.Item-All-TextArea"
 Usage: #example
 /* Form Level Information */
-* meta.versionId = "1.0.0-S37"
 * status = #draft
 * title = "Example : Questionnaire.Item TextArea"
 * name = "Example : Questionnaire.Item TextArea"

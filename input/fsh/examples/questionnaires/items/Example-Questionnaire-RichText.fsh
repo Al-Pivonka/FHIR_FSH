@@ -4,7 +4,6 @@ Title: "Example : Questionnaire.Item-RichText"
 Description: "Example : Questionnaire.Item-RichText"
 Usage: #example
 /* Form Level Information */
-* meta.versionId = "1.0.0-S37"
 * status = #draft
 * title = "Example : Questionnaire.Item RichText"
 * name = "Example : Questionnaire.Item RichText"

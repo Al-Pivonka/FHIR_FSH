@@ -3,7 +3,6 @@ InstanceOf: QuestionnaireS37
 Title: "Example : Questionnaire.Item-All-SingleItem"
 Description: "Example : Questionnaire.Item-All-SingleItem"
 Usage: #example
-* meta.versionId = "1.0.0-S37"
 * status = #draft
 * title = "Example : Questionnaire.Item"
 * name = "Example : Questionnaire.Item"

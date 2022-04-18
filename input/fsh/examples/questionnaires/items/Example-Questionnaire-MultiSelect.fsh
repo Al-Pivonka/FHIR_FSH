@@ -4,7 +4,6 @@ Title: "Example : Questionnaire.Item-MultiMultiSelect"
 Description: "Example : Questionnaire.Item-MultiSelect"
 Usage: #example
 /* Form Level Information */
-* meta.versionId = "1.0.0-S37"
 * status = #draft
 * title = "Example : Questionnaire.Item MultiSelect"
 * name = "Example : Questionnaire.Item MultiSelect"

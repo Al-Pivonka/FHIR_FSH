@@ -4,7 +4,6 @@ Title: "Example : Questionnaire.Item-Select"
 Description: "Example : Questionnaire.Item-Select"
 Usage: #example
 /* Form Level Information */
-* meta.versionId = "1.0.0-S37"
 * status = #draft
 * title = "Example : Questionnaire.Item Select"
 * name = "Example : Questionnaire.Item Select"

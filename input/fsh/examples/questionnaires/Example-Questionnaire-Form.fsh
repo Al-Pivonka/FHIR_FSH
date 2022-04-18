@@ -4,7 +4,6 @@ Title: "Example : Questionnaire"
 Description: "Example : Questionnaire"
 Usage: #example
 /* Form Level Information */
-* meta.versionId = "1.0.0-S37"
 * status = #draft
 * title = "Example : Questionnaire"
 * name = "Example : Questionnaire"

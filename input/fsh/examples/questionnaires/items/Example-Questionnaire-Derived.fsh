@@ -4,7 +4,6 @@ Title: "Example : Questionnaire.Item-derived"
 Description: "Example : Questionnaire.Item-derived"
 Usage: #example
 /* Form Level Information */
-* meta.versionId = "1.0.0-S37"
 * status = #draft
 * title = "Example : Questionnaire.Item derived"
 * name = "Example : Questionnaire.Item derived"

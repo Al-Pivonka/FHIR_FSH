@@ -4,7 +4,6 @@ Title: "Example : Questionnaire.Item-page-break"
 Description: "Example : Questionnaire.Item-page-break"
 Usage: #example
 /* Form Level Information */
-* meta.versionId = "1.0.0-S37"
 * status = #draft
 * title = "Example : Questionnaire.Item page-break"
 * name = "Example : Questionnaire.Item page-break"
