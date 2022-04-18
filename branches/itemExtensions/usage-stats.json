@@ -947,6 +947,9 @@
     "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl": [
       "Questionnaire.item"
     ],
+    "http://hl7.org/fhir/StructureDefinition/regex": [
+      "StructureDefinition.snapshot.element.type"
+    ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-category": [
       "StructureDefinition"
     ],
