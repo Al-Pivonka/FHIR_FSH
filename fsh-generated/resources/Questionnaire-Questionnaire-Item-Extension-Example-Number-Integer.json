@@ -6,6 +6,7 @@
       "http://science37.com/StructureDefinition/questionnaire-s37"
     ]
   },
+  "version": "1.0.0A-S37",
   "item": [
     {
       "extension": [
@@ -46,10 +47,6 @@
             {
               "url": "description",
               "valueString": "NUMBER_DESC"
-            },
-            {
-              "url": "subType",
-              "valueString": "Decimal"
             }
           ],
           "url": "http://science37.com/StructureDefinition/item-settings"

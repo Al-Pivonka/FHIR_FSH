@@ -29,7 +29,6 @@ Usage: #example
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#rating-scale "rating-scale"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#rating-scale
 * item[=].linkId = "__S37-form-fields-6qupvhtl05b"
-* item[=].extension[ItemSettings].extension[subType].valueString = "ratingscale"
 * item[=].text =  "<p style=\"text-align:left;\"><strong>NRS_LABEL</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/ratingscale/version/2.3"
 * item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Rating-ScaleVersion"

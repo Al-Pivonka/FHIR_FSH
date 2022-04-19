@@ -18,3 +18,11 @@ Description:     "Extension : Common settings "
 * extension[standardVariable].value[x] only string
 * extension[version] ^short = "version"
 * extension[version].value[x] only id
+
+
+Extension: SubStatus
+Id: sub-status
+Title: "Sub Status"
+Description: ""
+* extension.value[x] only string
+* extension ^short  = "SubStatus"

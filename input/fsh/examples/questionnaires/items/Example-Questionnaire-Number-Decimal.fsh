@@ -36,7 +36,6 @@ Usage: #example
 * item[=].extension[ItemSettings].extension[standardVariable].valueString = "FOOTER_STD_VAR"
 * item[=].extension[ItemSettings].extension[fieldCode].valueString = "NOT Assigned by DD"
 * item[=].extension[ItemSettings].extension[description].valueString = "NUMBER_DESC"
-* item[=].extension[ItemSettings].extension[subType].valueString = "Decimal"
 * item[=].initial.valueDecimal = 1.01
 * item[=].extension[minValue].valueDecimal = 0.002
 * item[=].extension[maxValue].valueDecimal = 10.002

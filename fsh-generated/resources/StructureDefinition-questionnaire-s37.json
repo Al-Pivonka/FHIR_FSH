@@ -18,20 +18,6 @@
   "status": "active",
   "date": "2022-04-07T10:59:49+00:00",
   "publisher": "S37 Platform",
-  "contact": [
-    {
-      "name": "S37 Platform",
-      "telecom": [
-        {
-          "system": "url",
-          "value": "https://science37.com"
-        }
-      ]
-    },
-    {
-      "name": "Message structure"
-    }
-  ],
   "description": "Profile : Questionnaire.item extensions",
   "fhirVersion": "4.0.1",
   "mapping": [
@@ -69,11 +55,6 @@
   "differential": {
     "element": [
       {
-        "id": "Questionnaire.meta.versionId.value",
-        "path": "Questionnaire.meta.versionId.value",
-        "patternString": "1.0.0a-S37"
-      },
-      {
         "id": "Questionnaire.extension",
         "path": "Questionnaire.extension",
         "slicing": {
@@ -107,6 +88,13 @@
         "path": "Questionnaire.identifier",
         "min": 1,
         "max": "1"
+      },
+      {
+        "id": "Questionnaire.version",
+        "path": "Questionnaire.version",
+        "min": 1,
+        "patternString": "1.0.0A-S37",
+        "mustSupport": true
       },
       {
         "id": "Questionnaire.status",

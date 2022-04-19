@@ -256,7 +256,6 @@ Usage: #example
 * item[=].extension[ItemSettings].extension[standardVariable].valueString = "FOOTER_STD_VAR"
 * item[=].extension[ItemSettings].extension[fieldCode].valueString = "NOT Assigned by DD"
 * item[=].extension[ItemSettings].extension[description].valueString = "NUMBER_DESC"
-* item[=].extension[ItemSettings].extension[subType].valueString = "Decimal"
 * item[=].initial.valueDecimal = 1.01
 * item[=].extension[minValue].valueDecimal = 0.002
 * item[=].extension[maxValue].valueDecimal = 10.002
@@ -324,7 +323,6 @@ Usage: #example
 * item[=].extension[ItemSettings].extension[standardVariable].valueString = "FOOTER_STD_VAR"
 * item[=].extension[ItemSettings].extension[fieldCode].valueString = "NOT Assigned by DD"
 * item[=].extension[ItemSettings].extension[description].valueString = "NUMBER_DESC"
-* item[=].extension[ItemSettings].extension[subType].valueString = "Decimal"
 * item[=].initial.valueInteger = 10
 * item[=].extension[minValue].valueInteger = 10
 * item[=].extension[maxValue].valueInteger = 500
@@ -383,7 +381,6 @@ Usage: #example
 * item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#rating-scale "rating-scale"
 * item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#rating-scale
 * item[=].linkId = "__S37-form-fields-6qupvhtl05b"
-* item[=].extension[ItemSettings].extension[subType].valueString = "ratingscale"
 * item[=].text =  "<p style=\"text-align:left;\"><strong>NRS_LABEL</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/ratingscale/version/2.3"
 * item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Rating-ScaleVersion"

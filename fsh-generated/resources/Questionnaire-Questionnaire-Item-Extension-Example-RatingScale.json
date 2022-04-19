@@ -6,6 +6,7 @@
       "http://science37.com/StructureDefinition/questionnaire-s37"
     ]
   },
+  "version": "1.0.0A-S37",
   "item": [
     {
       "extension": [
@@ -32,10 +33,6 @@
         },
         {
           "extension": [
-            {
-              "url": "subType",
-              "valueString": "ratingscale"
-            },
             {
               "url": "version",
               "valueId": "1.0.1-Rating-ScaleVersion"
