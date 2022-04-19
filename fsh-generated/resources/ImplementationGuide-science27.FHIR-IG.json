@@ -1,7 +1,7 @@
 {
   "resourceType": "ImplementationGuide",
   "id": "science27.FHIR-IG",
-  "url": "http://science37.com/ImplementationGuide/science27.FHIR-IG",
+  "url": "http://science37.com/fhir/ImplementationGuide/science27.FHIR-IG",
   "version": "1.0.0-S37",
   "name": "S37FHIRIG",
   "status": "active",
@@ -33,6 +33,22 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/datetime-item"
+        },
+        "name": "Extension : DateTimeItem Settings ",
+        "description": "Extension : Questionnaire.item.DateTimeItem ",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/derived-item"
+        },
+        "name": "Extension : DerivedItem Settings ",
+        "description": "Extension : Questionnaire.item.DerivedItem ",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/form-settings"
         },
         "name": "Extension : Form Settings ",
@@ -49,6 +65,13 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/observation-Extract"
+        },
+        "name": "Extension : observationExtract",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/settings"
         },
         "name": "Extension : Common Settings ",
@@ -57,27 +80,42 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/sub-status"
+        },
+        "name": "Sub Status",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/vasScale-item"
+        },
+        "name": "Extension : VASScaleItem Settings ",
+        "description": "Extension : Questionnaire.item.VASScaleItem ",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "Questionnaire/Item-Extension-Example-All-48"
+        },
+        "name": "Example : Questionnaire.Item-All-48",
+        "description": "Example : Questionnaire.Item-All-48",
+        "exampleCanonical": "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
+      },
+      {
+        "reference": {
           "reference": "Questionnaire/Questionnaire-Extension-Example"
         },
         "name": "Example : Questionnaire",
         "description": "Example : Questionnaire",
-        "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
-      },
-      {
-        "reference": {
-          "reference": "Questionnaire/Questionnaire-Item-Extension-Example-All-SingleItem"
-        },
-        "name": "Example : Questionnaire.Item-All-SingleItem",
-        "description": "Example : Questionnaire.Item-All-SingleItem",
-        "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
+        "exampleCanonical": "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
       },
       {
         "reference": {
           "reference": "Questionnaire/Questionnaire-Item-Extension-Example-DateTime"
         },
-        "name": "Example : Questionnaire.Item-Image",
-        "description": "Example : Questionnaire.Item-Image",
-        "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
+        "name": "Example : Questionnaire.Item-DateTime",
+        "description": "Example : Questionnaire.Item-DateTime",
+        "exampleCanonical": "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
       },
       {
         "reference": {
@@ -85,7 +123,23 @@
         },
         "name": "Example : Questionnaire.Item-FileUpload",
         "description": "Example : Questionnaire.Item-FileUpload",
-        "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
+        "exampleCanonical": "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
+      },
+      {
+        "reference": {
+          "reference": "Questionnaire/Questionnaire-Item-Extension-Example-Footer"
+        },
+        "name": "Example : Questionnaire.Item-Footer",
+        "description": "Example : Questionnaire.Item-Footer",
+        "exampleCanonical": "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
+      },
+      {
+        "reference": {
+          "reference": "Questionnaire/Questionnaire-Item-Extension-Example-Header"
+        },
+        "name": "Example : Questionnaire.Item-Header",
+        "description": "Example : Questionnaire.Item-Header",
+        "exampleCanonical": "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
       },
       {
         "reference": {
@@ -93,7 +147,15 @@
         },
         "name": "Example : Questionnaire.Item-Image",
         "description": "Example : Questionnaire.Item-Image",
-        "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
+        "exampleCanonical": "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
+      },
+      {
+        "reference": {
+          "reference": "Questionnaire/Questionnaire-Item-Extension-Example-MultiSelect"
+        },
+        "name": "Example : Questionnaire.Item-MultiMultiSelect",
+        "description": "Example : Questionnaire.Item-MultiSelect",
+        "exampleCanonical": "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
       },
       {
         "reference": {
@@ -101,7 +163,7 @@
         },
         "name": "Example : Questionnaire.Item-Number-Decimal",
         "description": "Example : Questionnaire.Item-Number-Decimal",
-        "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
+        "exampleCanonical": "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
       },
       {
         "reference": {
@@ -109,7 +171,7 @@
         },
         "name": "Example : Questionnaire.Item-Number-Integer",
         "description": "Example : Questionnaire.Item-Number-Integer",
-        "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
+        "exampleCanonical": "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
       },
       {
         "reference": {
@@ -117,7 +179,7 @@
         },
         "name": "Example : Questionnaire.Item-All-RatingScale",
         "description": "Example : Questionnaire.Item-All-RatingScale",
-        "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
+        "exampleCanonical": "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
       },
       {
         "reference": {
@@ -125,7 +187,15 @@
         },
         "name": "Example : Questionnaire.Item-RichText",
         "description": "Example : Questionnaire.Item-RichText",
-        "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
+        "exampleCanonical": "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
+      },
+      {
+        "reference": {
+          "reference": "Questionnaire/Questionnaire-Item-Extension-Example-Select"
+        },
+        "name": "Example : Questionnaire.Item-Select",
+        "description": "Example : Questionnaire.Item-Select",
+        "exampleCanonical": "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
       },
       {
         "reference": {
@@ -133,7 +203,7 @@
         },
         "name": "Example : Questionnaire.Item-Text",
         "description": "Example : Questionnaire.Item-Text",
-        "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
+        "exampleCanonical": "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
       },
       {
         "reference": {
@@ -141,7 +211,7 @@
         },
         "name": "Example : Questionnaire.Item-All-TextArea",
         "description": "Example : Questionnaire.Item-All-TextArea",
-        "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
+        "exampleCanonical": "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
       },
       {
         "reference": {
@@ -149,7 +219,23 @@
         },
         "name": "Example : Questionnaire.Item-VASScale",
         "description": "Example : Questionnaire.Item-VASScale",
-        "exampleCanonical": "http://science37.com/StructureDefinition/questionnaire-s37"
+        "exampleCanonical": "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
+      },
+      {
+        "reference": {
+          "reference": "Questionnaire/Questionnaire-Item-Extension-Example-derived"
+        },
+        "name": "Example : Questionnaire.Item-derived",
+        "description": "Example : Questionnaire.Item-derived",
+        "exampleCanonical": "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
+      },
+      {
+        "reference": {
+          "reference": "Questionnaire/Questionnaire-Item-Extension-Example-page-break"
+        },
+        "name": "Example : Questionnaire.Item-page-break",
+        "description": "Example : Questionnaire.Item-page-break",
+        "exampleCanonical": "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
       }
     ],
     "page": {

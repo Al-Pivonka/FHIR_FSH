@@ -1,13 +1,12 @@
-Instance: Questionnaire-Item-Extension-Example-RatingScale
+Instance: Questionnaire-Item-Extension-Example-RichText
 InstanceOf: QuestionnaireS37
-Title: "Example : Questionnaire.Item-All-RatingScale"
-Description: "Example : Questionnaire.Item-All-RatingScale"
+Title: "Example : Questionnaire.Item-RichText"
+Description: "Example : Questionnaire.Item-RichText"
 Usage: #example
 /* Form Level Information */
-* meta.versionId = "1.0.0-S37"
 * status = #draft
-* title = "Example : Questionnaire.Item RatingScale"
-* name = "Example : Questionnaire.Item RatingScale"
+* title = "Example : Questionnaire.Item RichText"
+* name = "Example : Questionnaire.Item RichText"
 * subjectType = #Patient
 * identifier.value = "Form ID"
 /* extension[FormSettings].extension[type].valueString = "formType"
@@ -24,23 +23,20 @@ Usage: #example
 * extension[FormSettings].extension[createdAt].valueDateTime = "2015-02-07T13:28:17Z"
 * extension[FormSettings].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"*/
 /* Item  Level Information */
-* item[0].type = #question
-* item[=].linkId = "__S37-form-fields-6qupvhtl05b"
-* item[=].extension[ItemSettings].extension[subType].valueString = "ratingscale"
-* item[=].text =  "<p style=\"text-align:left;\"><strong>NRS_LABEL</strong></p>"
+* item[0].type = #display
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[observationExtract].valueBoolean = true
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#rich-text "rich-text"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#rich-text
+* item[=].linkId = "__S37-form-fields-fe09fa6eto33"
+* item[=].text = "<p style=\"text-align:left;\"><strong>Rich Text Area data</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/richText/version/2.3"
-* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"
-* item[=].extension[ItemSettings].extension[OID].valueString = "NRS_OID"
-* item[=].extension[ItemSettings].extension[title].valueString = "NRS_TITLE"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Rich-Text-Version"
+* item[=].extension[ItemSettings].extension[OID].valueString = "FOOTER_OID"
+* item[=].extension[ItemSettings].extension[title].valueString = "FOOTER_TITLE"
 * item[=].extension[ItemSettings].extension[variableName].valueString = "NOT Assigned by DD"
-* item[=].extension[ItemSettings].extension[standardVariable].valueString = "NRS_STD_VAR"
+* item[=].extension[ItemSettings].extension[standardVariable].valueString = "FOOTER_STD_VAR"
 * item[=].extension[ItemSettings].extension[fieldCode].valueString = "NOT Assigned by DD"
-* item[=].extension[ItemSettings].extension[description].valueString = "NRS_DESC"
-* item[=].extension[minValue].valueInteger = 11
-* item[=].extension[ItemSettings].extension[minValueLabel].valueString = "Min Value"
-* item[=].extension[maxValue].valueInteger = 1100
-* item[=].extension[ItemSettings].extension[maxValueLabel].valueString = "Max Value"
-* item[=].extension[ItemSettings].extension[naOption].valueBoolean = true
-* item[=].extension[ItemSettings].extension[naLabel].valueString = "The NA Label"
-
+* item[=].extension[ItemSettings].extension[description].valueString = "FOOTER_DESC"
 * item[=].required = true
+* item[=].extension[ItemSettings].extension[maxLength].valueInteger = 254 /*Not Assigned by DD*/

@@ -2,19 +2,27 @@
   "resourceType": "Questionnaire",
   "id": "Questionnaire-Item-Extension-Example-Number-Integer",
   "meta": {
-    "versionId": "1.0.0-S37",
     "profile": [
-      "http://science37.com/StructureDefinition/questionnaire-s37"
+      "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
     ]
   },
+  "version": "1.0.0A-S37",
   "item": [
     {
       "extension": [
         {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://science37.com/fhir/StructureDefinition/observation-Extract",
+          "valueBoolean": true
+        },
+        {
           "extension": [
             {
               "url": "version",
-              "valueId": "1.0.1-ItemVersion"
+              "valueId": "1.0.1-Number-Version"
             },
             {
               "url": "OID",
@@ -39,13 +47,9 @@
             {
               "url": "description",
               "valueString": "NUMBER_DESC"
-            },
-            {
-              "url": "subType",
-              "valueString": "Decimal"
             }
           ],
-          "url": "http://science37.com/StructureDefinition/item-settings"
+          "url": "http://science37.com/fhir/StructureDefinition/item-settings"
         },
         {
           "url": "http://hl7.org/fhir/StructureDefinition/minValue",
@@ -59,7 +63,7 @@
       "type": "integer",
       "linkId": "__S37-form-fields-jntlfakzc05",
       "text": "<p style=\"text-align:left;\"><strong>NUMBER_LABEL</strong></p>",
-      "definition": "https://science37.com/NG/widget/id/richText/version/2.3",
+      "definition": "https://science37.com/NG/widget/id/number/version/2.3",
       "initial": [
         {
           "valueInteger": 10

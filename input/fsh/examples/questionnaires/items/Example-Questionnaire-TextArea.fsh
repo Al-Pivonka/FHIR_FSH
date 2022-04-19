@@ -4,7 +4,6 @@ Title: "Example : Questionnaire.Item-All-TextArea"
 Description: "Example : Questionnaire.Item-All-TextArea"
 Usage: #example
 /* Form Level Information */
-* meta.versionId = "1.0.0-S37"
 * status = #draft
 * title = "Example : Questionnaire.Item TextArea"
 * name = "Example : Questionnaire.Item TextArea"
@@ -25,17 +24,18 @@ Usage: #example
 * extension[FormSettings].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"*/
 /* Item  Level Information */
 * item[0].type = #question
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[observationExtract].valueBoolean = true
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#text-box "textbox"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#text-box
 * item[=].linkId = "__S37-form-fields-1nhurf723d8"
-* item[0].item[0].type = #text
-* item[=].item[=].extension[ItemSettings].extension[subType].valueString = "TextArea"
-* item[=].item[=].linkId = "__S37-form-fields-1nhurf7a3d8"
-* item[=].item[=].text =  "<p style=\"text-align:left;\"><strong>TEXT_AREA_LABEL</strong></p>"
-* item[=].item[=].definition = "https://science37.com/NG/widget/id/richText/version/2.3"
-* item[=].item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"
-* item[=].item[=].extension[ItemSettings].extension[OID].valueString = "TEXT_AREA-OID"
-* item[=].item[=].extension[ItemSettings].extension[title].valueString = "TEXT_AREA_TITLE"
-* item[=].item[=].extension[ItemSettings].extension[variableName].valueString = "NOT Assigned by DD"
-* item[=].item[=].extension[ItemSettings].extension[standardVariable].valueString = "TEXT_AREA_STD_VAR"
-* item[=].item[=].extension[ItemSettings].extension[fieldCode].valueString = "NOT Assigned by DD"
-* item[=].item[=].extension[ItemSettings].extension[description].valueString = "TEXT_AREA_DESC"
-* item[=].item[=].required = true
+* item[=].text =  "<p style=\"text-align:left;\"><strong>TEXT_AREA_LABEL</strong></p>"
+* item[=].definition = "https://science37.com/NG/widget/id/textarea/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Text-Area-Version"
+* item[=].extension[ItemSettings].extension[OID].valueString = "TEXT_AREA-OID"
+* item[=].extension[ItemSettings].extension[title].valueString = "TEXT_AREA_TITLE"
+* item[=].extension[ItemSettings].extension[variableName].valueString = "NOT Assigned by DD"
+* item[=].extension[ItemSettings].extension[standardVariable].valueString = "TEXT_AREA_STD_VAR"
+* item[=].extension[ItemSettings].extension[fieldCode].valueString = "NOT Assigned by DD"
+* item[=].extension[ItemSettings].extension[description].valueString = "TEXT_AREA_DESC"
+* item[=].required = true

@@ -4,7 +4,6 @@ Title: "Example : Questionnaire.Item-Image"
 Description: "Example : Questionnaire.Item-Image"
 Usage: #example
 /* Form Level Information */
-* meta.versionId = "1.0.0-S37"
 * status = #draft
 * title = "Example : Questionnaire.Item Image"
 * name = "Example : Questionnaire.Item Image"
@@ -25,18 +24,21 @@ Usage: #example
 * extension[FormSettings].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"*/
 /* Item  Level Information */
 * item[0].type = #attachment
-* item[=].extension[ItemSettings].extension[subType].valueString = "Image"
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[observationExtract].valueBoolean = true
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#image "image"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#image
 * item[=].linkId = "isdfu9s0df8us8dfy"
-* item[=].text = "Item Text Value"
-* item[=].definition = "https://science37.com/NG/widget/id/text/version/2.3"
-* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"
-* item[=].extension[ItemSettings].extension[OID].valueString = "OID field Object ID"
-* item[=].extension[ItemSettings].extension[title].valueString = "The Item Title"
-* item[=].extension[ItemSettings].extension[label].valueString = "The Item lable"
-* item[=].extension[ItemSettings].extension[variableName].valueString = "The Item variableName"
-* item[=].extension[ItemSettings].extension[standardVariable].valueString = "The standardVariable"
+* item[=].text = "<p style=\"text-align:left;\"><strong>IMAGE_UPLOAD_LABEL</strong></p>"
+* item[=].definition = "https://science37.com/NG/widget/id/image/version/2.3"
+* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-Attachment-Image-Version"
+* item[=].extension[ItemSettings].extension[OID].valueString = "OID image"
+* item[=].extension[ItemSettings].extension[title].valueString = "The image Title"
+* item[=].extension[ItemSettings].extension[label].valueString = "The image lable"
+* item[=].extension[ItemSettings].extension[variableName].valueString = "The image variableName"
+* item[=].extension[ItemSettings].extension[standardVariable].valueString = "image standardVariable"
 * item[=].extension[ItemSettings].extension[fieldCode].valueString = "The fieldCode"
 * item[=].extension[ItemSettings].extension[description].valueString = "The description"
 * item[=].required = true
-* item[=].extension[ItemSettings].extension[maxLength].valueInteger = 22
+* item[=].maxLength = 22
 * item[=].initial.valueString = " Replacement for defaultPlaceholder"

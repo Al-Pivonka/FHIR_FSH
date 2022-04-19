@@ -2,67 +2,78 @@
   "resourceType": "Questionnaire",
   "id": "Questionnaire-Item-Extension-Example-RichText",
   "meta": {
-    "versionId": "1.0.0-S37",
     "profile": [
-      "http://science37.com/StructureDefinition/questionnaire-s37"
+      "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
     ]
   },
+  "version": "1.0.0A-S37",
   "item": [
     {
-      "item": [
+      "extension": [
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://science37.com/fhir/StructureDefinition/observation-Extract",
+          "valueBoolean": true
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "rich-text",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "rich-text"
+              }
+            ],
+            "text": "rich-text"
+          }
+        },
         {
           "extension": [
             {
-              "extension": [
-                {
-                  "url": "subType",
-                  "valueString": "RichText"
-                },
-                {
-                  "url": "version",
-                  "valueId": "1.0.1-ItemVersion"
-                },
-                {
-                  "url": "OID",
-                  "valueString": "FOOTER_OID"
-                },
-                {
-                  "url": "title",
-                  "valueString": "FOOTER_TITLE"
-                },
-                {
-                  "url": "variableName",
-                  "valueString": "NOT Assigned by DD"
-                },
-                {
-                  "url": "standardVariable",
-                  "valueString": "FOOTER_STD_VAR"
-                },
-                {
-                  "url": "fieldCode",
-                  "valueString": "NOT Assigned by DD"
-                },
-                {
-                  "url": "description",
-                  "valueString": "FOOTER_DESC"
-                },
-                {
-                  "url": "maxLength",
-                  "valueInteger": 254
-                }
-              ],
-              "url": "http://science37.com/StructureDefinition/item-settings"
+              "url": "version",
+              "valueId": "1.0.1-Rich-Text-Version"
+            },
+            {
+              "url": "OID",
+              "valueString": "FOOTER_OID"
+            },
+            {
+              "url": "title",
+              "valueString": "FOOTER_TITLE"
+            },
+            {
+              "url": "variableName",
+              "valueString": "NOT Assigned by DD"
+            },
+            {
+              "url": "standardVariable",
+              "valueString": "FOOTER_STD_VAR"
+            },
+            {
+              "url": "fieldCode",
+              "valueString": "NOT Assigned by DD"
+            },
+            {
+              "url": "description",
+              "valueString": "FOOTER_DESC"
+            },
+            {
+              "url": "maxLength",
+              "valueInteger": 254
             }
           ],
-          "type": "text",
-          "linkId": "__S37-form-fields-fe09fa6eto2",
-          "text": "<p style=\"text-align:left;\"><strong>Rich Text Area data</strong></p>",
-          "definition": "https://science37.com/NG/widget/id/richText/version/2.3",
-          "required": true
+          "url": "http://science37.com/fhir/StructureDefinition/item-settings"
         }
       ],
       "type": "display",
-      "linkId": "__S37-form-fields-fe09fa6eto33"
+      "linkId": "__S37-form-fields-fe09fa6eto33",
+      "text": "<p style=\"text-align:left;\"><strong>Rich Text Area data</strong></p>",
+      "definition": "https://science37.com/NG/widget/id/richText/version/2.3",
+      "required": true
     }
   ],
   "status": "draft",

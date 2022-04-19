@@ -11,27 +11,13 @@
       "valueCode": "business"
     }
   ],
-  "url": "http://science37.com/StructureDefinition/questionnaire-s37",
+  "url": "http://science37.com/fhir/StructureDefinition/questionnaire-s37",
   "version": "1.0.0-S37",
   "name": "QuestionnaireS37",
   "title": "Profile : Questionnaire.item extensions",
   "status": "active",
   "date": "2022-04-07T10:59:49+00:00",
   "publisher": "S37 Platform",
-  "contact": [
-    {
-      "name": "S37 Platform",
-      "telecom": [
-        {
-          "system": "url",
-          "value": "https://science37.com"
-        }
-      ]
-    },
-    {
-      "name": "Message structure"
-    }
-  ],
   "description": "Profile : Questionnaire.item extensions",
   "fhirVersion": "4.0.1",
   "mapping": [
@@ -92,7 +78,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://science37.com/StructureDefinition/form-settings"
+              "http://science37.com/fhir/StructureDefinition/form-settings"
             ]
           }
         ]
@@ -102,6 +88,13 @@
         "path": "Questionnaire.identifier",
         "min": 1,
         "max": "1"
+      },
+      {
+        "id": "Questionnaire.version",
+        "path": "Questionnaire.version",
+        "min": 1,
+        "patternString": "1.0.0A-S37",
+        "mustSupport": true
       },
       {
         "id": "Questionnaire.status",
@@ -132,11 +125,56 @@
           {
             "code": "Extension",
             "profile": [
-              "http://science37.com/StructureDefinition/item-settings"
+              "http://science37.com/fhir/StructureDefinition/item-settings"
             ]
           }
         ],
         "mustSupport": true
+      },
+      {
+        "id": "Questionnaire.item.extension:hidden",
+        "path": "Questionnaire.item.extension",
+        "sliceName": "hidden",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Questionnaire.item.extension:itemControl",
+        "path": "Questionnaire.item.extension",
+        "sliceName": "itemControl",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Questionnaire.item.extension:observationExtract",
+        "path": "Questionnaire.item.extension",
+        "sliceName": "observationExtract",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://science37.com/fhir/StructureDefinition/observation-Extract"
+            ]
+          }
+        ]
       }
     ]
   }

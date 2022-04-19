@@ -2,23 +2,40 @@
   "resourceType": "Questionnaire",
   "id": "Questionnaire-Item-Extension-Example-FileUpload",
   "meta": {
-    "versionId": "1.0.0-S37",
     "profile": [
-      "http://science37.com/StructureDefinition/questionnaire-s37"
+      "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
     ]
   },
+  "version": "1.0.0A-S37",
   "item": [
     {
       "extension": [
         {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://science37.com/fhir/StructureDefinition/observation-Extract",
+          "valueBoolean": true
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "fileupload",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "fileupload"
+              }
+            ],
+            "text": "fileupload"
+          }
+        },
+        {
           "extension": [
             {
-              "url": "subType",
-              "valueString": "FileUpload"
-            },
-            {
               "url": "version",
-              "valueId": "1.0.1-ItemVersion"
+              "valueId": "1.0.1-FileUpload-Attachment-Version"
             },
             {
               "url": "OID",
@@ -45,13 +62,13 @@
               "valueString": "FILE_UPLOAD_DESC"
             }
           ],
-          "url": "http://science37.com/StructureDefinition/item-settings"
+          "url": "http://science37.com/fhir/StructureDefinition/item-settings"
         }
       ],
       "type": "attachment",
       "linkId": "__S37-form-fields-q6zbrgullmr",
       "text": "<p style=\"text-align:left;\"><strong>FILE_UPLOAD_LABEL</strong></p>",
-      "definition": "https://science37.com/NG/widget/id/text/version/2.3",
+      "definition": "https://science37.com/NG/widget/id/fileupload/version/2.3",
       "required": true
     }
   ],

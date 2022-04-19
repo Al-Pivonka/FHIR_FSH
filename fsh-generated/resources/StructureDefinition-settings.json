@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "settings",
-  "url": "http://science37.com/StructureDefinition/settings",
+  "url": "http://science37.com/fhir/StructureDefinition/settings",
   "version": "1.0.0-S37",
   "name": "Settings",
   "title": "Extension : Common Settings ",
@@ -143,9 +143,36 @@
         ]
       },
       {
+        "id": "Extension.extension:version",
+        "path": "Extension.extension",
+        "sliceName": "version",
+        "short": "version",
+        "min": 0,
+        "max": "1"
+      },
+      {
+        "id": "Extension.extension:version.extension",
+        "path": "Extension.extension.extension",
+        "max": "0"
+      },
+      {
+        "id": "Extension.extension:version.url",
+        "path": "Extension.extension.url",
+        "fixedUri": "version"
+      },
+      {
+        "id": "Extension.extension:version.value[x]",
+        "path": "Extension.extension.value[x]",
+        "type": [
+          {
+            "code": "id"
+          }
+        ]
+      },
+      {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://science37.com/StructureDefinition/settings"
+        "fixedUri": "http://science37.com/fhir/StructureDefinition/settings"
       },
       {
         "id": "Extension.value[x]",

@@ -1,15 +1,13 @@
 Instance: Questionnaire-Item-Extension-Example-DateTime
 InstanceOf: QuestionnaireS37
-Title: "Example : Questionnaire.Item-Image"
-Description: "Example : Questionnaire.Item-Image"
+Title: "Example : Questionnaire.Item-DateTime"
+Description: "Example : Questionnaire.Item-DateTime"
 Usage: #example
-/* Form Level Information */
-* meta.versionId = "1.0.0-S37"
 * status = #draft
-* title = "Example : Questionnaire.Item Image"
-* name = "Example : Questionnaire.Item Image"
+* title = "Example : Questionnaire.Item DateTime"
+* name = "Example : Questionnaire.Item DateTime"
 * subjectType = #Patient
-* identifier.value = "Form ID"
+* identifier.value = "Form ID1234"
 /* extension[FormSettings].extension[type].valueString = "formType"
 * extension[FormSettings].extension[subStatus].valueString = "Deleted Status"
 * extension[FormSettings].extension[controlSchemaVersion].valueString = "2.1.9"
@@ -25,23 +23,25 @@ Usage: #example
 * extension[FormSettings].extension[updatedAt].valueDateTime = "2022-01-01T10:08:10Z"*/
 /* Item  Level Information */
 * item[0].type = #dateTime
+* item[=].extension[hidden].valueBoolean = false
+* item[=].extension[observationExtract].valueBoolean = true
 * item[=].linkId = "__S37-form-fields-qo3cyvy8fgh"
 * item[=].text = "<p style=\"text-align:left;\"><strong>DATE_TIME_LABEL</strong></p>"
-* item[=].definition = "https://science37.com/NG/widget/id/text/version/2.3"
-* item[=].extension[ItemSettings].extension[version].valueId = "1.0.1-ItemVersion"
-* item[=].extension[ItemSettings].extension[OID].valueString = "DATE_TIME_OID"
-* item[=].extension[ItemSettings].extension[title].valueString = "DATE_TIME_TITLE"
-* item[=].extension[ItemSettings].extension[variableName].valueString = "The Item variableName"
-* item[=].extension[ItemSettings].extension[standardVariable].valueString = "DATE_TIME_STD_VAR"
-* item[=].extension[ItemSettings].extension[fieldCode].valueString = "The fieldCode"
-* item[=].extension[ItemSettings].extension[description].valueString = "DATE_TIME_DESC"
+* item[=].definition = "https://science37.com/NG/widget/id/datetime/version/2.3"
+* item[=].extension[DateTimeItem].extension[version].valueId = "1.0.1-dateTime"
+* item[=].extension[DateTimeItem].extension[OID].valueString = "DATE_TIME_OID"
+* item[=].extension[DateTimeItem].extension[title].valueString = "DATE_TIME_TITLE"
+* item[=].extension[DateTimeItem].extension[variableName].valueString = "The Item variableName"
+* item[=].extension[DateTimeItem].extension[standardVariable].valueString = "DATE_TIME_STD_VAR"
+* item[=].extension[DateTimeItem].extension[fieldCode].valueString = "The fieldCode"
+* item[=].extension[DateTimeItem].extension[description].valueString = "DATE_TIME_DESC"
 * item[=].required = true
-* item[=].extension[ItemSettings].extension[maxLength].valueInteger = 22
+* item[=].maxLength = 22
 * item[=].extension[maxValue].valueDateTime = "2020-11-14T16:39:40-05:00"
 * item[=].extension[minValue].valueDateTime = "2000-11-14T16:39:40-05:00"
 * item[=].initial.valueString = " Replacement for defaultPlaceholder"
-* item[=].extension[ItemSettings].extension[completionPeriodOfTime].valueString = "hr"
-* item[=].extension[ItemSettings].extension[completionNoOfHours].valueInteger = 22
-* item[=].extension[ItemSettings].extension[completionNoOfDays].valueInteger = 2
-* item[=].extension[ItemSettings].extension[completionNoOfMonths].valueInteger = 1
-* item[=].extension[ItemSettings].extension[completionShouldOccur].valueBoolean = true
+* item[=].extension[DateTimeItem].extension[completionPeriodOfTime].valueString = "hr"
+* item[=].extension[DateTimeItem].extension[completionNoOfHours].valueInteger = 22
+* item[=].extension[DateTimeItem].extension[completionNoOfDays].valueInteger = 2
+* item[=].extension[DateTimeItem].extension[completionNoOfMonths].valueInteger = 1
+* item[=].extension[DateTimeItem].extension[completionShouldOccur].valueBoolean = true

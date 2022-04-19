@@ -2,19 +2,27 @@
   "resourceType": "Questionnaire",
   "id": "Questionnaire-Item-Extension-Example-DateTime",
   "meta": {
-    "versionId": "1.0.0-S37",
     "profile": [
-      "http://science37.com/StructureDefinition/questionnaire-s37"
+      "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
     ]
   },
+  "version": "1.0.0A-S37",
   "item": [
     {
       "extension": [
         {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://science37.com/fhir/StructureDefinition/observation-Extract",
+          "valueBoolean": true
+        },
+        {
           "extension": [
             {
               "url": "version",
-              "valueId": "1.0.1-ItemVersion"
+              "valueId": "1.0.1-dateTime"
             },
             {
               "url": "OID",
@@ -41,10 +49,6 @@
               "valueString": "DATE_TIME_DESC"
             },
             {
-              "url": "maxLength",
-              "valueInteger": 22
-            },
-            {
               "url": "completionPeriodOfTime",
               "valueString": "hr"
             },
@@ -65,7 +69,7 @@
               "valueBoolean": true
             }
           ],
-          "url": "http://science37.com/StructureDefinition/item-settings"
+          "url": "http://science37.com/fhir/StructureDefinition/datetime-item"
         },
         {
           "url": "http://hl7.org/fhir/StructureDefinition/maxValue",
@@ -79,8 +83,9 @@
       "type": "dateTime",
       "linkId": "__S37-form-fields-qo3cyvy8fgh",
       "text": "<p style=\"text-align:left;\"><strong>DATE_TIME_LABEL</strong></p>",
-      "definition": "https://science37.com/NG/widget/id/text/version/2.3",
+      "definition": "https://science37.com/NG/widget/id/datetime/version/2.3",
       "required": true,
+      "maxLength": 22,
       "initial": [
         {
           "valueString": " Replacement for defaultPlaceholder"
@@ -89,14 +94,14 @@
     }
   ],
   "status": "draft",
-  "title": "Example : Questionnaire.Item Image",
-  "name": "Example : Questionnaire.Item Image",
+  "title": "Example : Questionnaire.Item DateTime",
+  "name": "Example : Questionnaire.Item DateTime",
   "subjectType": [
     "Patient"
   ],
   "identifier": [
     {
-      "value": "Form ID"
+      "value": "Form ID1234"
     }
   ]
 }

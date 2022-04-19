@@ -2,43 +2,60 @@
   "resourceType": "Questionnaire",
   "id": "Questionnaire-Item-Extension-Example-Image",
   "meta": {
-    "versionId": "1.0.0-S37",
     "profile": [
-      "http://science37.com/StructureDefinition/questionnaire-s37"
+      "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
     ]
   },
+  "version": "1.0.0A-S37",
   "item": [
     {
       "extension": [
         {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-hidden",
+          "valueBoolean": false
+        },
+        {
+          "url": "http://science37.com/fhir/StructureDefinition/observation-Extract",
+          "valueBoolean": true
+        },
+        {
+          "url": "http://hl7.org/fhir/StructureDefinition/questionnaire-itemControl",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "image",
+                "system": "http://hl7.org/fhir/questionnaire-item-control",
+                "display": "image"
+              }
+            ],
+            "text": "image"
+          }
+        },
+        {
           "extension": [
             {
-              "url": "subType",
-              "valueString": "Image"
-            },
-            {
               "url": "version",
-              "valueId": "1.0.1-ItemVersion"
+              "valueId": "1.0.1-Attachment-Image-Version"
             },
             {
               "url": "OID",
-              "valueString": "OID field Object ID"
+              "valueString": "OID image"
             },
             {
               "url": "title",
-              "valueString": "The Item Title"
+              "valueString": "The image Title"
             },
             {
               "url": "label",
-              "valueString": "The Item lable"
+              "valueString": "The image lable"
             },
             {
               "url": "variableName",
-              "valueString": "The Item variableName"
+              "valueString": "The image variableName"
             },
             {
               "url": "standardVariable",
-              "valueString": "The standardVariable"
+              "valueString": "image standardVariable"
             },
             {
               "url": "fieldCode",
@@ -47,20 +64,17 @@
             {
               "url": "description",
               "valueString": "The description"
-            },
-            {
-              "url": "maxLength",
-              "valueInteger": 22
             }
           ],
-          "url": "http://science37.com/StructureDefinition/item-settings"
+          "url": "http://science37.com/fhir/StructureDefinition/item-settings"
         }
       ],
       "type": "attachment",
       "linkId": "isdfu9s0df8us8dfy",
-      "text": "Item Text Value",
-      "definition": "https://science37.com/NG/widget/id/text/version/2.3",
+      "text": "<p style=\"text-align:left;\"><strong>IMAGE_UPLOAD_LABEL</strong></p>",
+      "definition": "https://science37.com/NG/widget/id/image/version/2.3",
       "required": true,
+      "maxLength": 22,
       "initial": [
         {
           "valueString": " Replacement for defaultPlaceholder"
