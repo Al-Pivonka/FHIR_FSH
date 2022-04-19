@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "1.0.0-S37"];
   fhir:ImplementationGuide.name [ fhir:value "S37FHIRIG"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-04-18T14:59:18+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-04-19T16:43:07+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Science37"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -307,6 +307,19 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://science37.com/StructureDefinition/plan-definition-s37>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/plan-definition-s37" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Plan Definition S37" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 1;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
          fhir:link <http://science37.com/StructureDefinition/questionnaire-s37>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/questionnaire-s37" ]
        ];
@@ -314,7 +327,33 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Profile : Questionnaire.item extensions" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 1;
+       fhir:index 2;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://science37.com/StructureDefinition/audit-trail-version>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/audit-trail-version" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Audit Trail Version" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 3;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://science37.com/StructureDefinition/datetime>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/datetime" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "datetime" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 4;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -328,7 +367,20 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension : Questionnaire.item.DateTimeItem " ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 2;
+       fhir:index 5;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://science37.com/StructureDefinition/day-zero>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/day-zero" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Day Zero" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 6;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -342,7 +394,59 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension : Questionnaire.item.DerivedItem " ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 3;
+       fhir:index 7;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://science37.com/StructureDefinition/display-order>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/display-order" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Display Order" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 8;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://science37.com/StructureDefinition/e-consent-form-group-id>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/e-consent-form-group-id" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "E-Consent From Group Id" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 9;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://science37.com/StructureDefinition/force-form-order>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/force-form-order" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Force Form Order" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 10;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://science37.com/StructureDefinition/forced-form-oder>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/forced-form-oder" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Forced Form Oder" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 11;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -356,7 +460,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension : Questionnaire.settings " ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 4;
+       fhir:index 12;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -370,7 +474,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension : Questionnaire.item.settings " ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 5;
+       fhir:index 13;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -383,7 +487,33 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : observationExtract" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 6;
+       fhir:index 14;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://science37.com/StructureDefinition/parent-reference>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/parent-reference" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Parent Reference" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 15;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://science37.com/StructureDefinition/protocal-version>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/protocal-version" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Protocal Version" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 16;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -397,7 +527,20 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension : Common settings " ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 7;
+       fhir:index 17;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://science37.com/StructureDefinition/sub-status>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/sub-status" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Sub Status" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 18;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -411,7 +554,20 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extension : Questionnaire.item.VASScaleItem " ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 8;
+       fhir:index 19;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://science37.com/StructureDefinition/visit-type>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/visit-type" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Visit Type" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 20;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -428,7 +584,55 @@
          fhir:link <http://science37.com/StructureDefinition/questionnaire-s37>
        ]
      ], [
-       fhir:index 9;
+       fhir:index 21;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://science37.com/PlanDefinition/PlanDefintion-EXPECTEDVISITPLAN-Example>;
+         fhir:Reference.reference [ fhir:value "PlanDefinition/PlanDefintion-EXPECTEDVISITPLAN-Example" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Plan Defintion Example" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://science37.com/StructureDefinition/plan-definition-s37";
+         fhir:link <http://science37.com/StructureDefinition/plan-definition-s37>
+       ]
+     ], [
+       fhir:index 22;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://science37.com/PlanDefinition/PlanDefintion-MASTERVISITPLAN-Example>;
+         fhir:Reference.reference [ fhir:value "PlanDefinition/PlanDefintion-MASTERVISITPLAN-Example" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Plan Defintion Example" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://science37.com/StructureDefinition/plan-definition-s37";
+         fhir:link <http://science37.com/StructureDefinition/plan-definition-s37>
+       ]
+     ], [
+       fhir:index 23;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "PlanDefinition" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://science37.com/PlanDefinition/PlanDefintion-VISITPLAN-Example>;
+         fhir:Reference.reference [ fhir:value "PlanDefinition/PlanDefintion-VISITPLAN-Example" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Plan Defintion Example" ];
+       fhir:ImplementationGuide.definition.resource.exampleCanonical [
+         fhir:value "http://science37.com/StructureDefinition/plan-definition-s37";
+         fhir:link <http://science37.com/StructureDefinition/plan-definition-s37>
+       ]
+     ], [
+       fhir:index 24;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -445,7 +649,7 @@
          fhir:link <http://science37.com/StructureDefinition/questionnaire-s37>
        ]
      ], [
-       fhir:index 10;
+       fhir:index 25;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -462,7 +666,7 @@
          fhir:link <http://science37.com/StructureDefinition/questionnaire-s37>
        ]
      ], [
-       fhir:index 11;
+       fhir:index 26;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -479,7 +683,7 @@
          fhir:link <http://science37.com/StructureDefinition/questionnaire-s37>
        ]
      ], [
-       fhir:index 12;
+       fhir:index 27;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -496,7 +700,7 @@
          fhir:link <http://science37.com/StructureDefinition/questionnaire-s37>
        ]
      ], [
-       fhir:index 13;
+       fhir:index 28;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -513,7 +717,7 @@
          fhir:link <http://science37.com/StructureDefinition/questionnaire-s37>
        ]
      ], [
-       fhir:index 14;
+       fhir:index 29;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -530,7 +734,7 @@
          fhir:link <http://science37.com/StructureDefinition/questionnaire-s37>
        ]
      ], [
-       fhir:index 15;
+       fhir:index 30;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -547,7 +751,7 @@
          fhir:link <http://science37.com/StructureDefinition/questionnaire-s37>
        ]
      ], [
-       fhir:index 16;
+       fhir:index 31;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -564,7 +768,7 @@
          fhir:link <http://science37.com/StructureDefinition/questionnaire-s37>
        ]
      ], [
-       fhir:index 17;
+       fhir:index 32;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -581,7 +785,7 @@
          fhir:link <http://science37.com/StructureDefinition/questionnaire-s37>
        ]
      ], [
-       fhir:index 18;
+       fhir:index 33;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -598,7 +802,7 @@
          fhir:link <http://science37.com/StructureDefinition/questionnaire-s37>
        ]
      ], [
-       fhir:index 19;
+       fhir:index 34;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -615,7 +819,7 @@
          fhir:link <http://science37.com/StructureDefinition/questionnaire-s37>
        ]
      ], [
-       fhir:index 20;
+       fhir:index 35;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -632,7 +836,7 @@
          fhir:link <http://science37.com/StructureDefinition/questionnaire-s37>
        ]
      ], [
-       fhir:index 21;
+       fhir:index 36;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -649,7 +853,7 @@
          fhir:link <http://science37.com/StructureDefinition/questionnaire-s37>
        ]
      ], [
-       fhir:index 22;
+       fhir:index 37;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -666,7 +870,7 @@
          fhir:link <http://science37.com/StructureDefinition/questionnaire-s37>
        ]
      ], [
-       fhir:index 23;
+       fhir:index 38;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -683,7 +887,7 @@
          fhir:link <http://science37.com/StructureDefinition/questionnaire-s37>
        ]
      ], [
-       fhir:index 24;
+       fhir:index 39;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -700,7 +904,7 @@
          fhir:link <http://science37.com/StructureDefinition/questionnaire-s37>
        ]
      ], [
-       fhir:index 25;
+       fhir:index 40;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];

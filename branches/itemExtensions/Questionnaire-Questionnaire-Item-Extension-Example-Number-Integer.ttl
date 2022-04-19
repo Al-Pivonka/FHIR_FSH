@@ -32,7 +32,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2022-04-18T14:59:18+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-04-19T16:43:07+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "Science37"];
   fhir:Questionnaire.contact [
      fhir:index 0;
@@ -83,10 +83,6 @@
          fhir:index 6;
          fhir:Extension.url [ fhir:value "description" ];
          fhir:Extension.valueString [ fhir:value "NUMBER_DESC" ]
-       ], [
-         fhir:index 7;
-         fhir:Extension.url [ fhir:value "subType" ];
-         fhir:Extension.valueString [ fhir:value "Decimal" ]
        ];
        fhir:Extension.url [ fhir:value "http://science37.com/StructureDefinition/item-settings" ]
      ], [

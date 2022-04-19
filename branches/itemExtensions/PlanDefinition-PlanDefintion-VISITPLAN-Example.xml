@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PlanDefinition xmlns="http://hl7.org/fhir">
+  <id value="PlanDefintion-VISITPLAN-Example"/>
+  <meta>
+    <profile value="http://science37.com/StructureDefinition/plan-definition-s37"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p><b>Generated Narrative</b></p><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Resource "PlanDefintion-VISITPLAN-Example" </p><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-plan-definition-s37.html">Plan Definition S37</a></p></div><blockquote><p><b>Parent Reference</b></p><p><b>value</b>: 54052f63-ccf7-43ea-89ec-a77cec8f80e8</p></blockquote><blockquote><p><b>datetime</b></p><p><b>value</b>: 2020-10-07 04:52:47+0000</p><p><b>value</b>: 2020-10-07 04:52:47+0000</p></blockquote><p><b>Audit Trail Version</b>: 1.0.2</p><p><b>Protocal Version</b>: 1.0.2</p><blockquote><p><b>Day Zero</b></p><p><b>value</b>: ELIG_V</p><p><b>value</b>: e358d87d-d340-43eb-ae17-fabe787cq002</p><p><b>value</b>: Eligibility Visit</p><p><b>value</b>: e358d87d-d340-43eb-ae17-fabe787cq002</p><p><b>value</b>: Form-a</p><p><b>value</b>: 1.0</p><p><b>value</b>: e358d87d-d340-43eb-ae17-fabe787cq009</p><p><b>value</b>: day-0-date</p></blockquote><p><b>url</b>: <code>http://science37.com/PlanDefinition/PlanDefintion-VISITPLAN-Example</code></p><p><b>version</b>: 1.0.0-S37</p><p><b>name</b>: VISIT_PLAN</p><p><b>status</b>: draft</p><p><b>date</b>: 2022-04-19 04:43:07+0000</p><p><b>publisher</b>: Science37</p><p><b>contact</b>: Science37: <a href="http://science37.com/publisher">http://science37.com/publisher</a></p><blockquote><p><b>action</b></p><p><b>definition</b>: <code>VISIT/e358d87d-d340-43eb-ae17-fabe787ca001</code></p><h3>Actions</h3><table class="grid"><tr><td>-</td><td><b>Definition[x]</b></td></tr><tr><td>*</td><td><code>FORM_LIST/e358d87d-d340-43eb-ae17-fabe787ca001</code></td></tr></table></blockquote><blockquote><p><b>action</b></p><p><b>definition</b>: <code>VISIT/e358d87d-d340-43eb-ae17-fabe787ca002</code></p><h3>Actions</h3><table class="grid"><tr><td>-</td><td><b>Definition[x]</b></td></tr><tr><td>*</td><td><code>FORM_LIST/e358d87d-d340-43eb-ae17-fabe737ca001</code></td></tr></table></blockquote><blockquote><p><b>action</b></p><p><b>definition</b>: <code>VISIT/e358d87d-d340-43eb-ae17-fabe787ca003</code></p><h3>Actions</h3><table class="grid"><tr><td>-</td><td><b>Definition[x]</b></td></tr><tr><td>*</td><td><code>FORM_LIST/e358d87d-d340-43eb-ae17-fabe707ca001</code></td></tr></table></blockquote></div>
+  </text>
+  <extension url="http://science37.com/StructureDefinition/parent-reference">
+    <extension url="expected">
+      <valueString value="54052f63-ccf7-43ea-89ec-a77cec8f80e8"/>
+    </extension>
+  </extension>
+  <extension url="http://science37.com/StructureDefinition/datetime">
+    <extension url="created">
+      <valueDateTime value="2020-10-07T04:52:47Z"/>
+    </extension>
+    <extension url="updated">
+      <valueDateTime value="2020-10-07T04:52:47Z"/>
+    </extension>
+  </extension>
+  <extension url="http://science37.com/StructureDefinition/audit-trail-version">
+    <valueString value="1.0.2"/>
+  </extension>
+  <extension url="http://science37.com/StructureDefinition/protocal-version">
+    <valueString value="1.0.2"/>
+  </extension>
+  <extension url="http://science37.com/StructureDefinition/day-zero">
+    <extension url="visit-oid">
+      <valueString value="ELIG_V"/>
+    </extension>
+    <extension url="visit-id">
+      <valueString value="e358d87d-d340-43eb-ae17-fabe787cq002"/>
+    </extension>
+    <extension url="visit-title">
+      <valueString value="Eligibility Visit"/>
+    </extension>
+    <extension url="form-id">
+      <valueString value="e358d87d-d340-43eb-ae17-fabe787cq002"/>
+    </extension>
+    <extension url="form-title">
+      <valueString value="Form-a"/>
+    </extension>
+    <extension url="form-version">
+      <valueString value="1.0"/>
+    </extension>
+    <extension url="form-day0-date-field-id">
+      <valueString value="e358d87d-d340-43eb-ae17-fabe787cq009"/>
+    </extension>
+    <extension url="form-day0-date-field-name">
+      <valueString value="day-0-date"/>
+    </extension>
+  </extension>
+  <url value="http://science37.com/PlanDefinition/PlanDefintion-VISITPLAN-Example"/>
+  <version value="1.0.0-S37"/>
+  <name value="VISIT_PLAN"/>
+  <status value="draft"/>
+  <date value="2022-04-19T16:43:07+00:00"/>
+  <publisher value="Science37"/>
+  <contact>
+    <name value="Science37"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://science37.com/publisher"/>
+    </telecom>
+  </contact>
+  <action>
+    <definitionUri value="VISIT/e358d87d-d340-43eb-ae17-fabe787ca001"/>
+    <action>
+      <definitionUri value="FORM_LIST/e358d87d-d340-43eb-ae17-fabe787ca001"/>
+    </action>
+  </action>
+  <action>
+    <definitionUri value="VISIT/e358d87d-d340-43eb-ae17-fabe787ca002"/>
+    <action>
+      <definitionUri value="FORM_LIST/e358d87d-d340-43eb-ae17-fabe737ca001"/>
+    </action>
+  </action>
+  <action>
+    <definitionUri value="VISIT/e358d87d-d340-43eb-ae17-fabe787ca003"/>
+    <action>
+      <definitionUri value="FORM_LIST/e358d87d-d340-43eb-ae17-fabe707ca001"/>
+    </action>
+  </action>
+</PlanDefinition>
