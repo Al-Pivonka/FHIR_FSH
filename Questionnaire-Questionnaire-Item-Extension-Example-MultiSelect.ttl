@@ -32,7 +32,7 @@
      fhir:value "Patient";
      fhir:index 0
   ];
-  fhir:Questionnaire.date [ fhir:value "2022-04-19T19:32:38+00:00"^^xsd:dateTime];
+  fhir:Questionnaire.date [ fhir:value "2022-04-19T20:00:50+00:00"^^xsd:dateTime];
   fhir:Questionnaire.publisher [ fhir:value "Science37"];
   fhir:Questionnaire.contact [
      fhir:index 0;
@@ -60,10 +60,10 @@
          fhir:CodeableConcept.coding [
            fhir:index 0;
            fhir:Coding.system [ fhir:value "http://hl7.org/fhir/questionnaire-item-control" ];
-           fhir:Coding.code [ fhir:value "check-box" ];
-           fhir:Coding.display [ fhir:value "Check Box" ]
+           fhir:Coding.code [ fhir:value "drop-down" ];
+           fhir:Coding.display [ fhir:value "Drop Down" ]
          ];
-         fhir:CodeableConcept.text [ fhir:value "check-box" ]
+         fhir:CodeableConcept.text [ fhir:value "drop-down" ]
        ]
      ], [
        fhir:index 3;
