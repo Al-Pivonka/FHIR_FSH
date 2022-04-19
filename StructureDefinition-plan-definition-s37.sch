@@ -12,11 +12,11 @@
   <sch:pattern>
     <sch:title>f:PlanDefinition</sch:title>
     <sch:rule context="f:PlanDefinition">
-      <sch:assert test="count(f:extension[@url = 'http://science37.com/StructureDefinition/parent-reference']) &lt;= 1">extension with URL = 'http://science37.com/StructureDefinition/parent-reference': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://science37.com/StructureDefinition/datetime']) &lt;= 1">extension with URL = 'http://science37.com/StructureDefinition/datetime': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://science37.com/StructureDefinition/audit-trail-version']) &lt;= 1">extension with URL = 'http://science37.com/StructureDefinition/audit-trail-version': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://science37.com/StructureDefinition/day-zero']) &lt;= 1">extension with URL = 'http://science37.com/StructureDefinition/day-zero': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'http://science37.com/StructureDefinition/protocal-version']) &lt;= 1">extension with URL = 'http://science37.com/StructureDefinition/protocal-version': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://science37.com/fhir/StructureDefinition/parent-reference']) &lt;= 1">extension with URL = 'http://science37.com/fhir/StructureDefinition/parent-reference': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://science37.com/fhir/StructureDefinition/datetime']) &lt;= 1">extension with URL = 'http://science37.com/fhir/StructureDefinition/datetime': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://science37.com/fhir/StructureDefinition/audit-trail-version']) &lt;= 1">extension with URL = 'http://science37.com/fhir/StructureDefinition/audit-trail-version': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://science37.com/fhir/StructureDefinition/day-zero']) &lt;= 1">extension with URL = 'http://science37.com/fhir/StructureDefinition/day-zero': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://science37.com/fhir/StructureDefinition/protocal-version']) &lt;= 1">extension with URL = 'http://science37.com/fhir/StructureDefinition/protocal-version': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:version) &gt;= 1">version: minimum cardinality of 'version' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>

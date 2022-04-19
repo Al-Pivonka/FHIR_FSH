@@ -3,13 +3,13 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="science27.FHIR-IG"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>S37FHIRIG</h2><p>The official URL for this implementation guide is: </p><pre>http://science37.com/ImplementationGuide/science27.FHIR-IG</pre></div>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>S37FHIRIG</h2><p>The official URL for this implementation guide is: </p><pre>http://science37.com/fhir/ImplementationGuide/science27.FHIR-IG</pre></div>
   </text>
-  <url value="http://science37.com/ImplementationGuide/science27.FHIR-IG"/>
+  <url value="http://science37.com/fhir/ImplementationGuide/science27.FHIR-IG"/>
   <version value="1.0.0-S37"/>
   <name value="S37FHIRIG"/>
   <status value="active"/>
-  <date value="2022-04-19T16:43:07+00:00"/>
+  <date value="2022-04-19T16:57:06+00:00"/>
   <publisher value="Science37"/>
   <contact>
     <name value="Science37"/>
@@ -91,7 +91,7 @@
         <valueString value="path-history"/>
       </extension>
       <extension url="value">
-        <valueString value="http://science37.com/history.html"/>
+        <valueString value="http://science37.com/fhir/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -414,7 +414,7 @@
       </reference>
       <name value="Example : Questionnaire.Item-All-48"/>
       <description value="Example : Questionnaire.Item-All-48"/>
-      <exampleCanonical value="http://science37.com/StructureDefinition/questionnaire-s37"/>
+      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/questionnaire-s37"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -424,7 +424,7 @@
         <reference value="PlanDefinition/PlanDefintion-EXPECTEDVISITPLAN-Example"/>
       </reference>
       <name value="Plan Defintion Example"/>
-      <exampleCanonical value="http://science37.com/StructureDefinition/plan-definition-s37"/>
+      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/plan-definition-s37"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -434,7 +434,7 @@
         <reference value="PlanDefinition/PlanDefintion-MASTERVISITPLAN-Example"/>
       </reference>
       <name value="Plan Defintion Example"/>
-      <exampleCanonical value="http://science37.com/StructureDefinition/plan-definition-s37"/>
+      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/plan-definition-s37"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -444,7 +444,7 @@
         <reference value="PlanDefinition/PlanDefintion-VISITPLAN-Example"/>
       </reference>
       <name value="Plan Defintion Example"/>
-      <exampleCanonical value="http://science37.com/StructureDefinition/plan-definition-s37"/>
+      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/plan-definition-s37"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -455,7 +455,7 @@
       </reference>
       <name value="Example : Questionnaire"/>
       <description value="Example : Questionnaire"/>
-      <exampleCanonical value="http://science37.com/StructureDefinition/questionnaire-s37"/>
+      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/questionnaire-s37"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -466,7 +466,7 @@
       </reference>
       <name value="Example : Questionnaire.Item-DateTime"/>
       <description value="Example : Questionnaire.Item-DateTime"/>
-      <exampleCanonical value="http://science37.com/StructureDefinition/questionnaire-s37"/>
+      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/questionnaire-s37"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -477,7 +477,7 @@
       </reference>
       <name value="Example : Questionnaire.Item-FileUpload"/>
       <description value="Example : Questionnaire.Item-FileUpload"/>
-      <exampleCanonical value="http://science37.com/StructureDefinition/questionnaire-s37"/>
+      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/questionnaire-s37"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -488,7 +488,7 @@
       </reference>
       <name value="Example : Questionnaire.Item-Footer"/>
       <description value="Example : Questionnaire.Item-Footer"/>
-      <exampleCanonical value="http://science37.com/StructureDefinition/questionnaire-s37"/>
+      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/questionnaire-s37"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -499,7 +499,7 @@
       </reference>
       <name value="Example : Questionnaire.Item-Header"/>
       <description value="Example : Questionnaire.Item-Header"/>
-      <exampleCanonical value="http://science37.com/StructureDefinition/questionnaire-s37"/>
+      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/questionnaire-s37"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -510,7 +510,7 @@
       </reference>
       <name value="Example : Questionnaire.Item-Image"/>
       <description value="Example : Questionnaire.Item-Image"/>
-      <exampleCanonical value="http://science37.com/StructureDefinition/questionnaire-s37"/>
+      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/questionnaire-s37"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -521,7 +521,7 @@
       </reference>
       <name value="Example : Questionnaire.Item-MultiMultiSelect"/>
       <description value="Example : Questionnaire.Item-MultiSelect"/>
-      <exampleCanonical value="http://science37.com/StructureDefinition/questionnaire-s37"/>
+      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/questionnaire-s37"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -532,7 +532,7 @@
       </reference>
       <name value="Example : Questionnaire.Item-Number-Decimal"/>
       <description value="Example : Questionnaire.Item-Number-Decimal"/>
-      <exampleCanonical value="http://science37.com/StructureDefinition/questionnaire-s37"/>
+      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/questionnaire-s37"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -543,7 +543,7 @@
       </reference>
       <name value="Example : Questionnaire.Item-Number-Integer"/>
       <description value="Example : Questionnaire.Item-Number-Integer"/>
-      <exampleCanonical value="http://science37.com/StructureDefinition/questionnaire-s37"/>
+      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/questionnaire-s37"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -554,7 +554,7 @@
       </reference>
       <name value="Example : Questionnaire.Item-All-RatingScale"/>
       <description value="Example : Questionnaire.Item-All-RatingScale"/>
-      <exampleCanonical value="http://science37.com/StructureDefinition/questionnaire-s37"/>
+      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/questionnaire-s37"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -565,7 +565,7 @@
       </reference>
       <name value="Example : Questionnaire.Item-RichText"/>
       <description value="Example : Questionnaire.Item-RichText"/>
-      <exampleCanonical value="http://science37.com/StructureDefinition/questionnaire-s37"/>
+      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/questionnaire-s37"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -576,7 +576,7 @@
       </reference>
       <name value="Example : Questionnaire.Item-Select"/>
       <description value="Example : Questionnaire.Item-Select"/>
-      <exampleCanonical value="http://science37.com/StructureDefinition/questionnaire-s37"/>
+      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/questionnaire-s37"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -587,7 +587,7 @@
       </reference>
       <name value="Example : Questionnaire.Item-Text"/>
       <description value="Example : Questionnaire.Item-Text"/>
-      <exampleCanonical value="http://science37.com/StructureDefinition/questionnaire-s37"/>
+      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/questionnaire-s37"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -598,7 +598,7 @@
       </reference>
       <name value="Example : Questionnaire.Item-All-TextArea"/>
       <description value="Example : Questionnaire.Item-All-TextArea"/>
-      <exampleCanonical value="http://science37.com/StructureDefinition/questionnaire-s37"/>
+      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/questionnaire-s37"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -609,7 +609,7 @@
       </reference>
       <name value="Example : Questionnaire.Item-VASScale"/>
       <description value="Example : Questionnaire.Item-VASScale"/>
-      <exampleCanonical value="http://science37.com/StructureDefinition/questionnaire-s37"/>
+      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/questionnaire-s37"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -620,7 +620,7 @@
       </reference>
       <name value="Example : Questionnaire.Item-derived"/>
       <description value="Example : Questionnaire.Item-derived"/>
-      <exampleCanonical value="http://science37.com/StructureDefinition/questionnaire-s37"/>
+      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/questionnaire-s37"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -631,7 +631,7 @@
       </reference>
       <name value="Example : Questionnaire.Item-page-break"/>
       <description value="Example : Questionnaire.Item-page-break"/>
-      <exampleCanonical value="http://science37.com/StructureDefinition/questionnaire-s37"/>
+      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/questionnaire-s37"/>
     </resource>
     <page>
       <nameUrl value="toc.html"/>
