@@ -2,294 +2,294 @@
   {
     "id": "science27.FHIR-IG",
     "type": "ImplementationGuide",
-    "url": "http://science37.com/ImplementationGuide/science27.FHIR-IG",
+    "url": "http://science37.com/fhir/ImplementationGuide/science27.FHIR-IG",
     "version": "1.0.0-S37",
     "name": "S37FHIRIG"
   },
   {
     "id": "PlanDefintion-EXPECTEDVISITPLAN-Example",
     "type": "PlanDefinition",
-    "url": "http://science37.com/PlanDefinition/PlanDefintion-EXPECTEDVISITPLAN-Example",
+    "url": "http://science37.com/fhir/PlanDefinition/PlanDefintion-EXPECTEDVISITPLAN-Example",
     "version": "1.0.0-S37",
     "name": "EXPECTED_VISIT_PLAN"
   },
   {
     "id": "PlanDefintion-MASTERVISITPLAN-Example",
     "type": "PlanDefinition",
-    "url": "http://science37.com/PlanDefinition/PlanDefintion-MASTERVISITPLAN-Example",
+    "url": "http://science37.com/fhir/PlanDefinition/PlanDefintion-MASTERVISITPLAN-Example",
     "version": "1.0.0-S37",
     "name": "MASTER_VISIT_PLAN"
   },
   {
     "id": "PlanDefintion-VISITPLAN-Example",
     "type": "PlanDefinition",
-    "url": "http://science37.com/PlanDefinition/PlanDefintion-VISITPLAN-Example",
+    "url": "http://science37.com/fhir/PlanDefinition/PlanDefintion-VISITPLAN-Example",
     "version": "1.0.0-S37",
     "name": "VISIT_PLAN"
   },
   {
     "id": "Item-Extension-Example-All-48",
     "type": "Questionnaire",
-    "url": "http://science37.com/Questionnaire/Item-Extension-Example-All-48",
+    "url": "http://science37.com/fhir/Questionnaire/Item-Extension-Example-All-48",
     "version": "1.0.0-S37",
     "name": "Example : Questionnaire.Item"
   },
   {
     "id": "Questionnaire-Extension-Example",
     "type": "Questionnaire",
-    "url": "http://science37.com/Questionnaire/Questionnaire-Extension-Example",
+    "url": "http://science37.com/fhir/Questionnaire/Questionnaire-Extension-Example",
     "version": "1.0.0-S37",
     "name": "Example : Questionnaire"
   },
   {
     "id": "Questionnaire-Item-Extension-Example-DateTime",
     "type": "Questionnaire",
-    "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-DateTime",
+    "url": "http://science37.com/fhir/Questionnaire/Questionnaire-Item-Extension-Example-DateTime",
     "version": "1.0.0-S37",
     "name": "Example : Questionnaire.Item DateTime"
   },
   {
     "id": "Questionnaire-Item-Extension-Example-FileUpload",
     "type": "Questionnaire",
-    "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-FileUpload",
+    "url": "http://science37.com/fhir/Questionnaire/Questionnaire-Item-Extension-Example-FileUpload",
     "version": "1.0.0-S37",
     "name": "Example : Questionnaire.Item FileUpload"
   },
   {
     "id": "Questionnaire-Item-Extension-Example-Footer",
     "type": "Questionnaire",
-    "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-Footer",
+    "url": "http://science37.com/fhir/Questionnaire/Questionnaire-Item-Extension-Example-Footer",
     "version": "1.0.0-S37",
     "name": "Example : Questionnaire.Item Footer"
   },
   {
     "id": "Questionnaire-Item-Extension-Example-Header",
     "type": "Questionnaire",
-    "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-Header",
+    "url": "http://science37.com/fhir/Questionnaire/Questionnaire-Item-Extension-Example-Header",
     "version": "1.0.0-S37",
     "name": "Example : Questionnaire.Item Header"
   },
   {
     "id": "Questionnaire-Item-Extension-Example-Image",
     "type": "Questionnaire",
-    "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-Image",
+    "url": "http://science37.com/fhir/Questionnaire/Questionnaire-Item-Extension-Example-Image",
     "version": "1.0.0-S37",
     "name": "Example : Questionnaire.Item Image"
   },
   {
     "id": "Questionnaire-Item-Extension-Example-MultiSelect",
     "type": "Questionnaire",
-    "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-MultiSelect",
+    "url": "http://science37.com/fhir/Questionnaire/Questionnaire-Item-Extension-Example-MultiSelect",
     "version": "1.0.0-S37",
     "name": "Example : Questionnaire.Item MultiSelect"
   },
   {
     "id": "Questionnaire-Item-Extension-Example-Number-Decimal",
     "type": "Questionnaire",
-    "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-Number-Decimal",
+    "url": "http://science37.com/fhir/Questionnaire/Questionnaire-Item-Extension-Example-Number-Decimal",
     "version": "1.0.0-S37",
     "name": "Example : Questionnaire.Item Number-Decimal"
   },
   {
     "id": "Questionnaire-Item-Extension-Example-Number-Integer",
     "type": "Questionnaire",
-    "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-Number-Integer",
+    "url": "http://science37.com/fhir/Questionnaire/Questionnaire-Item-Extension-Example-Number-Integer",
     "version": "1.0.0-S37",
     "name": "Example : Questionnaire.Item Number-Integer"
   },
   {
     "id": "Questionnaire-Item-Extension-Example-RatingScale",
     "type": "Questionnaire",
-    "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-RatingScale",
+    "url": "http://science37.com/fhir/Questionnaire/Questionnaire-Item-Extension-Example-RatingScale",
     "version": "1.0.0-S37",
     "name": "Example : Questionnaire.Item RatingScale"
   },
   {
     "id": "Questionnaire-Item-Extension-Example-RichText",
     "type": "Questionnaire",
-    "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-RichText",
+    "url": "http://science37.com/fhir/Questionnaire/Questionnaire-Item-Extension-Example-RichText",
     "version": "1.0.0-S37",
     "name": "Example : Questionnaire.Item RichText"
   },
   {
     "id": "Questionnaire-Item-Extension-Example-Select",
     "type": "Questionnaire",
-    "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-Select",
+    "url": "http://science37.com/fhir/Questionnaire/Questionnaire-Item-Extension-Example-Select",
     "version": "1.0.0-S37",
     "name": "Example : Questionnaire.Item Select"
   },
   {
     "id": "Questionnaire-Item-Extension-Example-Text",
     "type": "Questionnaire",
-    "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-Text",
+    "url": "http://science37.com/fhir/Questionnaire/Questionnaire-Item-Extension-Example-Text",
     "version": "1.0.0-S37",
     "name": "Example : Questionnaire.Item Text"
   },
   {
     "id": "Questionnaire-Item-Extension-Example-TextArea",
     "type": "Questionnaire",
-    "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-TextArea",
+    "url": "http://science37.com/fhir/Questionnaire/Questionnaire-Item-Extension-Example-TextArea",
     "version": "1.0.0-S37",
     "name": "Example : Questionnaire.Item TextArea"
   },
   {
     "id": "Questionnaire-Item-Extension-Example-VASScale",
     "type": "Questionnaire",
-    "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-VASScale",
+    "url": "http://science37.com/fhir/Questionnaire/Questionnaire-Item-Extension-Example-VASScale",
     "version": "1.0.0-S37",
     "name": "Example : Questionnaire.Item VASScale"
   },
   {
     "id": "Questionnaire-Item-Extension-Example-derived",
     "type": "Questionnaire",
-    "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-derived",
+    "url": "http://science37.com/fhir/Questionnaire/Questionnaire-Item-Extension-Example-derived",
     "version": "1.0.0-S37",
     "name": "Example : Questionnaire.Item derived"
   },
   {
     "id": "Questionnaire-Item-Extension-Example-page-break",
     "type": "Questionnaire",
-    "url": "http://science37.com/Questionnaire/Questionnaire-Item-Extension-Example-page-break",
+    "url": "http://science37.com/fhir/Questionnaire/Questionnaire-Item-Extension-Example-page-break",
     "version": "1.0.0-S37",
     "name": "Example : Questionnaire.Item page-break"
   },
   {
     "id": "audit-trail-version",
     "type": "StructureDefinition",
-    "url": "http://science37.com/StructureDefinition/audit-trail-version",
+    "url": "http://science37.com/fhir/StructureDefinition/audit-trail-version",
     "version": "1.0.0-S37",
     "name": "AuditTrailVersion"
   },
   {
     "id": "datetime",
     "type": "StructureDefinition",
-    "url": "http://science37.com/StructureDefinition/datetime",
+    "url": "http://science37.com/fhir/StructureDefinition/datetime",
     "version": "1.0.0-S37",
     "name": "DateTime"
   },
   {
     "id": "datetime-item",
     "type": "StructureDefinition",
-    "url": "http://science37.com/StructureDefinition/datetime-item",
+    "url": "http://science37.com/fhir/StructureDefinition/datetime-item",
     "version": "1.0.0-S37",
     "name": "DateTimeItem"
   },
   {
     "id": "day-zero",
     "type": "StructureDefinition",
-    "url": "http://science37.com/StructureDefinition/day-zero",
+    "url": "http://science37.com/fhir/StructureDefinition/day-zero",
     "version": "1.0.0-S37",
     "name": "DayZero"
   },
   {
     "id": "derived-item",
     "type": "StructureDefinition",
-    "url": "http://science37.com/StructureDefinition/derived-item",
+    "url": "http://science37.com/fhir/StructureDefinition/derived-item",
     "version": "1.0.0-S37",
     "name": "DerivedItem"
   },
   {
     "id": "display-order",
     "type": "StructureDefinition",
-    "url": "http://science37.com/StructureDefinition/display-order",
+    "url": "http://science37.com/fhir/StructureDefinition/display-order",
     "version": "1.0.0-S37",
     "name": "DisplayOrder"
   },
   {
     "id": "e-consent-form-group-id",
     "type": "StructureDefinition",
-    "url": "http://science37.com/StructureDefinition/e-consent-form-group-id",
+    "url": "http://science37.com/fhir/StructureDefinition/e-consent-form-group-id",
     "version": "1.0.0-S37",
     "name": "EConsentFormGroupId"
   },
   {
     "id": "force-form-order",
     "type": "StructureDefinition",
-    "url": "http://science37.com/StructureDefinition/force-form-order",
+    "url": "http://science37.com/fhir/StructureDefinition/force-form-order",
     "version": "1.0.0-S37",
     "name": "ForceFormOrderConfig"
   },
   {
     "id": "forced-form-oder",
     "type": "StructureDefinition",
-    "url": "http://science37.com/StructureDefinition/forced-form-oder",
+    "url": "http://science37.com/fhir/StructureDefinition/forced-form-oder",
     "version": "1.0.0-S37",
     "name": "ForcedFormOder"
   },
   {
     "id": "form-settings",
     "type": "StructureDefinition",
-    "url": "http://science37.com/StructureDefinition/form-settings",
+    "url": "http://science37.com/fhir/StructureDefinition/form-settings",
     "version": "1.0.0-S37",
     "name": "FormSettings"
   },
   {
     "id": "item-settings",
     "type": "StructureDefinition",
-    "url": "http://science37.com/StructureDefinition/item-settings",
+    "url": "http://science37.com/fhir/StructureDefinition/item-settings",
     "version": "1.0.0-S37",
     "name": "ItemSettings"
   },
   {
     "id": "observation-Extract",
     "type": "StructureDefinition",
-    "url": "http://science37.com/StructureDefinition/observation-Extract",
+    "url": "http://science37.com/fhir/StructureDefinition/observation-Extract",
     "version": "1.0.0-S37",
     "name": "ObservationExtract"
   },
   {
     "id": "parent-reference",
     "type": "StructureDefinition",
-    "url": "http://science37.com/StructureDefinition/parent-reference",
+    "url": "http://science37.com/fhir/StructureDefinition/parent-reference",
     "version": "1.0.0-S37",
     "name": "ParentReference"
   },
   {
     "id": "plan-definition-s37",
     "type": "StructureDefinition",
-    "url": "http://science37.com/StructureDefinition/plan-definition-s37",
+    "url": "http://science37.com/fhir/StructureDefinition/plan-definition-s37",
     "version": "1.0.0-S37",
     "name": "PlanDefinitionS37"
   },
   {
     "id": "protocal-version",
     "type": "StructureDefinition",
-    "url": "http://science37.com/StructureDefinition/protocal-version",
+    "url": "http://science37.com/fhir/StructureDefinition/protocal-version",
     "version": "1.0.0-S37",
     "name": "ProtocalVersion"
   },
   {
     "id": "questionnaire-s37",
     "type": "StructureDefinition",
-    "url": "http://science37.com/StructureDefinition/questionnaire-s37",
+    "url": "http://science37.com/fhir/StructureDefinition/questionnaire-s37",
     "version": "1.0.0-S37",
     "name": "QuestionnaireS37"
   },
   {
     "id": "settings",
     "type": "StructureDefinition",
-    "url": "http://science37.com/StructureDefinition/settings",
+    "url": "http://science37.com/fhir/StructureDefinition/settings",
     "version": "1.0.0-S37",
     "name": "Settings"
   },
   {
     "id": "sub-status",
     "type": "StructureDefinition",
-    "url": "http://science37.com/StructureDefinition/sub-status",
+    "url": "http://science37.com/fhir/StructureDefinition/sub-status",
     "version": "1.0.0-S37",
     "name": "SubStatus"
   },
   {
     "id": "vasScale-item",
     "type": "StructureDefinition",
-    "url": "http://science37.com/StructureDefinition/vasScale-item",
+    "url": "http://science37.com/fhir/StructureDefinition/vasScale-item",
     "version": "1.0.0-S37",
     "name": "VASScaleItem"
   },
   {
     "id": "visit-type",
     "type": "StructureDefinition",
-    "url": "http://science37.com/StructureDefinition/visit-type",
+    "url": "http://science37.com/fhir/StructureDefinition/visit-type",
     "version": "1.0.0-S37",
     "name": "VisitType"
   }

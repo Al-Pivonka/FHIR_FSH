@@ -23,23 +23,23 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"PlanDefinition.extension","parentreference","","",0,1,"","","","Extension {[CanonicalType[http://science37.com/StructureDefinition/parent-reference]]} {[]}
+"PlanDefinition.extension","parentreference","","",0,1,"","","","Extension {[CanonicalType[http://science37.com/fhir/StructureDefinition/parent-reference]]} {[]}
 ","Parent Reference","An Extension","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"PlanDefinition.extension","datetime","","",0,1,"","","","Extension {[CanonicalType[http://science37.com/StructureDefinition/datetime]]} {[]}
+"PlanDefinition.extension","datetime","","",0,1,"","","","Extension {[CanonicalType[http://science37.com/fhir/StructureDefinition/datetime]]} {[]}
 ","datetime","An Extension","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"PlanDefinition.extension","AuditTrailVersion","","",0,1,"","","","Extension {[CanonicalType[http://science37.com/StructureDefinition/audit-trail-version]]} {[]}
+"PlanDefinition.extension","AuditTrailVersion","","",0,1,"","","","Extension {[CanonicalType[http://science37.com/fhir/StructureDefinition/audit-trail-version]]} {[]}
 ","Audit Trail Version","An Extension","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"PlanDefinition.extension","dayzero","","",0,1,"","","","Extension {[CanonicalType[http://science37.com/StructureDefinition/day-zero]]} {[]}
+"PlanDefinition.extension","dayzero","","",0,1,"","","","Extension {[CanonicalType[http://science37.com/fhir/StructureDefinition/day-zero]]} {[]}
 ","Day Zero","An Extension","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"PlanDefinition.extension","protocalversion","","",0,1,"","","","Extension {[CanonicalType[http://science37.com/StructureDefinition/protocal-version]]} {[]}
+"PlanDefinition.extension","protocalversion","","",0,1,"","","","Extension {[CanonicalType[http://science37.com/fhir/StructureDefinition/protocal-version]]} {[]}
 ","Protocal Version","An Extension","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
