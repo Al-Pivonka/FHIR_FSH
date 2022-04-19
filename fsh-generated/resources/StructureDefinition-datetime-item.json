@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "datetime-item",
-  "url": "http://science37.com/StructureDefinition/datetime-item",
+  "url": "http://science37.com/fhir/StructureDefinition/datetime-item",
   "version": "1.0.0-S37",
   "name": "DateTimeItem",
   "title": "Extension : DateTimeItem Settings ",
@@ -24,7 +24,7 @@
     }
   ],
   "type": "Extension",
-  "baseDefinition": "http://science37.com/StructureDefinition/item-settings",
+  "baseDefinition": "http://science37.com/fhir/StructureDefinition/item-settings",
   "derivation": "constraint",
   "differential": {
     "element": [
@@ -172,7 +172,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://science37.com/StructureDefinition/datetime-item"
+        "fixedUri": "http://science37.com/fhir/StructureDefinition/datetime-item"
       }
     ]
   }

@@ -3,7 +3,7 @@
   "id": "Questionnaire-Item-Extension-Example-VASScale",
   "meta": {
     "profile": [
-      "http://science37.com/StructureDefinition/questionnaire-s37"
+      "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
     ]
   },
   "version": "1.0.0A-S37",
@@ -15,7 +15,7 @@
           "valueBoolean": false
         },
         {
-          "url": "http://science37.com/StructureDefinition/observation-Extract",
+          "url": "http://science37.com/fhir/StructureDefinition/observation-Extract",
           "valueBoolean": true
         },
         {
@@ -122,7 +122,7 @@
               "valueString": "vasTenPointIncrement"
             }
           ],
-          "url": "http://science37.com/StructureDefinition/vasScale-item"
+          "url": "http://science37.com/fhir/StructureDefinition/vasScale-item"
         },
         {
           "url": "http://hl7.org/fhir/StructureDefinition/minValue",

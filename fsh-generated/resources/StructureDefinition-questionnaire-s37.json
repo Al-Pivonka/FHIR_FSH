@@ -11,7 +11,7 @@
       "valueCode": "business"
     }
   ],
-  "url": "http://science37.com/StructureDefinition/questionnaire-s37",
+  "url": "http://science37.com/fhir/StructureDefinition/questionnaire-s37",
   "version": "1.0.0-S37",
   "name": "QuestionnaireS37",
   "title": "Profile : Questionnaire.item extensions",
@@ -78,7 +78,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://science37.com/StructureDefinition/form-settings"
+              "http://science37.com/fhir/StructureDefinition/form-settings"
             ]
           }
         ]
@@ -125,7 +125,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://science37.com/StructureDefinition/item-settings"
+              "http://science37.com/fhir/StructureDefinition/item-settings"
             ]
           }
         ],
@@ -171,7 +171,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://science37.com/StructureDefinition/observation-Extract"
+              "http://science37.com/fhir/StructureDefinition/observation-Extract"
             ]
           }
         ]

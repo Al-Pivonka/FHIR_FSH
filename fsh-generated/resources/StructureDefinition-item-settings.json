@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
   "id": "item-settings",
-  "url": "http://science37.com/StructureDefinition/item-settings",
+  "url": "http://science37.com/fhir/StructureDefinition/item-settings",
   "version": "1.0.0-S37",
   "name": "ItemSettings",
   "title": "Extension : Item Settings ",
@@ -24,7 +24,7 @@
     }
   ],
   "type": "Extension",
-  "baseDefinition": "http://science37.com/StructureDefinition/settings",
+  "baseDefinition": "http://science37.com/fhir/StructureDefinition/settings",
   "derivation": "constraint",
   "differential": {
     "element": [
@@ -454,7 +454,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "http://science37.com/StructureDefinition/item-settings"
+        "fixedUri": "http://science37.com/fhir/StructureDefinition/item-settings"
       }
     ]
   }

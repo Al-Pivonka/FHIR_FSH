@@ -3,7 +3,7 @@
   "id": "Questionnaire-Item-Extension-Example-Text",
   "meta": {
     "profile": [
-      "http://science37.com/StructureDefinition/questionnaire-s37"
+      "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
     ]
   },
   "version": "1.0.0A-S37",
@@ -15,7 +15,7 @@
           "valueBoolean": false
         },
         {
-          "url": "http://science37.com/StructureDefinition/observation-Extract",
+          "url": "http://science37.com/fhir/StructureDefinition/observation-Extract",
           "valueBoolean": true
         },
         {
@@ -66,7 +66,7 @@
               "valueInteger": 22
             }
           ],
-          "url": "http://science37.com/StructureDefinition/item-settings"
+          "url": "http://science37.com/fhir/StructureDefinition/item-settings"
         }
       ],
       "type": "question",
