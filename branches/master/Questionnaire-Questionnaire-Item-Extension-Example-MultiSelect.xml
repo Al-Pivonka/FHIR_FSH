@@ -19,7 +19,7 @@
   <title value="Example : Questionnaire.Item MultiSelect"/>
   <status value="draft"/>
   <subjectType value="Patient"/>
-  <date value="2022-04-19T19:32:38+00:00"/>
+  <date value="2022-04-19T20:00:50+00:00"/>
   <publisher value="Science37"/>
   <contact>
     <name value="Science37"/>
@@ -39,10 +39,10 @@
       <valueCodeableConcept>
         <coding>
           <system value="http://hl7.org/fhir/questionnaire-item-control"/>
-          <code value="check-box"/>
-          <display value="Check Box"/>
+          <code value="drop-down"/>
+          <display value="Drop Down"/>
         </coding>
-        <text value="check-box"/>
+        <text value="drop-down"/>
       </valueCodeableConcept>
     </extension>
     <extension url="http://science37.com/fhir/StructureDefinition/item-settings">

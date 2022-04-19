@@ -23,7 +23,7 @@
   "subjectType": [
     "Patient"
   ],
-  "date": "2022-04-19T19:32:38+00:00",
+  "date": "2022-04-19T20:00:50+00:00",
   "publisher": "Science37",
   "contact": [
     {
@@ -53,11 +53,11 @@
             "coding": [
               {
                 "system": "http://hl7.org/fhir/questionnaire-item-control",
-                "code": "check-box",
-                "display": "Check Box"
+                "code": "drop-down",
+                "display": "Drop Down"
               }
             ],
-            "text": "check-box"
+            "text": "drop-down"
           }
         },
         {
