@@ -9,7 +9,7 @@
   <version value="1.0.0-S37"/>
   <name value="S37FHIRIG"/>
   <status value="active"/>
-  <date value="2022-04-19T16:57:06+00:00"/>
+  <date value="2022-04-19T19:13:12+00:00"/>
   <publisher value="Science37"/>
   <contact>
     <name value="Science37"/>
@@ -203,40 +203,10 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/plan-definition-s37"/>
-      </reference>
-      <name value="Plan Definition S37"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
         <reference value="StructureDefinition/questionnaire-s37"/>
       </reference>
       <name value="Profile : Questionnaire.item extensions"/>
       <description value="Profile : Questionnaire.item extensions"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/audit-trail-version"/>
-      </reference>
-      <name value="Audit Trail Version"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/datetime"/>
-      </reference>
-      <name value="datetime"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -255,60 +225,10 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/day-zero"/>
-      </reference>
-      <name value="Day Zero"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
         <reference value="StructureDefinition/derived-item"/>
       </reference>
       <name value="Extension : DerivedItem Settings "/>
       <description value="Extension : Questionnaire.item.DerivedItem "/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/display-order"/>
-      </reference>
-      <name value="Display Order"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/e-consent-form-group-id"/>
-      </reference>
-      <name value="E-Consent From Group Id"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/force-form-order"/>
-      </reference>
-      <name value="Force Form Order"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/forced-form-oder"/>
-      </reference>
-      <name value="Forced Form Oder"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -348,26 +268,6 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/parent-reference"/>
-      </reference>
-      <name value="Parent Reference"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/protocal-version"/>
-      </reference>
-      <name value="Protocal Version"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
         <reference value="StructureDefinition/settings"/>
       </reference>
       <name value="Extension : Common Settings "/>
@@ -397,16 +297,6 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/visit-type"/>
-      </reference>
-      <name value="Visit Type"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Questionnaire"/>
       </extension>
       <reference>
@@ -415,36 +305,6 @@
       <name value="Example : Questionnaire.Item-All-48"/>
       <description value="Example : Questionnaire.Item-All-48"/>
       <exampleCanonical value="http://science37.com/fhir/StructureDefinition/questionnaire-s37"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="PlanDefinition"/>
-      </extension>
-      <reference>
-        <reference value="PlanDefinition/PlanDefintion-EXPECTEDVISITPLAN-Example"/>
-      </reference>
-      <name value="Plan Defintion Example"/>
-      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/plan-definition-s37"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="PlanDefinition"/>
-      </extension>
-      <reference>
-        <reference value="PlanDefinition/PlanDefintion-MASTERVISITPLAN-Example"/>
-      </reference>
-      <name value="Plan Defintion Example"/>
-      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/plan-definition-s37"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="PlanDefinition"/>
-      </extension>
-      <reference>
-        <reference value="PlanDefinition/PlanDefintion-VISITPLAN-Example"/>
-      </reference>
-      <name value="Plan Defintion Example"/>
-      <exampleCanonical value="http://science37.com/fhir/StructureDefinition/plan-definition-s37"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

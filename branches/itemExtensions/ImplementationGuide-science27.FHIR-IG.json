@@ -9,7 +9,7 @@
   "version": "1.0.0-S37",
   "name": "S37FHIRIG",
   "status": "active",
-  "date": "2022-04-19T16:57:06+00:00",
+  "date": "2022-04-19T19:13:12+00:00",
   "publisher": "Science37",
   "contact": [
     {
@@ -325,49 +325,10 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/plan-definition-s37"
-        },
-        "name": "Plan Definition S37",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:resource"
-          }
-        ],
-        "reference": {
           "reference": "StructureDefinition/questionnaire-s37"
         },
         "name": "Profile : Questionnaire.item extensions",
         "description": "Profile : Questionnaire.item extensions",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:extension"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/audit-trail-version"
-        },
-        "name": "Audit Trail Version",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:extension"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/datetime"
-        },
-        "name": "datetime",
         "exampleBoolean": false
       },
       {
@@ -392,75 +353,10 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/day-zero"
-        },
-        "name": "Day Zero",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:extension"
-          }
-        ],
-        "reference": {
           "reference": "StructureDefinition/derived-item"
         },
         "name": "Extension : DerivedItem Settings ",
         "description": "Extension : Questionnaire.item.DerivedItem ",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:extension"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/display-order"
-        },
-        "name": "Display Order",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:extension"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/e-consent-form-group-id"
-        },
-        "name": "E-Consent From Group Id",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:extension"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/force-form-order"
-        },
-        "name": "Force Form Order",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:extension"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/forced-form-oder"
-        },
-        "name": "Forced Form Oder",
         "exampleBoolean": false
       },
       {
@@ -512,32 +408,6 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/parent-reference"
-        },
-        "name": "Parent Reference",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:extension"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/protocal-version"
-        },
-        "name": "Protocal Version",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:extension"
-          }
-        ],
-        "reference": {
           "reference": "StructureDefinition/settings"
         },
         "name": "Extension : Common Settings ",
@@ -575,19 +445,6 @@
         "extension": [
           {
             "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:extension"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/visit-type"
-        },
-        "name": "Visit Type",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
             "valueString": "Questionnaire"
           }
         ],
@@ -597,45 +454,6 @@
         "name": "Example : Questionnaire.Item-All-48",
         "description": "Example : Questionnaire.Item-All-48",
         "exampleCanonical": "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "PlanDefinition"
-          }
-        ],
-        "reference": {
-          "reference": "PlanDefinition/PlanDefintion-EXPECTEDVISITPLAN-Example"
-        },
-        "name": "Plan Defintion Example",
-        "exampleCanonical": "http://science37.com/fhir/StructureDefinition/plan-definition-s37"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "PlanDefinition"
-          }
-        ],
-        "reference": {
-          "reference": "PlanDefinition/PlanDefintion-MASTERVISITPLAN-Example"
-        },
-        "name": "Plan Defintion Example",
-        "exampleCanonical": "http://science37.com/fhir/StructureDefinition/plan-definition-s37"
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "PlanDefinition"
-          }
-        ],
-        "reference": {
-          "reference": "PlanDefinition/PlanDefintion-VISITPLAN-Example"
-        },
-        "name": "Plan Defintion Example",
-        "exampleCanonical": "http://science37.com/fhir/StructureDefinition/plan-definition-s37"
       },
       {
         "extension": [
