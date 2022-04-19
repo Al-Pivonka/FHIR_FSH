@@ -1,14 +1,11 @@
 ﻿S37FHIRIG : Validation Results
 =========================================
 
-err = 79, warn = 115, info = 75
+err = 79, warn = 96, info = 75
 IG Publisher Version: 1.1.115
-Generated Tue Apr 19 16:57:50 UTC 2022. FHIR version 4.0.1 for science27.FHIR-IG#1.0.0-S37 (canonical = http://science37.com/fhir)
- Build Errors : 0 / 16 / 0
+Generated Tue Apr 19 19:13:47 UTC 2022. FHIR version 4.0.1 for science27.FHIR-IG#1.0.0-S37 (canonical = http://science37.com/fhir)
+ Build Errors : 0 / 2 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-science27.FHIR-IG : 0 / 12 / 1
- /github/workspace/fsh-generated/resources/PlanDefinition-PlanDefintion-EXPECTEDVISITPLAN-Example : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/PlanDefinition-PlanDefintion-MASTERVISITPLAN-Example : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/PlanDefinition-PlanDefintion-VISITPLAN-Example : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-Item-Extension-Example-All-48 : 48 / 22 / 48
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Extension-Example : 1 / 1 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-DateTime : 2 / 2 / 5
@@ -27,60 +24,32 @@ Generated Tue Apr 19 16:57:50 UTC 2022. FHIR version 4.0.1 for science27.FHIR-IG
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-VASScale : 2 / 3 / 5
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-derived : 2 / 1 / 3
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-page-break : 2 / 1 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-audit-trail-version : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-datetime : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-datetime-item : 0 / 3 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-day-zero : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-derived-item : 0 / 3 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-display-order : 0 / 1 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-e-consent-form-group-id : 0 / 1 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-force-form-order : 0 / 1 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-forced-form-oder : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-form-settings : 0 / 3 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-item-settings : 0 / 3 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-observation-Extract : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-parent-reference : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-plan-definition-s37 : 0 / 0 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-protocal-version : 0 / 0 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-questionnaire-s37 : 0 / 2 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-settings : 0 / 4 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-sub-status : 0 / 1 / 1
  /github/workspace/fsh-generated/resources/StructureDefinition-vasScale-item : 0 / 3 / 1
- /github/workspace/fsh-generated/resources/StructureDefinition-visit-type : 0 / 1 / 1
 </table>
 == n/a ==
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/plan-definition-s37.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/audit-trail-version.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/datetime.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/day-zero.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/display-order.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/e-consent-form-group-id.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/force-form-order.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/forced-form-oder.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/observation-Extract.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/parent-reference.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/protocal-version.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/sub-status.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource StructureDefinition/visit-type.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PlanDefinition/PlanDefintion-EXPECTEDVISITPLAN-Example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PlanDefinition/PlanDefintion-MASTERVISITPLAN-Example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource PlanDefinition/PlanDefintion-VISITPLAN-Example.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 == fsh-generated/resources/ImplementationGuide-science27.FHIR-IG.json ==
+WARNING: ImplementationGuide/science27.FHIR-IG: ImplementationGuide.definition.resource[1].name: value should not start or finish with whitespace 'Extension...Settings '
+WARNING: ImplementationGuide/science27.FHIR-IG: ImplementationGuide.definition.resource[1].description: value should not start or finish with whitespace 'Extension...Questionnaire.item.DateTimeItem '
+WARNING: ImplementationGuide/science27.FHIR-IG: ImplementationGuide.definition.resource[2].name: value should not start or finish with whitespace 'Extension...Settings '
+WARNING: ImplementationGuide/science27.FHIR-IG: ImplementationGuide.definition.resource[2].description: value should not start or finish with whitespace 'Extension...Questionnaire.item.DerivedItem '
+WARNING: ImplementationGuide/science27.FHIR-IG: ImplementationGuide.definition.resource[3].name: value should not start or finish with whitespace 'Extension...Settings '
+WARNING: ImplementationGuide/science27.FHIR-IG: ImplementationGuide.definition.resource[3].description: value should not start or finish with whitespace 'Extension...Questionnaire.settings '
 WARNING: ImplementationGuide/science27.FHIR-IG: ImplementationGuide.definition.resource[4].name: value should not start or finish with whitespace 'Extension...Settings '
-WARNING: ImplementationGuide/science27.FHIR-IG: ImplementationGuide.definition.resource[4].description: value should not start or finish with whitespace 'Extension...Questionnaire.item.DateTimeItem '
+WARNING: ImplementationGuide/science27.FHIR-IG: ImplementationGuide.definition.resource[4].description: value should not start or finish with whitespace 'Extension...Questionnaire.item.settings '
 WARNING: ImplementationGuide/science27.FHIR-IG: ImplementationGuide.definition.resource[6].name: value should not start or finish with whitespace 'Extension...Settings '
-WARNING: ImplementationGuide/science27.FHIR-IG: ImplementationGuide.definition.resource[6].description: value should not start or finish with whitespace 'Extension...Questionnaire.item.DerivedItem '
-WARNING: ImplementationGuide/science27.FHIR-IG: ImplementationGuide.definition.resource[11].name: value should not start or finish with whitespace 'Extension...Settings '
-WARNING: ImplementationGuide/science27.FHIR-IG: ImplementationGuide.definition.resource[11].description: value should not start or finish with whitespace 'Extension...Questionnaire.settings '
-WARNING: ImplementationGuide/science27.FHIR-IG: ImplementationGuide.definition.resource[12].name: value should not start or finish with whitespace 'Extension...Settings '
-WARNING: ImplementationGuide/science27.FHIR-IG: ImplementationGuide.definition.resource[12].description: value should not start or finish with whitespace 'Extension...Questionnaire.item.settings '
-WARNING: ImplementationGuide/science27.FHIR-IG: ImplementationGuide.definition.resource[16].name: value should not start or finish with whitespace 'Extension...Settings '
-WARNING: ImplementationGuide/science27.FHIR-IG: ImplementationGuide.definition.resource[16].description: value should not start or finish with whitespace 'Extension...settings '
-WARNING: ImplementationGuide/science27.FHIR-IG: ImplementationGuide.definition.resource[18].name: value should not start or finish with whitespace 'Extension...Settings '
-WARNING: ImplementationGuide/science27.FHIR-IG: ImplementationGuide.definition.resource[18].description: value should not start or finish with whitespace 'Extension...Questionnaire.item.VASScaleItem '
-== fsh-generated/resources/PlanDefinition-PlanDefintion-EXPECTEDVISITPLAN-Example.json ==
-== fsh-generated/resources/PlanDefinition-PlanDefintion-MASTERVISITPLAN-Example.json ==
-== fsh-generated/resources/PlanDefinition-PlanDefintion-VISITPLAN-Example.json ==
+WARNING: ImplementationGuide/science27.FHIR-IG: ImplementationGuide.definition.resource[6].description: value should not start or finish with whitespace 'Extension...settings '
+WARNING: ImplementationGuide/science27.FHIR-IG: ImplementationGuide.definition.resource[8].name: value should not start or finish with whitespace 'Extension...Settings '
+WARNING: ImplementationGuide/science27.FHIR-IG: ImplementationGuide.definition.resource[8].description: value should not start or finish with whitespace 'Extension...Questionnaire.item.VASScaleItem '
 == fsh-generated/resources/Questionnaire-Item-Extension-Example-All-48.json ==
 WARNING: Questionnaire/Item-Extension-Example-All-48: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 ERROR: Questionnaire/Item-Extension-Example-All-48: Questionnaire: que-2: 'The link ids for groups and questions must be unique within the questionnaire' Rule 'The link ids for groups and questions must be unique within the questionnaire' Failed
@@ -313,25 +282,14 @@ INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-derived: Questio
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-page-break: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 ERROR: Questionnaire/Questionnaire-Item-Extension-Example-page-break: Questionnaire.version: Value is '1.0.0-S37' but must be '1.0.0A-S37'
 ERROR: Questionnaire/Questionnaire-Item-Extension-Example-page-break: Questionnaire.item[0].extension[1].value.ofType(CodeableConcept).coding[0]: Unknown Code http://hl7.org/fhir/questionnaire-item-control#page-break in http://hl7.org/fhir/questionnaire-item-control for 'http://hl7.org/fhir/questionnaire-item-control#page-break'
-== fsh-generated/resources/StructureDefinition-audit-trail-version.json ==
-== fsh-generated/resources/StructureDefinition-datetime.json ==
 == fsh-generated/resources/StructureDefinition-datetime-item.json ==
 WARNING: StructureDefinition/datetime-item: StructureDefinition.title: value should not start or finish with whitespace 'Extension...Settings '
 WARNING: StructureDefinition/datetime-item: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace 'Extension...Settings '
 WARNING: StructureDefinition/datetime-item: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace 'Extension...Settings '
-== fsh-generated/resources/StructureDefinition-day-zero.json ==
 == fsh-generated/resources/StructureDefinition-derived-item.json ==
 WARNING: StructureDefinition/derived-item: StructureDefinition.title: value should not start or finish with whitespace 'Extension...Settings '
 WARNING: StructureDefinition/derived-item: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace 'Extension...Settings '
 WARNING: StructureDefinition/derived-item: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace 'Extension...Settings '
-== fsh-generated/resources/StructureDefinition-display-order.json ==
-WARNING: StructureDefinition.where(url = 'http://science37.com/fhir/StructureDefinition/display-order'): The Implementation Guide contains no examples for this extension
-== fsh-generated/resources/StructureDefinition-e-consent-form-group-id.json ==
-WARNING: StructureDefinition.where(url = 'http://science37.com/fhir/StructureDefinition/e-consent-form-group-id'): The Implementation Guide contains no examples for this extension
-== fsh-generated/resources/StructureDefinition-force-form-order.json ==
-WARNING: StructureDefinition.where(url = 'http://science37.com/fhir/StructureDefinition/force-form-order'): The Implementation Guide contains no examples for this extension
-== fsh-generated/resources/StructureDefinition-forced-form-oder.json ==
-WARNING: StructureDefinition.where(url = 'http://science37.com/fhir/StructureDefinition/forced-form-oder'): The Implementation Guide contains no examples for this extension
 == fsh-generated/resources/StructureDefinition-form-settings.json ==
 WARNING: StructureDefinition/form-settings: StructureDefinition.title: value should not start or finish with whitespace 'Extension...Settings '
 WARNING: StructureDefinition/form-settings: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace 'Extension...Settings '
@@ -341,9 +299,6 @@ WARNING: StructureDefinition/item-settings: StructureDefinition.title: value sho
 WARNING: StructureDefinition/item-settings: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace 'Extension...Settings '
 WARNING: StructureDefinition/item-settings: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace 'Extension...Settings '
 == fsh-generated/resources/StructureDefinition-observation-Extract.json ==
-== fsh-generated/resources/StructureDefinition-parent-reference.json ==
-== fsh-generated/resources/StructureDefinition-plan-definition-s37.json ==
-== fsh-generated/resources/StructureDefinition-protocal-version.json ==
 == fsh-generated/resources/StructureDefinition-questionnaire-s37.json ==
 WARNING: StructureDefinition/questionnaire-s37: StructureDefinition.snapshot.element[8].short: value should not start or finish with whitespace 'Extension...Settings '
 WARNING: StructureDefinition/questionnaire-s37: StructureDefinition.snapshot.element[34].short: value should not start or finish with whitespace 'Extension...Settings '
@@ -358,5 +313,3 @@ WARNING: StructureDefinition.where(url = 'http://science37.com/fhir/StructureDef
 WARNING: StructureDefinition/vasScale-item: StructureDefinition.title: value should not start or finish with whitespace 'Extension...Settings '
 WARNING: StructureDefinition/vasScale-item: StructureDefinition.snapshot.element[0].short: value should not start or finish with whitespace 'Extension...Settings '
 WARNING: StructureDefinition/vasScale-item: StructureDefinition.differential.element[0].short: value should not start or finish with whitespace 'Extension...Settings '
-== fsh-generated/resources/StructureDefinition-visit-type.json ==
-WARNING: StructureDefinition.where(url = 'http://science37.com/fhir/StructureDefinition/visit-type'): The Implementation Guide contains no examples for this extension

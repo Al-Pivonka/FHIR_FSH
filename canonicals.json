@@ -7,27 +7,6 @@
     "name": "S37FHIRIG"
   },
   {
-    "id": "PlanDefintion-EXPECTEDVISITPLAN-Example",
-    "type": "PlanDefinition",
-    "url": "http://science37.com/fhir/PlanDefinition/PlanDefintion-EXPECTEDVISITPLAN-Example",
-    "version": "1.0.0-S37",
-    "name": "EXPECTED_VISIT_PLAN"
-  },
-  {
-    "id": "PlanDefintion-MASTERVISITPLAN-Example",
-    "type": "PlanDefinition",
-    "url": "http://science37.com/fhir/PlanDefinition/PlanDefintion-MASTERVISITPLAN-Example",
-    "version": "1.0.0-S37",
-    "name": "MASTER_VISIT_PLAN"
-  },
-  {
-    "id": "PlanDefintion-VISITPLAN-Example",
-    "type": "PlanDefinition",
-    "url": "http://science37.com/fhir/PlanDefinition/PlanDefintion-VISITPLAN-Example",
-    "version": "1.0.0-S37",
-    "name": "VISIT_PLAN"
-  },
-  {
     "id": "Item-Extension-Example-All-48",
     "type": "Questionnaire",
     "url": "http://science37.com/fhir/Questionnaire/Item-Extension-Example-All-48",
@@ -154,20 +133,6 @@
     "name": "Example : Questionnaire.Item page-break"
   },
   {
-    "id": "audit-trail-version",
-    "type": "StructureDefinition",
-    "url": "http://science37.com/fhir/StructureDefinition/audit-trail-version",
-    "version": "1.0.0-S37",
-    "name": "AuditTrailVersion"
-  },
-  {
-    "id": "datetime",
-    "type": "StructureDefinition",
-    "url": "http://science37.com/fhir/StructureDefinition/datetime",
-    "version": "1.0.0-S37",
-    "name": "DateTime"
-  },
-  {
     "id": "datetime-item",
     "type": "StructureDefinition",
     "url": "http://science37.com/fhir/StructureDefinition/datetime-item",
@@ -175,46 +140,11 @@
     "name": "DateTimeItem"
   },
   {
-    "id": "day-zero",
-    "type": "StructureDefinition",
-    "url": "http://science37.com/fhir/StructureDefinition/day-zero",
-    "version": "1.0.0-S37",
-    "name": "DayZero"
-  },
-  {
     "id": "derived-item",
     "type": "StructureDefinition",
     "url": "http://science37.com/fhir/StructureDefinition/derived-item",
     "version": "1.0.0-S37",
     "name": "DerivedItem"
-  },
-  {
-    "id": "display-order",
-    "type": "StructureDefinition",
-    "url": "http://science37.com/fhir/StructureDefinition/display-order",
-    "version": "1.0.0-S37",
-    "name": "DisplayOrder"
-  },
-  {
-    "id": "e-consent-form-group-id",
-    "type": "StructureDefinition",
-    "url": "http://science37.com/fhir/StructureDefinition/e-consent-form-group-id",
-    "version": "1.0.0-S37",
-    "name": "EConsentFormGroupId"
-  },
-  {
-    "id": "force-form-order",
-    "type": "StructureDefinition",
-    "url": "http://science37.com/fhir/StructureDefinition/force-form-order",
-    "version": "1.0.0-S37",
-    "name": "ForceFormOrderConfig"
-  },
-  {
-    "id": "forced-form-oder",
-    "type": "StructureDefinition",
-    "url": "http://science37.com/fhir/StructureDefinition/forced-form-oder",
-    "version": "1.0.0-S37",
-    "name": "ForcedFormOder"
   },
   {
     "id": "form-settings",
@@ -236,27 +166,6 @@
     "url": "http://science37.com/fhir/StructureDefinition/observation-Extract",
     "version": "1.0.0-S37",
     "name": "ObservationExtract"
-  },
-  {
-    "id": "parent-reference",
-    "type": "StructureDefinition",
-    "url": "http://science37.com/fhir/StructureDefinition/parent-reference",
-    "version": "1.0.0-S37",
-    "name": "ParentReference"
-  },
-  {
-    "id": "plan-definition-s37",
-    "type": "StructureDefinition",
-    "url": "http://science37.com/fhir/StructureDefinition/plan-definition-s37",
-    "version": "1.0.0-S37",
-    "name": "PlanDefinitionS37"
-  },
-  {
-    "id": "protocal-version",
-    "type": "StructureDefinition",
-    "url": "http://science37.com/fhir/StructureDefinition/protocal-version",
-    "version": "1.0.0-S37",
-    "name": "ProtocalVersion"
   },
   {
     "id": "questionnaire-s37",
@@ -285,12 +194,5 @@
     "url": "http://science37.com/fhir/StructureDefinition/vasScale-item",
     "version": "1.0.0-S37",
     "name": "VASScaleItem"
-  },
-  {
-    "id": "visit-type",
-    "type": "StructureDefinition",
-    "url": "http://science37.com/fhir/StructureDefinition/visit-type",
-    "version": "1.0.0-S37",
-    "name": "VisitType"
   }
 ]
