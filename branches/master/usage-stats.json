@@ -727,7 +727,7 @@
     },
     {
       "url": "http://science37.com/fhir/StructureDefinition/sub-status",
-      "title": "Sub Status",
+      "title": "Extension : Sub Status",
       "types": [
         "string",
         "base64Binary",

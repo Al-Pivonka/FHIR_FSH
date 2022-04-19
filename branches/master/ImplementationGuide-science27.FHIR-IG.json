@@ -9,7 +9,7 @@
   "version": "1.0.0-S37",
   "name": "S37FHIRIG",
   "status": "active",
-  "date": "2022-04-19T19:24:07+00:00",
+  "date": "2022-04-19T19:32:38+00:00",
   "publisher": "Science37",
   "contact": [
     {
@@ -424,7 +424,7 @@
         "reference": {
           "reference": "StructureDefinition/sub-status"
         },
-        "name": "Sub Status",
+        "name": "Extension : Sub Status",
         "exampleBoolean": false
       },
       {
