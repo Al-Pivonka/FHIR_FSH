@@ -22,7 +22,7 @@ Description:     "Extension : Common settings "
 
 Extension: SubStatus
 Id: sub-status
-Title: "Sub Status"
+Title: "Extension : Sub Status"
 Description: ""
 * extension.value[x] only string
 * extension ^short  = "SubStatus"
