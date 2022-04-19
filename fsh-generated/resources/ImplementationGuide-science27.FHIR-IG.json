@@ -82,7 +82,7 @@
         "reference": {
           "reference": "StructureDefinition/sub-status"
         },
-        "name": "Sub Status",
+        "name": "Extension : Sub Status",
         "exampleBoolean": false
       },
       {

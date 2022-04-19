@@ -41,11 +41,15 @@ Usage: #example
 * item[=].required = true
 * item[=].extension[ItemSettings].extension[maxLength].valueInteger = 254 /*Not Assigned by DD*/
 * item[=].answerOption[0].valueCoding.code = #1
+* item[=].answerOption[=].valueCoding.system = "urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7"
 * item[=].answerOption[=].valueCoding.display = "1"
 * item[=].answerOption[+].valueCoding.code = #2
+* item[=].answerOption[=].valueCoding.system = "urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7"
 * item[=].answerOption[=].valueCoding.display = "2"
 * item[=].answerOption[+].valueCoding.code = #3
+* item[=].answerOption[=].valueCoding.system = "urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7"
 * item[=].answerOption[=].valueCoding.display = "3"
 * item[=].answerOption[+].valueCoding.code = #554
+* item[=].answerOption[=].valueCoding.system = "urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7"
 * item[=].answerOption[=].valueCoding.display = "554"
 * item[=].initial.valueString = "554"
