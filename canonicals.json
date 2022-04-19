@@ -7,6 +7,27 @@
     "name": "S37FHIRIG"
   },
   {
+    "id": "PlanDefintion-EXPECTEDVISITPLAN-Example",
+    "type": "PlanDefinition",
+    "url": "http://science37.com/PlanDefinition/PlanDefintion-EXPECTEDVISITPLAN-Example",
+    "version": "1.0.0-S37",
+    "name": "EXPECTED_VISIT_PLAN"
+  },
+  {
+    "id": "PlanDefintion-MASTERVISITPLAN-Example",
+    "type": "PlanDefinition",
+    "url": "http://science37.com/PlanDefinition/PlanDefintion-MASTERVISITPLAN-Example",
+    "version": "1.0.0-S37",
+    "name": "MASTER_VISIT_PLAN"
+  },
+  {
+    "id": "PlanDefintion-VISITPLAN-Example",
+    "type": "PlanDefinition",
+    "url": "http://science37.com/PlanDefinition/PlanDefintion-VISITPLAN-Example",
+    "version": "1.0.0-S37",
+    "name": "VISIT_PLAN"
+  },
+  {
     "id": "Item-Extension-Example-All-48",
     "type": "Questionnaire",
     "url": "http://science37.com/Questionnaire/Item-Extension-Example-All-48",
@@ -133,6 +154,20 @@
     "name": "Example : Questionnaire.Item page-break"
   },
   {
+    "id": "audit-trail-version",
+    "type": "StructureDefinition",
+    "url": "http://science37.com/StructureDefinition/audit-trail-version",
+    "version": "1.0.0-S37",
+    "name": "AuditTrailVersion"
+  },
+  {
+    "id": "datetime",
+    "type": "StructureDefinition",
+    "url": "http://science37.com/StructureDefinition/datetime",
+    "version": "1.0.0-S37",
+    "name": "DateTime"
+  },
+  {
     "id": "datetime-item",
     "type": "StructureDefinition",
     "url": "http://science37.com/StructureDefinition/datetime-item",
@@ -140,11 +175,46 @@
     "name": "DateTimeItem"
   },
   {
+    "id": "day-zero",
+    "type": "StructureDefinition",
+    "url": "http://science37.com/StructureDefinition/day-zero",
+    "version": "1.0.0-S37",
+    "name": "DayZero"
+  },
+  {
     "id": "derived-item",
     "type": "StructureDefinition",
     "url": "http://science37.com/StructureDefinition/derived-item",
     "version": "1.0.0-S37",
     "name": "DerivedItem"
+  },
+  {
+    "id": "display-order",
+    "type": "StructureDefinition",
+    "url": "http://science37.com/StructureDefinition/display-order",
+    "version": "1.0.0-S37",
+    "name": "DisplayOrder"
+  },
+  {
+    "id": "e-consent-form-group-id",
+    "type": "StructureDefinition",
+    "url": "http://science37.com/StructureDefinition/e-consent-form-group-id",
+    "version": "1.0.0-S37",
+    "name": "EConsentFormGroupId"
+  },
+  {
+    "id": "force-form-order",
+    "type": "StructureDefinition",
+    "url": "http://science37.com/StructureDefinition/force-form-order",
+    "version": "1.0.0-S37",
+    "name": "ForceFormOrderConfig"
+  },
+  {
+    "id": "forced-form-oder",
+    "type": "StructureDefinition",
+    "url": "http://science37.com/StructureDefinition/forced-form-oder",
+    "version": "1.0.0-S37",
+    "name": "ForcedFormOder"
   },
   {
     "id": "form-settings",
@@ -168,6 +238,27 @@
     "name": "ObservationExtract"
   },
   {
+    "id": "parent-reference",
+    "type": "StructureDefinition",
+    "url": "http://science37.com/StructureDefinition/parent-reference",
+    "version": "1.0.0-S37",
+    "name": "ParentReference"
+  },
+  {
+    "id": "plan-definition-s37",
+    "type": "StructureDefinition",
+    "url": "http://science37.com/StructureDefinition/plan-definition-s37",
+    "version": "1.0.0-S37",
+    "name": "PlanDefinitionS37"
+  },
+  {
+    "id": "protocal-version",
+    "type": "StructureDefinition",
+    "url": "http://science37.com/StructureDefinition/protocal-version",
+    "version": "1.0.0-S37",
+    "name": "ProtocalVersion"
+  },
+  {
     "id": "questionnaire-s37",
     "type": "StructureDefinition",
     "url": "http://science37.com/StructureDefinition/questionnaire-s37",
@@ -182,10 +273,24 @@
     "name": "Settings"
   },
   {
+    "id": "sub-status",
+    "type": "StructureDefinition",
+    "url": "http://science37.com/StructureDefinition/sub-status",
+    "version": "1.0.0-S37",
+    "name": "SubStatus"
+  },
+  {
     "id": "vasScale-item",
     "type": "StructureDefinition",
     "url": "http://science37.com/StructureDefinition/vasScale-item",
     "version": "1.0.0-S37",
     "name": "VASScaleItem"
+  },
+  {
+    "id": "visit-type",
+    "type": "StructureDefinition",
+    "url": "http://science37.com/StructureDefinition/visit-type",
+    "version": "1.0.0-S37",
+    "name": "VisitType"
   }
 ]

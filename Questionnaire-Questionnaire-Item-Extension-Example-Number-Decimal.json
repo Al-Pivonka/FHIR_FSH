@@ -23,7 +23,7 @@
   "subjectType": [
     "Patient"
   ],
-  "date": "2022-04-18T14:59:18+00:00",
+  "date": "2022-04-19T16:43:07+00:00",
   "publisher": "Science37",
   "contact": [
     {
@@ -76,10 +76,6 @@
             {
               "url": "description",
               "valueString": "NUMBER_DESC"
-            },
-            {
-              "url": "subType",
-              "valueString": "Decimal"
             },
             {
               "url": "scale",
