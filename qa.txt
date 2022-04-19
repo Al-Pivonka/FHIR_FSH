@@ -1,9 +1,9 @@
 ﻿S37FHIRIG : Validation Results
 =========================================
 
-err = 79, warn = 94, info = 75
+err = 79, warn = 86, info = 83
 IG Publisher Version: 1.1.115
-Generated Tue Apr 19 20:01:23 UTC 2022. FHIR version 4.0.1 for science27.FHIR-IG#1.0.0-S37 (canonical = http://science37.com/fhir)
+Generated Tue Apr 19 20:16:00 UTC 2022. FHIR version 4.0.1 for science27.FHIR-IG#1.0.0-S37 (canonical = http://science37.com/fhir)
  Build Errors : 0 / 2 / 0
  /github/workspace/fsh-generated/resources/ImplementationGuide-science27.FHIR-IG : 0 / 12 / 1
  /github/workspace/fsh-generated/resources/Questionnaire-Item-Extension-Example-All-48 : 48 / 22 / 48
@@ -13,12 +13,12 @@ Generated Tue Apr 19 20:01:23 UTC 2022. FHIR version 4.0.1 for science27.FHIR-IG
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Footer : 2 / 1 / 2
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Header : 2 / 1 / 2
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Image : 3 / 2 / 2
- /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-MultiSelect : 2 / 5 / 2
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-MultiSelect : 2 / 1 / 6
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Number-Decimal : 1 / 1 / 4
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Number-Integer : 1 / 1 / 4
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-RatingScale : 2 / 1 / 4
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-RichText : 3 / 1 / 2
- /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Select : 2 / 7 / 2
+ /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Select : 2 / 3 / 6
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Text : 1 / 4 / 2
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-TextArea : 1 / 3 / 2
  /github/workspace/fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-VASScale : 2 / 3 / 5
@@ -207,10 +207,10 @@ WARNING: Questionnaire/Questionnaire-Item-Extension-Example-MultiSelect: Questio
 ERROR: Questionnaire/Questionnaire-Item-Extension-Example-MultiSelect: Questionnaire.version: Value is '1.0.0-S37' but must be '1.0.0A-S37'
 ERROR: Questionnaire/Questionnaire-Item-Extension-Example-MultiSelect: Questionnaire.item[0]: que-11: 'If one or more answerOption is present, initial[x] must be missing' Rule 'If one or more answerOption is present, initial[x] must be missing' Failed
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-MultiSelect: Questionnaire.item[0].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
-WARNING: Questionnaire/Questionnaire-Item-Extension-Example-MultiSelect: Questionnaire.item[0].answerOption[0].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
-WARNING: Questionnaire/Questionnaire-Item-Extension-Example-MultiSelect: Questionnaire.item[0].answerOption[1].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
-WARNING: Questionnaire/Questionnaire-Item-Extension-Example-MultiSelect: Questionnaire.item[0].answerOption[2].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
-WARNING: Questionnaire/Questionnaire-Item-Extension-Example-MultiSelect: Questionnaire.item[0].answerOption[3].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-MultiSelect: Questionnaire.item[0].answerOption[0].value.ofType(Coding): Code System URI 'urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-MultiSelect: Questionnaire.item[0].answerOption[1].value.ofType(Coding): Code System URI 'urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-MultiSelect: Questionnaire.item[0].answerOption[2].value.ofType(Coding): Code System URI 'urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-MultiSelect: Questionnaire.item[0].answerOption[3].value.ofType(Coding): Code System URI 'urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7' is unknown so the code cannot be validated
 == fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Number-Decimal.json ==
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-Number-Decimal: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 ERROR: Questionnaire/Questionnaire-Item-Extension-Example-Number-Decimal: Questionnaire.version: Value is '1.0.0-S37' but must be '1.0.0A-S37'
@@ -243,10 +243,10 @@ ERROR: Questionnaire/Questionnaire-Item-Extension-Example-Select: Questionnaire.
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-Select: Questionnaire.item[0].extension[2].value.ofType(CodeableConcept): Display Name for http://hl7.org/fhir/questionnaire-item-control#drop-down should be one of 'Drop down' instead of 'Drop-Down'
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-Select: Questionnaire.item[0].extension[2].value.ofType(CodeableConcept).coding[0]: Display Name for http://hl7.org/fhir/questionnaire-item-control#drop-down should be one of 'Drop down' instead of 'Drop-Down' for 'http://hl7.org/fhir/questionnaire-item-control#drop-down'
 INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Select: Questionnaire.item[0].text: The string value contains text that looks like embedded HTML tags. If this content is rendered to HTML without appropriate post-processing, it may be a security risk
-WARNING: Questionnaire/Questionnaire-Item-Extension-Example-Select: Questionnaire.item[0].answerOption[0].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
-WARNING: Questionnaire/Questionnaire-Item-Extension-Example-Select: Questionnaire.item[0].answerOption[1].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
-WARNING: Questionnaire/Questionnaire-Item-Extension-Example-Select: Questionnaire.item[0].answerOption[2].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
-WARNING: Questionnaire/Questionnaire-Item-Extension-Example-Select: Questionnaire.item[0].answerOption[3].value.ofType(Coding): A code with no system has no defined meaning. A system should be provided
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Select: Questionnaire.item[0].answerOption[0].value.ofType(Coding): Code System URI 'urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Select: Questionnaire.item[0].answerOption[1].value.ofType(Coding): Code System URI 'urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Select: Questionnaire.item[0].answerOption[2].value.ofType(Coding): Code System URI 'urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7' is unknown so the code cannot be validated
+INFORMATION: Questionnaire/Questionnaire-Item-Extension-Example-Select: Questionnaire.item[0].answerOption[3].value.ofType(Coding): Code System URI 'urn:uuid:53fefa32-fcbb-4ff8-8a92-55ee120877b7' is unknown so the code cannot be validated
 == fsh-generated/resources/Questionnaire-Questionnaire-Item-Extension-Example-Text.json ==
 WARNING: Questionnaire/Questionnaire-Item-Extension-Example-Text: Questionnaire: que-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Rule 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 ERROR: Questionnaire/Questionnaire-Item-Extension-Example-Text: Questionnaire.version: Value is '1.0.0-S37' but must be '1.0.0A-S37'
