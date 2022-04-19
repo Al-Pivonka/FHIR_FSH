@@ -16,7 +16,7 @@
   fhir:ImplementationGuide.version [ fhir:value "1.0.0-S37"];
   fhir:ImplementationGuide.name [ fhir:value "S37FHIRIG"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-04-19T19:24:07+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-04-19T19:32:38+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "Science37"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -407,7 +407,7 @@
          fhir:link <http://science37.com/fhir/StructureDefinition/sub-status>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/sub-status" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Sub Status" ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Extension : Sub Status" ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 8;
