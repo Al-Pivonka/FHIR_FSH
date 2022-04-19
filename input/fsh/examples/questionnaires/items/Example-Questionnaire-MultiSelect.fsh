@@ -27,8 +27,8 @@ Usage: #example
 * item[=].repeats = true
 * item[=].extension[hidden].valueBoolean = false
 * item[=].extension[observationExtract].valueBoolean = true
-* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#check-box "Check Box"
-* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#check-box
+* item[=].extension[itemControl].valueCodeableConcept = $ITEMCONTROL#drop-down "Drop Down"
+* item[=].extension[itemControl].valueCodeableConcept.text = $ITEMCONTROL#drop-down
 * item[=].linkId = "__S37-form-fields-fe09fa6etoe32w9s"
 * item[=].text = "<p style=\"text-align:left;\"><strong>What is you current mood?</strong></p>"
 * item[=].definition = "https://science37.com/NG/widget/id/MultiSelect/version/2.3"
