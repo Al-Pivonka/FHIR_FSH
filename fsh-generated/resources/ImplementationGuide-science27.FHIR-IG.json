@@ -25,31 +25,10 @@
     "resource": [
       {
         "reference": {
-          "reference": "StructureDefinition/plan-definition-s37"
-        },
-        "name": "Plan Definition S37",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "StructureDefinition/questionnaire-s37"
         },
         "name": "Profile : Questionnaire.item extensions",
         "description": "Profile : Questionnaire.item extensions",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/audit-trail-version"
-        },
-        "name": "Audit Trail Version",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/datetime"
-        },
-        "name": "datetime",
         "exampleBoolean": false
       },
       {
@@ -62,45 +41,10 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/day-zero"
-        },
-        "name": "Day Zero",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "StructureDefinition/derived-item"
         },
         "name": "Extension : DerivedItem Settings ",
         "description": "Extension : Questionnaire.item.DerivedItem ",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/display-order"
-        },
-        "name": "Display Order",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/e-consent-form-group-id"
-        },
-        "name": "E-Consent From Group Id",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/force-form-order"
-        },
-        "name": "Force Form Order",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/forced-form-oder"
-        },
-        "name": "Forced Form Oder",
         "exampleBoolean": false
       },
       {
@@ -128,20 +72,6 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/parent-reference"
-        },
-        "name": "Parent Reference",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/protocal-version"
-        },
-        "name": "Protocal Version",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "StructureDefinition/settings"
         },
         "name": "Extension : Common Settings ",
@@ -165,39 +95,11 @@
       },
       {
         "reference": {
-          "reference": "StructureDefinition/visit-type"
-        },
-        "name": "Visit Type",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "Questionnaire/Item-Extension-Example-All-48"
         },
         "name": "Example : Questionnaire.Item-All-48",
         "description": "Example : Questionnaire.Item-All-48",
         "exampleCanonical": "http://science37.com/fhir/StructureDefinition/questionnaire-s37"
-      },
-      {
-        "reference": {
-          "reference": "PlanDefinition/PlanDefintion-EXPECTEDVISITPLAN-Example"
-        },
-        "name": "Plan Defintion Example",
-        "exampleCanonical": "http://science37.com/fhir/StructureDefinition/plan-definition-s37"
-      },
-      {
-        "reference": {
-          "reference": "PlanDefinition/PlanDefintion-MASTERVISITPLAN-Example"
-        },
-        "name": "Plan Defintion Example",
-        "exampleCanonical": "http://science37.com/fhir/StructureDefinition/plan-definition-s37"
-      },
-      {
-        "reference": {
-          "reference": "PlanDefinition/PlanDefintion-VISITPLAN-Example"
-        },
-        "name": "Plan Defintion Example",
-        "exampleCanonical": "http://science37.com/fhir/StructureDefinition/plan-definition-s37"
       },
       {
         "reference": {
